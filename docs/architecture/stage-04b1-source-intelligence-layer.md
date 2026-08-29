@@ -1,6 +1,8 @@
 # Stage 04B-1 — Source Intelligence Layer
 
-Status: implementation candidate pending CI/read-back QA.
+Status: COMPLETE / PASS.
+
+Final QA baseline: commit `df449e5e7db7704c2bf748f03f164e4120322299`, GitHub Actions run `33242060461` PASS. A final documentation-only commit follows this status update and must preserve the same code baseline.
 
 ## Decision
 
@@ -155,6 +157,18 @@ Stage 04B-1 begins with reusable records for:
 - GDELT DOC (runtime-deferred)
 
 This is a seed, not the final source universe.
+
+## Canonical implementation after reconciliation
+
+Source Intelligence contracts are isolated in `packages/contracts/src/source-intelligence.ts` and exported as `@trend-pulse/contracts/source-intelligence`.
+
+The current implementation is:
+
+- `apps/web/app/source-intelligence-engine.ts` — Source Registry seed, research candidate pack, evaluation, planner, gap analysis and SAVA validation workspaces.
+- `apps/web/app/source-intelligence-panel.tsx` — validation UI for Current Workspace + the three SAVA scopes.
+- `packages/contracts/src/source-intelligence.ts` — canonical Source Intelligence contracts.
+
+During implementation, a parallel duplicate registry/planner implementation appeared on `main`. It was deliberately removed before final QA so the repository retains one Source Registry model and one evaluation methodology. Historical commits remain available for traceability.
 
 ## Non-goals
 
