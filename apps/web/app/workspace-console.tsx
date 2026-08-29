@@ -15,7 +15,7 @@ const initialDraft: WorkspaceDraft = {
   brand: "",
   product: "",
   audience: "Mobile gamers",
-  competitors: "",
+  manualEntities: "",
   objectives: "Trend discovery, content opportunities, audience growth",
 };
 
@@ -24,6 +24,49 @@ function splitList(value: string) {
     .split(",")
     .map((item) => item.trim())
     .filter(Boolean);
+}
+
+function entityId(name: string) {
+  return `entity-${name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || "manual"}`;
+}
+
+function normalizeStoredWorkspace(raw: unknown): IntelligenceWorkspace | null {
+  const parsed = raw as IntelligenceWorkspace & {
+    scope?: IntelligenceWorkspace["scope"] & { competitors?: string[] };
+    entityIntelligence?: IntelligenceWorkspace["entityIntelligence"];
+  };
+
+  if (!parsed || parsed.schemaVersion !== "workspace.v1" || !parsed.scope) return null;
+
+  const legacyCompetitors = parsed.scope.competitors ?? [];
+  const now = new Date().toISOString();
+
+  return {
+    ...parsed,
+    scope: {
+      geographies: parsed.scope.geographies ?? [],
+      languages: parsed.scope.languages ?? [],
+      industries: parsed.scope.industries ?? [],
+      categories: parsed.scope.categories ?? [],
+      brands: parsed.scope.brands ?? [],
+      products: parsed.scope.products ?? [],
+      audiences: parsed.scope.audiences ?? [],
+      objectives: parsed.scope.objectives ?? [],
+      riskBoundaries: parsed.scope.riskBoundaries ?? [],
+    },
+    entityIntelligence: parsed.entityIntelligence ?? {
+      autoDiscover: true,
+      monitoredEntities: legacyCompetitors.map((name) => ({
+        id: entityId(name),
+        name,
+        relationship: "other" as const,
+        source: "user" as const,
+        pinned: false,
+        addedAt: now,
+      })),
+      excludedEntities: [],
+    },
+  };
 }
 
 function workspaceToDraft(workspace: IntelligenceWorkspace): WorkspaceDraft {
@@ -36,13 +79,34 @@ function workspaceToDraft(workspace: IntelligenceWorkspace): WorkspaceDraft {
     brand: workspace.scope.brands.join(", "),
     product: workspace.scope.products.join(", "),
     audience: workspace.scope.audiences.join(", "),
-    competitors: workspace.scope.competitors.join(", "),
+    manualEntities: workspace.entityIntelligence.monitoredEntities
+      .filter((entity) => entity.source === "user")
+      .map((entity) => entity.name)
+      .join(", "),
     objectives: workspace.scope.objectives.join(", "),
   };
 }
 
 function buildWorkspace(draft: WorkspaceDraft, previous?: IntelligenceWorkspace): IntelligenceWorkspace {
   const now = new Date().toISOString();
+  const manualNames = splitList(draft.manualEntities);
+  const existingMonitored = previous?.entityIntelligence.monitoredEntities ?? [];
+  const systemApproved = existingMonitored.filter((entity) => entity.source === "system-approved");
+
+  const manualEntities = manualNames.map((name) => {
+    const existing = existingMonitored.find(
+      (entity) => entity.source === "user" && entity.name.toLowerCase() === name.toLowerCase(),
+    );
+    return {
+      id: existing?.id ?? entityId(name),
+      name,
+      relationship: existing?.relationship ?? ("other" as const),
+      source: "user" as const,
+      pinned: existing?.pinned ?? false,
+      addedAt: existing?.addedAt ?? now,
+    };
+  });
+
   return {
     schemaVersion: "workspace.v1",
     id: previous?.id ?? `workspace-${Date.now()}`,
@@ -56,9 +120,13 @@ function buildWorkspace(draft: WorkspaceDraft, previous?: IntelligenceWorkspace)
       brands: splitList(draft.brand),
       products: splitList(draft.product),
       audiences: splitList(draft.audience),
-      competitors: splitList(draft.competitors),
       objectives: splitList(draft.objectives),
       riskBoundaries: [],
+    },
+    entityIntelligence: {
+      autoDiscover: true,
+      monitoredEntities: [...systemApproved, ...manualEntities],
+      excludedEntities: previous?.entityIntelligence.excludedEntities ?? [],
     },
     monitoring: {
       modes: ["market-pulse", "watchlist", "ad-hoc"],
@@ -89,8 +157,9 @@ export default function WorkspaceConsole() {
     const saved = window.localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {
-        const parsed = JSON.parse(saved) as IntelligenceWorkspace;
-        if (parsed.schemaVersion === "workspace.v1") {
+        const parsed = normalizeStoredWorkspace(JSON.parse(saved));
+        if (parsed) {
+          window.localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
           setWorkspace(parsed);
           setDraft(workspaceToDraft(parsed));
         }
@@ -111,6 +180,11 @@ export default function WorkspaceConsole() {
       ...workspace.scope.products,
     ].slice(0, 7);
   }, [workspace]);
+
+  const monitoredPreview = useMemo(() => {
+    if (workspace) return workspace.entityIntelligence.monitoredEntities.map((entity) => entity.name);
+    return splitList(draft.manualEntities);
+  }, [draft.manualEntities, workspace]);
 
   function updateDraft<K extends keyof WorkspaceDraft>(key: K, value: WorkspaceDraft[K]) {
     setDraft((current) => ({ ...current, [key]: value }));
@@ -133,10 +207,10 @@ export default function WorkspaceConsole() {
     <div className="workspaceConsole">
       <section className="workspaceHeader">
         <div>
-          <div className="eyebrow">BUILD STAGE 02 · WORKSPACE + SIGNAL CONTRACT</div>
-          <h1>Define once. Monitor continuously.</h1>
+          <div className="eyebrow">BUILD STAGE 02R · WORKSPACE + ENTITY INTELLIGENCE</div>
+          <h1>Define once. Discover continuously.</h1>
           <p className="lead">
-            The workspace stores where Trend Pulse should look. Trends are outputs the system will discover — not keywords you must know in advance.
+            The workspace stores where Trend Pulse should look. Trends and competitor candidates are outputs the system discovers — not inputs you must already know.
           </p>
         </div>
         <div className={`persistenceBadge ${workspace ? "saved" : "draft"}`}>
@@ -152,7 +226,7 @@ export default function WorkspaceConsole() {
               <div className="eyebrow">INTELLIGENCE SCOPE</div>
               <h2>Workspace configuration</h2>
             </div>
-            <span className="schemaTag">workspace.v1</span>
+            <span className="schemaTag">workspace.v1 · provisional</span>
           </div>
 
           <div className="formGrid">
@@ -164,23 +238,57 @@ export default function WorkspaceConsole() {
             <Field label="Audience" value={draft.audience} onChange={(value) => updateDraft("audience", value)} />
             <Field label="Brand (optional)" value={draft.brand} placeholder="Leave blank for market intelligence" onChange={(value) => updateDraft("brand", value)} />
             <Field label="Product (optional)" value={draft.product} placeholder="One or more products" onChange={(value) => updateDraft("product", value)} />
-            <Field label="Competitors / watch entities" value={draft.competitors} placeholder="Comma separated" onChange={(value) => updateDraft("competitors", value)} />
+            <Field label="Manual entities to monitor (optional)" value={draft.manualEntities} placeholder="Add competitors, products, creators..." onChange={(value) => updateDraft("manualEntities", value)} />
             <Field label="Objectives" value={draft.objectives} onChange={(value) => updateDraft("objectives", value)} />
           </div>
 
           <div className="monitoringCard">
             <div>
               <strong>Always-on discovery defaults</strong>
-              <p>Market Pulse + Watchlists + Ad-hoc Explore, with adjacent culture and global breakouts enabled.</p>
+              <p>Market Pulse + Watchlists + Ad-hoc Explore, with adjacent culture, global breakouts and entity discovery enabled.</p>
             </div>
             <span>ON</span>
           </div>
+
+          <section className="entityPanel" aria-label="Competitor and entity intelligence">
+            <div className="entityPanelHeader">
+              <div>
+                <div className="eyebrow">COMPETITOR & ENTITY INTELLIGENCE</div>
+                <h3>Auto-discover first. Let the user curate.</h3>
+                <p>Trend Pulse will research relevant entities from workspace context and evidence. A system suggestion is never treated as a confirmed competitor until it is approved by evidence rules or the user.</p>
+              </div>
+              <span className="autoBadge">AUTO DISCOVERY ON</span>
+            </div>
+
+            <div className="entityPipeline" aria-label="Entity discovery flow">
+              <span>Scope context</span><b>→</b><span>Research + evidence</span><b>→</b><span>Suggested candidates</span><b>→</b><span>User curate</span><b>→</b><span>Monitoring set</span>
+            </div>
+
+            <div className="entityColumns">
+              <div className="entityColumn">
+                <div className="entityColumnTitle"><strong>Suggested candidates</strong><span>system output</span></div>
+                <div className="candidateEmpty">
+                  <strong>No fabricated candidates.</strong>
+                  <p>Real suggestions will appear after Stage 03+ connects research/evidence sources. Each candidate must include relationship type, reason and evidence before approval.</p>
+                  <div className="futureControls">Approve · Pin · Ignore · Exclude</div>
+                </div>
+              </div>
+              <div className="entityColumn">
+                <div className="entityColumnTitle"><strong>Monitored entities</strong><span>user-curated</span></div>
+                {monitoredPreview.length ? (
+                  <div className="entityChips">{monitoredPreview.map((name) => <span key={name}>{name}</span>)}</div>
+                ) : (
+                  <div className="candidateEmpty compact"><p>You can leave this empty. Trend Pulse should still discover competitor candidates automatically from the workspace scope.</p></div>
+                )}
+              </div>
+            </div>
+          </section>
 
           <div className="formActions">
             <button className="primaryButton" type="submit">{workspace ? "Update workspace" : "Save workspace"}</button>
             {workspace ? <button className="secondaryButton" type="button" onClick={clearWorkspace}>Reset local demo</button> : null}
           </div>
-          <p className="prototypeNote">Stage 02 persistence uses browser localStorage only. Database persistence is intentionally deferred until the storage research gate is resolved.</p>
+          <p className="prototypeNote">Stage 02R persistence uses browser localStorage only. Database persistence and live entity research are intentionally deferred until the relevant infrastructure/source stages.</p>
         </form>
 
         <aside className="workspaceState">
@@ -198,10 +306,11 @@ export default function WorkspaceConsole() {
               <dl className="stateList">
                 <div><dt>Status</dt><dd>{workspace.status}</dd></div>
                 <div><dt>Discovery</dt><dd>Open + adjacent + global</dd></div>
-                <div><dt>Modes</dt><dd>{workspace.monitoring.modes.length}</dd></div>
+                <div><dt>Entity discovery</dt><dd>{workspace.entityIntelligence.autoDiscover ? "Auto" : "Off"}</dd></div>
+                <div><dt>Monitored entities</dt><dd>{workspace.entityIntelligence.monitoredEntities.length}</dd></div>
                 <div><dt>Updated</dt><dd>{new Date(workspace.updatedAt).toLocaleString()}</dd></div>
               </dl>
-              <div className="logicCallout"><strong>Important:</strong> this scope tells the system where to look. It does not tell the system which trend to find.</div>
+              <div className="logicCallout"><strong>Important:</strong> the workspace defines where to look. Competitors and trends can be discovered by the system and then curated into persistent monitoring.</div>
             </>
           ) : (
             <p className="emptyState">Save the form once. Reloading this page will restore the same workspace automatically.</p>
@@ -214,12 +323,12 @@ export default function WorkspaceConsole() {
           <div>
             <div className="eyebrow">NORMALIZED SIGNAL CONTRACT</div>
             <h2>Every future connector must speak the same language.</h2>
-            <p>YouTube, RSS, news and future paid sources will map source-specific data into <code>signal.v1</code> before trend detection.</p>
+            <p>YouTube, RSS, news and future paid sources will map source-specific data into <code>signal.v1</code> before trend or entity discovery.</p>
           </div>
-          <span className="schemaTag">signal.v1</span>
+          <span className="schemaTag">signal.v1 · provisional</span>
         </div>
 
-        <div className="demoWarning">DEMO CONTRACT DATA · These cards validate the schema/UI only. No live source is connected in Stage 02.</div>
+        <div className="demoWarning">DEMO CONTRACT DATA · These cards validate the schema/UI only. No live source is connected in Stage 02R.</div>
         <div className="signalGrid">
           {sampleSignals.map((signal) => (
             <article className="signalCard" key={signal.id}>
@@ -245,7 +354,7 @@ export default function WorkspaceConsole() {
       <section className="nextStep">
         <div>
           <div className="eyebrow">NEXT · STAGE 03</div>
-          <h2>Connect one real source → normalize real observations into Signal v1 → render evidence-backed signals.</h2>
+          <h2>Connect real sources → normalize observations → begin evidence-backed signal and entity discovery.</h2>
         </div>
         <div className="stage">03</div>
       </section>
