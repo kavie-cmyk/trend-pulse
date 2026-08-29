@@ -222,3 +222,167 @@ export interface WorkspaceDraft {
   audience: string;
   objectives: string;
 }
+
+export type TrendLifecycleStage =
+  | "weak-signal"
+  | "emerging"
+  | "accelerating"
+  | "breakout"
+  | "mainstream"
+  | "saturated"
+  | "declining";
+
+export type TrendType =
+  | "cultural-moment"
+  | "creator-trend"
+  | "meme"
+  | "product-trend"
+  | "seasonal"
+  | "platform-native"
+  | "competitor-move"
+  | "search-breakout"
+  | "narrative"
+  | "other";
+
+export type TrendAssessmentStatus = "unavailable" | "provisional" | "calibrated";
+export type TrendDecision = "act" | "prepare" | "watch" | "avoid";
+
+export interface ScoreFactorAssessment {
+  key: string;
+  label: string;
+  status: "available" | "missing" | "not-applicable";
+  normalizedValue?: number;
+  weight?: number;
+  note?: string;
+}
+
+export interface ScoreAssessment {
+  status: TrendAssessmentStatus;
+  score?: number;
+  scaleMax: 10;
+  methodologyVersion: string;
+  factors: ScoreFactorAssessment[];
+  rationale: string[];
+  evidenceRefs: string[];
+  computedAt?: string;
+}
+
+export interface BrandIntelligenceProfile {
+  schemaVersion: "brand-profile.v1";
+  id: string;
+  workspaceId: string;
+  focusBrandId: string;
+  brandName: string;
+  categories: string[];
+  markets: string[];
+  targetAudiences: string[];
+  positioning: string[];
+  valueProposition: string[];
+  toneOfVoice: string[];
+  visualCodes: string[];
+  productLines: string[];
+  contentPillars: string[];
+  do: string[];
+  dont: string[];
+  riskBoundaries: string[];
+  commercialObjectives: string[];
+  creatorPriorities: string[];
+  paidPriorities: string[];
+  seoPriorities: string[];
+  evidenceRefs: string[];
+  updatedAt: string;
+}
+
+export interface TrendCandidate {
+  schemaVersion: "trend-candidate.v1";
+  id: string;
+  workspaceId: string;
+  title: string;
+  summary: string;
+  trendType: TrendType;
+  lifecycleStage: TrendLifecycleStage;
+  status: "candidate" | "corroborated" | "rejected";
+  signalIds: string[];
+  sourceIds: string[];
+  sourceDiversity: number;
+  geographies: string[];
+  languages: string[];
+  firstObservedAt?: string;
+  lastObservedAt: string;
+  evidenceRefs: string[];
+  confidence: ScoreAssessment;
+}
+
+export interface TrendScorecard {
+  virality: ScoreAssessment;
+  brandFit?: ScoreAssessment;
+  opportunity: ScoreAssessment;
+  executionUrgency: ScoreAssessment;
+  confidence: ScoreAssessment;
+}
+
+export interface MarketingIntelligenceAnalysis {
+  whyItMatters: string[];
+  audienceRelevance: string[];
+  channelRelevance: string[];
+  contentAndCreativePotential: string[];
+  creatorPotential: string[];
+  communityPotential: string[];
+  paidMediaPotential: string[];
+  seoAndSearchPotential: string[];
+  prAndBrandPotential: string[];
+  competitiveWhitespace: string[];
+  timingNotes: string[];
+  riskNotes: string[];
+  commercialAndFunnelRelevance: string[];
+  crmAndRetentionPotential: string[];
+  productMarketingPotential: string[];
+}
+
+export interface MarketingActionPlan {
+  decision: TrendDecision;
+  recommendedAction: string;
+  timeToAct: string;
+  contentAngles: string[];
+  creatorBrief?: string;
+  communityPlan?: string;
+  paidTest?: string;
+  seoOpportunity?: string;
+  prAngle?: string;
+  crmAction?: string;
+  productMarketingAction?: string;
+  cta?: string;
+  kpis: string[];
+  do: string[];
+  dont: string[];
+}
+
+export interface TrendWatchSection {
+  risingTrends: string[];
+  earlySignals: string[];
+  nextWindow: string[];
+  competitorWatch: string[];
+  riskWatch: string[];
+}
+
+export interface TrendIntelligenceReport {
+  schemaVersion: "trend-intelligence-report.v1";
+  id: string;
+  workspaceId: string;
+  trendCandidateId: string;
+  focusBrandId?: string;
+  generatedAt: string;
+  snapshot: {
+    title: string;
+    summary: string;
+    trendType: TrendType;
+    lifecycleStage: TrendLifecycleStage;
+    window: string;
+    sourceSummary: string[];
+    scorecard: TrendScorecard;
+  };
+  analysis: MarketingIntelligenceAnalysis;
+  actionPlan: MarketingActionPlan;
+  watch: TrendWatchSection;
+  evidenceRefs: string[];
+}
