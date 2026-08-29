@@ -42,6 +42,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Collect social signal backbone
+        run: npm run collect:social
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
       - name: Collect real Wikimedia signals
         run: npm run collect:wikimedia
 
