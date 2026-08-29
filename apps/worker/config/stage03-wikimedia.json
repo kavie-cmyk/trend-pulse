@@ -1,6 +1,20 @@
 {
-  "workspaceId": "stage03-demo-cultural-attention",
-  "scopeLabel": "Multilingual cultural attention pulse · Wikipedia pageviews",
+  "scopeLabel": "Broad multilingual cultural attention feed · Wikipedia pageviews",
+  "collectionScope": {
+    "id": "wikimedia-broad-vi-en",
+    "mode": "broad-source-feed",
+    "geographies": [],
+    "languages": ["Vietnamese", "English"],
+    "industries": [],
+    "categories": [],
+    "note": "Broad language-edition attention feed. Not collected for any specific browser workspace, geography, category, product or Focus Brand."
+  },
+  "refreshPolicy": {
+    "mode": "scheduled",
+    "cadence": "daily",
+    "scheduleLabel": "Daily at 07:17 UTC via GitHub Actions preview runtime",
+    "updateNow": "runtime-required"
+  },
   "projects": [
     { "project": "vi.wikipedia.org", "language": "Vietnamese" },
     { "project": "en.wikipedia.org", "language": "English" }

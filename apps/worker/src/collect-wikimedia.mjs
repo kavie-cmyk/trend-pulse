@@ -9,27 +9,13 @@ const execFileAsync = promisify(execFile);
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../..");
 const configPath = path.join(repoRoot, "apps/worker/config/stage03-wikimedia.json");
 const outputPath = path.join(repoRoot, "apps/web/public/data/live-signals.json");
-const userAgent = "TrendPulse/0.3 (https://github.com/kavie-cmyk/trend-pulse; Stage 03 research prototype)";
+const userAgent = "TrendPulse/0.3R (https://github.com/kavie-cmyk/trend-pulse; Stage 03R research prototype)";
 
 const blockedExactPages = new Set(["Main_Page", "Trang_Chính"]);
 const blockedPrefixes = [
-  "Special:",
-  "Wikipedia:",
-  "Help:",
-  "Portal:",
-  "File:",
-  "Category:",
-  "Template:",
-  "User:",
-  "Đặc_biệt:",
-  "Trợ_giúp:",
-  "Cổng_thông_tin:",
-  "Tập_tin:",
-  "Thể_loại:",
-  "Bản_mẫu:",
-  "Thành_viên:"
+  "Special:", "Wikipedia:", "Help:", "Portal:", "File:", "Category:", "Template:", "User:",
+  "Đặc_biệt:", "Trợ_giúp:", "Cổng_thông_tin:", "Tập_tin:", "Thể_loại:", "Bản_mẫu:", "Thành_viên:"
 ];
-
 const previewExplicitTerms = /(^|[ _-])(porn|pornography|hentai|xxx|onlyfans|sexual intercourse|sex position)([ _-]|$)/i;
 
 function stableId(value) {
@@ -80,23 +66,7 @@ async function requestText(endpoint) {
     console.warn(`Node fetch transport failed for Wikimedia; retrying with curl. ${error instanceof Error ? error.message : String(error)}`);
     const { stdout } = await execFileAsync(
       "curl",
-      [
-        "--fail-with-body",
-        "--location",
-        "--silent",
-        "--show-error",
-        "--retry",
-        "2",
-        "--retry-delay",
-        "1",
-        "--connect-timeout",
-        "15",
-        "--max-time",
-        "45",
-        "--user-agent",
-        userAgent,
-        endpoint
-      ],
+      ["--fail-with-body", "--location", "--silent", "--show-error", "--retry", "2", "--retry-delay", "1", "--connect-timeout", "15", "--max-time", "45", "--user-agent", userAgent, endpoint],
       { maxBuffer: 10 * 1024 * 1024 }
     );
     return stdout;
@@ -129,7 +99,7 @@ function normalizeArticle(article, projectConfig, snapshotDate, config, collecte
   return {
     schemaVersion: "signal.v1",
     id: `wikimedia-${stableId(`${project}:${snapshotDate}:${article.article}`)}`,
-    workspaceId: config.workspaceId,
+    collectionScopeId: config.collectionScope.id,
     observedAt: `${snapshotDate}T23:59:59.000Z`,
     collectedAt,
     normalizedAt: collectedAt,
@@ -155,6 +125,7 @@ function normalizeArticle(article, projectConfig, snapshotDate, config, collecte
       score: 0.5,
       basis: [
         "Direct pageview metric from the official Wikimedia Pageviews API",
+        "Broad source-feed observation; workspace applicability must be evaluated separately",
         "Single-source attention observation; not a corroborated trend",
         "Numeric confidence remains provisional until RG-002/RG-003 calibration"
       ]
@@ -185,14 +156,11 @@ async function main() {
     }
   }
 
-  if (!collectedProjects.length) {
-    throw new Error(`Wikimedia collector returned no usable project snapshots. ${failures.join(" | ")}`);
-  }
+  if (!collectedProjects.length) throw new Error(`Wikimedia collector returned no usable project snapshots. ${failures.join(" | ")}`);
 
   const signals = collectedProjects.flatMap(({ projectConfig, snapshotDate, articles }) =>
     articles.map((article) => normalizeArticle(article, projectConfig, snapshotDate, config, collectedAt))
   );
-
   if (!signals.length) throw new Error("Wikimedia snapshots contained no preview-safe articles; refusing to publish fake fallback data.");
 
   signals.sort((a, b) => (a.metrics.sourceRank ?? 9999) - (b.metrics.sourceRank ?? 9999));
@@ -203,6 +171,8 @@ async function main() {
     schemaVersion: "signal-batch.v1",
     sourceId: "wikimedia-pageviews-top",
     scopeLabel: config.scopeLabel,
+    collectionScope: config.collectionScope,
+    refreshPolicy: config.refreshPolicy,
     collectedAt,
     query: `Top viewed pages · ${projects.join(" + ")}`,
     timespan: `daily snapshot · ${snapshotDates.join(", ")}`,
@@ -214,6 +184,7 @@ async function main() {
   await mkdir(path.dirname(outputPath), { recursive: true });
   await writeFile(outputPath, `${JSON.stringify(batch, null, 2)}\n`, "utf8");
   console.log(`Collected ${signals.length} real Wikimedia pageview observations from ${projects.join(", ")}`);
+  console.log(`Collection scope: ${config.collectionScope.id} (${config.collectionScope.mode})`);
   console.log(`Snapshot date(s): ${snapshotDates.join(", ")}`);
   if (failures.length) console.warn(`Partial project failures: ${failures.join(" | ")}`);
   console.log(`Output: ${path.relative(repoRoot, outputPath)}`);

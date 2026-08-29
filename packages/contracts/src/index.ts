@@ -3,6 +3,10 @@ export type MonitoringMode = "market-pulse" | "watchlist" | "ad-hoc";
 export type FreshnessClass = "near-live" | "hourly" | "daily" | "manual" | "unknown";
 export type SourceAccessMode = "official-api" | "rss" | "open-web" | "public-dataset" | "manual" | "licensed";
 export type SourceType = "search" | "video" | "social" | "news" | "publisher" | "community" | "culture" | "brand" | "other";
+export type SourceFitLevel = "high" | "medium" | "low" | "not-applicable";
+export type SourcePlanRole = "primary" | "supporting" | "background";
+export type SourceRuntimeStatus = "operational" | "planned" | "runtime-deferred";
+export type CollectionScopeMode = "workspace-scoped" | "broad-source-feed";
 export type EntityRelationship =
   | "direct-competitor"
   | "indirect-competitor"
@@ -139,7 +143,8 @@ export interface SignalEvidence {
 export interface Signal {
   schemaVersion: "signal.v1";
   id: string;
-  workspaceId: string;
+  workspaceId?: string;
+  collectionScopeId?: string;
   observedAt: string;
   publishedAt?: string;
   collectedAt: string;
@@ -164,10 +169,40 @@ export interface Signal {
   evidence: SignalEvidence;
 }
 
+export interface SignalBatchCollectionScope {
+  id: string;
+  mode: CollectionScopeMode;
+  geographies: string[];
+  languages: string[];
+  industries: string[];
+  categories: string[];
+  note?: string;
+}
+
+export interface SourceRefreshPolicy {
+  mode: "scheduled" | "manual";
+  cadence: FreshnessClass;
+  scheduleLabel?: string;
+  updateNow: "available" | "runtime-required";
+}
+
+export interface SourcePlanItem {
+  sourceId: string;
+  sourceName: string;
+  fit: SourceFitLevel;
+  role: SourcePlanRole;
+  runtimeStatus: SourceRuntimeStatus;
+  freshness: FreshnessClass;
+  applicableToWorkspace: boolean;
+  reason: string;
+}
+
 export interface SignalBatch {
   schemaVersion: "signal-batch.v1";
   sourceId: string;
   scopeLabel: string;
+  collectionScope?: SignalBatchCollectionScope;
+  refreshPolicy?: SourceRefreshPolicy;
   collectedAt: string;
   query: string;
   timespan: string;
