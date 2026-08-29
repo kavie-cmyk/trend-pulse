@@ -101,6 +101,26 @@ h1 {
 .monitoringCard strong { font-size: 13px; }
 .monitoringCard p { margin: 5px 0 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
 .monitoringCard > span { color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+.entityPanel { margin-top: 18px; border: 1px solid var(--line); border-radius: 15px; padding: 18px; background: rgba(3,10,8,.3); }
+.entityPanelHeader { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; }
+.entityPanelHeader h3 { margin: 7px 0 7px; font-size: 20px; letter-spacing: -.025em; }
+.entityPanelHeader p { max-width: 690px; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.autoBadge { flex: 0 0 auto; border: 1px solid rgba(98,245,181,.24); border-radius: 999px; padding: 7px 10px; color: var(--accent); background: var(--accent-soft); font-size: 10px; font-weight: 800; letter-spacing: .07em; }
+.entityPipeline { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-top: 16px; padding: 11px 12px; border: 1px solid var(--line); border-radius: 10px; color: #80938c; font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; }
+.entityPipeline span { color: #b8c9c3; }
+.entityPipeline b { color: #4f655d; font-weight: 400; }
+.entityColumns { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-top: 12px; }
+.entityColumn { min-height: 155px; border: 1px solid var(--line); border-radius: 12px; padding: 14px; background: rgba(255,255,255,.018); }
+.entityColumnTitle { display: flex; justify-content: space-between; gap: 10px; align-items: center; padding-bottom: 11px; border-bottom: 1px solid var(--line); }
+.entityColumnTitle strong { font-size: 12px; }
+.entityColumnTitle span { color: #6f817b; font-size: 10px; }
+.candidateEmpty { padding-top: 16px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+.candidateEmpty strong { color: var(--text); font-size: 11px; }
+.candidateEmpty p { margin: 5px 0 0; }
+.candidateEmpty.compact { padding-top: 12px; }
+.futureControls { margin-top: 12px; color: #71857e; font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; }
+.entityChips { display: flex; flex-wrap: wrap; gap: 7px; padding-top: 14px; }
+.entityChips span { border: 1px solid rgba(98,245,181,.2); border-radius: 999px; padding: 7px 9px; background: rgba(98,245,181,.055); color: #cce4db; font-size: 10px; }
 .formActions { display: flex; gap: 10px; margin-top: 18px; }
 .primaryButton, .secondaryButton { border-radius: 11px; padding: 11px 14px; font-weight: 700; }
 .primaryButton { border: 1px solid var(--accent); background: var(--accent); color: #06100d; }
@@ -136,6 +156,10 @@ h1 {
   .workspaceHeader { align-items: flex-start; flex-direction: column; }
   .workspaceLayout { grid-template-columns: 1fr; }
   .signalGrid { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .entityPanelHeader { flex-direction: column; }
+  .entityColumns { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
   .formGrid { grid-template-columns: 1fr; }
