@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { IntelligenceWorkspace, SignalBatch } from "@trend-pulse/contracts";
-import { nextDailyRunUtc, planWikimediaForWorkspace } from "./source-planner";
+import { nextTwiceDailyRunUtc, planWikimediaForWorkspace } from "./source-planner";
 
 const WORKSPACE_STORAGE_KEY = "trend-pulse.workspace.v1";
 
@@ -84,7 +84,7 @@ export default function LiveSignals() {
     return planWikimediaForWorkspace(workspace, state.batch);
   }, [state, workspace]);
 
-  const nextRun = useMemo(() => nextDailyRunUtc(7, 17), [state.status, workspace?.updatedAt]);
+  const nextRun = useMemo(() => nextTwiceDailyRunUtc([7, 19], 17), [state.status, workspace?.updatedAt]);
   const shouldShowCards = state.status === "ready" && (!workspace || plan?.applicableToWorkspace || showBackground);
 
   return (
@@ -94,7 +94,7 @@ export default function LiveSignals() {
           <div className="eyebrow">BUILD STAGE 03R · WORKSPACE-AWARE SOURCE PLANNING</div>
           <h2>Workspace → source fit → collection scope → evidence.</h2>
           <p>
-            A connected source is no longer assumed to fit every workspace. Trend Pulse evaluates source fit first, keeps broad feeds separate from workspace-scoped evidence, and exposes the actual refresh cadence instead of implying universal real-time data.
+            A connected source is no longer assumed to fit every workspace. Trend Pulse evaluates source fit first, keeps broad feeds separate from workspace-scoped evidence, and applies the V1 global collection policy of two collection cycles per day.
           </p>
         </div>
         <span className="schemaTag">Source Planner v0 · provisional</span>
@@ -118,13 +118,13 @@ export default function LiveSignals() {
               <div className="signalTopline"><span>SOURCE PLAN</span><span>{plan.runtimeStatus}</span></div>
               <h3 style={{ marginTop: 18 }}>{plan.sourceName}</h3>
               <p>{plan.reason}</p>
-              <div className="signalMeta"><span>role {plan.role}</span><span>fit {plan.fit}</span><span>{plan.freshness}</span></div>
+              <div className="signalMeta"><span>role {plan.role}</span><span>fit {plan.fit}</span><span>native freshness {plan.freshness}</span></div>
             </div>
             <div className="signalCard" style={{ padding: 15 }}>
-              <div className="signalTopline"><span>REFRESH POLICY</span><span>AUTO</span></div>
-              <h3 style={{ marginTop: 18 }}>Source-aware update</h3>
-              <p>Wikimedia is a daily source in this prototype. Workspace edits re-plan immediately; source data itself only refreshes on its scheduled collection run.</p>
-              <div className="signalMeta"><span>last {formatDate(state.batch.collectedAt)}</span><span>next {formatDate(nextRun)}</span></div>
+              <div className="signalTopline"><span>GLOBAL REFRESH POLICY V1</span><span>AUTO</span></div>
+              <h3 style={{ marginTop: 18 }}>Every source · twice daily</h3>
+              <p>Trend Pulse V1 schedules two collection cycles per day for every active source. Native source freshness remains separate: if a source only publishes daily data, the second collection may observe the same upstream snapshot.</p>
+              <div className="signalMeta"><span>cadence {state.batch.refreshPolicy?.cadence ?? "twice-daily"}</span><span>last {formatDate(state.batch.collectedAt)}</span><span>next {formatDate(nextRun)}</span></div>
               <button className="secondaryButton" type="button" disabled style={{ marginTop: 12, opacity: 0.55, cursor: "not-allowed" }} title="The static GitHub Pages preview cannot securely trigger the worker runtime.">
                 Update now · runtime required
               </button>
@@ -147,7 +147,8 @@ export default function LiveSignals() {
           <div className="signalMeta" style={{ marginBottom: 14 }}>
             <span>collection scope {state.batch.collectionScope?.mode ?? "legacy"}</span>
             <span>languages {(state.batch.collectionScope?.languages ?? []).join(" + ") || "unspecified"}</span>
-            <span>effective freshness {state.batch.effectiveFreshness}</span>
+            <span>collection cadence {state.batch.refreshPolicy?.cadence ?? "unspecified"}</span>
+            <span>effective source freshness {state.batch.effectiveFreshness}</span>
             <span>source {state.batch.sourceId}</span>
           </div>
 
