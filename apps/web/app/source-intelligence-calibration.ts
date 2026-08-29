@@ -6,6 +6,12 @@ import {
   sourceRegistry,
 } from "./source-intelligence-engine";
 
+const STAGE04B2_OPERATIONAL_SOURCE_IDS = new Set([
+  "publisher-rss-adapter",
+  "github-rest-api",
+  "hacker-news-api",
+]);
+
 function norm(value: string) {
   return value.trim().toLowerCase();
 }
@@ -62,6 +68,8 @@ function calibrateEvaluation(workspace: IntelligenceWorkspace, evaluation: Works
   if (!source) return evaluation;
 
   let fit = evaluation.intelligenceFit;
+  let operationalFeasibility = evaluation.operationalFeasibility;
+  let activationDecision = evaluation.activationDecision;
   const notes: string[] = [];
 
   if (!source.industryTags.includes("universal") && !sourceHasSpecificMatch(workspace, source.id)) {
@@ -90,13 +98,20 @@ function calibrateEvaluation(workspace: IntelligenceWorkspace, evaluation: Works
     notes.push("Calibration cap: ad creative is useful but not a default PRIMARY signal for this workspace family.");
   }
 
+  if (STAGE04B2_OPERATIONAL_SOURCE_IDS.has(source.id)) {
+    operationalFeasibility = Math.max(operationalFeasibility, 9);
+    activationDecision = "activate-now";
+    notes.push("Stage 04B-2 runtime override: connector is operational in the twice-daily GitHub Actions backbone.");
+  }
+
   fit = Math.round(fit * 10) / 10;
   const nextDisposition = disposition(fit);
   return {
     ...evaluation,
     intelligenceFit: fit,
+    operationalFeasibility,
     disposition: nextDisposition,
-    activationDecision: nextDisposition === "exclude" ? "exclude" : evaluation.activationDecision,
+    activationDecision: nextDisposition === "exclude" ? "exclude" : activationDecision,
     rationale: [...evaluation.rationale, ...notes],
   };
 }
@@ -112,7 +127,11 @@ export function planWorkspaceSources(
   return {
     ...base,
     evaluations,
-    notes: [...base.notes, "Calibration v0.1 adds semantic caps for mismatched specialist sources, generic source classes, broad Wikimedia, broad news, and non-core ad intelligence."],
+    notes: [
+      ...base.notes,
+      "Calibration v0.1 adds semantic caps for mismatched specialist sources, generic source classes, broad Wikimedia, broad news, and non-core ad intelligence.",
+      "Stage 04B-2 runtime promotion marks RSS/Atom, GitHub REST and Hacker News collectors operational only after real collection is wired into the twice-daily workflow.",
+    ],
   };
 }
 
