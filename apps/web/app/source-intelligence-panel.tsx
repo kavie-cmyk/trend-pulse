@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { IntelligenceWorkspace } from "@trend-pulse/contracts";
 import type { WorkspaceSourceEvaluation, WorkspaceSourcePlan } from "@trend-pulse/contracts/source-intelligence";
-import { planWorkspaceSources, savaValidationWorkspaces, sourceRegistry, summarizePlan } from "./source-intelligence-engine";
+import { planWorkspaceSources, savaValidationWorkspaces, sourceRegistry, summarizePlan } from "./source-intelligence-calibration";
 
 const STORAGE_KEY = "trend-pulse.workspace.v1";
 
@@ -46,7 +46,7 @@ function SourceRows({ title, rows }: { title: string; rows: WorkspaceSourceEvalu
                 <span>feasibility {source.operationalFeasibility.toFixed(1)}/10</span>
               </div>
               <p>{source.rationale[0]}</p>
-              {source.rationale[2] ? <p>{source.rationale[2]}</p> : null}
+              {source.rationale.slice(2).map((note) => <p key={note}>{note}</p>)}
             </div>
           ))}
         </div>
@@ -97,7 +97,7 @@ export default function SourceIntelligencePanel() {
             Trend Pulse now separates source intelligence value from operational feasibility. Registry memory is reusable across workspaces; research can discover new source candidates outside the registry before the planner assigns PRIMARY, SUPPORTING, BACKGROUND or EXCLUDE.
           </p>
         </div>
-        <span className="schemaTag">source-planner.v1 · provisional</span>
+        <span className="schemaTag">source-planner.v1 · calibration v0.1</span>
       </div>
 
       <div className="inputModeRow" style={{ marginBottom: 12 }}>
