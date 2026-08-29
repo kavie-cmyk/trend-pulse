@@ -1,6 +1,7 @@
 export type WorkspaceStatus = "active" | "paused";
 export type MonitoringMode = "market-pulse" | "watchlist" | "ad-hoc";
 export type FreshnessClass = "near-live" | "hourly" | "daily" | "manual" | "unknown";
+export type CollectionCadence = "twice-daily" | "daily" | "hourly" | "manual" | "unknown";
 export type SourceAccessMode = "official-api" | "rss" | "open-web" | "public-dataset" | "manual" | "licensed";
 export type SourceType = "search" | "video" | "social" | "news" | "publisher" | "community" | "culture" | "brand" | "other";
 export type SourceFitLevel = "high" | "medium" | "low" | "not-applicable";
@@ -181,7 +182,7 @@ export interface SignalBatchCollectionScope {
 
 export interface SourceRefreshPolicy {
   mode: "scheduled" | "manual";
-  cadence: FreshnessClass;
+  cadence: CollectionCadence;
   scheduleLabel?: string;
   updateNow: "available" | "runtime-required";
 }
