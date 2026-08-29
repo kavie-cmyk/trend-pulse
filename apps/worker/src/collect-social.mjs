@@ -71,7 +71,7 @@ function blueskyEvidenceUrl(link) {
 
 async function collectBluesky(config, collectedAt) {
   if (!config.enabled) return null;
-  const endpoint = `https://public.api.bsky.app/xrpc/app.bsky.unspecced.getTrends?limit=${Math.min(config.maxRecords ?? 30, 100)}`;
+  const endpoint = `https://public.api.bsky.app/xrpc/app.bsky.unspecced.getTrends?limit=${Math.min(config.maxRecords ?? 25, 25)}`;
   const { payload } = await requestJson(endpoint);
   const trends = Array.isArray(payload.trends) ? payload.trends : [];
   const signals = trends
