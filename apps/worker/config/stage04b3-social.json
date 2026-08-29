@@ -2,7 +2,7 @@
   "bluesky": {
     "enabled": true,
     "required": true,
-    "maxRecords": 30
+    "maxRecords": 25
   },
   "youtube": {
     "enabled": true,
