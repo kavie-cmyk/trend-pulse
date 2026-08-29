@@ -3,6 +3,17 @@ export type MonitoringMode = "market-pulse" | "watchlist" | "ad-hoc";
 export type FreshnessClass = "near-live" | "hourly" | "daily" | "manual" | "unknown";
 export type SourceAccessMode = "official-api" | "rss" | "open-web" | "public-dataset" | "manual" | "licensed";
 export type SourceType = "search" | "video" | "social" | "news" | "publisher" | "community" | "culture" | "brand" | "other";
+export type EntityRelationship =
+  | "direct-competitor"
+  | "indirect-competitor"
+  | "substitute"
+  | "emerging-challenger"
+  | "benchmark"
+  | "platform"
+  | "creator"
+  | "community"
+  | "product"
+  | "other";
 
 export interface IntelligenceScope {
   geographies: string[];
@@ -12,9 +23,34 @@ export interface IntelligenceScope {
   brands: string[];
   products: string[];
   audiences: string[];
-  competitors: string[];
   objectives: string[];
   riskBoundaries: string[];
+}
+
+export interface MonitoredEntity {
+  id: string;
+  name: string;
+  relationship: EntityRelationship;
+  source: "user" | "system-approved";
+  pinned: boolean;
+  addedAt: string;
+}
+
+export interface EntityCandidate {
+  id: string;
+  name: string;
+  relationship: EntityRelationship;
+  reason: string;
+  evidenceRefs: string[];
+  relevanceScore?: number;
+  status: "suggested" | "approved" | "ignored" | "excluded";
+  discoveredAt: string;
+}
+
+export interface WorkspaceEntityIntelligence {
+  autoDiscover: boolean;
+  monitoredEntities: MonitoredEntity[];
+  excludedEntities: string[];
 }
 
 export interface WorkspaceMonitoringConfig {
@@ -30,6 +66,7 @@ export interface IntelligenceWorkspace {
   name: string;
   status: WorkspaceStatus;
   scope: IntelligenceScope;
+  entityIntelligence: WorkspaceEntityIntelligence;
   monitoring: WorkspaceMonitoringConfig;
   createdAt: string;
   updatedAt: string;
@@ -107,6 +144,6 @@ export interface WorkspaceDraft {
   brand: string;
   product: string;
   audience: string;
-  competitors: string;
+  manualEntities: string;
   objectives: string;
 }
