@@ -103,11 +103,13 @@ function normalizeStoredWorkspace(raw: unknown): IntelligenceWorkspace | null {
   const now = new Date().toISOString();
   const legacyBrands = parsed.scope.brands ?? [];
   const legacyCompetitors = parsed.scope.competitors ?? [];
-  const rawMonitored = parsed.entityIntelligence?.monitoredEntities ?? legacyCompetitors.map((name) => ({
+  const rawMonitored: StoredMonitoredEntity[] = parsed.entityIntelligence?.monitoredEntities ?? legacyCompetitors.map((name) => ({
     id: entityId(name),
     name,
     relationship: "other" as const,
     source: "user" as const,
+    inputMethod: "typed-text" as const,
+    resolutionStatus: "unresolved" as const,
     pinned: false,
     addedAt: now,
   }));
