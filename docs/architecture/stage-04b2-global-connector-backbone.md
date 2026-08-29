@@ -1,6 +1,6 @@
 # Stage 04B-2 — Global Connector Backbone
 
-Status: IMPLEMENTATION / QA PENDING.
+Status: COMPLETE / PASS.
 
 ## Goal
 
@@ -31,8 +31,8 @@ Why first:
 
 Initial runtime feeds:
 - TechCrunch RSS (`https://techcrunch.com/feed/`) — required baseline; TechCrunch RSS Terms permit feed use with attribution/link requirements.
-- Road to VR RSS (`https://roadtovr.com/feed/`) — optional specialist XR feed; publisher documents full/section RSS feeds.
-- PocketGamer.biz RSS (`https://www.pocketgamer.biz/rss/`) — optional runtime verification target; publisher historically advertises RSS but this endpoint is not allowed to fail the backbone build until re-verified.
+- Road to VR RSS (`https://roadtovr.com/feed/`) — specialist XR feed; publisher documents full/section RSS feeds.
+- PocketGamer.biz RSS (`https://www.pocketgamer.biz/rss/`) — specialist gaming/business feed; runtime collection verified in Stage 04B-2.
 
 The collector stores title, publication time, canonical link/identifier and source attribution. It does not fabricate engagement metrics and does not need to retain full article bodies.
 
@@ -109,6 +109,15 @@ Examples:
 
 Cross-source normalization, topic/entity clustering and corroborated Trend Candidate creation are downstream work.
 
+## Source Registry reconciliation
+
+The runtime-aware Source Registry now promotes the Stage 04B-2 connector classes to `operational` only after real workflow collection was verified:
+- Publisher RSS / Atom adapter;
+- GitHub REST API;
+- Hacker News API.
+
+Workspace planning still keeps Intelligence Fit separate from Operational Feasibility. A connector becoming operational does not automatically make it PRIMARY for every workspace.
+
 ## UI
 
 `apps/web/app/backbone-signals.tsx` displays:
@@ -120,10 +129,41 @@ Cross-source normalization, topic/entity clustering and corroborated Trend Candi
 - sample evidence links;
 - explicit no-cross-platform-comparison boundary.
 
+## Final QA
+
+Verified code head: `2b5587f64f1934435b07637ba6ca4adc4462deca`.
+
+GitHub Actions run `33243485707` passed:
+- dependency install;
+- TypeScript typecheck;
+- Global Connector Backbone collection;
+- Wikimedia real-source collection;
+- static Next.js export;
+- Pages artifact upload;
+- GitHub Pages deploy.
+
+Backbone runtime result:
+- 110 real observations;
+- 5 successful source batches;
+- Hacker News API: 30;
+- GitHub REST API: 30;
+- TechCrunch RSS: 20;
+- Road to VR RSS: 10;
+- PocketGamer.biz RSS: 20;
+- runtime failures: 0.
+
+The same run separately collected 60 real Wikimedia observations.
+
+Artifact QA:
+- artifact ID `9712074816`;
+- SHA-256 `632d4c4af691d84b7cc4d7bb878cb11637f7c3a5cb5d9d609c984916767f9c60`;
+- artifact contains `data/backbone-signals.json` and `data/live-signals.json`;
+- downloaded `backbone-signals.json` read-back verified `source-backbone-snapshot.v1`, sourceCount 5, observationCount 110, twice-daily schedule `07:17 + 19:17 UTC`, zero failures, all observations `signal.v1`, and evidence URLs present.
+
 ## Runtime boundary
 
 GitHub Pages remains presentation only. GitHub Actions is still a bounded preview scheduler/worker for this stage. A persistent production runtime/database is still required before multi-workspace always-on monitoring and notifications can be called production-ready.
 
 ## Handoff
 
-After runtime QA passes, the next stage should use these independent source families to build topic/entity resolution and cross-source corroboration before Trend Virality scoring.
+Stage 04C should use these independent source families to build workspace-aware topic/entity resolution and cross-source corroboration into `trend-candidate.v1` before Trend Virality scoring.
