@@ -1,0 +1,7 @@
+{
+  "workspaceId": "stage03-demo-global-gaming",
+  "scopeLabel": "Global gaming / mobile gaming news pulse",
+  "query": "(gaming OR \"mobile game\" OR \"mobile gaming\")",
+  "timespan": "24h",
+  "maxRecords": 30
+}
