@@ -1,0 +1,13 @@
+{
+  "bluesky": {
+    "enabled": true,
+    "required": true,
+    "maxRecords": 30
+  },
+  "youtube": {
+    "enabled": true,
+    "required": false,
+    "regions": ["VN", "US"],
+    "maxRecordsPerRegion": 15
+  }
+}
