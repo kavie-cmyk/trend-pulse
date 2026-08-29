@@ -1,6 +1,6 @@
 # Stage 04B-3 — Social Signal Backbone
 
-Status: IMPLEMENTATION / QA PENDING.
+Status: COMPLETE / PASS.
 
 ## Goal
 
@@ -18,7 +18,7 @@ Every ACTIVE source is invoked twice daily under D-012. Current preview anchors 
 
 ## Social source decisions
 
-### Bluesky Public Trends API — OPERATIONAL TARGET
+### Bluesky Public Trends API — OPERATIONAL
 
 Bluesky documents that many public AppView requests can be made without authentication through `public.api.bsky.app`. Stage 04B-3 uses the public `app.bsky.unspecced.getTrends` endpoint as the first credential-free social trend source.
 
@@ -89,7 +89,7 @@ Envelope:
 
 Stage 04B-3 extends the runtime Source Registry with:
 - `bluesky-trends-api` — operational after runtime verification;
-- `reddit-data-api` — high intelligence potential but restricted in the current operating environment.
+- `reddit-data-api` — high intelligence potential but access-constrained in the current operating environment.
 
 The existing source-eval.v0.1 method is reused. Social entries are evaluated through the same Intelligence Fit and Operational Feasibility method; no separate social scoring model is introduced.
 
@@ -101,15 +101,33 @@ The public preview applies conservative filtering before social topics are persi
 
 No fake fallback data. No undocumented scraping. No credential leakage. No direct comparison of platform-native metrics.
 
-## QA gate
+## QA history and final verification
 
-Stage 04B-3 may only become COMPLETE / PASS if:
-1. typecheck passes;
-2. the required credential-free social source returns real observations on the GitHub runner;
-3. the social JSON artifact is included in the static Pages artifact;
-4. Pages deployment passes;
-5. Source Registry / planner integration compiles and renders without fabricated social data.
+Historical failed run: `33244304155` at commit `c724202bcff6c5f1fe03a93401ca2c60d6a343de`.
+
+Failure reason: the Bluesky `getTrends` endpoint rejected `limit=30` and returned its actual API maximum of 25. The config and collector were corrected to cap the request at 25. The failed run remains part of the audit history.
+
+Verified implementation head before this documentation-finalization commit: `e024ef0ca8b2e5ad0dc8778be99c6da156812ae5`.
+
+Verified run: `33244376921` — PASS across typecheck, global backbone collection, social collection, Wikimedia collection, static export, Pages artifact upload and Pages deploy.
+
+Verified social result:
+- `social-backbone-snapshot.v1`;
+- 1 active social source batch;
+- 25 real Bluesky observations;
+- 0 runtime failures;
+- every observation is `signal.v1`;
+- every observation has an evidence URL;
+- YouTube remains `ready-needs-credential` because no valid runtime key is present;
+- Reddit remains `access-constrained`;
+- TikTok Research Tools remain `restricted-eligibility`;
+- TikTok Creative Center and Meta Ad Library remain `manual-assisted`;
+- Threads, Instagram organic, Facebook organic and X organic remain `research-pending`.
+
+Verified Pages artifact: `9712366616` with SHA-256 `97db2e0d7ba341a63b71b55f93132839ad5fe16f33e5420703b02de31a460f9b`. The artifact contains `data/social-signals.json` alongside the existing backbone and Wikimedia snapshots.
+
+Stage 04B-3 is COMPLETE / PASS subject to the final documentation-head CI run also passing.
 
 ## Handoff
 
-After 04B-3 passes, Stage 04C can perform workspace-aware topic/entity resolution and cross-source corroboration using social + publisher + community + developer + cultural evidence before Virality scoring.
+Stage 04C can now perform workspace-aware topic/entity resolution and cross-source corroboration using social + publisher + community + developer + cultural evidence before Virality scoring. YouTube and additional social families can be promoted later when valid access becomes available without changing the core architecture.
