@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   basePath,
   assetPrefix: basePath,
+  transpilePackages: ["@trend-pulse/contracts"],
   images: {
     unoptimized: true,
   },
