@@ -163,6 +163,18 @@ export interface Signal {
   evidence: SignalEvidence;
 }
 
+export interface SignalBatch {
+  schemaVersion: "signal-batch.v1";
+  sourceId: string;
+  scopeLabel: string;
+  collectedAt: string;
+  query: string;
+  timespan: string;
+  effectiveFreshness: FreshnessClass;
+  count: number;
+  signals: Signal[];
+}
+
 export interface WorkspaceDraft {
   name: string;
   geography: string;
