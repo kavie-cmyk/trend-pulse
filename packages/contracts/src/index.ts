@@ -14,17 +14,32 @@ export type EntityRelationship =
   | "community"
   | "product"
   | "other";
+export type EntityIntakeMethod =
+  | "typed-text"
+  | "pasted-list"
+  | "pasted-table"
+  | "text-file"
+  | "drive-link"
+  | "url-list"
+  | "system-research";
+export type EntityResolutionStatus = "unresolved" | "resolved" | "confirmed" | "pending-resolver";
 
 export interface IntelligenceScope {
   geographies: string[];
   languages: string[];
   industries: string[];
   categories: string[];
-  brands: string[];
   products: string[];
   audiences: string[];
   objectives: string[];
   riskBoundaries: string[];
+}
+
+export interface FocusBrand {
+  id: string;
+  name: string;
+  source: "user" | "resolved";
+  addedAt: string;
 }
 
 export interface MonitoredEntity {
@@ -32,6 +47,9 @@ export interface MonitoredEntity {
   name: string;
   relationship: EntityRelationship;
   source: "user" | "system-approved";
+  inputMethod: EntityIntakeMethod;
+  resolutionStatus: EntityResolutionStatus;
+  sourceReference?: string;
   pinned: boolean;
   addedAt: string;
 }
@@ -47,10 +65,19 @@ export interface EntityCandidate {
   discoveredAt: string;
 }
 
+export interface EntityIntakeReference {
+  id: string;
+  method: "drive-link" | "url-list";
+  reference: string;
+  status: "pending-resolver" | "resolved" | "invalid";
+  createdAt: string;
+}
+
 export interface WorkspaceEntityIntelligence {
   autoDiscover: boolean;
   monitoredEntities: MonitoredEntity[];
   excludedEntities: string[];
+  intakeReferences: EntityIntakeReference[];
 }
 
 export interface WorkspaceMonitoringConfig {
@@ -66,6 +93,7 @@ export interface IntelligenceWorkspace {
   name: string;
   status: WorkspaceStatus;
   scope: IntelligenceScope;
+  focusBrands: FocusBrand[];
   entityIntelligence: WorkspaceEntityIntelligence;
   monitoring: WorkspaceMonitoringConfig;
   createdAt: string;
@@ -141,9 +169,8 @@ export interface WorkspaceDraft {
   language: string;
   industry: string;
   category: string;
-  brand: string;
+  focusBrands: string;
   product: string;
   audience: string;
-  manualEntities: string;
   objectives: string;
 }
