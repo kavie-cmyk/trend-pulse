@@ -1,0 +1,13 @@
+{
+  "name": "trend-pulse",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @trend-pulse/web",
+    "build": "npm run build --workspace @trend-pulse/web",
+    "lint": "npm run lint --workspace @trend-pulse/web",
+    "typecheck": "npm run typecheck --workspace @trend-pulse/web"
+  }
+}
