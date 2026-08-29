@@ -1,0 +1,10 @@
+{
+  "workspaceId": "stage03-demo-cultural-attention",
+  "scopeLabel": "Multilingual cultural attention pulse · Wikipedia pageviews",
+  "projects": [
+    { "project": "vi.wikipedia.org", "language": "Vietnamese" },
+    { "project": "en.wikipedia.org", "language": "English" }
+  ],
+  "maxRecordsPerProject": 30,
+  "fallbackDays": 3
+}

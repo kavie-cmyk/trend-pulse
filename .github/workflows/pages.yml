@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 7 * * *"
 
 permissions:
   contents: read
@@ -37,8 +37,8 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
-      - name: Collect real GDELT signals
-        run: npm run collect:gdelt
+      - name: Collect real Wikimedia signals
+        run: npm run collect:wikimedia
 
       - name: Build static export
         run: npm run build

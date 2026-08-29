@@ -116,6 +116,7 @@ export interface SignalMetrics {
   engagement?: number;
   reachProxy?: number;
   searchInterest?: number;
+  sourceRank?: number;
 }
 
 export interface SignalDynamics {

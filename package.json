@@ -10,6 +10,6 @@
     "build": "npm run build --workspace @trend-pulse/web",
     "lint": "npm run lint --workspace @trend-pulse/web",
     "typecheck": "npm run typecheck --workspace @trend-pulse/web",
-    "collect:gdelt": "node apps/worker/src/collect-gdelt.mjs"
+    "collect:wikimedia": "node apps/worker/src/collect-wikimedia.mjs"
   }
 }
