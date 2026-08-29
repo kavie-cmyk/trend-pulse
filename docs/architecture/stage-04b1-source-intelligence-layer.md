@@ -2,7 +2,7 @@
 
 Status: COMPLETE / PASS.
 
-Final QA baseline: commit `df449e5e7db7704c2bf748f03f164e4120322299`, GitHub Actions run `33242060461` PASS. A final documentation-only commit follows this status update and must preserve the same code baseline.
+Verified code baseline: commit `bd253bee60b75abfb011976407ad9b5c81aec599` (calibration v0.1). The immediately preceding documentation head `c537a7b2c0802426f8a272ad843171acec0a5c9c` passed GitHub Actions run `33242162287`, including typecheck, real Wikimedia collection, static export, Pages artifact upload and Pages deploy. This update is documentation-only and does not change the verified code baseline.
 
 ## Decision
 
@@ -104,6 +104,18 @@ Activation is decided separately:
 
 These thresholds are design/prototype defaults and must be calibrated after a larger source corpus is evaluated.
 
+## Calibration v0.1
+
+Semantic QA found that purely weighted scoring could over-rank a technically strong specialist source in a workspace where it has no direct category relevance. Calibration v0.1 therefore adds bounded role caps without merging operational feasibility into intelligence fit:
+
+- a non-universal specialist source with no direct industry/category match is capped at 5.5;
+- a generic `source-class` is capped at 7.9 until a concrete source/feed is evaluated;
+- Wikimedia broad attention is capped at 5.8 for a specific brand/category decision scope, keeping it BACKGROUND;
+- GDELT broad news is capped at 7.8 until workspace-specific query performance is validated;
+- Meta Ad Library is capped at 7.7 outside workspace families where ad-creative intelligence is a core signal in the current validation model.
+
+The purpose is to stop generic technical quality from overriding workspace relevance. These caps remain provisional and must be revisited with a larger empirical source corpus.
+
 ## Gap Analysis
 
 The planner must explicitly surface missing evidence classes rather than silently substitute a weak source.
@@ -164,11 +176,12 @@ Source Intelligence contracts are isolated in `packages/contracts/src/source-int
 
 The current implementation is:
 
-- `apps/web/app/source-intelligence-engine.ts` — Source Registry seed, research candidate pack, evaluation, planner, gap analysis and SAVA validation workspaces.
+- `apps/web/app/source-intelligence-engine.ts` — Source Registry seed, research candidate pack, base evaluation, planner, gap analysis and SAVA validation workspaces.
+- `apps/web/app/source-intelligence-calibration.ts` — calibration v0.1 semantic caps and calibrated plan/summary wrapper.
 - `apps/web/app/source-intelligence-panel.tsx` — validation UI for Current Workspace + the three SAVA scopes.
 - `packages/contracts/src/source-intelligence.ts` — canonical Source Intelligence contracts.
 
-During implementation, a parallel duplicate registry/planner implementation appeared on `main`. It was deliberately removed before final QA so the repository retains one Source Registry model and one evaluation methodology. Historical commits remain available for traceability.
+During implementation, a parallel duplicate registry/planner implementation appeared on `main`. It was deliberately removed before final QA so the repository retains one Source Registry model and one base evaluation methodology; calibration is a bounded semantic layer over that canonical engine. Historical commits remain available for traceability.
 
 ## Non-goals
 
