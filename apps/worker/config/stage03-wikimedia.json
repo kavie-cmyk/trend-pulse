@@ -11,8 +11,8 @@
   },
   "refreshPolicy": {
     "mode": "scheduled",
-    "cadence": "daily",
-    "scheduleLabel": "Daily at 07:17 UTC via GitHub Actions preview runtime",
+    "cadence": "twice-daily",
+    "scheduleLabel": "Twice daily at 07:17 and 19:17 UTC via GitHub Actions preview runtime",
     "updateNow": "runtime-required"
   },
   "projects": [
