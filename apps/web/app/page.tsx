@@ -1,3 +1,4 @@
+import BackboneSignals from "./backbone-signals";
 import IntelligenceOutput from "./intelligence-output";
 import LiveSignals from "./live-signals";
 import SourceIntelligencePanel from "./source-intelligence-panel";
@@ -8,6 +9,7 @@ export default function Home() {
     <main className="shell">
       <WorkspaceConsole />
       <SourceIntelligencePanel />
+      <BackboneSignals />
       <LiveSignals />
       <IntelligenceOutput />
     </main>
