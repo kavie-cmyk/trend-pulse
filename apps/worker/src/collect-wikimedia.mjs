@@ -11,8 +11,8 @@ const configPath = path.join(repoRoot, "apps/worker/config/stage03-wikimedia.jso
 const outputPath = path.join(repoRoot, "apps/web/public/data/live-signals.json");
 const userAgent = "TrendPulse/0.3 (https://github.com/kavie-cmyk/trend-pulse; Stage 03 research prototype)";
 
+const blockedExactPages = new Set(["Main_Page", "Trang_Chính"]);
 const blockedPrefixes = [
-  "Main_Page",
   "Special:",
   "Wikipedia:",
   "Help:",
@@ -20,7 +20,14 @@ const blockedPrefixes = [
   "File:",
   "Category:",
   "Template:",
-  "User:"
+  "User:",
+  "Đặc_biệt:",
+  "Trợ_giúp:",
+  "Cổng_thông_tin:",
+  "Tập_tin:",
+  "Thể_loại:",
+  "Bản_mẫu:",
+  "Thành_viên:"
 ];
 
 const previewExplicitTerms = /(^|[ _-])(porn|pornography|hentai|xxx|onlyfans|sexual intercourse|sex position)([ _-]|$)/i;
@@ -50,6 +57,7 @@ function displayTitle(article) {
 function isPreviewSafeArticle(article) {
   const raw = String(article ?? "");
   if (!raw || raw === "-") return false;
+  if (blockedExactPages.has(raw)) return false;
   if (blockedPrefixes.some((prefix) => raw.startsWith(prefix))) return false;
   return !previewExplicitTerms.test(raw);
 }
