@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "backbone-config.v1",
+  "collectionPolicy": {
+    "cadence": "twice-daily",
+    "scheduleUtc": ["07:17", "19:17"]
+  },
+  "hackerNews": {
+    "enabled": true,
+    "maxRecords": 30,
+    "storySet": "topstories"
+  },
+  "github": {
+    "enabled": true,
+    "lookbackDays": 7,
+    "minStars": 5,
+    "maxRecords": 30,
+    "queryLabel": "new public repositories gaining attention"
+  },
+  "rssFeeds": [
+    {
+      "id": "techcrunch-rss",
+      "name": "TechCrunch RSS",
+      "url": "https://techcrunch.com/feed/",
+      "homepage": "https://techcrunch.com/",
+      "sourceType": "publisher",
+      "language": "English",
+      "industries": ["technology", "ai", "startups", "business"],
+      "maxRecords": 20,
+      "required": true,
+      "termsNote": "Use only feed-provided metadata/content with TechCrunch attribution and article links."
+    },
+    {
+      "id": "roadtovr-rss",
+      "name": "Road to VR RSS",
+      "url": "https://roadtovr.com/feed/",
+      "homepage": "https://roadtovr.com/",
+      "sourceType": "publisher",
+      "language": "English",
+      "industries": ["xr", "vr", "gaming", "technology"],
+      "maxRecords": 20,
+      "required": false,
+      "termsNote": "Publisher publicly documents its full-content RSS feed; retain attribution and canonical links."
+    },
+    {
+      "id": "pocketgamer-rss",
+      "name": "PocketGamer.biz RSS",
+      "url": "https://www.pocketgamer.biz/rss/",
+      "homepage": "https://www.pocketgamer.biz/",
+      "sourceType": "publisher",
+      "language": "English",
+      "industries": ["gaming", "mobile-games", "game-publishing"],
+      "maxRecords": 20,
+      "required": false,
+      "termsNote": "Publisher has historically advertised an RSS feed; this endpoint remains optional until runtime verification succeeds."
+    }
+  ]
+}
