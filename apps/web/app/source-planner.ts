@@ -87,10 +87,21 @@ export function planWikimediaForWorkspace(workspace: IntelligenceWorkspace | nul
   };
 }
 
-export function nextDailyRunUtc(hour = 7, minute = 17, now = new Date()) {
-  const next = new Date(now);
-  next.setUTCSeconds(0, 0);
-  next.setUTCHours(hour, minute, 0, 0);
-  if (next.getTime() <= now.getTime()) next.setUTCDate(next.getUTCDate() + 1);
+export function nextTwiceDailyRunUtc(hours = [7, 19], minute = 17, now = new Date()) {
+  const candidates = hours
+    .slice()
+    .sort((a, b) => a - b)
+    .map((hour) => {
+      const candidate = new Date(now);
+      candidate.setUTCSeconds(0, 0);
+      candidate.setUTCHours(hour, minute, 0, 0);
+      return candidate;
+    });
+
+  const today = candidates.find((candidate) => candidate.getTime() > now.getTime());
+  if (today) return today;
+
+  const next = candidates[0] ? new Date(candidates[0]) : new Date(now);
+  next.setUTCDate(next.getUTCDate() + 1);
   return next;
 }
