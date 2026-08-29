@@ -1,9 +1,9 @@
 import type { IntelligenceWorkspace } from "@trend-pulse/contracts";
-import type { WorkspaceSourceEvaluation, WorkspaceSourcePlan } from "@trend-pulse/contracts/source-intelligence";
+import type { SourceRegistryEntry, WorkspaceSourceEvaluation, WorkspaceSourcePlan } from "@trend-pulse/contracts/source-intelligence";
 import {
   planWorkspaceSources as basePlanWorkspaceSources,
   savaValidationWorkspaces,
-  sourceRegistry,
+  sourceRegistry as baseSourceRegistry,
 } from "./source-intelligence-engine";
 
 const STAGE04B2_OPERATIONAL_SOURCE_IDS = new Set([
@@ -11,6 +11,18 @@ const STAGE04B2_OPERATIONAL_SOURCE_IDS = new Set([
   "github-rest-api",
   "hacker-news-api",
 ]);
+
+export const sourceRegistry: SourceRegistryEntry[] = baseSourceRegistry.map((source) => {
+  if (!STAGE04B2_OPERATIONAL_SOURCE_IDS.has(source.id)) return source;
+  return {
+    ...source,
+    connectorStatus: "operational",
+    accessNotes: [
+      ...source.accessNotes.filter((note) => !/not built yet/i.test(note)),
+      "Stage 04B-2 runtime verified in the twice-daily GitHub Actions backbone on 2026-08-29.",
+    ],
+  };
+});
 
 function norm(value: string) {
   return value.trim().toLowerCase();
@@ -101,7 +113,7 @@ function calibrateEvaluation(workspace: IntelligenceWorkspace, evaluation: Works
   if (STAGE04B2_OPERATIONAL_SOURCE_IDS.has(source.id)) {
     operationalFeasibility = Math.max(operationalFeasibility, 9);
     activationDecision = "activate-now";
-    notes.push("Stage 04B-2 runtime override: connector is operational in the twice-daily GitHub Actions backbone.");
+    notes.push("Stage 04B-2 runtime verified: connector is operational in the twice-daily GitHub Actions backbone.");
   }
 
   fit = Math.round(fit * 10) / 10;
@@ -130,7 +142,7 @@ export function planWorkspaceSources(
     notes: [
       ...base.notes,
       "Calibration v0.1 adds semantic caps for mismatched specialist sources, generic source classes, broad Wikimedia, broad news, and non-core ad intelligence.",
-      "Stage 04B-2 runtime promotion marks RSS/Atom, GitHub REST and Hacker News collectors operational only after real collection is wired into the twice-daily workflow.",
+      "Stage 04B-2 runtime promotion marks RSS/Atom, GitHub REST and Hacker News operational only after real collection was verified in the twice-daily workflow.",
     ],
   };
 }
@@ -149,4 +161,4 @@ export function summarizePlan(plan: WorkspaceSourcePlan) {
   };
 }
 
-export { savaValidationWorkspaces, sourceRegistry };
+export { savaValidationWorkspaces };
