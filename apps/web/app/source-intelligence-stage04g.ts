@@ -13,7 +13,7 @@ const UPSTREAM_REF = "737feeed5e86b9821dcf57129668a72b38876ca9";
 
 const META_SOURCE: SourceRegistryEntry = {
   ...(baseSourceRegistry.find((source) => source.id === "meta-ad-library") as SourceRegistryEntry),
-  sourceType: "paid-ad",
+  sourceType: "social",
   accessMode: "open-web",
   connectorStatus: "manual-assisted",
   complianceStatus: "needs-review",
@@ -25,6 +25,7 @@ const META_SOURCE: SourceRegistryEntry = {
   ],
   accessNotes: [
     "Stage 04G adds a local-only interoperability bridge for JSON/webhook records from the public Meta Ad Library research tool athm793/meta-ads-scraper.",
+    "SignalSource.sourceType remains social for signal.v1 compatibility; Stage 04G marks the evidence family explicitly as paid-ad in its dedicated snapshot and never treats it as organic social corroboration.",
     "The upstream integration is pinned to commit 737feeed5e86b9821dcf57129668a72b38876ca9 and is Apache-2.0; Trend Pulse does not vendor or execute its scraping/Playwright code.",
     "GitHub Actions does not scrape Meta. Scheduled production collection remains disabled for this source.",
     "Automated-access authorization/compliance is not established. Keep MANUAL-ASSISTED / experimental private validation until a fresh review authorizes broader use.",
