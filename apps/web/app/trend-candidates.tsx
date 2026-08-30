@@ -79,7 +79,7 @@ function projectCandidate(workspace: IntelligenceWorkspace, candidate: GlobalRes
     rationale.push(`Matched audience/objective terms under adjacent-culture monitoring: ${adjacentMatches.join(", ")}.`);
   } else if (candidate.status === "corroborated" && workspace.monitoring.globalBreakouts) {
     projection = "global-breakout";
-    rationale.push("No direct scope match, but the workspace allows global breakouts and this candidate passed cross-source corroboration.");
+    rationale.push("No direct scope match, but the workspace allows global breakouts and this candidate passed independent cross-source corroboration.");
   } else {
     rationale.push("No deterministic workspace-scope match in the current projection pass.");
   }
@@ -145,7 +145,7 @@ export default function TrendCandidates() {
           <div className="eyebrow">BUILD STAGE 04C · SIGNAL RESOLUTION + CROSS-SOURCE CORROBORATION</div>
           <h2>Repeated observations only become Trend Candidates after inspectable resolution evidence.</h2>
           <p>
-            Stage 04C resolves titles, entities, hashtags and distinctive snapshot terms across independent source families. A single observation never becomes a Trend Candidate, and cross-platform native metrics are not compared here.
+            Stage 04C resolves titles, entities, hashtags and distinctive snapshot terms across source families, then discounts likely repost/syndication dependencies. A single observation never becomes a Trend Candidate, and cross-platform native metrics are not compared here.
           </p>
         </div>
         <span className="schemaTag">trend-resolution-snapshot.v1</span>
@@ -173,9 +173,9 @@ export default function TrendCandidates() {
               <p>{state.snapshot.unclusteredSignalCount} signals remain unclustered rather than being forced into a trend.</p>
             </article>
             <article className="signalCard">
-              <div className="signalTopline"><span>CORROBORATION GATE</span><span>2+ FAMILIES</span></div>
-              <h3>Independent source families required</h3>
-              <p>A corroborated candidate needs at least two source IDs and two source families, plus distinctive shared anchors.</p>
+              <div className="signalTopline"><span>CORROBORATION GATE</span><span>2+ INDEPENDENT FAMILIES</span></div>
+              <h3>Independent evidence required</h3>
+              <p>A corroborated candidate needs at least two independent source IDs and source families after probable repost/syndication evidence is discounted.</p>
             </article>
             <article className="signalCard">
               <div className="signalTopline"><span>LIFECYCLE</span><span>NOT INFERRED</span></div>
@@ -202,10 +202,15 @@ export default function TrendCandidates() {
                   <article className="signalCard" key={candidate.id}>
                     <div className="signalTopline">
                       <span>{label(candidate.status)}</span>
-                      <span>{candidate.sourceFamilyDiversity} FAMILIES · {candidate.sourceDiversity} SOURCES</span>
+                      <span>{candidate.independentSourceFamilyDiversity} INDEPENDENT FAMILIES · {candidate.independentSourceDiversity} INDEPENDENT SOURCES</span>
                     </div>
                     <h3>{candidate.title}</h3>
                     <p>{candidate.summary}</p>
+                    {candidate.dependencyRisks.length ? (
+                      <div className="demoWarning" style={{ marginTop: 10 }}>
+                        DERIVATIVE / REPOST RISK DISCOUNTED · {candidate.dependencyRisks.length} dependency relationship{candidate.dependencyRisks.length === 1 ? "" : "s"} detected.
+                      </div>
+                    ) : null}
                     {projection ? (
                       <div className="signalMeta" style={{ marginTop: 10 }}>
                         <span>workspace {label(projection.projection)}</span>
@@ -217,8 +222,9 @@ export default function TrendCandidates() {
                       <span>lifecycle {label(candidate.lifecycleStage)}</span>
                     </div>
                     <p style={{ marginTop: 10 }}><strong>Resolution anchors:</strong> {candidate.resolutionAnchors.join(" · ")}</p>
-                    <p><strong>Families:</strong> {candidate.sourceFamilies.join(" · ")}</p>
-                    <p><strong>Sources:</strong> {candidate.sourceIds.join(" · ")}</p>
+                    <p><strong>Independent families:</strong> {candidate.independentSourceFamilies.length ? candidate.independentSourceFamilies.join(" · ") : "none"}</p>
+                    <p><strong>Independent sources:</strong> {candidate.independentSourceIds.length ? candidate.independentSourceIds.join(" · ") : "none"}</p>
+                    <p><strong>Raw evidence:</strong> {candidate.sourceFamilyDiversity} families · {candidate.sourceDiversity} sources · {candidate.signalIds.length} observations</p>
                     <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 12 }}>
                       {candidate.evidenceRefs.slice(0, 4).map((url, index) => (
                         <a key={`${candidate.id}-${index}`} href={url} target="_blank" rel="noreferrer" style={{ color: "var(--accent)" }}>
