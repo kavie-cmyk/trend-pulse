@@ -7,7 +7,7 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../
 const currentSnapshotPath = path.join(repoRoot, "apps/web/public/data/trend-candidates.json");
 const cycleOutputPath = path.join(repoRoot, "apps/web/public/data/trend-history.json");
 const nextStoreRoot = path.join(repoRoot, ".trend-history-next");
-const defaultPreviousStatePath = path.join(repoRoot, ".trend-history-store/history/state.json");
+const defaultPreviousStatePath = path.join(repoRoot, ".trend-history-store/history/production-state.json");
 const HISTORY_METHODOLOGY_VERSION = "trend-history-04d.v1";
 const MATCH_METHODOLOGY_VERSION = "trend-lineage-match-04d.v1";
 const MATCH_THRESHOLD = 0.38;
@@ -214,9 +214,11 @@ function deltaRecord(candidate, previous, lineageId, matchEvidence) {
   };
 }
 
-export function buildTrendHistoryCycle(currentSnapshot, previousState, generatedAt = new Date().toISOString(), cycleIdOverride) {
+export function buildTrendHistoryCycle(currentSnapshot, previousState, generatedAt = new Date().toISOString(), cycleIdOverride, options = {}) {
   assertCurrentSnapshot(currentSnapshot);
   assertPreviousState(previousState);
+  const cyclePurpose = options.cyclePurpose === "scheduled" ? "scheduled" : "qa";
+  const persistenceEligible = cyclePurpose === "scheduled" && options.persistenceEligible === true;
   const cycleId = cycleIdOverride ?? `cycle-${generatedAt.replace(/[:.]/g, "-")}`;
   const assignments = assignLineages(currentSnapshot.candidates, previousState.lineages);
   const matchedLineageIndexes = new Set();
@@ -262,6 +264,9 @@ export function buildTrendHistoryCycle(currentSnapshot, previousState, generated
     methodologyVersion: HISTORY_METHODOLOGY_VERSION,
     generatedAt,
     cycleId,
+    cyclePurpose,
+    persistenceEligible,
+    baselineStatePath: "history/production-state.json",
     currentTrendSnapshotGeneratedAt: currentSnapshot.generatedAt,
     previousCycleId: previousState.latestCycleId,
     previousSnapshotGeneratedAt: previousState.latestSnapshotGeneratedAt,
@@ -276,6 +281,10 @@ export function buildTrendHistoryCycle(currentSnapshot, previousState, generated
     disappeared,
     notes: [
       "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+      "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+      cyclePurpose === "scheduled"
+        ? "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass."
+        : "This is a QA cycle from a push/manual run; it may be inspected in the artifact but must not overwrite the canonical scheduled baseline.",
       "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
       "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
       "Source-native metrics remain excluded from cross-platform trend momentum in 04D.",
@@ -303,7 +312,9 @@ async function main() {
   const runId = process.env.GITHUB_RUN_ID;
   const runAttempt = process.env.GITHUB_RUN_ATTEMPT;
   const cycleId = runId ? `gh-${runId}-a${runAttempt || "1"}` : `local-${generatedAt.replace(/[:.]/g, "-")}`;
-  const { cycle, nextState } = buildTrendHistoryCycle(currentSnapshot, previousState, generatedAt, cycleId);
+  const cyclePurpose = process.env.TREND_HISTORY_CYCLE_PURPOSE === "scheduled" ? "scheduled" : "qa";
+  const persistenceEligible = process.env.TREND_HISTORY_PERSISTENCE_ELIGIBLE === "true";
+  const { cycle, nextState } = buildTrendHistoryCycle(currentSnapshot, previousState, generatedAt, cycleId, { cyclePurpose, persistenceEligible });
 
   await mkdir(path.dirname(cycleOutputPath), { recursive: true });
   await writeFile(cycleOutputPath, `${JSON.stringify(cycle, null, 2)}\n`, "utf8");
@@ -319,6 +330,8 @@ async function main() {
     return acc;
   }, {});
   console.log(`Trend history cycle ${cycle.cycleId} built from ${cycle.currentCandidateCount} current candidates.`);
+  console.log(`- purpose: ${cycle.cyclePurpose}; persistence eligible: ${cycle.persistenceEligible}`);
+  console.log(`- baseline: ${cycle.baselineStatePath}`);
   console.log(`- previous cycle: ${cycle.previousCycleId ?? "none"}`);
   console.log(`- comparison window: ${cycle.comparisonWindow}${cycle.cycleGapHours == null ? "" : ` (${cycle.cycleGapHours}h)`}`);
   console.log(`- new: ${counts.new ?? 0}`);
