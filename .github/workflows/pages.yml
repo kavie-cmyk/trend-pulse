@@ -47,6 +47,9 @@ jobs:
       - name: Verify Brand Profile foundation invariants
         run: npm run verify:brand-profile
 
+      - name: Verify Workspace Intelligence navigation
+        run: npm run verify:workspace-intelligence-ux
+
       - name: Collect global connector backbone
         run: npm run collect:backbone
         env:
