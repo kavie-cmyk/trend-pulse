@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-08-30T12:53:46.945Z",
-  "latestCycleId": "gh-33312664726-a1",
-  "latestSnapshotGeneratedAt": "2026-08-30T12:53:46.413Z",
-  "cyclesRecorded": 1,
+  "updatedAt": "2026-08-30T21:55:11.464Z",
+  "latestCycleId": "gh-33337671827-a1",
+  "latestSnapshotGeneratedAt": "2026-08-30T21:55:10.787Z",
+  "cyclesRecorded": 2,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "Half off",
       "latestResolutionAnchors": [
@@ -39,7 +39,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-351ac8c9c5a46ba29b",
       "latestTitle": "The Hidden Costs of Free LLM Tiers",
       "latestResolutionAnchors": [
@@ -68,15 +68,15 @@
     {
       "lineageId": "lineage-cced1d1c21a96216d8",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
-      "lastSeenAt": "2026-08-30T12:53:46.413Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-08-30T21:55:10.787Z",
+      "seenCycles": 2,
       "missedCycles": 0,
-      "latestCandidateId": "trend-1e8f9fa87be76f35c4",
+      "latestCandidateId": "trend-f45bcc9a4f023e0a50",
       "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
       "latestResolutionAnchors": [
         "đich",
-        "asean",
         "giai",
+        "asean",
         "bong"
       ],
       "latestSignalCount": 2,
@@ -91,6 +91,67 @@
       ],
       "latestIndependentSourceFamilies": [
         "culture"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-6440e2fe5092567635",
+      "firstSeenAt": "2026-08-30T21:55:10.787Z",
+      "lastSeenAt": "2026-08-30T21:55:10.787Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-6db8d3d495433c3020",
+      "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
+      "latestResolutionAnchors": [
+        "any",
+        "process",
+        "escalate",
+        "omarchy",
+        "root"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-66d80df550c28e2e29",
+      "firstSeenAt": "2026-08-30T21:55:10.787Z",
+      "lastSeenAt": "2026-08-30T21:55:10.787Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-b5c9d1781feec055fd",
+      "latestTitle": "Explosion at depot near Kyiv",
+      "latestResolutionAnchors": [
+        "noelreports.com",
+        "dronebomber.bsky.social",
+        "stale",
+        "politics"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestSourceFamilies": [
+        "social"
+      ],
+      "latestIndependentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestIndependentSourceFamilies": [
+        "social"
       ],
       "latestStatus": "candidate"
     }
