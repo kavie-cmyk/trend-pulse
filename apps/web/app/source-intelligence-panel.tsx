@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { IntelligenceWorkspace } from "@trend-pulse/contracts";
 import type { WorkspaceSourceEvaluation, WorkspaceSourcePlan } from "@trend-pulse/contracts/source-intelligence";
-import { planWorkspaceSources, savaValidationWorkspaces, sourceRegistry, summarizePlan } from "./source-intelligence-stage04b4";
+import { planWorkspaceSources, savaValidationWorkspaces, sourceRegistry, summarizePlan } from "./source-intelligence-stage04g";
 
 const STORAGE_KEY = "trend-pulse.workspace.v1";
 
@@ -91,13 +91,13 @@ export default function SourceIntelligencePanel() {
     <section className="signalSection" style={{ marginTop: 22 }}>
       <div className="sectionHeading">
         <div>
-          <div className="eyebrow">BUILD STAGE 04B-1 → 04B-4 · SOURCE INTELLIGENCE LAYER</div>
+          <div className="eyebrow">SOURCE INTELLIGENCE · THROUGH STAGE 04G</div>
           <h2>Workspace → source research → evaluation → source plan → gaps.</h2>
           <p>
             Trend Pulse separates source intelligence value from operational feasibility. Registry memory is reusable across workspaces; research can discover new source candidates outside the registry before the planner assigns PRIMARY, SUPPORTING, BACKGROUND or EXCLUDE.
           </p>
         </div>
-        <span className="schemaTag">source-planner.v1 · calibration v0.1 · permissionless expansion</span>
+        <span className="schemaTag">source-planner.v1 · 04G paid-creative boundary</span>
       </div>
 
       <div className="inputModeRow" style={{ marginBottom: 12 }}>
@@ -133,6 +133,10 @@ export default function SourceIntelligencePanel() {
               VALIDATION RESEARCH PACK · Candidate sources below were researched externally for these SAVA META scopes and are used to validate the planning architecture. This is not yet an autonomous research call made by the deployed website.
             </div>
           )}
+
+          <div className="demoWarning">
+            STAGE 04G META BOUNDARY · The local Meta Ad Library bridge is MANUAL-ASSISTED / experimental private validation. It is not counted as scheduled operational coverage, and paid-ad evidence never becomes organic corroboration merely because multiple ads were observed.
+          </div>
 
           <div className="entityColumns" style={{ marginTop: 14 }}>
             <SourceRows title="PRIMARY" rows={summary.primary} />
