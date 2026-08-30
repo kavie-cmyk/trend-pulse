@@ -3,6 +3,7 @@ import type { GlobalResolvedTrendCandidate } from "./trend-resolution";
 export type TrendCyclePresence = "new" | "continuing" | "reappeared";
 export type TrendEvidenceDirection = "not-comparable" | "expanding" | "stable" | "contracting" | "mixed";
 export type TrendCycleComparisonWindow = "bootstrap" | "too-close-for-cadence" | "comparable" | "stale-gap";
+export type TrendHistoryCyclePurpose = "scheduled" | "qa";
 
 export interface TrendLineageMatchEvidence {
   methodologyVersion: "trend-lineage-match-04d.v1";
@@ -70,6 +71,9 @@ export interface TrendHistoryCycleSnapshot {
   methodologyVersion: "trend-history-04d.v1";
   generatedAt: string;
   cycleId: string;
+  cyclePurpose: TrendHistoryCyclePurpose;
+  persistenceEligible: boolean;
+  baselineStatePath: "history/production-state.json";
   currentTrendSnapshotGeneratedAt: string;
   previousCycleId: string | null;
   previousSnapshotGeneratedAt: string | null;
