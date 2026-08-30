@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "paid-creative-bridge-04g.config.v1",
+  "stage": "04G",
+  "source": {
+    "sourceId": "meta-ad-library-public-experimental",
+    "sourceName": "Meta Ad Library · experimental local bridge",
+    "sourceType": "paid-ad",
+    "accessMode": "open-web",
+    "freshness": "manual",
+    "signalKinds": ["ad-creative", "competitor-activity"]
+  },
+  "upstream": {
+    "repository": "https://github.com/athm793/meta-ads-scraper",
+    "ref": "737feeed5e86b9821dcf57129668a72b38876ca9",
+    "license": "Apache-2.0"
+  },
+  "runtime": {
+    "mode": "experimental-local-sidecar",
+    "scheduledGitHubActionsScrape": false,
+    "defaultWebhookHost": "127.0.0.1",
+    "defaultWebhookPort": 4317,
+    "defaultWebhookPath": "/meta-ads",
+    "defaultRawLogPath": ".trend-pulse-local/paid-creative/meta-ads-webhook.jsonl",
+    "maxWebhookBodyBytes": 5242880
+  },
+  "invariants": [
+    "Paid-ad intelligence is not organic virality.",
+    "Meta ad records do not independently promote a Trend Candidate or change corroboration status in Stage 04G.",
+    "Multiple ads from Meta Ad Library remain one source family for corroboration purposes.",
+    "days_running is preserved as source-native observation only; no winner, battle-tested, ROAS, CTR or performance inference is emitted.",
+    "Spend, impression and reach values remain source-native fields and are never relabelled as cross-platform views or reach.",
+    "Collection country/language/category fields from the upstream tool are collection-scope metadata and are not automatically treated as ad targeting geography or language.",
+    "No Meta scraping, Playwright, stealth, proxy rotation or rate-limit bypass logic is imported into Trend Pulse.",
+    "GitHub Actions validates the bridge with fixtures only and never scrapes Meta.",
+    "Automated-access authorization/compliance is not established; the bridge remains experimental for private learning until a fresh compliance review authorizes broader use."
+  ]
+}
