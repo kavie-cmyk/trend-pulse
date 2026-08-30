@@ -16,6 +16,8 @@
     "collect:permissionless-social": "node apps/worker/src/collect-permissionless-social.mjs",
     "resolve:trends": "node apps/worker/src/resolve-trends.mjs",
     "calibrate:trends": "node apps/worker/src/calibrate-trend-corroboration.mjs",
-    "verify:trends": "node apps/worker/src/verify-trend-resolution.mjs"
+    "verify:trends": "node apps/worker/src/verify-trend-resolution.mjs",
+    "build:trend-history": "node apps/worker/src/build-trend-history.mjs",
+    "verify:trend-history": "node apps/worker/src/verify-trend-history.mjs"
   }
 }
