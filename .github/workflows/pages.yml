@@ -88,6 +88,9 @@ jobs:
       - name: Verify workspace source coverage and report invariants
         run: npm run verify:workspace-intelligence-data
 
+      - name: Verify Stage 05B Brand Profile resolution and Brand Fit gates
+        run: npm run verify:brand-fit-05b
+
       - name: Resolve cross-source Global Pulse Trend Candidates
         run: npm run resolve:trends
 

@@ -26,6 +26,7 @@
     "build:trend-history": "node apps/worker/src/build-trend-history.mjs",
     "verify:trend-history": "node apps/worker/src/verify-trend-history.mjs",
     "verify:brand-profile": "node apps/worker/src/verify-brand-profile-foundation.mjs",
+    "verify:brand-fit-05b": "node apps/worker/src/verify-brand-fit-05b.mjs",
     "verify:workspace-intelligence-ux": "node apps/worker/src/verify-workspace-intelligence-ux.mjs"
   }
 }
