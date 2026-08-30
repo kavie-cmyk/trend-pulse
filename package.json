@@ -18,6 +18,7 @@
     "calibrate:trends": "node apps/worker/src/calibrate-trend-corroboration.mjs",
     "verify:trends": "node apps/worker/src/verify-trend-resolution.mjs",
     "build:trend-history": "node apps/worker/src/build-trend-history.mjs",
-    "verify:trend-history": "node apps/worker/src/verify-trend-history.mjs"
+    "verify:trend-history": "node apps/worker/src/verify-trend-history.mjs",
+    "verify:brand-profile": "node apps/worker/src/verify-brand-profile-foundation.mjs"
   }
 }
