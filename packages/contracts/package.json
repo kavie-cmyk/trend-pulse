@@ -9,7 +9,8 @@
     "./trend-resolution": "./src/trend-resolution.ts",
     "./trend-history": "./src/trend-history.ts",
     "./brand-profile": "./src/brand-profile.ts",
-    "./brand-fit": "./src/brand-fit.ts"
+    "./brand-fit": "./src/brand-fit.ts",
+    "./workspace-coverage": "./src/workspace-coverage.ts"
   },
   "types": "./src/index.ts"
 }
