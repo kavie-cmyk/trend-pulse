@@ -9,3 +9,4 @@ out/
 __pycache__/
 *.py[cod]
 .venv/
+.trend-pulse-local/
