@@ -1,27 +1,11 @@
-import BackboneSignals from "./backbone-signals";
-import BrandProfileConsole from "./brand-profile-console";
-import IntelligenceOutput from "./intelligence-output";
-import LiveSignals from "./live-signals";
-import PermissionlessSocialSignals from "./permissionless-social-signals";
-import SocialSignals from "./social-signals";
-import SourceIntelligencePanel from "./source-intelligence-panel";
-import TrendCandidates from "./trend-candidates";
-import TrendHistory from "./trend-history";
 import WorkspaceConsole from "./workspace-console";
+import WorkspaceIntelligence from "./workspace-intelligence";
 
 export default function Home() {
   return (
     <main className="shell">
       <WorkspaceConsole />
-      <BrandProfileConsole />
-      <SourceIntelligencePanel />
-      <SocialSignals />
-      <PermissionlessSocialSignals />
-      <BackboneSignals />
-      <LiveSignals />
-      <TrendCandidates />
-      <TrendHistory />
-      <IntelligenceOutput />
+      <WorkspaceIntelligence />
     </main>
   );
 }
