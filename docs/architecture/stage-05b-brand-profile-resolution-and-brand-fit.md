@@ -1,6 +1,8 @@
 # Stage 05B — Brand Profile Resolution & Provisional Brand Fit
 
-Status: implementation specification. Numeric Brand Fit calibration remains OPEN under RG-004.
+Status: **COMPLETE / PASS WITH DECLARED GAPS**. Numeric Brand Fit calibration remains OPEN under RG-004.
+
+Validated implementation baseline before documentation lock: commit `1557cced281c9db7c1e2222d4c680d976de57545`, GitHub Actions run `33307464071`, artifact `9730935280`, artifact SHA-256 `ae8056c8aa4ebc7c5d4887efaeb6644518b7bcd5c4aedba05facf52d9badf767`.
 
 ## 1. Purpose
 
@@ -99,11 +101,23 @@ Reason: canonical D-010/RG-004 has not locked empirically defensible weights, th
 
 This preserves the invariant that a high apparent brand relevance cannot turn one weak observation into a marketing recommendation.
 
-## 6. Current runtime behavior
+## 6. Validated runtime behavior
 
 The canonical 04E Workspace Intelligence artifact is the only live Trend input for the 05B UI. Global Pulse candidate counts are not substituted.
 
-At the 04E baseline for Vietnam Mobile Gaming, 17 relevant Weak Signals and 0 qualified Workspace Trend Candidates are valid. Therefore the 05B live surface should show **zero eligible Brand Fit assessments** while preserving all Weak Signals.
+Validated run `33307464071` produced for **Vietnam Mobile Gaming**:
+
+- 327 global real signals inspected upstream;
+- 17 final Workspace-relevant signals;
+- 17 Weak Signals;
+- 0 qualified Workspace Trend Candidates;
+- 0 independently corroborated Workspace trends;
+- 4 actual sources;
+- 3 source families;
+- 0 final request failures;
+- coverage status `pass-with-gaps`.
+
+Stage 05B verifier therefore confirmed **0 eligible Brand Fit candidates and 17 Weak Signals excluded from Brand Fit**. Zero eligible assessments is the expected conservative result; no candidate or score is fabricated.
 
 ## 7. Implementation
 
@@ -113,11 +127,13 @@ At the 04E baseline for Vietnam Mobile Gaming, 17 relevant Weak Signals and 0 qu
 - `apps/web/app/brand-fit-stage-05b.tsx`
 - `apps/worker/src/verify-brand-fit-05b.mjs`
 - root `package.json`
+- `packages/contracts/package.json`
+- `apps/web/app/page.tsx`
 - `.github/workflows/pages.yml`
 
 ## 8. Verification gates
 
-The 05B verifier must fail if:
+The 05B verifier fails if:
 
 - a pending reference becomes claim evidence;
 - an evidence-less external claim becomes usable;
@@ -130,14 +146,29 @@ The 05B verifier must fail if:
 
 Zero live Trend Candidates is a valid PASS condition, not a reason to fabricate a candidate or score.
 
-## 9. Declared open gates
+## 9. QA history
+
+### Q-005B-VERIFIER-001 — Fixture expected unsupported category overlap
+
+- Historical failed run: `33307395230` on commit `5885af21399eac02e8e80f5b26beb2343a51584b`.
+- Failure: verifier expected `category-relevance=SUPPORTED` while the fixture profile contained `Mobile gaming` and the fixture candidate text contained only `Mobile puzzle`; the expected explicit lexical overlap was absent.
+- Classification: verifier-fixture defect, not production collection/data defect and not a reason to relax the bounded Brand Fit matcher.
+- Remediation: corrected the fixture evidence to explicitly include `mobile gaming`; methodology and production resolver were not weakened.
+- Remediation commit: `1557cced281c9db7c1e2222d4c680d976de57545`.
+- Validation run: `33307464071` — Stage 05B verifier PASS, static build PASS, Pages deploy PASS.
+- Historical failed run remains retained for auditability.
+
+## 10. Declared open gates
 
 05B does not close:
 
 - autonomous Brand Profile web/Drive research runtime;
+- automatic resolution of arbitrary pasted briefs, Drive references or URLs without an explicit evidence-backed claim resolver;
 - semantic multilingual Brand Fit reasoning beyond bounded inspectable matching;
 - numeric Brand Fit calibration (RG-004);
 - Opportunity scoring;
 - Decision thresholds;
 - marketing Action generation;
 - production multi-workspace backend/database.
+
+These are declared roadmap gates, not silently treated as completed capabilities.
