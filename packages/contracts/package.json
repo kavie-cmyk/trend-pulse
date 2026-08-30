@@ -7,7 +7,8 @@
     ".": "./src/index.ts",
     "./source-intelligence": "./src/source-intelligence.ts",
     "./trend-resolution": "./src/trend-resolution.ts",
-    "./trend-history": "./src/trend-history.ts"
+    "./trend-history": "./src/trend-history.ts",
+    "./brand-profile": "./src/brand-profile.ts"
   },
   "types": "./src/index.ts"
 }
