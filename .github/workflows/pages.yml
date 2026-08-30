@@ -8,7 +8,7 @@ on:
     - cron: "17 7,19 * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -22,6 +22,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
+      - name: Checkout persistent trend history
+        uses: actions/checkout@v6
+        with:
+          ref: trend-history
+          path: .trend-history-store
+          fetch-depth: 1
 
       - name: Setup Node
         uses: actions/setup-node@v5
@@ -62,8 +69,37 @@ jobs:
       - name: Verify Trend Candidate invariants
         run: npm run verify:trends
 
+      - name: Build multi-cycle trend history
+        run: npm run build:trend-history
+        env:
+          TREND_HISTORY_STATE_PATH: .trend-history-store/history/state.json
+
+      - name: Verify trend history invariants
+        run: npm run verify:trend-history
+
       - name: Build static export
         run: npm run build
+
+      - name: Persist verified trend history
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .trend-history-store/history
+          cp .trend-history-next/state.json .trend-history-store/history/state.json
+          cp .trend-history-next/latest.json .trend-history-store/history/latest.json
+          mkdir -p .trend-history-store/history/cycles .trend-history-store/history/snapshots
+          cp .trend-history-next/cycles/*.json .trend-history-store/history/cycles/
+          cp .trend-history-next/snapshots/*.json .trend-history-store/history/snapshots/
+          cd .trend-history-store
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history
+          if git diff --cached --quiet; then
+            echo "No trend history changes to persist."
+          else
+            git commit -m "data: persist trend cycle ${GITHUB_RUN_ID}-a${GITHUB_RUN_ATTEMPT} [skip ci]"
+            git push origin HEAD:trend-history
+          fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
