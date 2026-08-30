@@ -1,6 +1,6 @@
 # Stage 04C — Signal Resolution & Cross-source Corroboration
 
-Status: COMPLETE / PASS — subject to final documentation-head CI verification.
+Status: COMPLETE / PASS
 Date: 2026-08-30
 
 ## Goal
@@ -71,15 +71,28 @@ Artifact inspection showed the raw corroborated Sony Music / Warner / Anthropic 
 
 This was treated as a QA defect, not accepted as a real corroborated trend. Stage 04C added derivative-evidence calibration and expanded the verifier.
 
-A later calibrated run (`33293342407`, head `a0d4bc5f21bb39e05bdfd61b02756bd9f3e2a17e`) returned:
+Calibrated QA run `33293342407` demonstrated the correction: 0 corroborated, 3 candidates and 1 dependency demotion.
 
-- 269 unique real signals;
-- 0 independently corroborated trends;
+The final code/content baseline before this documentation lock is `efa00e95e2a9394822c61806bb43b3b5f6ae97c4`, verified by GitHub Actions run `33293579908`. It passed typecheck, all real-data collectors, trend resolution, derivative-evidence calibration, Trend Candidate invariants, static export, artifact upload and Pages deployment.
+
+That run processed:
+
+- global connector backbone: 110 observations;
+- Bluesky social backbone: 25 observations;
+- permissionless social expansion: 75 observations;
+- Wikimedia: 60 observations;
+- 269 unique signals after the current safety/dedupe input pass;
+- 1 raw cross-family cluster before dependency calibration;
+- 0 independently corroborated trends after calibration;
 - 3 candidates;
-- 1 dependency demotion;
-- verifier PASS.
+- 6 clustered signals;
+- 263 unclustered signals;
+- 1 derivative-evidence demotion;
+- Trend Candidate invariant verifier: PASS.
 
-This is a valid and preferred result over manufacturing a corroborated trend from dependent evidence.
+Artifact `9726712446`, SHA-256 `682451aad2866b36f9a0ecc4becdb065771c2258f9f15cbd787e5a1586d3605b`, was inspected directly. It confirmed `trend-resolution-snapshot.v1`, `trend-resolution-04c.v1`, `corroboration-dependency-04c.v1`, no candidate `workspaceId`, no numeric Confidence score, all candidate lifecycle stages `weak-signal`, evidence URLs present, and the publisher/community derivative-risk downgrade. A final presentation QA also decoded RSS HTML entities before candidate titles are displayed.
+
+This result is intentionally conservative: the current snapshot contains no independently corroborated trend after dependency calibration. Trend Pulse must report zero rather than manufacture a trend.
 
 ## Lifecycle and confidence boundary
 
@@ -113,9 +126,9 @@ Contracts:
 Runtime:
 
 - `apps/worker/src/resolve-trends.mjs` — deterministic resolution/clustering;
-- `apps/worker/src/calibrate-trend-corroboration.mjs` — derivative-evidence independence calibration;
+- `apps/worker/src/calibrate-trend-corroboration.mjs` — derivative-evidence independence calibration and resolved-title entity cleanup;
 - `apps/worker/src/verify-trend-resolution.mjs` — invariant/fixture verification;
-- `apps/web/app/trend-candidates.tsx` — transparent current-snapshot UI and browser Workspace projection.
+- `apps/web/app/trend-candidates.tsx` — transparent current-snapshot UI and browser Workspace projection, displaying independent source/family counts separately from raw evidence counts.
 
 Generated artifact:
 
@@ -139,4 +152,4 @@ Schema: `trend-resolution-snapshot.v1`.
 
 Stage 04C combines the earlier planned topic/entity resolution and cross-source clustering/corroboration work into one stage. The next stage should establish persistent multi-cycle signal/trend history and compare the two daily collection cycles before attempting lifecycle momentum, velocity/acceleration or Virality scoring.
 
-Final release head/run/artifact are to be appended after documentation-head verification.
+The GitHub Actions run triggered by this documentation lock is the final release verification for the documentation HEAD; its run/artifact identifiers are persisted in the Drive build record and Master Decision Log after verification.
