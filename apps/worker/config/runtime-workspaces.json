@@ -43,9 +43,10 @@
       ],
       "collection": {
         "targeted": {
-          "blueskySearch": { "enabled": true, "maxRecordsPerQuery": 12 },
-          "lemmySearch": { "enabled": true, "instance": "https://lemmy.world", "maxRecordsPerQuery": 10 },
-          "stackExchangeSearch": { "enabled": true, "sites": ["gamedev", "stackoverflow"], "maxRecordsPerQuery": 10 },
+          "blueskySearch": { "enabled": false, "state": "runtime-deferred-403", "note": "Public searchPosts returned HTTP 403 from the GitHub-hosted runner in 04E QA; broad public getTrends remains operational." },
+          "mastodonTags": { "enabled": true, "instance": "https://mastodon.social", "hashtags": ["mobilegaming", "mobilegames", "gamedev", "indiedev"], "maxRecordsPerTag": 12 },
+          "lemmySearch": { "enabled": true, "instance": "https://lemmy.world", "lookbackDays": 30, "maxRecordsPerQuery": 12 },
+          "stackExchangeSearch": { "enabled": true, "sites": ["gamedev", "stackoverflow"], "lookbackDays": 30, "maxRecordsPerQuery": 10 },
           "githubSearch": { "enabled": true, "lookbackDays": 14, "minStars": 1, "maxRecordsPerQuery": 10 }
         },
         "broadSourceIds": [
@@ -55,6 +56,8 @@
           "dev-forem-trends",
           "stackoverflow-hot",
           "pocketgamer-rss",
+          "gamek-mobile-rss",
+          "gamek-market-rss",
           "vnexpress-tech-rss",
           "wikimedia-pageviews"
         ]
@@ -64,6 +67,7 @@
   "notes": [
     "Scheduled collection can only use runtime-synced workspaces stored in this registry; browser localStorage is not readable by GitHub Actions.",
     "The schema is market/category agnostic: add workspaces, query terms, concepts and source strategies without changing Signal or Trend contracts.",
-    "Concept aliases provide an inspectable multilingual bridge for deterministic resolution; they do not claim general machine translation or semantic equivalence beyond configured aliases."
+    "Concept aliases provide an inspectable multilingual bridge for deterministic resolution; they do not claim general machine translation or semantic equivalence beyond configured aliases.",
+    "Targeted community paths use bounded recency windows. Search query text is provenance only and must never be counted as evidence that the returned content is relevant."
   ]
 }
