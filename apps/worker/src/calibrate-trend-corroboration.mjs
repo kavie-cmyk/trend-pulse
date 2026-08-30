@@ -9,10 +9,24 @@ const inputFiles = ["backbone-signals.json", "social-signals.json", "permissionl
 const CALIBRATION_VERSION = "corroboration-dependency-04c.v1";
 const stopWords = new Set(["the", "and", "for", "with", "from", "this", "that", "into", "about", "new", "more", "most", "news", "post", "posts", "today", "latest", "via", "after", "before", "over", "under"]);
 
-function normalize(value) {
+function decodeEntities(value) {
   return String(value ?? "")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(Number.parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, decimal) => String.fromCodePoint(Number.parseInt(decimal, 10)))
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;/gi, "'")
+    .replace(/&#39;/gi, "'")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalize(value) {
+  return decodeEntities(value)
     .replace(/<[^>]*>/g, " ")
-    .replace(/&[a-zA-Z0-9#]+;/g, " ")
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
@@ -92,6 +106,7 @@ function calibrateCandidate(candidate, signalMap) {
 
   return {
     ...candidate,
+    title: decodeEntities(candidate.title),
     status,
     independentSourceIds,
     independentSourceFamilies,
