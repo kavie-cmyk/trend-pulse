@@ -53,47 +53,53 @@ export default function TrendHistory() {
       <div className="sectionHeading">
         <div>
           <div className="eyebrow">BUILD STAGE 04D · PERSISTENT MULTI-CYCLE TREND HISTORY</div>
-          <h2>Trend lineage now survives across collection cycles.</h2>
+          <h2>Trend lineage survives across scheduled collection cycles.</h2>
           <p>
-            Stage 04D separates snapshot candidate IDs from persistent lineage IDs, restores the previous cycle from a dedicated GitHub history branch, and records structural evidence changes without calling them Virality or lifecycle momentum.
+            Stage 04D separates snapshot candidate IDs from persistent lineage IDs. The canonical baseline lives on a dedicated GitHub history branch and only scheduled twice-daily runs may advance it; push/manual runs are QA-only.
           </p>
         </div>
         <span className="schemaTag">trend-history-cycle.v1</span>
       </div>
 
-      {state.status === "loading" ? <div className="demoWarning">LOADING PERSISTED TREND HISTORY…</div> : null}
+      {state.status === "loading" ? <div className="demoWarning">LOADING TREND HISTORY…</div> : null}
       {state.status === "error" ? <div className="demoWarning">TREND HISTORY UNAVAILABLE · {state.message}</div> : null}
 
       {state.status === "ready" ? (
         <>
           <div className="monitoringCard" style={{ alignItems: "flex-start" }}>
             <div>
-              <strong>{label(state.cycle.comparisonWindow)} · {state.cycle.currentCandidateCount} current candidates</strong>
+              <strong>{label(state.cycle.cyclePurpose)} · {label(state.cycle.comparisonWindow)} · {state.cycle.currentCandidateCount} current candidates</strong>
               <p>
-                Cycle {state.cycle.cycleId} · current snapshot {formatDate(state.cycle.currentTrendSnapshotGeneratedAt)} · previous {formatDate(state.cycle.previousSnapshotGeneratedAt)}
+                Cycle {state.cycle.cycleId} · current snapshot {formatDate(state.cycle.currentTrendSnapshotGeneratedAt)} · previous scheduled baseline {formatDate(state.cycle.previousSnapshotGeneratedAt)}
                 {state.cycle.cycleGapHours == null ? "" : ` · gap ${state.cycle.cycleGapHours}h`}.
               </p>
             </div>
-            <span>04D LIVE</span>
+            <span>{state.cycle.persistenceEligible ? "SCHEDULED · PERSIST" : "QA · NO PERSIST"}</span>
           </div>
 
           <div className="signalGrid" style={{ marginTop: 16 }}>
             <article className="signalCard">
               <div className="signalTopline"><span>LINEAGE</span><span>{state.cycle.trackedLineageCount} TRACKED</span></div>
               <h3>{counts.continuing} continuing · {counts.new} new</h3>
-              <p>{counts.reappeared} reappeared · {state.cycle.disappeared.length} newly disappeared in this cycle.</p>
+              <p>{counts.reappeared} reappeared · {state.cycle.disappeared.length} newly disappeared against the selected baseline.</p>
             </article>
             <article className="signalCard">
-              <div className="signalTopline"><span>PERSISTENCE</span><span>GITHUB BRANCH</span></div>
-              <h3>Versioned history state</h3>
-              <p>State and cycle snapshots persist on the dedicated <b>{state.cycle.historyBranch}</b> branch rather than an ephemeral runner cache.</p>
+              <div className="signalTopline"><span>CANONICAL BASELINE</span><span>SCHEDULE ONLY</span></div>
+              <h3>QA runs cannot contaminate production history</h3>
+              <p>{state.cycle.baselineStatePath} is advanced only by scheduled runs after verification and build gates pass.</p>
             </article>
             <article className="signalCard">
               <div className="signalTopline"><span>MOMENTUM BOUNDARY</span><span>STRUCTURAL ONLY</span></div>
               <h3>No Virality inference yet</h3>
-              <p>Expanding/contracting refers only to evidence-count and independent-source spread between cycles. Native platform metrics remain excluded.</p>
+              <p>Expanding/contracting refers only to evidence-count and independent-source spread between baseline cycles. Native platform metrics remain excluded.</p>
             </article>
           </div>
+
+          {!state.cycle.persistenceEligible ? (
+            <div className="demoWarning" style={{ marginTop: 16 }}>
+              QA CYCLE · This artifact is inspectable for build verification but does not overwrite the canonical twice-daily production history baseline.
+            </div>
+          ) : null}
 
           {state.cycle.current.length ? (
             <div className="signalGrid" style={{ marginTop: 16 }}>
@@ -125,7 +131,7 @@ export default function TrendHistory() {
               ))}
             </div>
           ) : (
-            <div className="demoWarning" style={{ marginTop: 16 }}>NO CURRENT TREND CANDIDATES · history remains valid and prior lineages may be marked disappeared.</div>
+            <div className="demoWarning" style={{ marginTop: 16 }}>NO CURRENT TREND CANDIDATES · history remains valid and prior production lineages may later be marked disappeared.</div>
           )}
 
           {state.cycle.disappeared.length ? (
@@ -135,13 +141,15 @@ export default function TrendHistory() {
           ) : null}
 
           <div className="logicCallout" style={{ marginTop: 16 }}>
-            <strong>04D interpretation rule:</strong> {state.cycle.comparisonWindow === "comparable"
-              ? "this cycle gap is suitable for twice-daily structural comparison, but still does not authorize Virality/lifecycle scoring by itself."
-              : state.cycle.comparisonWindow === "too-close-for-cadence"
-                ? "this is a QA-close repeat, not a production twice-daily comparison; do not interpret its direction as real market momentum."
-                : state.cycle.comparisonWindow === "bootstrap"
-                  ? "this is the first persisted cycle; deltas are intentionally not comparable yet."
-                  : "the previous cycle is too stale or temporally invalid for normal twice-daily comparison."}
+            <strong>04D interpretation rule:</strong> {state.cycle.cyclePurpose === "qa"
+              ? "this is QA output and cannot become the scheduled production baseline."
+              : state.cycle.comparisonWindow === "comparable"
+                ? "this scheduled cycle gap is suitable for twice-daily structural comparison, but still does not authorize Virality/lifecycle scoring by itself."
+                : state.cycle.comparisonWindow === "too-close-for-cadence"
+                  ? "the scheduled gap is unexpectedly short and must not be interpreted as normal twice-daily market movement."
+                  : state.cycle.comparisonWindow === "bootstrap"
+                    ? "this is the first scheduled baseline; deltas are intentionally not comparable yet."
+                    : "the previous scheduled cycle is too stale or temporally invalid for normal twice-daily comparison."}
           </div>
         </>
       ) : null}
