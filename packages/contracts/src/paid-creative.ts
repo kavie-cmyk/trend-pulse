@@ -6,6 +6,7 @@ export type PaidCreativeInputMode = "none" | "json" | "jsonl-webhook";
 export interface PaidCreativeSourceBoundary {
   sourceId: "meta-ad-library-public-experimental";
   sourceName: "Meta Ad Library · experimental local bridge";
+  evidenceFamily: "paid-ad";
   upstreamRepository: string;
   upstreamRef: string;
   upstreamLicense: "Apache-2.0";
