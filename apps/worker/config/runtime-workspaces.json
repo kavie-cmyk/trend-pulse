@@ -49,6 +49,11 @@
           "stackExchangeSearch": { "enabled": true, "sites": ["gamedev", "stackoverflow"], "lookbackDays": 30, "maxRecordsPerQuery": 10 },
           "githubSearch": { "enabled": true, "lookbackDays": 14, "minStars": 5, "maxRecordsPerQuery": 10 }
         },
+        "expansion04f": {
+          "googleTrends": { "enabled": true, "geo": "VN" },
+          "appleAppStore": { "enabled": true, "storefront": "vn", "limit": 100 },
+          "redditRss": { "enabled": true, "lookbackDays": 30, "maxQueries": 4 }
+        },
         "broadSourceIds": [
           "bluesky-trends-api",
           "mastodon-social-trends",
@@ -68,6 +73,7 @@
     "Scheduled collection can only use runtime-synced workspaces stored in this registry; browser localStorage is not readable by GitHub Actions.",
     "The schema is market/category agnostic: add workspaces, query terms, concepts and source strategies without changing Signal or Trend contracts.",
     "Concept aliases provide an inspectable multilingual bridge for deterministic resolution; they do not claim general machine translation or semantic equivalence beyond configured aliases.",
-    "Targeted community paths use bounded recency windows. Search query text is provenance only and must never be counted as evidence that the returned content is relevant."
+    "Targeted community paths use bounded recency windows. Search query text is provenance only and must never be counted as evidence that the returned content is relevant.",
+    "Stage 04F source expansion is runtime-configured per Workspace. Vietnam/VI values in this record are pilot validation configuration, not hardcoded core connector behavior."
   ]
 }
