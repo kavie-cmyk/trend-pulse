@@ -44,6 +44,9 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
+      - name: Verify Brand Profile foundation invariants
+        run: npm run verify:brand-profile
+
       - name: Collect global connector backbone
         run: npm run collect:backbone
         env:
