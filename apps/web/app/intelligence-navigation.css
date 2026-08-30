@@ -1,0 +1,338 @@
+.workspaceConsole > .signalSection,
+.workspaceConsole > .nextStep {
+  display: none;
+}
+
+.workspaceIntelligenceEntry {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.intelligenceEntryCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  border: 1px solid rgba(98,245,181,.26);
+  border-radius: 20px;
+  padding: 24px 26px;
+  background: linear-gradient(135deg, rgba(98,245,181,.11), rgba(16,33,29,.96) 55%);
+}
+
+.intelligenceEntryCard h2 {
+  margin: 7px 0 8px;
+  font-size: 25px;
+  letter-spacing: -.03em;
+}
+
+.intelligenceEntryCard p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.intelligenceCta {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 13px 16px;
+  background: var(--accent);
+  color: #06100d;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.intelligenceCta span { font-size: 16px; }
+.intelligenceCta.disabled {
+  cursor: not-allowed;
+  border-color: var(--line);
+  background: rgba(255,255,255,.035);
+  color: #71837d;
+}
+
+.intelligenceShell {
+  scroll-margin-top: 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(8,20,17,.96);
+}
+
+.intelligenceShellHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 26px 28px 20px;
+}
+
+.intelligenceShellHeader h2 {
+  margin: 7px 0 0;
+  font-size: 31px;
+  letter-spacing: -.04em;
+}
+
+.intelligenceWorkspaceMeta {
+  display: grid;
+  justify-items: end;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.intelligenceWorkspaceMeta span {
+  color: var(--accent);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .09em;
+}
+
+.intelligenceWorkspaceMeta strong {
+  max-width: 360px;
+  text-align: right;
+  color: #c7d5d0;
+  font-size: 11px;
+}
+
+.intelligenceTabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255,255,255,.018);
+}
+
+.intelligenceTabs button {
+  display: grid;
+  gap: 4px;
+  min-height: 72px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  padding: 14px 17px;
+  background: transparent;
+  color: #8fa29b;
+  text-align: left;
+}
+
+.intelligenceTabs button:last-child { border-right: 0; }
+.intelligenceTabs button:hover { background: rgba(98,245,181,.035); }
+.intelligenceTabs button.active {
+  background: var(--accent-soft);
+  box-shadow: inset 0 -2px 0 var(--accent);
+  color: var(--text);
+}
+.intelligenceTabs button strong { font-size: 12px; }
+.intelligenceTabs button span { color: #71837d; font-size: 9px; line-height: 1.35; }
+.intelligenceTabs button.active span { color: #9cb0a8; }
+
+.intelligenceTabBody {
+  padding: 22px;
+}
+
+.intelligenceTabBody > .signalSection,
+.intelligenceTabBody > div > .signalSection {
+  margin-top: 0 !important;
+}
+
+.intelligenceTabBody .signalSection + .signalSection {
+  margin-top: 18px !important;
+}
+
+.intelligenceOverview {
+  display: grid;
+  gap: 18px;
+}
+
+.reportHero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 20px 4px 8px;
+}
+
+.reportHero h2 {
+  margin: 8px 0 7px;
+  font-size: clamp(30px, 4vw, 48px);
+  letter-spacing: -.045em;
+}
+
+.reportHero p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.reportFreshness {
+  display: grid;
+  flex: 0 0 auto;
+  justify-items: end;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 11px 12px;
+  background: rgba(255,255,255,.025);
+}
+.reportFreshness span { color: var(--accent); font-size: 9px; font-weight: 800; letter-spacing: .07em; }
+.reportFreshness strong { color: #b8c9c3; font-size: 10px; font-weight: 600; }
+
+.reportKpis {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 10px;
+}
+
+.reportKpis article {
+  display: grid;
+  gap: 7px;
+  min-height: 130px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 15px;
+  background: rgba(255,255,255,.02);
+}
+.reportKpis span { color: #81948d; font-size: 9px; text-transform: uppercase; letter-spacing: .08em; }
+.reportKpis strong { align-self: end; color: var(--text); font-size: 22px; letter-spacing: -.03em; }
+.reportKpis small { color: #758881; font-size: 9px; line-height: 1.45; }
+
+.reportBlock {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px;
+  background: rgba(3,10,8,.28);
+}
+
+.reportBlockHeading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.reportBlockHeading h3,
+.reportBoundary h3 {
+  margin: 6px 0 0;
+  font-size: 22px;
+  letter-spacing: -.025em;
+}
+.textButton {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--accent);
+  font-size: 10px;
+}
+
+.reportTrendList {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 10px;
+  margin-top: 15px;
+}
+.reportTrendList article {
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 15px;
+  background: rgba(255,255,255,.018);
+}
+.reportTrendList h4 { margin: 16px 0 7px; font-size: 18px; letter-spacing: -.02em; }
+.reportTrendList p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.reportTrendTopline,
+.reportEvidenceLine {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  color: #778a83;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.reportEvidenceLine {
+  justify-content: flex-start;
+  margin-top: 13px;
+  padding-top: 11px;
+  border-top: 1px solid var(--line);
+}
+.reportEvidenceLine span { border: 1px solid var(--line); border-radius: 7px; padding: 5px 6px; }
+.projectionBadge { border-radius: 999px; padding: 5px 7px; font-size: 8px; font-weight: 800; }
+.projection-direct { background: rgba(98,245,181,.12); color: var(--accent); }
+.projection-adjacent { background: rgba(117,190,255,.10); color: #9dceff; }
+.projection-global-breakout { background: rgba(255,210,122,.10); color: var(--warn); }
+.projection-out-of-scope { background: rgba(255,255,255,.04); color: #7e9089; }
+
+.reportEmpty {
+  margin-top: 14px;
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  padding: 18px;
+  color: #80928c;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.changeSummary {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 9px;
+  margin-top: 14px;
+}
+.changeSummary > div {
+  display: grid;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  padding: 13px;
+  background: rgba(255,255,255,.018);
+}
+.changeSummary strong { font-size: 21px; }
+.changeSummary span { color: #7f918b; font-size: 9px; text-transform: uppercase; }
+.changeSummary p {
+  grid-column: 1 / -1;
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.reportBoundary {
+  border-color: rgba(255,210,122,.20);
+  background: rgba(255,210,122,.035);
+}
+.reportBoundary p { max-width: 850px; margin: 9px 0 0; color: #9a907d; font-size: 11px; line-height: 1.55; }
+
+@media (max-width: 900px) {
+  .intelligenceEntryCard,
+  .intelligenceShellHeader,
+  .reportHero { flex-direction: column; }
+  .intelligenceWorkspaceMeta,
+  .reportFreshness { justify-items: start; }
+  .intelligenceWorkspaceMeta strong { text-align: left; }
+  .intelligenceTabs { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .intelligenceTabs button:nth-child(2) { border-right: 0; }
+  .intelligenceTabs button:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .reportKpis { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+
+@media (max-width: 640px) {
+  .intelligenceEntryCard { align-items: stretch; padding: 20px; }
+  .intelligenceCta { justify-content: space-between; }
+  .intelligenceShellHeader { padding: 22px 20px 17px; }
+  .intelligenceTabs { grid-template-columns: 1fr; }
+  .intelligenceTabs button { border-right: 0; border-bottom: 1px solid var(--line); }
+  .intelligenceTabs button:last-child { border-bottom: 0; }
+  .intelligenceTabBody { padding: 14px; }
+  .reportKpis,
+  .reportTrendList,
+  .changeSummary { grid-template-columns: 1fr; }
+  .changeSummary p { grid-column: auto; }
+}
