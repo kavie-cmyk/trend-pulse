@@ -47,7 +47,7 @@
           "mastodonTags": { "enabled": true, "instance": "https://mastodon.social", "hashtags": ["mobilegaming", "mobilegames", "gamedev", "indiedev"], "maxRecordsPerTag": 12 },
           "lemmySearch": { "enabled": true, "instance": "https://lemmy.world", "lookbackDays": 30, "maxRecordsPerQuery": 12 },
           "stackExchangeSearch": { "enabled": true, "sites": ["gamedev", "stackoverflow"], "lookbackDays": 30, "maxRecordsPerQuery": 10 },
-          "githubSearch": { "enabled": true, "lookbackDays": 14, "minStars": 1, "maxRecordsPerQuery": 10 }
+          "githubSearch": { "enabled": true, "lookbackDays": 14, "minStars": 5, "maxRecordsPerQuery": 10 }
         },
         "broadSourceIds": [
           "bluesky-trends-api",
