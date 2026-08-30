@@ -10,7 +10,8 @@
     "./trend-history": "./src/trend-history.ts",
     "./brand-profile": "./src/brand-profile.ts",
     "./brand-fit": "./src/brand-fit.ts",
-    "./workspace-coverage": "./src/workspace-coverage.ts"
+    "./workspace-coverage": "./src/workspace-coverage.ts",
+    "./paid-creative": "./src/paid-creative.ts"
   },
   "types": "./src/index.ts"
 }
