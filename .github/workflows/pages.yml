@@ -72,7 +72,9 @@ jobs:
       - name: Build multi-cycle trend history
         run: npm run build:trend-history
         env:
-          TREND_HISTORY_STATE_PATH: .trend-history-store/history/state.json
+          TREND_HISTORY_STATE_PATH: .trend-history-store/history/production-state.json
+          TREND_HISTORY_CYCLE_PURPOSE: ${{ github.event_name == 'schedule' && 'scheduled' || 'qa' }}
+          TREND_HISTORY_PERSISTENCE_ELIGIBLE: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
 
       - name: Verify trend history invariants
         run: npm run verify:trend-history
@@ -80,13 +82,14 @@ jobs:
       - name: Build static export
         run: npm run build
 
-      - name: Persist verified trend history
+      - name: Persist verified scheduled trend history
+        if: github.event_name == 'schedule'
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p .trend-history-store/history
-          cp .trend-history-next/state.json .trend-history-store/history/state.json
-          cp .trend-history-next/latest.json .trend-history-store/history/latest.json
+          cp .trend-history-next/state.json .trend-history-store/history/production-state.json
+          cp .trend-history-next/latest.json .trend-history-store/history/latest-production.json
           mkdir -p .trend-history-store/history/cycles .trend-history-store/history/snapshots
           cp .trend-history-next/cycles/*.json .trend-history-store/history/cycles/
           cp .trend-history-next/snapshots/*.json .trend-history-store/history/snapshots/
@@ -95,11 +98,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add history
           if git diff --cached --quiet; then
-            echo "No trend history changes to persist."
+            echo "No scheduled trend history changes to persist."
           else
-            git commit -m "data: persist trend cycle ${GITHUB_RUN_ID}-a${GITHUB_RUN_ATTEMPT} [skip ci]"
+            git commit -m "data: persist scheduled trend cycle ${GITHUB_RUN_ID}-a${GITHUB_RUN_ATTEMPT} [skip ci]"
             git push origin HEAD:trend-history
           fi
+
+      - name: Confirm QA history isolation
+        if: github.event_name != 'schedule'
+        run: echo "QA cycle verified for artifact/preview only; canonical production-state.json was not advanced."
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
