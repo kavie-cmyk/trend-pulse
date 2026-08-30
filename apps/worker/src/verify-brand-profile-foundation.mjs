@@ -10,6 +10,7 @@ function assert(condition, message) {
 }
 
 function workspace(overrides = {}) {
+  const { scope: scopeOverrides = {}, ...workspaceOverrides } = overrides;
   return {
     schemaVersion: "workspace.v1",
     id: "workspace-fixture",
@@ -24,7 +25,7 @@ function workspace(overrides = {}) {
       audiences: ["Players"],
       objectives: ["Acquire users"],
       riskBoundaries: ["No gambling"],
-      ...overrides.scope,
+      ...scopeOverrides,
     },
     focusBrands: [
       { id: "brand-a", name: "Brand A", aliases: [], createdAt: "2026-08-30T00:00:00.000Z" },
@@ -34,7 +35,7 @@ function workspace(overrides = {}) {
     monitoring: { mode: "market-pulse", isActive: true },
     createdAt: "2026-08-30T00:00:00.000Z",
     updatedAt: "2026-08-30T00:00:00.000Z",
-    ...overrides,
+    ...workspaceOverrides,
   };
 }
 
