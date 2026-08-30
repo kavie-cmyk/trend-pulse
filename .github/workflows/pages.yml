@@ -69,8 +69,13 @@ jobs:
       - name: Sanitize Signal contract semantics
         run: npm run sanitize:signals
 
-      - name: Collect workspace-scoped signals
+      - name: Build initial workspace-scoped collection
         run: npm run collect:workspace
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Calibrate workspace collection for freshness and content relevance
+        run: npm run remediate:workspace-signals
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
