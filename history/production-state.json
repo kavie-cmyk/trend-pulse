@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "trend-history-state.v1",
+  "updatedAt": null,
+  "latestCycleId": null,
+  "latestSnapshotGeneratedAt": null,
+  "cyclesRecorded": 0,
+  "lineages": []
+}
