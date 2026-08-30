@@ -79,6 +79,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Finalize workspace source compatibility and actual coverage
+        run: npm run finalize:workspace-signals
+
       - name: Resolve workspace intelligence
         run: npm run resolve:workspace-intelligence
 
