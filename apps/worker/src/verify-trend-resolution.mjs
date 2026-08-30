@@ -32,12 +32,12 @@ function fixtureSignal({ id, sourceId, sourceType, topic, entity, hashtag }) {
 
 function verifyResolverGate() {
   const fixture = [
-    fixtureSignal({ id: "a", sourceId: "publisher-a", sourceType: "publisher", topic: "Project Orion launch draws attention", entity: "Project Orion", hashtag: "ProjectOrion" }),
+    fixtureSignal({ id: "a", sourceId: "culture-a", sourceType: "culture", topic: "Project Orion launch draws attention", entity: "Project Orion", hashtag: "ProjectOrion" }),
     fixtureSignal({ id: "b", sourceId: "community-b", sourceType: "community", topic: "Community discusses Project Orion launch", entity: "Project Orion", hashtag: "ProjectOrion" }),
     fixtureSignal({ id: "c", sourceId: "social-c", sourceType: "social", topic: "Project Orion launch conversation", entity: "Project Orion", hashtag: "ProjectOrion" }),
   ];
   const snapshot = resolveSignals(fixture, "2026-08-30T00:00:01.000Z");
-  assert(snapshot.corroboratedCount === 1, "synthetic independent-source fixture must create exactly one corroborated cluster");
+  assert(snapshot.corroboratedCount === 1, "synthetic independent-source fixture must create exactly one corroborated cluster before dependency calibration");
   const candidate = snapshot.candidates[0];
   assert(candidate.sourceIds.length === 3, "corroborated fixture must retain three source IDs");
   assert(candidate.sourceFamilies.length === 3, "corroborated fixture must retain three source families");
@@ -49,6 +49,7 @@ async function verifyArtifact() {
   const snapshot = JSON.parse(await readFile(artifactPath, "utf8"));
   assert(snapshot.schemaVersion === "trend-resolution-snapshot.v1", "unexpected snapshot schema");
   assert(snapshot.methodologyVersion === "trend-resolution-04c.v1", "unexpected methodology version");
+  assert(snapshot.dependencyCalibrationVersion === "corroboration-dependency-04c.v1", "dependency calibration must run before verification");
   assert(snapshot.inputSignalCount > 0 && snapshot.uniqueSignalCount > 0, "real input signal counts must be positive");
   assert(snapshot.uniqueSignalCount <= snapshot.inputSignalCount, "deduplication cannot increase signal count");
   assert(snapshot.candidateCount + snapshot.corroboratedCount === snapshot.candidates.length, "candidate counters must reconcile");
@@ -62,9 +63,16 @@ async function verifyArtifact() {
     assert(candidate.confidence?.score === undefined, "04C must not fabricate numeric confidence");
     assert(candidate.evidenceRefs.length >= 2, "candidate must retain at least two evidence URLs");
     assert(candidate.resolutionAnchors?.length > 0, "candidate must expose inspectable resolution anchors");
+    assert(Array.isArray(candidate.independentSourceIds), "dependency calibration must emit independentSourceIds");
+    assert(Array.isArray(candidate.independentSourceFamilies), "dependency calibration must emit independentSourceFamilies");
+    assert(candidate.independentSourceDiversity === candidate.independentSourceIds.length, "independent source counter must reconcile");
+    assert(candidate.independentSourceFamilyDiversity === candidate.independentSourceFamilies.length, "independent family counter must reconcile");
     if (candidate.status === "corroborated") {
-      assert(candidate.sourceIds.length >= 2, "corroborated candidate requires at least two source IDs");
-      assert(candidate.sourceFamilies.length >= 2, "corroborated candidate requires at least two independent source families");
+      assert(candidate.independentSourceIds.length >= 2, "corroborated candidate requires at least two independent source IDs");
+      assert(candidate.independentSourceFamilies.length >= 2, "corroborated candidate requires at least two independent source families");
+    }
+    if ((candidate.dependencyRisks ?? []).length && (candidate.independentSourceIds.length < 2 || candidate.independentSourceFamilies.length < 2)) {
+      assert(candidate.status === "candidate", "derivative evidence must not preserve corroborated status when the independent gate fails");
     }
     for (const signalId of candidate.signalIds) {
       assert(!assigned.has(signalId), `signal ${signalId} appears in multiple clusters`);
