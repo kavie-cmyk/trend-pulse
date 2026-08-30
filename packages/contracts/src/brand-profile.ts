@@ -52,7 +52,9 @@ export interface BrandFitReadinessAssessment {
   status: BrandFitReadiness;
   methodologyVersion: "brand-fit-readiness-05a.v1";
   requiredFields: BrandProfileFieldKey[];
+  requiredAnyOfGroups: BrandProfileFieldKey[][];
   missingRequiredFields: BrandProfileFieldKey[];
+  missingRequiredGroups: BrandProfileFieldKey[][];
   recommendedContextGaps: BrandProfileFieldKey[];
   rationale: string[];
   assessedAt: string;
