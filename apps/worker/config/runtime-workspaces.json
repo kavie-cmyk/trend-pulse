@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "runtime-workspace-registry.v1",
+  "updatedAt": "2026-08-30",
+  "workspaces": [
+    {
+      "schemaVersion": "runtime-workspace.v1",
+      "id": "runtime-vietnam-mobile-gaming",
+      "matchNames": ["Vietnam Mobile Gaming"],
+      "name": "Vietnam Mobile Gaming",
+      "status": "active",
+      "scope": {
+        "geographies": ["Vietnam"],
+        "languages": ["Vietnamese", "English"],
+        "industries": ["Gaming"],
+        "categories": ["Mobile Games"],
+        "products": [],
+        "audiences": ["Mobile gamers"],
+        "objectives": ["Trend discovery", "Content opportunities", "Audience growth"]
+      },
+      "queryTerms": [
+        "mobile game",
+        "mobile games",
+        "mobile gaming",
+        "game mobile",
+        "game di động",
+        "game Việt Nam",
+        "gaming Vietnam",
+        "game publishing"
+      ],
+      "concepts": [
+        {
+          "id": "mobile-gaming",
+          "aliases": ["mobile game", "mobile games", "mobile gaming", "game mobile", "game di động"]
+        },
+        {
+          "id": "vietnam-gaming",
+          "aliases": ["game Việt Nam", "gaming Vietnam", "Vietnam gaming", "game Việt"]
+        },
+        {
+          "id": "game-publishing",
+          "aliases": ["game publishing", "mobile game publishing", "phát hành game"]
+        }
+      ],
+      "collection": {
+        "targeted": {
+          "blueskySearch": { "enabled": true, "maxRecordsPerQuery": 12 },
+          "lemmySearch": { "enabled": true, "instance": "https://lemmy.world", "maxRecordsPerQuery": 10 },
+          "stackExchangeSearch": { "enabled": true, "sites": ["gamedev", "stackoverflow"], "maxRecordsPerQuery": 10 },
+          "githubSearch": { "enabled": true, "lookbackDays": 14, "minStars": 1, "maxRecordsPerQuery": 10 }
+        },
+        "broadSourceIds": [
+          "bluesky-trends-api",
+          "mastodon-social-trends",
+          "lemmy-world-hot",
+          "dev-forem-trends",
+          "stackoverflow-hot",
+          "pocketgamer-rss",
+          "vnexpress-tech-rss",
+          "wikimedia-pageviews"
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Scheduled collection can only use runtime-synced workspaces stored in this registry; browser localStorage is not readable by GitHub Actions.",
+    "The schema is market/category agnostic: add workspaces, query terms, concepts and source strategies without changing Signal or Trend contracts.",
+    "Concept aliases provide an inspectable multilingual bridge for deterministic resolution; they do not claim general machine translation or semantic equivalence beyond configured aliases."
+  ]
+}
