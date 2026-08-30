@@ -4,6 +4,7 @@ import LiveSignals from "./live-signals";
 import PermissionlessSocialSignals from "./permissionless-social-signals";
 import SocialSignals from "./social-signals";
 import SourceIntelligencePanel from "./source-intelligence-panel";
+import TrendCandidates from "./trend-candidates";
 import WorkspaceConsole from "./workspace-console";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <PermissionlessSocialSignals />
       <BackboneSignals />
       <LiveSignals />
+      <TrendCandidates />
       <IntelligenceOutput />
     </main>
   );
