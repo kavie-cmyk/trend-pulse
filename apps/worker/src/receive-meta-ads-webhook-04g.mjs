@@ -12,6 +12,7 @@ const route = process.env.META_ADS_WEBHOOK_PATH || config.runtime.defaultWebhook
 const secret = process.env.META_ADS_WEBHOOK_SECRET || "";
 const maxBody = Number(config.runtime.maxWebhookBodyBytes || 5 * 1024 * 1024);
 const logPath = path.resolve(repoRoot, process.env.META_ADS_WEBHOOK_LOG || config.runtime.defaultRawLogPath);
+const SIGNATURE_HEADER = "X-Webhook-Signature";
 
 function timingSafeMatch(a, b) {
   const left = Buffer.from(a);
@@ -61,7 +62,7 @@ const server = http.createServer(async (req, res) => {
     }
 
     const rawBody = await readBody(req);
-    if (!signatureValid(rawBody, req.headers["x-webhook-signature"])) {
+    if (!signatureValid(rawBody, req.headers[SIGNATURE_HEADER.toLowerCase()])) {
       json(res, 401, { ok: false, error: "invalid-signature" });
       return;
     }
@@ -96,5 +97,6 @@ server.listen(port, host, () => {
   console.log(`Health: http://${host}:${port}/health`);
   console.log(`Raw payloads stay local at ${path.relative(repoRoot, logPath)}.`);
   console.log("This receiver does not scrape Meta. Configure meta-ads-scraper to send its webhook here.");
+  console.log(`When HMAC is enabled, the receiver verifies ${SIGNATURE_HEADER}: sha256=… from the upstream webhook.`);
   if (!secret) console.log("HMAC verification is OFF. Set META_ADS_WEBHOOK_SECRET and use the same secret in the upstream webhook for signed local ingestion.");
 });
