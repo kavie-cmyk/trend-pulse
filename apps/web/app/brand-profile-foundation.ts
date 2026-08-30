@@ -87,22 +87,36 @@ function join(values: string[]) {
   return values.join(", ");
 }
 
+function previousProvenance(existing: BrandProfileFoundationRecord | undefined, field: BrandProfileFieldKey) {
+  return existing?.provenance.find((item) => item.field === field);
+}
+
+function inheritedOrSaved(
+  existing: BrandProfileFoundationRecord | undefined,
+  field: BrandProfileFieldKey,
+  savedValues: string[] | undefined,
+  workspaceValues: string[],
+) {
+  if (!existing || previousProvenance(existing, field)?.sourceType === "workspace-derived") return workspaceValues;
+  return savedValues ?? workspaceValues;
+}
+
 export function draftFromWorkspace(workspace: IntelligenceWorkspace, focusBrand: FocusBrand, existing?: BrandProfileFoundationRecord): BrandProfileDraft {
   const profile = existing?.profile;
   return {
-    categories: join(profile?.categories ?? workspace.scope.categories),
-    markets: join(profile?.markets ?? workspace.scope.geographies),
-    targetAudiences: join(profile?.targetAudiences ?? workspace.scope.audiences),
+    categories: join(inheritedOrSaved(existing, "categories", profile?.categories, workspace.scope.categories)),
+    markets: join(inheritedOrSaved(existing, "markets", profile?.markets, workspace.scope.geographies)),
+    targetAudiences: join(inheritedOrSaved(existing, "targetAudiences", profile?.targetAudiences, workspace.scope.audiences)),
     positioning: join(profile?.positioning ?? []),
     valueProposition: join(profile?.valueProposition ?? []),
     toneOfVoice: join(profile?.toneOfVoice ?? []),
     visualCodes: join(profile?.visualCodes ?? []),
-    productLines: join(profile?.productLines ?? workspace.scope.products),
+    productLines: join(inheritedOrSaved(existing, "productLines", profile?.productLines, workspace.scope.products)),
     contentPillars: join(profile?.contentPillars ?? []),
     do: join(profile?.do ?? []),
     dont: join(profile?.dont ?? []),
-    riskBoundaries: join(profile?.riskBoundaries ?? workspace.scope.riskBoundaries),
-    commercialObjectives: join(profile?.commercialObjectives ?? workspace.scope.objectives),
+    riskBoundaries: join(inheritedOrSaved(existing, "riskBoundaries", profile?.riskBoundaries, workspace.scope.riskBoundaries)),
+    commercialObjectives: join(inheritedOrSaved(existing, "commercialObjectives", profile?.commercialObjectives, workspace.scope.objectives)),
     creatorPriorities: join(profile?.creatorPriorities ?? []),
     paidPriorities: join(profile?.paidPriorities ?? []),
     seoPriorities: join(profile?.seoPriorities ?? []),
@@ -191,13 +205,27 @@ function buildProfile(workspace: IntelligenceWorkspace, focusBrand: FocusBrand, 
   };
 }
 
-function buildProvenance(workspace: IntelligenceWorkspace, profile: BrandIntelligenceProfile, capturedAt: string): BrandProfileFieldProvenance[] {
+function buildProvenance(
+  workspace: IntelligenceWorkspace,
+  profile: BrandIntelligenceProfile,
+  capturedAt: string,
+  previous?: BrandProfileFoundationRecord,
+  userEditedFields: ReadonlySet<BrandProfileFieldKey> = new Set(),
+): BrandProfileFieldProvenance[] {
   const result: BrandProfileFieldProvenance[] = [];
   for (const field of BRAND_PROFILE_FIELDS) {
     const values = valuesForField(profile, field);
     if (!values.length) continue;
+
+    const previousFieldProvenance = previousProvenance(previous, field);
+    const previousValues = previous ? valuesForField(previous.profile, field) : [];
+    if (!userEditedFields.has(field) && previousFieldProvenance && sameValues(values, previousValues)) {
+      result.push(previousFieldProvenance);
+      continue;
+    }
+
     const workspaceValues = workspaceValuesForField(workspace, field);
-    const inherited = workspaceValues.length > 0 && sameValues(values, workspaceValues);
+    const inherited = !userEditedFields.has(field) && workspaceValues.length > 0 && sameValues(values, workspaceValues);
     result.push({
       field,
       sourceType: inherited ? "workspace-derived" : "user-input",
@@ -215,6 +243,7 @@ export function buildBrandProfileRecord(
   pendingReferences: BrandProfileReference[],
   previous?: BrandProfileFoundationRecord,
   now = new Date().toISOString(),
+  userEditedFields: ReadonlySet<BrandProfileFieldKey> = new Set(),
 ): BrandProfileFoundationRecord {
   const resolvedEvidenceRefs = pendingReferences
     .filter((reference) => reference.status === "resolved" && reference.reference)
@@ -232,7 +261,7 @@ export function buildBrandProfileRecord(
     profile,
     resolutionStatus,
     readiness,
-    provenance: buildProvenance(workspace, profile, now),
+    provenance: buildProvenance(workspace, profile, now, previous, userEditedFields),
     pendingReferences,
     conflicts: previous?.conflicts ?? [],
     createdAt: previous?.createdAt ?? now,
