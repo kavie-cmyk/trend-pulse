@@ -13,6 +13,8 @@
     "collect:wikimedia": "node apps/worker/src/collect-wikimedia.mjs",
     "collect:backbone": "node apps/worker/src/collect-backbone.mjs",
     "collect:social": "node apps/worker/src/collect-social.mjs",
-    "collect:permissionless-social": "node apps/worker/src/collect-permissionless-social.mjs"
+    "collect:permissionless-social": "node apps/worker/src/collect-permissionless-social.mjs",
+    "resolve:trends": "node apps/worker/src/resolve-trends.mjs",
+    "verify:trends": "node apps/worker/src/verify-trend-resolution.mjs"
   }
 }
