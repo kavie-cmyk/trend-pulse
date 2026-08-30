@@ -1,4 +1,5 @@
 import BackboneSignals from "./backbone-signals";
+import BrandProfileConsole from "./brand-profile-console";
 import IntelligenceOutput from "./intelligence-output";
 import LiveSignals from "./live-signals";
 import PermissionlessSocialSignals from "./permissionless-social-signals";
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <main className="shell">
       <WorkspaceConsole />
+      <BrandProfileConsole />
       <SourceIntelligencePanel />
       <SocialSignals />
       <PermissionlessSocialSignals />
