@@ -1,6 +1,6 @@
 # Stage 04G — Experimental Paid Creative Intelligence Bridge
 
-Status: QA PENDING
+Status: COMPLETE / PASS WITH DECLARED GAPS
 
 ## Purpose
 
@@ -171,6 +171,23 @@ The 04G verifier must prove at minimum:
 - GitHub Actions contains no Playwright/stealth/proxy scraping path
 - public CI artifact remains empty/awaiting local ingest
 
+## Functional validation before release lock
+
+Actions run `33319993523` on implementation HEAD `7deaca360486faa82f447807b05ba79d3b07bca9` passed the complete build/deploy chain. Direct log and artifact inspection verified:
+
+- Stage 04E and Stage 04F remain PASS.
+- Workspace result remains 17 relevant Signals, 17 Weak Signals, one independently corroborated Gamescom 2026 candidate.
+- Stage 04G public ingest is `awaiting-local-ingest` with 0 records seen/accepted/rejected, 0 paid creative Signals, 0 advertisers and 0 context links.
+- `workspaceId` is absent by design when no validated local import is supplied.
+- `evidenceFamily = paid-ad`; signal.v1 source type remains `social`.
+- Stage 04G verifier PASS.
+- Stage 05B PASS with one eligible Workspace candidate and 17 Weak Signals excluded from Brand Fit.
+- Static export contains `paid-creative-intelligence.json` and the 04G UI boundary markers.
+- The downloaded artifact SHA-256 matched the GitHub artifact digest.
+- QA push did not advance canonical scheduled trend history.
+
+The documentation-lock HEAD must repeat the same CI/deploy gates before it is treated as the canonical Stage 04G release. The final HEAD/run/artifact identifiers are recorded in the canonical Drive Build Record.
+
 ## Open gates
 
 - Actual Meta automated-access authorization/compliance remains unresolved for production/commercial use.
@@ -180,4 +197,4 @@ The 04G verifier must prove at minimum:
 - Paid creative clustering/angle taxonomy is not yet calibrated as a Trend Pulse scoring methodology.
 - No performance inference is authorized from ad longevity or ad presence.
 
-Stage 04G may be declared COMPLETE only after implementation, full CI/deploy, direct artifact inspection, downstream 04F/05B regression checks, and canonical Drive/Master Log persistence/read-back.
+Stage 04G is COMPLETE / PASS WITH DECLARED GAPS only when the documentation-lock HEAD repeats the full CI/deploy chain, the final artifact is directly inspected, downstream 04F/05B remain valid, and canonical Drive/Master Log persistence/read-back is complete.
