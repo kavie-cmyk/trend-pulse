@@ -54,6 +54,30 @@
       "termsNote": "Publisher has historically advertised an RSS feed; this endpoint remains optional until runtime verification succeeds."
     },
     {
+      "id": "gamek-mobile-rss",
+      "name": "GameK Mobile RSS",
+      "url": "https://gamek.vn/mobile-social.rss",
+      "homepage": "https://gamek.vn/rss.chn",
+      "sourceType": "publisher",
+      "language": "Vietnamese",
+      "industries": ["vietnam", "gaming", "mobile-games", "consumer"],
+      "maxRecords": 20,
+      "required": false,
+      "termsNote": "GameK states its RSS feeds are free for personal/non-profit use; retain GameK attribution and canonical links."
+    },
+    {
+      "id": "gamek-market-rss",
+      "name": "GameK Thị trường RSS",
+      "url": "https://gamek.vn/thi-truong.rss",
+      "homepage": "https://gamek.vn/rss.chn",
+      "sourceType": "publisher",
+      "language": "Vietnamese",
+      "industries": ["vietnam", "gaming", "game-market", "consumer"],
+      "maxRecords": 20,
+      "required": false,
+      "termsNote": "GameK states its RSS feeds are free for personal/non-profit use; retain GameK attribution and canonical links."
+    },
+    {
       "id": "vnexpress-tech-rss",
       "name": "VnExpress Khoa học công nghệ RSS",
       "url": "https://vnexpress.net/rss/khoa-hoc-cong-nghe.rss",
