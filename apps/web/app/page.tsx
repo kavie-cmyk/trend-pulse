@@ -1,11 +1,11 @@
 import WorkspaceConsole from "./workspace-console";
-import WorkspaceIntelligence from "./workspace-intelligence";
+import WorkspaceIntelligence04E from "./workspace-intelligence-04e";
 
 export default function Home() {
   return (
     <main className="shell">
       <WorkspaceConsole />
-      <WorkspaceIntelligence />
+      <WorkspaceIntelligence04E />
     </main>
   );
 }
