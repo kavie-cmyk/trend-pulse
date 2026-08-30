@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-08-30T12:53:46.945Z",
+  "cycleId": "gh-33312664726-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-08-30T12:53:46.413Z",
+  "previousCycleId": null,
+  "previousSnapshotGeneratedAt": null,
+  "cycleGapHours": null,
+  "comparisonWindow": "bootstrap",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 3,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 3,
+  "current": [
+    {
+      "lineageId": "lineage-4f45f4ca073832d2e7",
+      "candidateId": "trend-d7ec1f40b55ca6d4be",
+      "title": "Half off",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-10fc080934302905c4",
+      "candidateId": "trend-351ac8c9c5a46ba29b",
+      "title": "The Hidden Costs of Free LLM Tiers",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "candidateId": "trend-1e8f9fa87be76f35c4",
+      "title": "Giải vô địch bóng đá ASEAN 2026",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    }
+  ],
+  "disappeared": [],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}

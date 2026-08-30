@@ -1,8 +1,98 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": null,
-  "latestCycleId": null,
-  "latestSnapshotGeneratedAt": null,
-  "cyclesRecorded": 0,
-  "lineages": []
+  "updatedAt": "2026-08-30T12:53:46.945Z",
+  "latestCycleId": "gh-33312664726-a1",
+  "latestSnapshotGeneratedAt": "2026-08-30T12:53:46.413Z",
+  "cyclesRecorded": 1,
+  "lineages": [
+    {
+      "lineageId": "lineage-4f45f4ca073832d2e7",
+      "firstSeenAt": "2026-08-30T12:53:46.413Z",
+      "lastSeenAt": "2026-08-30T12:53:46.413Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
+      "latestTitle": "Half off",
+      "latestResolutionAnchors": [
+        "comic",
+        "strips",
+        "picard",
+        "maneuver"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-10fc080934302905c4",
+      "firstSeenAt": "2026-08-30T12:53:46.413Z",
+      "lastSeenAt": "2026-08-30T12:53:46.413Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-351ac8c9c5a46ba29b",
+      "latestTitle": "The Hidden Costs of Free LLM Tiers",
+      "latestResolutionAnchors": [
+        "hidden",
+        "costs",
+        "free",
+        "llm",
+        "dev",
+        "community"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "firstSeenAt": "2026-08-30T12:53:46.413Z",
+      "lastSeenAt": "2026-08-30T12:53:46.413Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-1e8f9fa87be76f35c4",
+      "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
+      "latestResolutionAnchors": [
+        "đich",
+        "asean",
+        "giai",
+        "bong"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
+      ],
+      "latestStatus": "candidate"
+    }
+  ]
 }
