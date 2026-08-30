@@ -116,6 +116,7 @@ export default function BrandProfileConsole() {
   const [store, setStore] = useState<BrandProfileStore>(emptyBrandProfileStore());
   const [selectedFocusBrandId, setSelectedFocusBrandId] = useState("");
   const [draft, setDraft] = useState<BrandProfileDraft>(blankDraft());
+  const [editedFields, setEditedFields] = useState<Set<BrandProfileFieldKey>>(new Set());
   const [references, setReferences] = useState<BrandProfileReference[]>([]);
   const [referenceMode, setReferenceMode] = useState<BrandProfileReference["method"]>("pasted-brief");
   const [referenceInput, setReferenceInput] = useState("");
@@ -149,11 +150,13 @@ export default function BrandProfileConsole() {
   useEffect(() => {
     if (!workspace || !selectedFocusBrand) {
       setDraft(blankDraft());
+      setEditedFields(new Set());
       setReferences([]);
       return;
     }
     const existing = store.records.find((record) => record.profile.workspaceId === workspace.id && record.profile.focusBrandId === selectedFocusBrand.id);
     setDraft(draftFromWorkspace(workspace, selectedFocusBrand, existing));
+    setEditedFields(new Set());
     setReferences(existing?.pendingReferences ?? []);
     setNotice("");
   }, [workspace, selectedFocusBrand?.id]);
@@ -164,11 +167,24 @@ export default function BrandProfileConsole() {
 
   const previewRecord = useMemo(() => {
     if (!workspace || !selectedFocusBrand) return null;
-    return buildBrandProfileRecord(workspace, selectedFocusBrand, draft, references, existingRecord, existingRecord?.updatedAt ?? new Date().toISOString());
-  }, [workspace, selectedFocusBrand, draft, references, existingRecord]);
+    return buildBrandProfileRecord(
+      workspace,
+      selectedFocusBrand,
+      draft,
+      references,
+      existingRecord,
+      existingRecord?.updatedAt ?? new Date().toISOString(),
+      editedFields,
+    );
+  }, [workspace, selectedFocusBrand, draft, editedFields, references, existingRecord]);
 
   function updateDraft(key: keyof BrandProfileDraft, value: string) {
     setDraft((current) => ({ ...current, [key]: value }));
+    setEditedFields((current) => {
+      const next = new Set(current);
+      next.add(key as BrandProfileFieldKey);
+      return next;
+    });
   }
 
   function addReference() {
@@ -210,10 +226,19 @@ export default function BrandProfileConsole() {
 
   function saveProfile() {
     if (!workspace || !selectedFocusBrand) return;
-    const record = buildBrandProfileRecord(workspace, selectedFocusBrand, draft, references, existingRecord);
+    const record = buildBrandProfileRecord(
+      workspace,
+      selectedFocusBrand,
+      draft,
+      references,
+      existingRecord,
+      new Date().toISOString(),
+      editedFields,
+    );
     const next = upsertBrandProfileRecord(store, record);
     window.localStorage.setItem(BRAND_PROFILE_STORAGE_KEY, JSON.stringify(next));
     setStore(next);
+    setEditedFields(new Set());
     setNotice(`Brand Profile saved · ${record.readiness.status}.`);
   }
 
@@ -224,6 +249,7 @@ export default function BrandProfileConsole() {
     window.localStorage.setItem(BRAND_PROFILE_STORAGE_KEY, JSON.stringify(next));
     setStore(next);
     setDraft(draftFromWorkspace(workspace, selectedFocusBrand));
+    setEditedFields(new Set());
     setReferences([]);
     setNotice("Saved Brand Profile removed. Workspace-derived context remains available as a new draft.");
   }
