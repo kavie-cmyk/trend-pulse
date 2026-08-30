@@ -82,11 +82,20 @@ jobs:
       - name: Finalize workspace source compatibility and actual coverage
         run: npm run finalize:workspace-signals
 
-      - name: Resolve workspace intelligence
+      - name: Resolve Stage 04E workspace intelligence baseline
         run: npm run resolve:workspace-intelligence
 
-      - name: Verify workspace source coverage and report invariants
+      - name: Verify Stage 04E workspace source coverage and report invariants
         run: npm run verify:workspace-intelligence-data
+
+      - name: Expand Stage 04F Workspace search/store/community coverage
+        run: npm run expand:workspace-coverage-04f
+
+      - name: Resolve Stage 04F Workspace Intelligence
+        run: npm run resolve:workspace-intelligence-04f
+
+      - name: Verify Stage 04F coverage and resolution invariants
+        run: npm run verify:workspace-intelligence-04f
 
       - name: Verify Stage 05B Brand Profile resolution and Brand Fit gates
         run: npm run verify:brand-fit-05b
