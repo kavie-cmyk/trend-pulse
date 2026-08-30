@@ -1,8 +1,133 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": null,
-  "latestCycleId": null,
-  "latestSnapshotGeneratedAt": null,
-  "cyclesRecorded": 0,
-  "lineages": []
+  "updatedAt": "2026-08-30T05:14:02.723Z",
+  "latestCycleId": "gh-33294206445-a1",
+  "latestSnapshotGeneratedAt": "2026-08-30T05:14:02.088Z",
+  "cyclesRecorded": 1,
+  "lineages": [
+    {
+      "lineageId": "lineage-bf5ce9a0ad99f11e24",
+      "firstSeenAt": "2026-08-30T05:14:02.088Z",
+      "lastSeenAt": "2026-08-30T05:14:02.088Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-483dd7c810c2fb0ab6",
+      "latestTitle": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "latestResolutionAnchors": [
+        "sony",
+        "warner",
+        "sue",
+        "alleging",
+        "intellectual",
+        "property"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot",
+        "techcrunch-rss"
+      ],
+      "latestSourceFamilies": [
+        "community",
+        "publisher"
+      ],
+      "latestIndependentSourceIds": [
+        "techcrunch-rss"
+      ],
+      "latestIndependentSourceFamilies": [
+        "publisher"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-1cdee25fdc3a1c7934",
+      "firstSeenAt": "2026-08-30T05:14:02.088Z",
+      "lastSeenAt": "2026-08-30T05:14:02.088Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-c888d7bad9dd6019f4",
+      "latestTitle": "Here is another reason Google is terrible.",
+      "latestResolutionAnchors": [
+        "here",
+        "another",
+        "reason",
+        "terrible",
+        "degoogle",
+        "google"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-a524d91788da2952a7",
+      "firstSeenAt": "2026-08-30T05:14:02.088Z",
+      "lastSeenAt": "2026-08-30T05:14:02.088Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-128957df98dce4b9de",
+      "latestTitle": "DEV Frontend Comfort Food Challenge",
+      "latestResolutionAnchors": [
+        "frontend",
+        "comfort",
+        "food",
+        "challenge",
+        "dev",
+        "community"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-b1250292b7da11fb4d",
+      "firstSeenAt": "2026-08-30T05:14:02.088Z",
+      "lastSeenAt": "2026-08-30T05:14:02.088Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-f76452c955c72d6bd6",
+      "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
+      "latestResolutionAnchors": [
+        "giai",
+        "đich",
+        "asean",
+        "bong"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
+      ],
+      "latestStatus": "candidate"
+    }
+  ]
 }

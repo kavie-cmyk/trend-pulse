@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-08-30T05:14:02.723Z",
+  "cycleId": "gh-33294206445-a1",
+  "currentTrendSnapshotGeneratedAt": "2026-08-30T05:14:02.088Z",
+  "previousCycleId": null,
+  "previousSnapshotGeneratedAt": null,
+  "cycleGapHours": null,
+  "comparisonWindow": "bootstrap",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 4,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 4,
+  "current": [
+    {
+      "lineageId": "lineage-bf5ce9a0ad99f11e24",
+      "candidateId": "trend-483dd7c810c2fb0ab6",
+      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot",
+        "techcrunch-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "techcrunch-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "publisher"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-1cdee25fdc3a1c7934",
+      "candidateId": "trend-c888d7bad9dd6019f4",
+      "title": "Here is another reason Google is terrible.",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-a524d91788da2952a7",
+      "candidateId": "trend-128957df98dce4b9de",
+      "title": "DEV Frontend Comfort Food Challenge",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-b1250292b7da11fb4d",
+      "candidateId": "trend-f76452c955c72d6bd6",
+      "title": "Giải vô địch bóng đá ASEAN 2026",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    }
+  ],
+  "disappeared": [],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
