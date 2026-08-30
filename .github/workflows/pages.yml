@@ -56,6 +56,9 @@ jobs:
       - name: Resolve cross-source Trend Candidates
         run: npm run resolve:trends
 
+      - name: Calibrate derivative evidence
+        run: npm run calibrate:trends
+
       - name: Verify Trend Candidate invariants
         run: npm run verify:trends
 
