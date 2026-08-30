@@ -5,7 +5,8 @@
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
-    "./source-intelligence": "./src/source-intelligence.ts"
+    "./source-intelligence": "./src/source-intelligence.ts",
+    "./trend-resolution": "./src/trend-resolution.ts"
   },
   "types": "./src/index.ts"
 }
