@@ -6,7 +6,8 @@
   "exports": {
     ".": "./src/index.ts",
     "./source-intelligence": "./src/source-intelligence.ts",
-    "./trend-resolution": "./src/trend-resolution.ts"
+    "./trend-resolution": "./src/trend-resolution.ts",
+    "./trend-history": "./src/trend-history.ts"
   },
   "types": "./src/index.ts"
 }
