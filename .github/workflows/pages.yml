@@ -91,8 +91,14 @@ jobs:
       - name: Expand Stage 04F Workspace search/store/community coverage
         run: npm run expand:workspace-coverage-04f
 
+      - name: Remediate Stage 04F store relevance and targeted accounting
+        run: npm run remediate:workspace-coverage-04f
+
       - name: Resolve Stage 04F Workspace Intelligence
         run: npm run resolve:workspace-intelligence-04f
+
+      - name: Finalize Stage 04F semantic bridge traces
+        run: npm run finalize:workspace-intelligence-04f
 
       - name: Verify Stage 04F coverage and resolution invariants
         run: npm run verify:workspace-intelligence-04f
@@ -135,7 +141,7 @@ jobs:
           cp .trend-history-next/snapshots/*.json .trend-history-store/history/snapshots/
           cd .trend-history-store
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "4189822+github-actions[bot]@users.noreply.github.com"
           git add history
           if git diff --cached --quiet; then
             echo "No scheduled trend history changes to persist."
