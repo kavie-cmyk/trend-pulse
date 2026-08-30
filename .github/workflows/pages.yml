@@ -53,6 +53,12 @@ jobs:
       - name: Collect real Wikimedia signals
         run: npm run collect:wikimedia
 
+      - name: Resolve cross-source Trend Candidates
+        run: npm run resolve:trends
+
+      - name: Verify Trend Candidate invariants
+        run: npm run verify:trends
+
       - name: Build static export
         run: npm run build
 
