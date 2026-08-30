@@ -66,13 +66,27 @@ jobs:
       - name: Collect real Wikimedia signals
         run: npm run collect:wikimedia
 
-      - name: Resolve cross-source Trend Candidates
+      - name: Sanitize Signal contract semantics
+        run: npm run sanitize:signals
+
+      - name: Collect workspace-scoped signals
+        run: npm run collect:workspace
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Resolve workspace intelligence
+        run: npm run resolve:workspace-intelligence
+
+      - name: Verify workspace source coverage and report invariants
+        run: npm run verify:workspace-intelligence-data
+
+      - name: Resolve cross-source Global Pulse Trend Candidates
         run: npm run resolve:trends
 
       - name: Calibrate derivative evidence
         run: npm run calibrate:trends
 
-      - name: Verify Trend Candidate invariants
+      - name: Verify Global Pulse Trend Candidate invariants
         run: npm run verify:trends
 
       - name: Build multi-cycle trend history
