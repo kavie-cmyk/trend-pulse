@@ -3,7 +3,7 @@ export type MonitoringMode = "market-pulse" | "watchlist" | "ad-hoc";
 export type FreshnessClass = "near-live" | "hourly" | "daily" | "manual" | "unknown";
 export type CollectionCadence = "twice-daily" | "daily" | "hourly" | "manual" | "unknown";
 export type SourceAccessMode = "official-api" | "rss" | "open-web" | "public-dataset" | "manual" | "licensed";
-export type SourceType = "search" | "video" | "social" | "news" | "publisher" | "community" | "culture" | "brand" | "other";
+export type SourceType = "search" | "video" | "social" | "news" | "publisher" | "community" | "culture" | "brand" | "store" | "other";
 export type SourceFitLevel = "high" | "medium" | "low" | "not-applicable";
 export type SourcePlanRole = "primary" | "supporting" | "background";
 export type SourceRuntimeStatus = "operational" | "planned" | "runtime-deferred";
@@ -122,6 +122,7 @@ export interface SignalMetrics {
   reachProxy?: number;
   searchInterest?: number;
   sourceRank?: number;
+  native?: Record<string, number | string | boolean | null>;
 }
 
 export interface SignalDynamics {
@@ -283,14 +284,15 @@ export interface BrandIntelligenceProfile {
   visualCodes: string[];
   productLines: string[];
   contentPillars: string[];
-  do: string[];
-  dont: string[];
+  doStatements: string[];
+  dontStatements: string[];
   riskBoundaries: string[];
   commercialObjectives: string[];
   creatorPriorities: string[];
   paidPriorities: string[];
   seoPriorities: string[];
   evidenceRefs: string[];
+  createdAt: string;
   updatedAt: string;
 }
 
@@ -302,68 +304,68 @@ export interface TrendCandidate {
   summary: string;
   trendType: TrendType;
   lifecycleStage: TrendLifecycleStage;
-  status: "candidate" | "corroborated" | "rejected";
   signalIds: string[];
   sourceIds: string[];
-  sourceDiversity: number;
+  sourceFamilies: SourceType[];
   geographies: string[];
   languages: string[];
-  firstObservedAt?: string;
-  lastObservedAt: string;
+  firstSeenAt: string;
+  lastSeenAt: string;
   evidenceRefs: string[];
   confidence: ScoreAssessment;
 }
 
 export interface TrendScorecard {
   virality: ScoreAssessment;
-  brandFit?: ScoreAssessment;
+  brandRelevance: ScoreAssessment;
   opportunity: ScoreAssessment;
-  executionUrgency: ScoreAssessment;
   confidence: ScoreAssessment;
 }
 
-export interface MarketingIntelligenceAnalysis {
-  whyItMatters: string[];
-  audienceRelevance: string[];
-  channelRelevance: string[];
-  contentAndCreativePotential: string[];
-  creatorPotential: string[];
-  communityPotential: string[];
-  paidMediaPotential: string[];
-  seoAndSearchPotential: string[];
-  prAndBrandPotential: string[];
-  competitiveWhitespace: string[];
-  timingNotes: string[];
-  riskNotes: string[];
-  commercialAndFunnelRelevance: string[];
-  crmAndRetentionPotential: string[];
-  productMarketingPotential: string[];
+export interface MarketingIntelligenceLens {
+  key:
+    | "audience"
+    | "channel"
+    | "content-creative"
+    | "creator-influencer"
+    | "community"
+    | "paid-media"
+    | "seo-search"
+    | "pr-brand"
+    | "competitive-intelligence"
+    | "timing"
+    | "risk"
+    | "commercial-funnel"
+    | "crm-retention"
+    | "product-marketing";
+  status: "available" | "missing" | "not-applicable";
+  insight?: string;
+  rationale?: string;
+  evidenceRefs: string[];
+}
+
+export interface MarketingActionItem {
+  id: string;
+  title: string;
+  actionType: "content" | "creator" | "community" | "paid" | "seo" | "pr" | "crm" | "product-marketing" | "watch";
+  decision: TrendDecision;
+  urgency: "now" | "soon" | "monitor";
+  rationale: string[];
+  evidenceRefs: string[];
 }
 
 export interface MarketingActionPlan {
-  decision: TrendDecision;
-  recommendedAction: string;
-  timeToAct: string;
-  contentAngles: string[];
-  creatorBrief?: string;
-  communityPlan?: string;
-  paidTest?: string;
-  seoOpportunity?: string;
-  prAngle?: string;
-  crmAction?: string;
-  productMarketingAction?: string;
-  cta?: string;
-  kpis: string[];
-  do: string[];
-  dont: string[];
+  status: "unavailable" | "provisional" | "ready";
+  actions: MarketingActionItem[];
+  rationale: string[];
+  evidenceRefs: string[];
 }
 
 export interface TrendWatchSection {
-  risingTrends: string[];
-  earlySignals: string[];
-  nextWindow: string[];
-  competitorWatch: string[];
-  riskWatch: string[];
+  status: "watch" | "prepare" | "act" | "avoid" | "unavailable";
+  watchFor: string[];
+  recheckTriggers: string[];
+  evidenceRefs: string[];
 }
 
 export interface TrendIntelligenceReport {
@@ -371,19 +373,20 @@ export interface TrendIntelligenceReport {
   id: string;
   workspaceId: string;
   trendCandidateId: string;
-  focusBrandId?: string;
   generatedAt: string;
   snapshot: {
-    title: string;
-    summary: string;
-    trendType: TrendType;
+    what: string;
+    whyNow?: string;
+    where?: string[];
+    who?: string[];
     lifecycleStage: TrendLifecycleStage;
-    window: string;
-    sourceSummary: string[];
-    scorecard: TrendScorecard;
+    evidenceRefs: string[];
   };
-  analysis: MarketingIntelligenceAnalysis;
+  soWhat: {
+    summary?: string;
+    lenses: MarketingIntelligenceLens[];
+  };
+  scores: TrendScorecard;
   actionPlan: MarketingActionPlan;
-  watch: TrendWatchSection;
-  evidenceRefs: string[];
+  trendWatch: TrendWatchSection;
 }
