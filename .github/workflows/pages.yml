@@ -103,6 +103,15 @@ jobs:
       - name: Verify Stage 04F coverage and resolution invariants
         run: npm run verify:workspace-intelligence-04f
 
+      - name: Prepare Stage 04G paid creative bridge artifact
+        run: npm run ingest:meta-ads-04g -- --allow-missing
+
+      - name: Contextualize Stage 04G paid creative evidence
+        run: npm run contextualize:paid-creative-04g
+
+      - name: Verify Stage 04G paid creative intelligence bridge
+        run: npm run verify:paid-creative-04g
+
       - name: Verify Stage 05B Brand Profile resolution and Brand Fit gates
         run: npm run verify:brand-fit-05b
 
