@@ -2,6 +2,7 @@ import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildPaidCreativeSnapshot, parseMetaAdsInput } from "./meta-ads-normalizer-04g.mjs";
+import { enforcePaidCreativeSignalContract } from "./enforce-paid-creative-signal-contract-04g.mjs";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../..");
 const configPath = path.join(repoRoot, "apps/worker/config/stage04g-paid-creative.json");
@@ -53,10 +54,11 @@ async function main() {
   }
 
   const parsed = parseMetaAdsInput(inputText);
-  const snapshot = buildPaidCreativeSnapshot(parsed, config, {
+  const rawSnapshot = buildPaidCreativeSnapshot(parsed, config, {
     ...(workspaceId ? { workspaceId } : {}),
     inputPath: path.relative(repoRoot, inputPath),
   });
+  const snapshot = enforcePaidCreativeSignalContract(rawSnapshot);
 
   await mkdir(path.dirname(outputPath), { recursive: true });
   await writeFile(outputPath, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
@@ -64,6 +66,7 @@ async function main() {
   console.log(`04G paid creative ingest ${snapshot.status}.`);
   console.log(`- input: ${snapshot.input.mode} · ${snapshot.input.recordsSeen} seen · ${snapshot.input.recordsAccepted} accepted · ${snapshot.input.recordsRejected} rejected`);
   console.log(`- output: ${snapshot.summary.signalCount} paid creative signal(s) · ${snapshot.summary.advertiserCount} advertiser(s)`);
+  console.log(`- evidence family: ${snapshot.source.evidenceFamily} · signal.v1 sourceType: social`);
   console.log(`- workspaceId: ${snapshot.input.workspaceId ?? "absent by design"}`);
   console.log(`Output: ${path.relative(repoRoot, outputPath)}`);
 }
