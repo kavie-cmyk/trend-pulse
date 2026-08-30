@@ -1,6 +1,6 @@
 # Stage 05A — Brand Profile Intake & Resolution Foundation
 
-Status: implementation candidate pending final release QA.
+Status: **COMPLETE / PASS**.
 
 ## Objective
 
@@ -120,15 +120,21 @@ Existing D-010 contract `brand-profile.v1` remains the structured brand payload 
 
 ## QA gates
 
-Final release must demonstrate:
+Verified on implementation/docs head immediately preceding the final status lock:
 
-1. TypeScript passes.
-2. Static export passes.
-3. Pages artifact includes Stage 05A UI/code.
-4. Pages deploy passes.
-5. Push/manual QA continues to remain isolated from canonical scheduled trend-history persistence.
-6. No Brand Fit numeric score is emitted by 05A.
-7. `pending-resolver` references remain unresolved inputs.
+1. TypeScript passed.
+2. Static export passed.
+3. Pages artifact contained Stage 05A bundle and explicit strings for the readiness gate, `pending-resolver`, `NOT COMPUTED`, and the dedicated localStorage key.
+4. Pages deploy passed.
+5. Push/manual QA remained isolated from canonical scheduled trend-history persistence.
+6. No Brand Fit numeric score was emitted by 05A.
+7. `pending-resolver` references remained unresolved inputs.
+
+Pre-release QA run: `33295379718`.
+Pre-release artifact: `9727248999`.
+Pre-release artifact SHA-256: `5e86bdcc8374496970c5cdc418f0e6b2b85658702f3edd41b371676c080a6bf2`.
+
+The status-lock commit is followed by one final release run; canonical final run/head are recorded in the Drive build record.
 
 ## Handoff
 
