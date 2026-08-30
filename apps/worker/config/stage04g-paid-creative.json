@@ -4,7 +4,8 @@
   "source": {
     "sourceId": "meta-ad-library-public-experimental",
     "sourceName": "Meta Ad Library · experimental local bridge",
-    "sourceType": "paid-ad",
+    "sourceType": "social",
+    "evidenceFamily": "paid-ad",
     "accessMode": "open-web",
     "freshness": "manual",
     "signalKinds": ["ad-creative", "competitor-activity"]
