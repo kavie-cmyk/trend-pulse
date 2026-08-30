@@ -52,6 +52,18 @@
       "maxRecords": 20,
       "required": false,
       "termsNote": "Publisher has historically advertised an RSS feed; this endpoint remains optional until runtime verification succeeds."
+    },
+    {
+      "id": "vnexpress-tech-rss",
+      "name": "VnExpress Khoa học công nghệ RSS",
+      "url": "https://vnexpress.net/rss/khoa-hoc-cong-nghe.rss",
+      "homepage": "https://vnexpress.net/rss",
+      "sourceType": "publisher",
+      "language": "Vietnamese",
+      "industries": ["vietnam", "technology", "consumer", "digital"],
+      "maxRecords": 20,
+      "required": false,
+      "termsNote": "VnExpress states its RSS feeds are free for individuals and non-profit organizations; retain attribution and canonical links."
     }
   ]
 }
