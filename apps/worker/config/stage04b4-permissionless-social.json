@@ -1,0 +1,52 @@
+{
+  "minimumOperationalSources": 3,
+  "mastodon": {
+    "enabled": true,
+    "instances": [
+      {
+        "id": "mastodon-social-trends",
+        "name": "Mastodon.social",
+        "baseUrl": "https://mastodon.social",
+        "maxRecords": 20
+      }
+    ]
+  },
+  "lemmy": {
+    "enabled": true,
+    "instances": [
+      {
+        "id": "lemmy-world-hot",
+        "name": "Lemmy.world",
+        "baseUrl": "https://lemmy.world",
+        "maxRecords": 20
+      }
+    ]
+  },
+  "forem": {
+    "enabled": true,
+    "instances": [
+      {
+        "id": "dev-forem-trends",
+        "name": "DEV Community",
+        "baseUrl": "https://dev.to",
+        "maxRecords": 20
+      }
+    ]
+  },
+  "stackExchange": {
+    "enabled": true,
+    "sites": [
+      {
+        "id": "stackoverflow-hot",
+        "name": "Stack Overflow",
+        "site": "stackoverflow",
+        "maxRecords": 20
+      }
+    ]
+  },
+  "nostr": {
+    "enabled": false,
+    "state": "safety-runtime-deferred",
+    "note": "NIP-01 is permissionless, but raw relay notes are not a source-native trend surface and public relays may vary in authentication, rate limiting and moderation. Keep deferred until a bounded safe trend/aggregation path is defined."
+  }
+}
