@@ -16,6 +16,7 @@
     "collect:permissionless-social": "node apps/worker/src/collect-permissionless-social.mjs",
     "sanitize:signals": "node apps/worker/src/sanitize-signal-contracts.mjs",
     "collect:workspace": "node apps/worker/src/collect-workspace-signals.mjs",
+    "remediate:workspace-signals": "node apps/worker/src/remediate-workspace-signals.mjs",
     "resolve:trends": "node apps/worker/src/resolve-trends.mjs",
     "calibrate:trends": "node apps/worker/src/calibrate-trend-corroboration.mjs",
     "resolve:workspace-intelligence": "node apps/worker/src/resolve-workspace-intelligence.mjs",
