@@ -124,8 +124,16 @@ function verifyFixture() {
     ],
     notes: [],
   };
-  const { cycle, nextState } = buildTrendHistoryCycle(currentSnapshot, previousState, "2026-08-30T07:01:00.000Z", "fixture-current");
+  const { cycle, nextState } = buildTrendHistoryCycle(
+    currentSnapshot,
+    previousState,
+    "2026-08-30T07:01:00.000Z",
+    "fixture-current",
+    { cyclePurpose: "scheduled", persistenceEligible: true },
+  );
   assert(cycle.comparisonWindow === "comparable", "12-hour fixture must be cadence-comparable");
+  assert(cycle.cyclePurpose === "scheduled" && cycle.persistenceEligible === true, "scheduled fixture must be persistence eligible");
+  assert(cycle.baselineStatePath === "history/production-state.json", "scheduled fixture must use production baseline semantics");
   const orion = cycle.current.find((item) => item.candidateId === "orion-new");
   assert(orion?.lineageId === "lineage-orion", "continuing narrative must reuse prior lineageId");
   assert(orion?.presence === "continuing", "matched active lineage must be continuing");
@@ -135,6 +143,9 @@ function verifyFixture() {
   assert(cycle.disappeared.some((item) => item.lineageId === "lineage-vanish"), "previously active unmatched lineage must be newly disappeared");
   assert(nextState.cyclesRecorded === 2, "history state must increment cycle count exactly once");
   assert(nextState.lineages.find((item) => item.lineageId === "lineage-orion")?.seenCycles === 2, "continuing lineage must increment seenCycles");
+
+  const qaCycle = buildTrendHistoryCycle(currentSnapshot, previousState, "2026-08-30T07:02:00.000Z", "fixture-qa").cycle;
+  assert(qaCycle.cyclePurpose === "qa" && qaCycle.persistenceEligible === false, "default QA cycle must never be persistence eligible");
 }
 
 async function verifyArtifact() {
@@ -143,12 +154,15 @@ async function verifyArtifact() {
   assert(cycle.schemaVersion === "trend-history-cycle.v1", "unexpected cycle schema");
   assert(cycle.methodologyVersion === "trend-history-04d.v1", "unexpected history methodology");
   assert(cycle.persistenceMode === "github-history-branch" && cycle.historyBranch === "trend-history", "history persistence semantics must remain explicit");
+  assert(cycle.baselineStatePath === "history/production-state.json", "canonical comparison baseline path must be production-state.json");
+  assert(["scheduled", "qa"].includes(cycle.cyclePurpose), "unknown cycle purpose");
+  assert(cycle.persistenceEligible === (cycle.cyclePurpose === "scheduled"), "only scheduled cycle may be persistence eligible");
   assert(cycle.currentCandidateCount === cycle.current.length, "current candidate count must reconcile");
   assert(state.schemaVersion === "trend-history-state.v1", "unexpected next-state schema");
   assert(state.latestCycleId === cycle.cycleId, "next state must point to the generated cycle");
   assert(state.latestSnapshotGeneratedAt === cycle.currentTrendSnapshotGeneratedAt, "next state must point to current trend snapshot time");
   assert(state.lineages.length === cycle.trackedLineageCount, "tracked lineage count must reconcile");
-  assert(state.cyclesRecorded >= 1, "persistent state must record at least one cycle");
+  assert(state.cyclesRecorded >= 1, "generated next state must record at least one cycle");
 
   const lineageIds = new Set();
   for (const item of cycle.current) {
@@ -168,11 +182,11 @@ async function verifyArtifact() {
   for (const item of cycle.disappeared) {
     assert(!lineageIds.has(item.lineageId), `lineage ${item.lineageId} cannot be current and disappeared in the same cycle`);
   }
-  if (cycle.previousCycleId === null) assert(cycle.comparisonWindow === "bootstrap", "first persisted cycle must be bootstrap");
+  if (cycle.previousCycleId === null) assert(cycle.comparisonWindow === "bootstrap", "first baseline cycle must be bootstrap");
   if (cycle.comparisonWindow === "too-close-for-cadence") assert(cycle.cycleGapHours < 6, "too-close comparison must be under six hours");
   if (cycle.comparisonWindow === "comparable") assert(cycle.cycleGapHours >= 6 && cycle.cycleGapHours <= 18, "comparable cycle gap must stay inside the twice-daily QA window");
 
-  console.log(`Stage 04D verification PASS · cycle ${cycle.cycleId} · ${cycle.current.length} current · ${cycle.disappeared.length} newly disappeared · ${cycle.trackedLineageCount} tracked lineages · ${cycle.comparisonWindow}.`);
+  console.log(`Stage 04D verification PASS · ${cycle.cyclePurpose} cycle ${cycle.cycleId} · persistence ${cycle.persistenceEligible ? "eligible" : "blocked"} · ${cycle.current.length} current · ${cycle.disappeared.length} newly disappeared · ${cycle.trackedLineageCount} tracked lineages · ${cycle.comparisonWindow}.`);
 }
 
 verifyFixture();
