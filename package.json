@@ -14,6 +14,7 @@
     "collect:backbone": "node apps/worker/src/collect-backbone.mjs",
     "collect:social": "node apps/worker/src/collect-social.mjs",
     "collect:permissionless-social": "node apps/worker/src/collect-permissionless-social.mjs",
+    "sanitize:signals": "node apps/worker/src/sanitize-signal-contracts.mjs",
     "collect:workspace": "node apps/worker/src/collect-workspace-signals.mjs",
     "resolve:trends": "node apps/worker/src/resolve-trends.mjs",
     "calibrate:trends": "node apps/worker/src/calibrate-trend-corroboration.mjs",
