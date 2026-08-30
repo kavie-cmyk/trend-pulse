@@ -284,15 +284,14 @@ export interface BrandIntelligenceProfile {
   visualCodes: string[];
   productLines: string[];
   contentPillars: string[];
-  doStatements: string[];
-  dontStatements: string[];
+  do: string[];
+  dont: string[];
   riskBoundaries: string[];
   commercialObjectives: string[];
   creatorPriorities: string[];
   paidPriorities: string[];
   seoPriorities: string[];
   evidenceRefs: string[];
-  createdAt: string;
   updatedAt: string;
 }
 
@@ -304,68 +303,68 @@ export interface TrendCandidate {
   summary: string;
   trendType: TrendType;
   lifecycleStage: TrendLifecycleStage;
+  status: "candidate" | "corroborated" | "rejected";
   signalIds: string[];
   sourceIds: string[];
-  sourceFamilies: SourceType[];
+  sourceDiversity: number;
   geographies: string[];
   languages: string[];
-  firstSeenAt: string;
-  lastSeenAt: string;
+  firstObservedAt?: string;
+  lastObservedAt: string;
   evidenceRefs: string[];
   confidence: ScoreAssessment;
 }
 
 export interface TrendScorecard {
   virality: ScoreAssessment;
-  brandRelevance: ScoreAssessment;
+  brandFit?: ScoreAssessment;
   opportunity: ScoreAssessment;
+  executionUrgency: ScoreAssessment;
   confidence: ScoreAssessment;
 }
 
-export interface MarketingIntelligenceLens {
-  key:
-    | "audience"
-    | "channel"
-    | "content-creative"
-    | "creator-influencer"
-    | "community"
-    | "paid-media"
-    | "seo-search"
-    | "pr-brand"
-    | "competitive-intelligence"
-    | "timing"
-    | "risk"
-    | "commercial-funnel"
-    | "crm-retention"
-    | "product-marketing";
-  status: "available" | "missing" | "not-applicable";
-  insight?: string;
-  rationale?: string;
-  evidenceRefs: string[];
-}
-
-export interface MarketingActionItem {
-  id: string;
-  title: string;
-  actionType: "content" | "creator" | "community" | "paid" | "seo" | "pr" | "crm" | "product-marketing" | "watch";
-  decision: TrendDecision;
-  urgency: "now" | "soon" | "monitor";
-  rationale: string[];
-  evidenceRefs: string[];
+export interface MarketingIntelligenceAnalysis {
+  whyItMatters: string[];
+  audienceRelevance: string[];
+  channelRelevance: string[];
+  contentAndCreativePotential: string[];
+  creatorPotential: string[];
+  communityPotential: string[];
+  paidMediaPotential: string[];
+  seoAndSearchPotential: string[];
+  prAndBrandPotential: string[];
+  competitiveWhitespace: string[];
+  timingNotes: string[];
+  riskNotes: string[];
+  commercialAndFunnelRelevance: string[];
+  crmAndRetentionPotential: string[];
+  productMarketingPotential: string[];
 }
 
 export interface MarketingActionPlan {
-  status: "unavailable" | "provisional" | "ready";
-  actions: MarketingActionItem[];
-  rationale: string[];
-  evidenceRefs: string[];
+  decision: TrendDecision;
+  recommendedAction: string;
+  timeToAct: string;
+  contentAngles: string[];
+  creatorBrief?: string;
+  communityPlan?: string;
+  paidTest?: string;
+  seoOpportunity?: string;
+  prAngle?: string;
+  crmAction?: string;
+  productMarketingAction?: string;
+  cta?: string;
+  kpis: string[];
+  do: string[];
+  dont: string[];
 }
 
 export interface TrendWatchSection {
-  status: "watch" | "prepare" | "act" | "avoid" | "unavailable";
-  watchFor: string[];
-  recheckTriggers: string[];
-  evidenceRefs: string[];
+  risingTrends: string[];
+  earlySignals: string[];
+  nextWindow: string[];
+  competitorWatch: string[];
+  riskWatch: string[];
 }
 
 export interface TrendIntelligenceReport {
@@ -373,20 +372,19 @@ export interface TrendIntelligenceReport {
   id: string;
   workspaceId: string;
   trendCandidateId: string;
+  focusBrandId?: string;
   generatedAt: string;
   snapshot: {
-    what: string;
-    whyNow?: string;
-    where?: string[];
-    who?: string[];
+    title: string;
+    summary: string;
+    trendType: TrendType;
     lifecycleStage: TrendLifecycleStage;
-    evidenceRefs: string[];
+    window: string;
+    sourceSummary: string[];
+    scorecard: TrendScorecard;
   };
-  soWhat: {
-    summary?: string;
-    lenses: MarketingIntelligenceLens[];
-  };
-  scores: TrendScorecard;
+  analysis: MarketingIntelligenceAnalysis;
   actionPlan: MarketingActionPlan;
-  trendWatch: TrendWatchSection;
+  watch: TrendWatchSection;
+  evidenceRefs: string[];
 }
