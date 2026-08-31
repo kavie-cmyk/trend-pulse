@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-08-30T21:55:11.464Z",
-  "latestCycleId": "gh-33337671827-a1",
-  "latestSnapshotGeneratedAt": "2026-08-30T21:55:10.787Z",
-  "cyclesRecorded": 2,
+  "updatedAt": "2026-08-31T15:06:43.771Z",
+  "latestCycleId": "gh-33406418164-a1",
+  "latestSnapshotGeneratedAt": "2026-08-31T15:06:43.080Z",
+  "cyclesRecorded": 3,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "Half off",
       "latestResolutionAnchors": [
@@ -39,7 +39,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-351ac8c9c5a46ba29b",
       "latestTitle": "The Hidden Costs of Free LLM Tiers",
       "latestResolutionAnchors": [
@@ -70,7 +70,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 2,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-f45bcc9a4f023e0a50",
       "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
       "latestResolutionAnchors": [
@@ -99,7 +99,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-6db8d3d495433c3020",
       "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
       "latestResolutionAnchors": [
@@ -131,7 +131,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-b5c9d1781feec055fd",
       "latestTitle": "Explosion at depot near Kyiv",
       "latestResolutionAnchors": [
@@ -152,6 +152,149 @@
       ],
       "latestIndependentSourceFamilies": [
         "social"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-54f2e5a9fd5a4bf739",
+      "firstSeenAt": "2026-08-31T15:06:43.080Z",
+      "lastSeenAt": "2026-08-31T15:06:43.080Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-c16f2d653c4e779866",
+      "latestTitle": "So, SO sleepy",
+      "latestResolutionAnchors": [
+        "zizzy",
+        "femcel",
+        "memes"
+      ],
+      "latestSignalCount": 4,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-adcc1d6374df4401cc",
+      "firstSeenAt": "2026-08-31T15:06:43.080Z",
+      "lastSeenAt": "2026-08-31T15:06:43.080Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-e75ff3e391be657045",
+      "latestTitle": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
+      "latestResolutionAnchors": [
+        "cover",
+        "mad",
+        "magazine",
+        "monthly",
+        "186",
+        "1976"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-4fba28dc45529faf72",
+      "firstSeenAt": "2026-08-31T15:06:43.080Z",
+      "lastSeenAt": "2026-08-31T15:06:43.080Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-400a87ce717f46cab2",
+      "latestTitle": "Client-Side Zero-Upload Utility Suites",
+      "latestResolutionAnchors": [
+        "utility",
+        "suites",
+        "client-side",
+        "community",
+        "dev"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-c9730af779db2bcf14",
+      "firstSeenAt": "2026-08-31T15:06:43.080Z",
+      "lastSeenAt": "2026-08-31T15:06:43.080Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-3cf046355a7b99bb37",
+      "latestTitle": "Emiliano Martínez",
+      "latestResolutionAnchors": [
+        "emiliano",
+        "martinez"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-57fe2f3956e284f891",
+      "firstSeenAt": "2026-08-31T15:06:43.080Z",
+      "lastSeenAt": "2026-08-31T15:06:43.080Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-d323e9aa6dd1b8664a",
+      "latestTitle": "Gabriel Jesus",
+      "latestResolutionAnchors": [
+        "gabriel",
+        "jesus"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
       ],
       "latestStatus": "candidate"
     }

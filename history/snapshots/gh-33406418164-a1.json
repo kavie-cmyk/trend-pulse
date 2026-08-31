@@ -1,0 +1,587 @@
+{
+  "schemaVersion": "trend-resolution-snapshot.v1",
+  "generatedAt": "2026-08-31T15:06:43.080Z",
+  "methodologyVersion": "trend-resolution-04c.v1",
+  "inputSignalCount": 326,
+  "uniqueSignalCount": 326,
+  "candidateCount": 5,
+  "corroboratedCount": 0,
+  "clusteredSignalCount": 12,
+  "unclusteredSignalCount": 314,
+  "candidates": [
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-c16f2d653c4e779866",
+      "title": "So, SO sleepy",
+      "summary": "Repeated source evidence: 4 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: zizzy, femcel, memes.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "lemmy-426f74510ca197bbbd",
+        "lemmy-69f71e113f94ea6122",
+        "lemmy-892beb9a04634e1a94",
+        "lemmy-d8e20366a43d858350"
+      ],
+      "sourceIds": [
+        "lemmy-world-hot"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "zizzy",
+        "femcel",
+        "memes"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-08-31T15:06:17.118Z",
+      "lastObservedAt": "2026-08-31T15:06:17.118Z",
+      "evidenceRefs": [
+        "https://lemmy.blahaj.zone/post/47332571",
+        "https://lemmy.blahaj.zone/post/47332746",
+        "https://lemmy.blahaj.zone/post/47332887",
+        "https://lemmy.blahaj.zone/post/47332986"
+      ],
+      "corroborationRationale": [
+        "4 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: zizzy, femcel, memes.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: zizzy, femcel, memes"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://lemmy.blahaj.zone/post/47332571",
+          "https://lemmy.blahaj.zone/post/47332746",
+          "https://lemmy.blahaj.zone/post/47332887",
+          "https://lemmy.blahaj.zone/post/47332986"
+        ],
+        "computedAt": "2026-08-31T15:06:43.080Z"
+      },
+      "independentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-e75ff3e391be657045",
+      "title": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: cover, mad, magazine, monthly, 186.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "lemmy-3751b94ee58690b290",
+        "lemmy-f27180981c01b338b8"
+      ],
+      "sourceIds": [
+        "lemmy-world-hot"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "cover",
+        "mad",
+        "magazine",
+        "monthly",
+        "186",
+        "1976"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-08-31T15:06:17.118Z",
+      "lastObservedAt": "2026-08-31T15:06:17.118Z",
+      "evidenceRefs": [
+        "https://feddit.org/post/34819326",
+        "https://piefed.social/c/historyart@piefed.social/p/2335555/cover-of-mad-magazine-monthly-186-1976-these-blokes-seem-kinda-familiar"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: cover, mad, magazine, monthly, 186, 1976.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: cover, mad, magazine, monthly, 186, 1976"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://feddit.org/post/34819326",
+          "https://piefed.social/c/historyart@piefed.social/p/2335555/cover-of-mad-magazine-monthly-186-1976-these-blokes-seem-kinda-familiar"
+        ],
+        "computedAt": "2026-08-31T15:06:43.080Z"
+      },
+      "independentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-400a87ce717f46cab2",
+      "title": "Client-Side Zero-Upload Utility Suites",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: utility, suites, client-side, community, dev.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-3ab912676db3b1c665",
+        "forem-65d97d66551a9646f9"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "utility",
+        "suites",
+        "client-side",
+        "community",
+        "dev"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-08-31T15:06:17.118Z",
+      "lastObservedAt": "2026-08-31T15:06:17.118Z",
+      "evidenceRefs": [
+        "https://dev.to/t/client-side-developer-utility-suites",
+        "https://dev.to/t/client-side-zero-upload-utility-suites"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: utility, suites, client-side, community, dev.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: utility, suites, client-side, community, dev"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/client-side-developer-utility-suites",
+          "https://dev.to/t/client-side-zero-upload-utility-suites"
+        ],
+        "computedAt": "2026-08-31T15:06:43.080Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-3cf046355a7b99bb37",
+      "title": "Emiliano Martínez",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: emiliano, martinez.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-6178f941a829eef700",
+        "wikimedia-ba083e89aa2f2ca16c"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "emiliano",
+        "martinez"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "English",
+        "Vietnamese"
+      ],
+      "firstObservedAt": "2026-08-30T23:59:59.000Z",
+      "lastObservedAt": "2026-08-30T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez",
+        "https://vi.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: emiliano, martinez.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: emiliano, martinez"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "English, Vietnamese"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez",
+          "https://vi.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez"
+        ],
+        "computedAt": "2026-08-31T15:06:43.080Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-d323e9aa6dd1b8664a",
+      "title": "Gabriel Jesus",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: gabriel, jesus.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-6b2a48fc71057b90ac",
+        "wikimedia-97ae8a55fcce4c1410"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "gabriel",
+        "jesus"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "English",
+        "Vietnamese"
+      ],
+      "firstObservedAt": "2026-08-30T23:59:59.000Z",
+      "lastObservedAt": "2026-08-30T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://en.wikipedia.org/wiki/Gabriel_Jesus",
+        "https://vi.wikipedia.org/wiki/Gabriel_Jesus"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: gabriel, jesus.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: gabriel, jesus"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "English, Vietnamese"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://en.wikipedia.org/wiki/Gabriel_Jesus",
+          "https://vi.wikipedia.org/wiki/Gabriel_Jesus"
+        ],
+        "computedAt": "2026-08-31T15:06:43.080Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    }
+  ],
+  "notes": [
+    "Global/broad source signals remain workspace-unscoped. TrendCandidate.workspaceId is omitted until a real workspace projection is applied.",
+    "A single observation never becomes a Trend Candidate.",
+    "Corroborated requires at least two distinct source IDs and at least two independent source families.",
+    "Lifecycle stays weak-signal in 04C because one current snapshot cannot establish acceleration, breakout, saturation or decline.",
+    "No Virality, Brand Fit, Opportunity or numeric Confidence score is computed in 04C.",
+    "Source-native metrics are not compared across platforms during resolution.",
+    "04C dependency calibration discounts near-duplicate publisher headlines redistributed through community/social surfaces from independent corroboration counts.",
+    "A distribution/community repost may remain useful attention evidence, but it is not treated as a second independent origin of the claim/narrative."
+  ],
+  "inputSummary": [
+    {
+      "file": "backbone-signals.json",
+      "signalCount": 168
+    },
+    {
+      "file": "social-signals.json",
+      "signalCount": 25
+    },
+    {
+      "file": "permissionless-social-signals.json",
+      "signalCount": 73
+    },
+    {
+      "file": "live-signals.json",
+      "signalCount": 60
+    }
+  ],
+  "dependencyCalibrationVersion": "corroboration-dependency-04c.v1"
+}
