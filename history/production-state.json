@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-08-31T15:06:43.771Z",
-  "latestCycleId": "gh-33406418164-a1",
-  "latestSnapshotGeneratedAt": "2026-08-31T15:06:43.080Z",
-  "cyclesRecorded": 3,
+  "updatedAt": "2026-08-31T23:13:13.970Z",
+  "latestCycleId": "gh-33449640930-a1",
+  "latestSnapshotGeneratedAt": "2026-08-31T23:13:13.245Z",
+  "cyclesRecorded": 4,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "Half off",
       "latestResolutionAnchors": [
@@ -39,7 +39,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-351ac8c9c5a46ba29b",
       "latestTitle": "The Hidden Costs of Free LLM Tiers",
       "latestResolutionAnchors": [
@@ -70,7 +70,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 2,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-f45bcc9a4f023e0a50",
       "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
       "latestResolutionAnchors": [
@@ -99,7 +99,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-6db8d3d495433c3020",
       "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
       "latestResolutionAnchors": [
@@ -131,7 +131,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-b5c9d1781feec055fd",
       "latestTitle": "Explosion at depot near Kyiv",
       "latestResolutionAnchors": [
@@ -160,7 +160,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-c16f2d653c4e779866",
       "latestTitle": "So, SO sleepy",
       "latestResolutionAnchors": [
@@ -188,7 +188,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-e75ff3e391be657045",
       "latestTitle": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
       "latestResolutionAnchors": [
@@ -217,15 +217,16 @@
     {
       "lineageId": "lineage-4fba28dc45529faf72",
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
-      "lastSeenAt": "2026-08-31T15:06:43.080Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-08-31T23:13:13.245Z",
+      "seenCycles": 2,
       "missedCycles": 0,
-      "latestCandidateId": "trend-400a87ce717f46cab2",
-      "latestTitle": "Client-Side Zero-Upload Utility Suites",
+      "latestCandidateId": "trend-18659787065c2dbc73",
+      "latestTitle": "Client-Side Developer Utility Toolkits",
       "latestResolutionAnchors": [
         "utility",
-        "suites",
+        "toolkits",
         "client-side",
+        "developer",
         "community",
         "dev"
       ],
@@ -247,8 +248,8 @@
     {
       "lineageId": "lineage-c9730af779db2bcf14",
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
-      "lastSeenAt": "2026-08-31T15:06:43.080Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-08-31T23:13:13.245Z",
+      "seenCycles": 2,
       "missedCycles": 0,
       "latestCandidateId": "trend-3cf046355a7b99bb37",
       "latestTitle": "Emiliano Martínez",
@@ -274,8 +275,8 @@
     {
       "lineageId": "lineage-57fe2f3956e284f891",
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
-      "lastSeenAt": "2026-08-31T15:06:43.080Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-08-31T23:13:13.245Z",
+      "seenCycles": 2,
       "missedCycles": 0,
       "latestCandidateId": "trend-d323e9aa6dd1b8664a",
       "latestTitle": "Gabriel Jesus",
@@ -295,6 +296,35 @@
       ],
       "latestIndependentSourceFamilies": [
         "culture"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-27e30fb63116711bda",
+      "firstSeenAt": "2026-08-31T23:13:13.245Z",
+      "lastSeenAt": "2026-08-31T23:13:13.245Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-5b4bea33a920908fb7",
+      "latestTitle": "Army Secretary Dan Driscoll",
+      "latestResolutionAnchors": [
+        "therealjackhopkins.bsky.social",
+        "muellershewrote.com",
+        "meidastouch.com",
+        "politics"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestSourceFamilies": [
+        "social"
+      ],
+      "latestIndependentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestIndependentSourceFamilies": [
+        "social"
       ],
       "latestStatus": "candidate"
     }
