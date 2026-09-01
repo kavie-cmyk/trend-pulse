@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-08-31T23:13:13.970Z",
-  "latestCycleId": "gh-33449640930-a1",
-  "latestSnapshotGeneratedAt": "2026-08-31T23:13:13.245Z",
-  "cyclesRecorded": 4,
+  "updatedAt": "2026-09-01T12:35:06.156Z",
+  "latestCycleId": "gh-33508359563-a1",
+  "latestSnapshotGeneratedAt": "2026-09-01T12:35:05.432Z",
+  "cyclesRecorded": 5,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "Half off",
       "latestResolutionAnchors": [
@@ -39,7 +39,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-351ac8c9c5a46ba29b",
       "latestTitle": "The Hidden Costs of Free LLM Tiers",
       "latestResolutionAnchors": [
@@ -70,7 +70,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 2,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-f45bcc9a4f023e0a50",
       "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
       "latestResolutionAnchors": [
@@ -99,7 +99,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-6db8d3d495433c3020",
       "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
       "latestResolutionAnchors": [
@@ -131,7 +131,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-b5c9d1781feec055fd",
       "latestTitle": "Explosion at depot near Kyiv",
       "latestResolutionAnchors": [
@@ -160,7 +160,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-c16f2d653c4e779866",
       "latestTitle": "So, SO sleepy",
       "latestResolutionAnchors": [
@@ -188,7 +188,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-e75ff3e391be657045",
       "latestTitle": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
       "latestResolutionAnchors": [
@@ -219,7 +219,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-18659787065c2dbc73",
       "latestTitle": "Client-Side Developer Utility Toolkits",
       "latestResolutionAnchors": [
@@ -250,7 +250,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-3cf046355a7b99bb37",
       "latestTitle": "Emiliano Martínez",
       "latestResolutionAnchors": [
@@ -277,7 +277,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-d323e9aa6dd1b8664a",
       "latestTitle": "Gabriel Jesus",
       "latestResolutionAnchors": [
@@ -304,7 +304,7 @@
       "firstSeenAt": "2026-08-31T23:13:13.245Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-5b4bea33a920908fb7",
       "latestTitle": "Army Secretary Dan Driscoll",
       "latestResolutionAnchors": [
@@ -325,6 +325,182 @@
       ],
       "latestIndependentSourceFamilies": [
         "social"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-cfb3e63278a16126fb",
+      "firstSeenAt": "2026-09-01T12:35:05.432Z",
+      "lastSeenAt": "2026-09-01T12:35:05.432Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-202a76d919f1cb856b",
+      "latestTitle": "Military brass warn Hegseth on Iran war",
+      "latestResolutionAnchors": [
+        "charlotteclymer.bsky.social",
+        "emptywheel.bsky.social",
+        "cooling",
+        "politics"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestSourceFamilies": [
+        "social"
+      ],
+      "latestIndependentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestIndependentSourceFamilies": [
+        "social"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-7fa03e64eac803e347",
+      "firstSeenAt": "2026-09-01T12:35:05.432Z",
+      "lastSeenAt": "2026-09-01T12:35:05.432Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-5f606320ae3d84554f",
+      "latestTitle": "Dwarf Fortress' creator says the industry's in shambles over AI and layoff-happy CEOs: 'Everyone I know, their bosses are slowly getting psychosis'",
+      "latestResolutionAnchors": [
+        "creator",
+        "says",
+        "shambles",
+        "layoff-happy",
+        "ceos",
+        "everyone"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "firstSeenAt": "2026-09-01T12:35:05.432Z",
+      "lastSeenAt": "2026-09-01T12:35:05.432Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-4f7a446a59f4936710",
+      "latestTitle": "Cantrips Rule",
+      "latestResolutionAnchors": [
+        "rule",
+        "zizzy",
+        "196"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-1ab0fa2b82a1403d0c",
+      "firstSeenAt": "2026-09-01T12:35:05.432Z",
+      "lastSeenAt": "2026-09-01T12:35:05.432Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-42c6c8e43da643506c",
+      "latestTitle": "Evaluating Free AI Tiers and Open-Source Servers",
+      "latestResolutionAnchors": [
+        "evaluating",
+        "servers",
+        "tiers",
+        "free",
+        "dev",
+        "community"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-acd3ea35e14846149d",
+      "firstSeenAt": "2026-09-01T12:35:05.432Z",
+      "lastSeenAt": "2026-09-01T12:35:05.432Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-62c9ea8f44876a78c3",
+      "latestTitle": "Lionel Messi",
+      "latestResolutionAnchors": [
+        "lionel",
+        "messi"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-27cf73eaee1521ceec",
+      "firstSeenAt": "2026-09-01T12:35:05.432Z",
+      "lastSeenAt": "2026-09-01T12:35:05.432Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-40e2ef2c79d416b4f6",
+      "latestTitle": "Giải bóng đá Ngoại hạng Anh 2026–27",
+      "latestResolutionAnchors": [
+        "ngoai",
+        "giai",
+        "bong",
+        "hang",
+        "anh"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
       ],
       "latestStatus": "candidate"
     }
