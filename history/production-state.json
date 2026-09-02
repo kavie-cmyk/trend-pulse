@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-09-01T21:47:19.371Z",
-  "latestCycleId": "gh-33562830439-a1",
-  "latestSnapshotGeneratedAt": "2026-09-01T21:47:18.678Z",
-  "cyclesRecorded": 6,
+  "updatedAt": "2026-09-02T12:07:42.352Z",
+  "latestCycleId": "gh-33628125029-a1",
+  "latestSnapshotGeneratedAt": "2026-09-02T12:07:41.772Z",
+  "cyclesRecorded": 7,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "Half off",
       "latestResolutionAnchors": [
@@ -37,18 +37,17 @@
     {
       "lineageId": "lineage-10fc080934302905c4",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
-      "lastSeenAt": "2026-08-30T12:53:46.413Z",
-      "seenCycles": 1,
-      "missedCycles": 5,
-      "latestCandidateId": "trend-351ac8c9c5a46ba29b",
-      "latestTitle": "The Hidden Costs of Free LLM Tiers",
+      "lastSeenAt": "2026-09-02T12:07:41.772Z",
+      "seenCycles": 2,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-a9f64d06fd5249da91",
+      "latestTitle": "The Hidden Costs of Free AI Infrastructure",
       "latestResolutionAnchors": [
         "hidden",
         "costs",
         "free",
-        "llm",
-        "dev",
-        "community"
+        "community",
+        "dev"
       ],
       "latestSignalCount": 2,
       "latestSourceIds": [
@@ -70,7 +69,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 2,
-      "missedCycles": 4,
+      "missedCycles": 5,
       "latestCandidateId": "trend-f45bcc9a4f023e0a50",
       "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
       "latestResolutionAnchors": [
@@ -99,7 +98,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 4,
+      "missedCycles": 5,
       "latestCandidateId": "trend-6db8d3d495433c3020",
       "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
       "latestResolutionAnchors": [
@@ -131,7 +130,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 4,
+      "missedCycles": 5,
       "latestCandidateId": "trend-b5c9d1781feec055fd",
       "latestTitle": "Explosion at depot near Kyiv",
       "latestResolutionAnchors": [
@@ -160,7 +159,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-c16f2d653c4e779866",
       "latestTitle": "So, SO sleepy",
       "latestResolutionAnchors": [
@@ -188,7 +187,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-e75ff3e391be657045",
       "latestTitle": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
       "latestResolutionAnchors": [
@@ -217,16 +216,15 @@
     {
       "lineageId": "lineage-4fba28dc45529faf72",
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
-      "lastSeenAt": "2026-08-31T23:13:13.245Z",
-      "seenCycles": 2,
-      "missedCycles": 2,
-      "latestCandidateId": "trend-18659787065c2dbc73",
-      "latestTitle": "Client-Side Developer Utility Toolkits",
+      "lastSeenAt": "2026-09-02T12:07:41.772Z",
+      "seenCycles": 3,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-1cbe7e94b464060daf",
+      "latestTitle": "Client-Side Developer Micro-Tools",
       "latestResolutionAnchors": [
-        "utility",
-        "toolkits",
-        "client-side",
         "developer",
+        "micro-tools",
+        "client-side",
         "community",
         "dev"
       ],
@@ -250,7 +248,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-3cf046355a7b99bb37",
       "latestTitle": "Emiliano Martínez",
       "latestResolutionAnchors": [
@@ -277,7 +275,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-d323e9aa6dd1b8664a",
       "latestTitle": "Gabriel Jesus",
       "latestResolutionAnchors": [
@@ -304,7 +302,7 @@
       "firstSeenAt": "2026-08-31T23:13:13.245Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-5b4bea33a920908fb7",
       "latestTitle": "Army Secretary Dan Driscoll",
       "latestResolutionAnchors": [
@@ -333,7 +331,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-202a76d919f1cb856b",
       "latestTitle": "Military brass warn Hegseth on Iran war",
       "latestResolutionAnchors": [
@@ -362,7 +360,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-5f606320ae3d84554f",
       "latestTitle": "Dwarf Fortress' creator says the industry's in shambles over AI and layoff-happy CEOs: 'Everyone I know, their bosses are slowly getting psychosis'",
       "latestResolutionAnchors": [
@@ -393,7 +391,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-4f7a446a59f4936710",
       "latestTitle": "Cantrips Rule",
       "latestResolutionAnchors": [
@@ -419,14 +417,13 @@
     {
       "lineageId": "lineage-1ab0fa2b82a1403d0c",
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
-      "lastSeenAt": "2026-09-01T21:47:18.678Z",
-      "seenCycles": 2,
+      "lastSeenAt": "2026-09-02T12:07:41.772Z",
+      "seenCycles": 3,
       "missedCycles": 0,
-      "latestCandidateId": "trend-b96bfbf84b75927605",
-      "latestTitle": "Evaluating Free AI Tiers and Open-Source Servers",
+      "latestCandidateId": "trend-0f0a8d73becb79db86",
+      "latestTitle": "Stress Testing Free AI Tiers for C/C++ Testing",
       "latestResolutionAnchors": [
-        "evaluating",
-        "servers",
+        "testing",
         "tiers",
         "free",
         "community",
@@ -452,7 +449,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 2,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-62c9ea8f44876a78c3",
       "latestTitle": "Lionel Messi",
       "latestResolutionAnchors": [
@@ -479,7 +476,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 2,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-40e2ef2c79d416b4f6",
       "latestTitle": "Giải bóng đá Ngoại hạng Anh 2026–27",
       "latestResolutionAnchors": [
@@ -507,14 +504,14 @@
     {
       "lineageId": "lineage-b13a8038d5ca568988",
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
-      "lastSeenAt": "2026-09-01T21:47:18.678Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-09-02T12:07:41.772Z",
+      "seenCycles": 2,
       "missedCycles": 0,
-      "latestCandidateId": "trend-0e8793496e23fcc1a6",
+      "latestCandidateId": "trend-5141f4ab7fd9c7806a",
       "latestTitle": "Who is John Ternus, the new Apple CEO?",
       "latestResolutionAnchors": [
-        "ternus",
         "john",
+        "ternus",
         "ceo",
         "apple"
       ],
@@ -540,7 +537,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-4ea365d04c1e943d04",
       "latestTitle": "Steam Frame Reportedly Coming with a Copy of ‘Half-Life: Alyx’ for Free",
       "latestResolutionAnchors": [
@@ -573,7 +570,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-6f33d3723ddf00c07e",
       "latestTitle": "Ask HN: Who is hiring? (September 2026)",
       "latestResolutionAnchors": [
@@ -601,7 +598,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-c7a3ad20e77ebe9d2d",
       "latestTitle": "Russia intensifies drone strikes on Kyiv",
       "latestResolutionAnchors": [
@@ -623,6 +620,87 @@
       ],
       "latestIndependentSourceFamilies": [
         "social"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-2f0e4d1b22bdb94a5c",
+      "firstSeenAt": "2026-09-02T12:07:41.772Z",
+      "lastSeenAt": "2026-09-02T12:07:41.772Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-b559640a4333d163da",
+      "latestTitle": "Murder of Tupac Shakur",
+      "latestResolutionAnchors": [
+        "tupac",
+        "shakur"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "firstSeenAt": "2026-09-02T12:07:41.772Z",
+      "lastSeenAt": "2026-09-02T12:07:41.772Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-3b9c40ea98b7065c5c",
+      "latestTitle": "Hồ Chí Minh",
+      "latestResolutionAnchors": [
+        "chi",
+        "minh"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-f908e50e17a250a09f",
+      "firstSeenAt": "2026-09-02T12:07:41.772Z",
+      "lastSeenAt": "2026-09-02T12:07:41.772Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-7c4a95b439ea9faf48",
+      "latestTitle": "Enzo Fernández",
+      "latestResolutionAnchors": [
+        "enzo",
+        "fernandez"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "culture"
       ],
       "latestStatus": "candidate"
     }
