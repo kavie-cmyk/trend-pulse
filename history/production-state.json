@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-09-02T12:07:42.352Z",
-  "latestCycleId": "gh-33628125029-a1",
-  "latestSnapshotGeneratedAt": "2026-09-02T12:07:41.772Z",
-  "cyclesRecorded": 7,
+  "updatedAt": "2026-09-02T21:50:15.209Z",
+  "latestCycleId": "gh-33687187735-a1",
+  "latestSnapshotGeneratedAt": "2026-09-02T21:50:14.513Z",
+  "cyclesRecorded": 8,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 6,
+      "missedCycles": 7,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "Half off",
       "latestResolutionAnchors": [
@@ -37,17 +37,18 @@
     {
       "lineageId": "lineage-10fc080934302905c4",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
-      "lastSeenAt": "2026-09-02T12:07:41.772Z",
-      "seenCycles": 2,
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 3,
       "missedCycles": 0,
-      "latestCandidateId": "trend-a9f64d06fd5249da91",
+      "latestCandidateId": "trend-5ec42bb3795ec21c18",
       "latestTitle": "The Hidden Costs of Free AI Infrastructure",
       "latestResolutionAnchors": [
         "hidden",
         "costs",
+        "infrastructure",
         "free",
-        "community",
-        "dev"
+        "dev",
+        "community"
       ],
       "latestSignalCount": 2,
       "latestSourceIds": [
@@ -69,7 +70,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 2,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-f45bcc9a4f023e0a50",
       "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
       "latestResolutionAnchors": [
@@ -98,7 +99,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-6db8d3d495433c3020",
       "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
       "latestResolutionAnchors": [
@@ -130,7 +131,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-b5c9d1781feec055fd",
       "latestTitle": "Explosion at depot near Kyiv",
       "latestResolutionAnchors": [
@@ -159,7 +160,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 4,
+      "missedCycles": 5,
       "latestCandidateId": "trend-c16f2d653c4e779866",
       "latestTitle": "So, SO sleepy",
       "latestResolutionAnchors": [
@@ -187,7 +188,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 4,
+      "missedCycles": 5,
       "latestCandidateId": "trend-e75ff3e391be657045",
       "latestTitle": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
       "latestResolutionAnchors": [
@@ -218,7 +219,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-09-02T12:07:41.772Z",
       "seenCycles": 3,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-1cbe7e94b464060daf",
       "latestTitle": "Client-Side Developer Micro-Tools",
       "latestResolutionAnchors": [
@@ -248,7 +249,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-3cf046355a7b99bb37",
       "latestTitle": "Emiliano Martínez",
       "latestResolutionAnchors": [
@@ -275,7 +276,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-d323e9aa6dd1b8664a",
       "latestTitle": "Gabriel Jesus",
       "latestResolutionAnchors": [
@@ -302,7 +303,7 @@
       "firstSeenAt": "2026-08-31T23:13:13.245Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-5b4bea33a920908fb7",
       "latestTitle": "Army Secretary Dan Driscoll",
       "latestResolutionAnchors": [
@@ -331,7 +332,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-202a76d919f1cb856b",
       "latestTitle": "Military brass warn Hegseth on Iran war",
       "latestResolutionAnchors": [
@@ -360,7 +361,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-5f606320ae3d84554f",
       "latestTitle": "Dwarf Fortress' creator says the industry's in shambles over AI and layoff-happy CEOs: 'Everyone I know, their bosses are slowly getting psychosis'",
       "latestResolutionAnchors": [
@@ -391,7 +392,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-4f7a446a59f4936710",
       "latestTitle": "Cantrips Rule",
       "latestResolutionAnchors": [
@@ -417,17 +418,18 @@
     {
       "lineageId": "lineage-1ab0fa2b82a1403d0c",
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
-      "lastSeenAt": "2026-09-02T12:07:41.772Z",
-      "seenCycles": 3,
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 4,
       "missedCycles": 0,
-      "latestCandidateId": "trend-0f0a8d73becb79db86",
-      "latestTitle": "Stress Testing Free AI Tiers for C/C++ Testing",
+      "latestCandidateId": "trend-42c6c8e43da643506c",
+      "latestTitle": "Evaluating Free AI Tiers and Open-Source Servers",
       "latestResolutionAnchors": [
-        "testing",
+        "evaluating",
+        "servers",
         "tiers",
         "free",
-        "community",
-        "dev"
+        "dev",
+        "community"
       ],
       "latestSignalCount": 2,
       "latestSourceIds": [
@@ -449,7 +451,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 2,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-62c9ea8f44876a78c3",
       "latestTitle": "Lionel Messi",
       "latestResolutionAnchors": [
@@ -476,7 +478,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 2,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-40e2ef2c79d416b4f6",
       "latestTitle": "Giải bóng đá Ngoại hạng Anh 2026–27",
       "latestResolutionAnchors": [
@@ -506,7 +508,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-02T12:07:41.772Z",
       "seenCycles": 2,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-5141f4ab7fd9c7806a",
       "latestTitle": "Who is John Ternus, the new Apple CEO?",
       "latestResolutionAnchors": [
@@ -537,7 +539,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-4ea365d04c1e943d04",
       "latestTitle": "Steam Frame Reportedly Coming with a Copy of ‘Half-Life: Alyx’ for Free",
       "latestResolutionAnchors": [
@@ -570,7 +572,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-6f33d3723ddf00c07e",
       "latestTitle": "Ask HN: Who is hiring? (September 2026)",
       "latestResolutionAnchors": [
@@ -598,7 +600,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-c7a3ad20e77ebe9d2d",
       "latestTitle": "Russia intensifies drone strikes on Kyiv",
       "latestResolutionAnchors": [
@@ -626,8 +628,8 @@
     {
       "lineageId": "lineage-2f0e4d1b22bdb94a5c",
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
-      "lastSeenAt": "2026-09-02T12:07:41.772Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 2,
       "missedCycles": 0,
       "latestCandidateId": "trend-b559640a4333d163da",
       "latestTitle": "Murder of Tupac Shakur",
@@ -653,8 +655,8 @@
     {
       "lineageId": "lineage-aaca764b005304c4d3",
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
-      "lastSeenAt": "2026-09-02T12:07:41.772Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 2,
       "missedCycles": 0,
       "latestCandidateId": "trend-3b9c40ea98b7065c5c",
       "latestTitle": "Hồ Chí Minh",
@@ -680,8 +682,8 @@
     {
       "lineageId": "lineage-f908e50e17a250a09f",
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
-      "lastSeenAt": "2026-09-02T12:07:41.772Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 2,
       "missedCycles": 0,
       "latestCandidateId": "trend-7c4a95b439ea9faf48",
       "latestTitle": "Enzo Fernández",
@@ -701,6 +703,98 @@
       ],
       "latestIndependentSourceFamilies": [
         "culture"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-8bb390ed0b6f9564d6",
+      "firstSeenAt": "2026-09-02T21:50:14.513Z",
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-74939f3010cf15e865",
+      "latestTitle": "Wendell Berry has died",
+      "latestResolutionAnchors": [
+        "wendell",
+        "berry"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "hacker-news-api",
+        "wikimedia-pageviews-top"
+      ],
+      "latestSourceFamilies": [
+        "community",
+        "culture"
+      ],
+      "latestIndependentSourceIds": [
+        "hacker-news-api",
+        "wikimedia-pageviews-top"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community",
+        "culture"
+      ],
+      "latestStatus": "corroborated"
+    },
+    {
+      "lineageId": "lineage-e608e3d74250f6371d",
+      "firstSeenAt": "2026-09-02T21:50:14.513Z",
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-78ff14465d4e1016bb",
+      "latestTitle": "Norway considers ban on camera-enabled wearable ‘pervert glasses’",
+      "latestResolutionAnchors": [
+        "norway",
+        "considers",
+        "camera-enabled",
+        "wearable",
+        "pervert",
+        "glasses"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot",
+        "techcrunch-rss"
+      ],
+      "latestSourceFamilies": [
+        "community",
+        "publisher"
+      ],
+      "latestIndependentSourceIds": [
+        "techcrunch-rss"
+      ],
+      "latestIndependentSourceFamilies": [
+        "publisher"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-f2a2b9f7cedddecab1",
+      "firstSeenAt": "2026-09-02T21:50:14.513Z",
+      "lastSeenAt": "2026-09-02T21:50:14.513Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-fbd0188edd3ceacc10",
+      "latestTitle": "Muse Spark 1.3",
+      "latestResolutionAnchors": [
+        "muse",
+        "spark",
+        "1.3"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "hacker-news-api"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "hacker-news-api"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
       ],
       "latestStatus": "candidate"
     }
