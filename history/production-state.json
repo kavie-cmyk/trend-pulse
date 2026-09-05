@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-09-05T11:16:44.886Z",
-  "latestCycleId": "gh-33962853504-a1",
-  "latestSnapshotGeneratedAt": "2026-09-05T11:16:44.217Z",
-  "cyclesRecorded": 13,
+  "updatedAt": "2026-09-05T21:14:58.122Z",
+  "latestCycleId": "gh-33992425395-a1",
+  "latestSnapshotGeneratedAt": "2026-09-05T21:14:57.415Z",
+  "cyclesRecorded": 14,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T12:53:46.413Z",
       "seenCycles": 1,
-      "missedCycles": 12,
+      "missedCycles": 13,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "Half off",
       "latestResolutionAnchors": [
@@ -39,7 +39,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 5,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-07a658f84abdc4bada",
       "latestTitle": "The Hidden Costs of Free AI Infrastructure",
       "latestResolutionAnchors": [
@@ -69,7 +69,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 2,
-      "missedCycles": 11,
+      "missedCycles": 12,
       "latestCandidateId": "trend-f45bcc9a4f023e0a50",
       "latestTitle": "Giải vô địch bóng đá ASEAN 2026",
       "latestResolutionAnchors": [
@@ -98,7 +98,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 11,
+      "missedCycles": 12,
       "latestCandidateId": "trend-6db8d3d495433c3020",
       "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
       "latestResolutionAnchors": [
@@ -130,7 +130,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 11,
+      "missedCycles": 12,
       "latestCandidateId": "trend-b5c9d1781feec055fd",
       "latestTitle": "Explosion at depot near Kyiv",
       "latestResolutionAnchors": [
@@ -159,7 +159,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 10,
+      "missedCycles": 11,
       "latestCandidateId": "trend-c16f2d653c4e779866",
       "latestTitle": "So, SO sleepy",
       "latestResolutionAnchors": [
@@ -187,7 +187,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 10,
+      "missedCycles": 11,
       "latestCandidateId": "trend-e75ff3e391be657045",
       "latestTitle": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
       "latestResolutionAnchors": [
@@ -216,8 +216,8 @@
     {
       "lineageId": "lineage-4fba28dc45529faf72",
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
-      "lastSeenAt": "2026-09-05T11:16:44.217Z",
-      "seenCycles": 5,
+      "lastSeenAt": "2026-09-05T21:14:57.415Z",
+      "seenCycles": 6,
       "missedCycles": 0,
       "latestCandidateId": "trend-bc19cdb81d165eb563",
       "latestTitle": "Client-Side Developer Micro-Tools",
@@ -248,7 +248,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 9,
+      "missedCycles": 10,
       "latestCandidateId": "trend-3cf046355a7b99bb37",
       "latestTitle": "Emiliano Martínez",
       "latestResolutionAnchors": [
@@ -275,7 +275,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 9,
+      "missedCycles": 10,
       "latestCandidateId": "trend-d323e9aa6dd1b8664a",
       "latestTitle": "Gabriel Jesus",
       "latestResolutionAnchors": [
@@ -302,7 +302,7 @@
       "firstSeenAt": "2026-08-31T23:13:13.245Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 1,
-      "missedCycles": 9,
+      "missedCycles": 10,
       "latestCandidateId": "trend-5b4bea33a920908fb7",
       "latestTitle": "Army Secretary Dan Driscoll",
       "latestResolutionAnchors": [
@@ -331,7 +331,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 8,
+      "missedCycles": 9,
       "latestCandidateId": "trend-202a76d919f1cb856b",
       "latestTitle": "Military brass warn Hegseth on Iran war",
       "latestResolutionAnchors": [
@@ -360,7 +360,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 8,
+      "missedCycles": 9,
       "latestCandidateId": "trend-5f606320ae3d84554f",
       "latestTitle": "Dwarf Fortress' creator says the industry's in shambles over AI and layoff-happy CEOs: 'Everyone I know, their bosses are slowly getting psychosis'",
       "latestResolutionAnchors": [
@@ -391,7 +391,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 8,
+      "missedCycles": 9,
       "latestCandidateId": "trend-4f7a446a59f4936710",
       "latestTitle": "Cantrips Rule",
       "latestResolutionAnchors": [
@@ -417,8 +417,8 @@
     {
       "lineageId": "lineage-1ab0fa2b82a1403d0c",
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
-      "lastSeenAt": "2026-09-05T11:16:44.217Z",
-      "seenCycles": 8,
+      "lastSeenAt": "2026-09-05T21:14:57.415Z",
+      "seenCycles": 9,
       "missedCycles": 0,
       "latestCandidateId": "trend-42c6c8e43da643506c",
       "latestTitle": "Evaluating Free LLM Servers & Tiers",
@@ -450,7 +450,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 2,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-62c9ea8f44876a78c3",
       "latestTitle": "Lionel Messi",
       "latestResolutionAnchors": [
@@ -477,7 +477,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 2,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-40e2ef2c79d416b4f6",
       "latestTitle": "Giải bóng đá Ngoại hạng Anh 2026–27",
       "latestResolutionAnchors": [
@@ -507,7 +507,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-02T12:07:41.772Z",
       "seenCycles": 2,
-      "missedCycles": 6,
+      "missedCycles": 7,
       "latestCandidateId": "trend-5141f4ab7fd9c7806a",
       "latestTitle": "Who is John Ternus, the new Apple CEO?",
       "latestResolutionAnchors": [
@@ -538,7 +538,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-4ea365d04c1e943d04",
       "latestTitle": "Steam Frame Reportedly Coming with a Copy of ‘Half-Life: Alyx’ for Free",
       "latestResolutionAnchors": [
@@ -571,7 +571,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-6f33d3723ddf00c07e",
       "latestTitle": "Ask HN: Who is hiring? (September 2026)",
       "latestResolutionAnchors": [
@@ -599,7 +599,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-c7a3ad20e77ebe9d2d",
       "latestTitle": "Russia intensifies drone strikes on Kyiv",
       "latestResolutionAnchors": [
@@ -629,7 +629,7 @@
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 4,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-b559640a4333d163da",
       "latestTitle": "Murder of Tupac Shakur",
       "latestResolutionAnchors": [
@@ -656,7 +656,7 @@
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
       "lastSeenAt": "2026-09-02T21:50:14.513Z",
       "seenCycles": 2,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-3b9c40ea98b7065c5c",
       "latestTitle": "Hồ Chí Minh",
       "latestResolutionAnchors": [
@@ -683,7 +683,7 @@
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 4,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-7c4a95b439ea9faf48",
       "latestTitle": "Enzo Fernández",
       "latestResolutionAnchors": [
@@ -710,7 +710,7 @@
       "firstSeenAt": "2026-09-02T21:50:14.513Z",
       "lastSeenAt": "2026-09-02T21:50:14.513Z",
       "seenCycles": 1,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-74939f3010cf15e865",
       "latestTitle": "Wendell Berry has died",
       "latestResolutionAnchors": [
@@ -741,7 +741,7 @@
       "firstSeenAt": "2026-09-02T21:50:14.513Z",
       "lastSeenAt": "2026-09-02T21:50:14.513Z",
       "seenCycles": 1,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-78ff14465d4e1016bb",
       "latestTitle": "Norway considers ban on camera-enabled wearable ‘pervert glasses’",
       "latestResolutionAnchors": [
@@ -774,7 +774,7 @@
       "firstSeenAt": "2026-09-02T21:50:14.513Z",
       "lastSeenAt": "2026-09-02T21:50:14.513Z",
       "seenCycles": 1,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-fbd0188edd3ceacc10",
       "latestTitle": "Muse Spark 1.3",
       "latestResolutionAnchors": [
@@ -802,7 +802,7 @@
       "firstSeenAt": "2026-09-03T12:07:09.091Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 2,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-054643f503f764d843",
       "latestTitle": "Hùng Cao",
       "latestResolutionAnchors": [
@@ -829,7 +829,7 @@
       "firstSeenAt": "2026-09-03T12:07:09.091Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 2,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-98b5bc9812d66d5b92",
       "latestTitle": "Việt Nam",
       "latestResolutionAnchors": [
@@ -856,7 +856,7 @@
       "firstSeenAt": "2026-09-03T21:43:25.048Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-fd76cf4586dec57a42",
       "latestTitle": "ICE could enter polling places",
       "latestResolutionAnchors": [
@@ -887,7 +887,7 @@
       "firstSeenAt": "2026-09-03T21:43:25.048Z",
       "lastSeenAt": "2026-09-04T12:08:36.230Z",
       "seenCycles": 2,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-04a4fb964e17fb3df0",
       "latestTitle": "Channel 4 airs Reform UK allegations",
       "latestResolutionAnchors": [
@@ -917,7 +917,7 @@
       "firstSeenAt": "2026-09-04T12:08:36.230Z",
       "lastSeenAt": "2026-09-04T12:08:36.230Z",
       "seenCycles": 1,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-3d62c98ed1b5805643",
       "latestTitle": "Trump arch excavation begins",
       "latestResolutionAnchors": [
@@ -945,7 +945,7 @@
       "firstSeenAt": "2026-09-04T21:28:58.247Z",
       "lastSeenAt": "2026-09-04T21:28:58.247Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-471286f313e92bbfa8",
       "latestTitle": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
       "latestResolutionAnchors": [
@@ -978,7 +978,7 @@
       "firstSeenAt": "2026-09-04T21:28:58.247Z",
       "lastSeenAt": "2026-09-04T21:28:58.247Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-95c28922663ab65a77",
       "latestTitle": "Gaming Tetris issues legal warning after White House releases arcade full of parody games",
       "latestResolutionAnchors": [
@@ -1009,7 +1009,7 @@
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
       "lastSeenAt": "2026-09-05T11:16:44.217Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-2455c2b314520538b8",
       "latestTitle": "Record-High 89% in U.S. Say Government Corruption Widespread",
       "latestResolutionAnchors": [
@@ -1040,8 +1040,8 @@
     {
       "lineageId": "lineage-6efa4b527fa3552b20",
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
-      "lastSeenAt": "2026-09-05T11:16:44.217Z",
-      "seenCycles": 1,
+      "lastSeenAt": "2026-09-05T21:14:57.415Z",
+      "seenCycles": 2,
       "missedCycles": 0,
       "latestCandidateId": "trend-eb13cd79aee40d8da6",
       "latestTitle": "anthropics/commerce-agents",
@@ -1068,7 +1068,7 @@
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
       "lastSeenAt": "2026-09-05T11:16:44.217Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-49c6e9f184d89ddc74",
       "latestTitle": "Russia's war on Ukraine continues",
       "latestResolutionAnchors": [
@@ -1097,7 +1097,7 @@
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
       "lastSeenAt": "2026-09-05T11:16:44.217Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-f9e6172aae98a3254f",
       "latestTitle": "Calling deleted function - continued",
       "latestResolutionAnchors": [
@@ -1117,6 +1117,66 @@
       ],
       "latestIndependentSourceIds": [
         "stackoverflow-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-5d24cc798d1e49c30d",
+      "firstSeenAt": "2026-09-05T21:14:57.415Z",
+      "lastSeenAt": "2026-09-05T21:14:57.415Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-70be89b9676275c2c8",
+      "latestTitle": "Russia's war on Ukraine continues",
+      "latestResolutionAnchors": [
+        "theukrainianreview.bsky.social",
+        "youranoncentral.bsky.social",
+        "kateinkharkiv.bsky.social",
+        "politics"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestSourceFamilies": [
+        "social"
+      ],
+      "latestIndependentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestIndependentSourceFamilies": [
+        "social"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-952bc44c67a83eb922",
+      "firstSeenAt": "2026-09-05T21:14:57.415Z",
+      "lastSeenAt": "2026-09-05T21:14:57.415Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-a3c77fd4e134607e94",
+      "latestTitle": "AI Agent Production Failures & Architecture",
+      "latestResolutionAnchors": [
+        "failures",
+        "architecture",
+        "agent",
+        "production",
+        "dev",
+        "community"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "dev-forem-trends"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "dev-forem-trends"
       ],
       "latestIndependentSourceFamilies": [
         "community"
