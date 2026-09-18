@@ -1,0 +1,796 @@
+{
+  "schemaVersion": "trend-resolution-snapshot.v1",
+  "generatedAt": "2026-09-18T21:41:46.218Z",
+  "methodologyVersion": "trend-resolution-04c.v1",
+  "inputSignalCount": 322,
+  "uniqueSignalCount": 322,
+  "candidateCount": 7,
+  "corroboratedCount": 0,
+  "clusteredSignalCount": 14,
+  "unclusteredSignalCount": 308,
+  "candidates": [
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-731b7dd29e84323f0a",
+      "title": "Trump bans CNN, MSNBC, Politico",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: rexhuppke.bsky.social, atrupar.com, politics, cooling.",
+      "trendType": "platform-native",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "bluesky-990cde01625fc1ee8f",
+        "bluesky-ad2a23ffb794f5b5cd"
+      ],
+      "sourceIds": [
+        "bluesky-trends-api"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "social"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "rexhuppke.bsky.social",
+        "atrupar.com",
+        "politics",
+        "cooling"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-09-18T21:41:20.033Z",
+      "lastObservedAt": "2026-09-18T21:41:20.033Z",
+      "evidenceRefs": [
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/58da240c35da",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/5fe1b62e314c"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: rexhuppke.bsky.social, atrupar.com, politics, cooling.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: rexhuppke.bsky.social, atrupar.com, politics, cooling"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/58da240c35da",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/5fe1b62e314c"
+        ],
+        "computedAt": "2026-09-18T21:41:46.218Z"
+      },
+      "independentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceFamilies": [
+        "social"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-769787be086c459549",
+      "title": "Zero-Backend Client-Side Dev Tools",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: zero-backend, client-side, tools, dev, community.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-497e1c3bf807b0e8f3",
+        "forem-e508459a1878294330"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "zero-backend",
+        "client-side",
+        "tools",
+        "dev",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-09-18T21:41:20.518Z",
+      "lastObservedAt": "2026-09-18T21:41:20.518Z",
+      "evidenceRefs": [
+        "https://dev.to/t/zero-backend-client-side-dev-tools",
+        "https://dev.to/t/zero-backend-client-side-dev-tools-1"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: zero-backend, client-side, tools, dev, community.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: zero-backend, client-side, tools, dev, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/zero-backend-client-side-dev-tools",
+          "https://dev.to/t/zero-backend-client-side-dev-tools-1"
+        ],
+        "computedAt": "2026-09-18T21:41:46.218Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-561aa63eb1dd4ac7bd",
+      "title": "Lizzie Borden",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: lizzie, borden.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-1e0a9f48640bae98e3",
+        "wikimedia-98099e332477a2f725"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "lizzie",
+        "borden"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "English"
+      ],
+      "firstObservedAt": "2026-09-17T23:59:59.000Z",
+      "lastObservedAt": "2026-09-17T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://en.wikipedia.org/wiki/Lizzie_Borden",
+        "https://en.wikipedia.org/wiki/Monster%3A_The_Lizzie_Borden_Story"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: lizzie, borden.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: lizzie, borden"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "English"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://en.wikipedia.org/wiki/Lizzie_Borden",
+          "https://en.wikipedia.org/wiki/Monster%3A_The_Lizzie_Borden_Story"
+        ],
+        "computedAt": "2026-09-18T21:41:46.218Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-98b5bc9812d66d5b92",
+      "title": "Việt Nam",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: viet, nam.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-579e3a4d4ec569608f",
+        "wikimedia-fdb77f4bd70d342ab9"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "viet",
+        "nam"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "Vietnamese"
+      ],
+      "firstObservedAt": "2026-09-17T23:59:59.000Z",
+      "lastObservedAt": "2026-09-17T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://vi.wikipedia.org/wiki/B%E1%BB%99_C%C3%B4ng_an_(Vi%E1%BB%87t_Nam)",
+        "https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: viet, nam.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: viet, nam"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "Vietnamese"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://vi.wikipedia.org/wiki/B%E1%BB%99_C%C3%B4ng_an_(Vi%E1%BB%87t_Nam)",
+          "https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam"
+        ],
+        "computedAt": "2026-09-18T21:41:46.218Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-a11608435603d5c50a",
+      "title": "Đại hội Thể thao châu Á 2026",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: thao, chau, đai, hoi.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-15b64c576f3464adbf",
+        "wikimedia-c32ae72ea1a8f2a9ed"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "thao",
+        "chau",
+        "đai",
+        "hoi"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "Vietnamese"
+      ],
+      "firstObservedAt": "2026-09-17T23:59:59.000Z",
+      "lastObservedAt": "2026-09-17T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_Th%E1%BB%83_thao_ch%C3%A2u_%C3%81_2026",
+        "https://vi.wikipedia.org/wiki/B%C3%B3ng_%C4%91%C3%A1_t%E1%BA%A1i_%C4%90%E1%BA%A1i_h%E1%BB%99i_Th%E1%BB%83_thao_ch%C3%A2u_%C3%81_2026_%E2%80%93_Nam"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: thao, chau, đai, hoi.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: thao, chau, đai, hoi"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "Vietnamese"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_Th%E1%BB%83_thao_ch%C3%A2u_%C3%81_2026",
+          "https://vi.wikipedia.org/wiki/B%C3%B3ng_%C4%91%C3%A1_t%E1%BA%A1i_%C4%90%E1%BA%A1i_h%E1%BB%99i_Th%E1%BB%83_thao_ch%C3%A2u_%C3%81_2026_%E2%80%93_Nam"
+        ],
+        "computedAt": "2026-09-18T21:41:46.218Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-c7a8d0d18ebc2127c0",
+      "title": "Dancing with the Stars (American TV series) season 35",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: dancing, american, series, stars.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-3b31670e6402fb696b",
+        "wikimedia-47532a86e30a778426"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "dancing",
+        "american",
+        "series",
+        "stars"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "English"
+      ],
+      "firstObservedAt": "2026-09-17T23:59:59.000Z",
+      "lastObservedAt": "2026-09-17T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)",
+        "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: dancing, american, series, stars.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: dancing, american, series, stars"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "English"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)",
+          "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
+        ],
+        "computedAt": "2026-09-18T21:41:46.218Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-92b427adbbb41f6340",
+      "title": "Thành phố Hồ Chí Minh",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: minh, chi.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-0aa3d5a1f65e7843e7",
+        "wikimedia-bd19fa216cfe1846f8"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "minh",
+        "chi"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "Vietnamese"
+      ],
+      "firstObservedAt": "2026-09-17T23:59:59.000Z",
+      "lastObservedAt": "2026-09-17T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh",
+        "https://vi.wikipedia.org/wiki/Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: minh, chi.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: minh, chi"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "Vietnamese"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh",
+          "https://vi.wikipedia.org/wiki/Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh"
+        ],
+        "computedAt": "2026-09-18T21:41:46.218Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    }
+  ],
+  "notes": [
+    "Global/broad source signals remain workspace-unscoped. TrendCandidate.workspaceId is omitted until a real workspace projection is applied.",
+    "A single observation never becomes a Trend Candidate.",
+    "Corroborated requires at least two distinct source IDs and at least two independent source families.",
+    "Lifecycle stays weak-signal in 04C because one current snapshot cannot establish acceleration, breakout, saturation or decline.",
+    "No Virality, Brand Fit, Opportunity or numeric Confidence score is computed in 04C.",
+    "Source-native metrics are not compared across platforms during resolution.",
+    "04C dependency calibration discounts near-duplicate publisher headlines redistributed through community/social surfaces from independent corroboration counts.",
+    "A distribution/community repost may remain useful attention evidence, but it is not treated as a second independent origin of the claim/narrative."
+  ],
+  "inputSummary": [
+    {
+      "file": "backbone-signals.json",
+      "signalCount": 169
+    },
+    {
+      "file": "social-signals.json",
+      "signalCount": 25
+    },
+    {
+      "file": "permissionless-social-signals.json",
+      "signalCount": 68
+    },
+    {
+      "file": "live-signals.json",
+      "signalCount": 60
+    }
+  ],
+  "dependencyCalibrationVersion": "corroboration-dependency-04c.v1"
+}
