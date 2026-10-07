@@ -1,0 +1,926 @@
+{
+  "schemaVersion": "trend-resolution-snapshot.v1",
+  "generatedAt": "2026-10-07T14:30:26.330Z",
+  "methodologyVersion": "trend-resolution-04c.v1",
+  "inputSignalCount": 335,
+  "uniqueSignalCount": 334,
+  "candidateCount": 8,
+  "corroboratedCount": 0,
+  "clusteredSignalCount": 23,
+  "unclusteredSignalCount": 311,
+  "candidates": [
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-fe304ee86a9ec17c1c",
+      "title": "storytold/filmcraft",
+      "summary": "Repeated source evidence: 7 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: storytold, programming-rust, rust, art, adobe.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "github-1e8588fe280520b6ab",
+        "github-21e662c84d931e8d9c",
+        "github-50d187a6bee5010d8a",
+        "github-7d14d0f74b05419617",
+        "github-9e2168ef112033227f",
+        "github-e3e43f389c5760a61f",
+        "github-f8c3f8920935baab4d"
+      ],
+      "sourceIds": [
+        "github-rest-api"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "storytold",
+        "programming-rust",
+        "rust",
+        "art",
+        "adobe"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-07T14:29:56.069Z",
+      "lastObservedAt": "2026-10-07T14:29:56.069Z",
+      "evidenceRefs": [
+        "https://github.com/storytold/designcraft",
+        "https://github.com/storytold/effectcraft",
+        "https://github.com/storytold/filmcraft",
+        "https://github.com/storytold/lightcraft",
+        "https://github.com/storytold/photocraft",
+        "https://github.com/storytold/printcraft",
+        "https://github.com/storytold/vectorcraft"
+      ],
+      "corroborationRationale": [
+        "7 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: storytold, programming-rust, rust, art, adobe.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: storytold, programming-rust, rust, art, adobe"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://github.com/storytold/designcraft",
+          "https://github.com/storytold/effectcraft",
+          "https://github.com/storytold/filmcraft",
+          "https://github.com/storytold/lightcraft",
+          "https://github.com/storytold/photocraft",
+          "https://github.com/storytold/printcraft",
+          "https://github.com/storytold/vectorcraft"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "github-rest-api"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-612c7828212eb909ab",
+      "title": "Hacktoberfest Open-Source AI 'Touch Grass' Challenge",
+      "summary": "Repeated source evidence: 4 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: touch, grass, hacktoberfest, challenge, dev.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-1364fb89d0931f0e36",
+        "forem-218d9412b0552cc9d3",
+        "forem-5506125522974746b9",
+        "forem-bdd52b49541185e45c"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "touch",
+        "grass",
+        "hacktoberfest",
+        "challenge",
+        "dev",
+        "open-source",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-07T14:30:03.077Z",
+      "lastObservedAt": "2026-10-07T14:30:03.077Z",
+      "evidenceRefs": [
+        "https://dev.to/t/hacktoberfest-open-source-ai-touch-grass-challenge",
+        "https://dev.to/t/hacktoberfest-open-source-ai-touch-grass-challenge-1",
+        "https://dev.to/t/hacktoberfest-open-source-ai-touch-grass-challenge-2",
+        "https://dev.to/t/hacktoberfest-touch-grass-ai-challenge"
+      ],
+      "corroborationRationale": [
+        "4 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: touch, grass, hacktoberfest, challenge, dev, open-source.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: touch, grass, hacktoberfest, challenge, dev, open-source, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/hacktoberfest-open-source-ai-touch-grass-challenge",
+          "https://dev.to/t/hacktoberfest-open-source-ai-touch-grass-challenge-1",
+          "https://dev.to/t/hacktoberfest-open-source-ai-touch-grass-challenge-2",
+          "https://dev.to/t/hacktoberfest-touch-grass-ai-challenge"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-6b880957d71379ce34",
+      "title": "2026-10-07 #1",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: 2026-10-07, far, side.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "lemmy-b75de72bc1790e2233",
+        "lemmy-bd0b89491702853285"
+      ],
+      "sourceIds": [
+        "lemmy-world-hot"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "2026-10-07",
+        "far",
+        "side"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-07T14:30:03.077Z",
+      "lastObservedAt": "2026-10-07T14:30:03.077Z",
+      "evidenceRefs": [
+        "https://discuss.online/post/46491207",
+        "https://discuss.online/post/46491208"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: 2026-10-07, far, side.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: 2026-10-07, far, side"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://discuss.online/post/46491207",
+          "https://discuss.online/post/46491208"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-ffe27709d73cca7a17",
+      "title": "Hacktoberfest Weekend: Build for a Friend",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: build, friend, hacktoberfest, dev, community.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-0d732502a106a066fb",
+        "forem-3b5abb44c09049c6c6"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "build",
+        "friend",
+        "hacktoberfest",
+        "dev",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-07T14:30:03.077Z",
+      "lastObservedAt": "2026-10-07T14:30:03.077Z",
+      "evidenceRefs": [
+        "https://dev.to/t/hacktoberfest-build-for-a-friend-ai-projects",
+        "https://dev.to/t/hacktoberfest-weekend-build-for-a-friend"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: build, friend, hacktoberfest, dev, community.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: build, friend, hacktoberfest, dev, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/hacktoberfest-build-for-a-friend-ai-projects",
+          "https://dev.to/t/hacktoberfest-weekend-build-for-a-friend"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-a396ccc829283e8777",
+      "title": "Sanity Challenge AI Submissions",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: submissions, sanity, challenge, dev, community.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-19f1378a8f32f24a24",
+        "forem-982fa09643f45f1715"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "submissions",
+        "sanity",
+        "challenge",
+        "dev",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-07T14:30:03.077Z",
+      "lastObservedAt": "2026-10-07T14:30:03.077Z",
+      "evidenceRefs": [
+        "https://dev.to/t/sanity-ai-developer-challenge-submissions",
+        "https://dev.to/t/sanity-challenge-ai-submissions"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: submissions, sanity, challenge, dev, community.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: submissions, sanity, challenge, dev, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/sanity-ai-developer-challenge-submissions",
+          "https://dev.to/t/sanity-challenge-ai-submissions"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-c59e294cbefa542c45",
+      "title": "Kaggle LLM Benchmarking Challenge",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: kaggle, benchmarking, challenge, dev, community.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-50b988fde0ee6f83be",
+        "forem-96a31c12889d3f2da5"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "kaggle",
+        "benchmarking",
+        "challenge",
+        "dev",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-07T14:30:03.077Z",
+      "lastObservedAt": "2026-10-07T14:30:03.077Z",
+      "evidenceRefs": [
+        "https://dev.to/t/kaggle-ai-benchmarking-challenge",
+        "https://dev.to/t/kaggle-llm-benchmarking-challenge"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: kaggle, benchmarking, challenge, dev, community.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: kaggle, benchmarking, challenge, dev, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/kaggle-ai-benchmarking-challenge",
+          "https://dev.to/t/kaggle-llm-benchmarking-challenge"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-1d3be33ddff2c2a735",
+      "title": "Hindsight-Powered Incident Response Agents",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: incident, response, agents, dev, community.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-6fba88243ea7accedb",
+        "forem-d2355a6f00e9b1a63d"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "incident",
+        "response",
+        "agents",
+        "dev",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-07T14:30:03.077Z",
+      "lastObservedAt": "2026-10-07T14:30:03.077Z",
+      "evidenceRefs": [
+        "https://dev.to/t/hindsight-powered-incident-response-agents",
+        "https://dev.to/t/self-learning-ai-incident-response-agents"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: incident, response, agents, dev, community.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: incident, response, agents, dev, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/hindsight-powered-incident-response-agents",
+          "https://dev.to/t/self-learning-ai-incident-response-agents"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-92b427adbbb41f6340",
+      "title": "Thành phố Hồ Chí Minh",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: minh, chi.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-5f41e11ee1f39c56ac",
+        "wikimedia-b7b6b85f89754fb98c"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "minh",
+        "chi"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "Vietnamese"
+      ],
+      "firstObservedAt": "2026-10-06T23:59:59.000Z",
+      "lastObservedAt": "2026-10-06T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh",
+        "https://vi.wikipedia.org/wiki/Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: minh, chi.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: minh, chi"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "Vietnamese"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh",
+          "https://vi.wikipedia.org/wiki/Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh"
+        ],
+        "computedAt": "2026-10-07T14:30:26.330Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    }
+  ],
+  "notes": [
+    "Global/broad source signals remain workspace-unscoped. TrendCandidate.workspaceId is omitted until a real workspace projection is applied.",
+    "A single observation never becomes a Trend Candidate.",
+    "Corroborated requires at least two distinct source IDs and at least two independent source families.",
+    "Lifecycle stays weak-signal in 04C because one current snapshot cannot establish acceleration, breakout, saturation or decline.",
+    "No Virality, Brand Fit, Opportunity or numeric Confidence score is computed in 04C.",
+    "Source-native metrics are not compared across platforms during resolution.",
+    "04C dependency calibration discounts near-duplicate publisher headlines redistributed through community/social surfaces from independent corroboration counts.",
+    "A distribution/community repost may remain useful attention evidence, but it is not treated as a second independent origin of the claim/narrative."
+  ],
+  "inputSummary": [
+    {
+      "file": "backbone-signals.json",
+      "signalCount": 170
+    },
+    {
+      "file": "social-signals.json",
+      "signalCount": 25
+    },
+    {
+      "file": "permissionless-social-signals.json",
+      "signalCount": 80
+    },
+    {
+      "file": "live-signals.json",
+      "signalCount": 60
+    }
+  ],
+  "dependencyCalibrationVersion": "corroboration-dependency-04c.v1"
+}
