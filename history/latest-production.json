@@ -1,15 +1,15 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-10T13:41:55.708Z",
-  "cycleId": "gh-38056593936-a1",
+  "generatedAt": "2026-10-10T22:31:44.639Z",
+  "cycleId": "gh-38091677697-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-10T13:41:55.008Z",
-  "previousCycleId": "gh-38003496812-a1",
-  "previousSnapshotGeneratedAt": "2026-10-09T23:16:36.987Z",
-  "cycleGapHours": 14.42,
+  "currentTrendSnapshotGeneratedAt": "2026-10-10T22:31:43.956Z",
+  "previousCycleId": "gh-38056593936-a1",
+  "previousSnapshotGeneratedAt": "2026-10-10T13:41:55.008Z",
+  "cycleGapHours": 8.83,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
@@ -48,23 +48,38 @@
       }
     },
     {
-      "lineageId": "lineage-f1551200d1507f80ea",
-      "candidateId": "trend-113f74f2763669f7fb",
-      "title": "Ukraine drone wave on Russia",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "candidateId": "trend-c59e294cbefa542c45",
+      "title": "Kaggle Benchmarking Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
@@ -72,8 +87,8 @@
       "title": "Hacktoberfest 'Touch Grass' AI Challenge",
       "presence": "continuing",
       "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-ab2d04491f39fac148",
-      "signalCountDelta": -3,
+      "previousCandidateId": "trend-3067b6e89e471e87c4",
+      "signalCountDelta": -1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -98,41 +113,7 @@
           "grass",
           "challenge"
         ],
-        "similarity": 0.8114,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-ed48a8373640ce6da5",
-      "candidateId": "trend-c59e294cbefa542c45",
-      "title": "Kaggle Benchmarking Challenge",
-      "presence": "continuing",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-af92162ffdf01a874f",
-      "signalCountDelta": 1,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge"
-        ],
-        "similarity": 0.8133,
+        "similarity": 1,
         "threshold": 0.38
       }
     },
@@ -140,7 +121,7 @@
       "lineageId": "lineage-b40b8d1455ce0effdd",
       "candidateId": "trend-11060fea40cc2511d7",
       "title": "Hacktoberfest Weekend Challenge: Build for a Friend",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-11060fea40cc2511d7",
       "signalCountDelta": 0,
@@ -174,23 +155,71 @@
       }
     },
     {
+      "lineageId": "lineage-cf9a5e4509b58316ca",
+      "candidateId": "trend-7e4db8f8b61e1a5d00",
+      "title": "Sanity AI Agents & Content Challenges",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-25bd1eae8c34b977cc",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "content",
+          "sanity",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "sanity",
+          "agents",
+          "content"
+        ],
+        "similarity": 0.595,
+        "threshold": 0.38
+      }
+    },
+    {
       "lineageId": "lineage-ab6806e95b0605934c",
       "candidateId": "trend-02c2902186f2c363e0",
       "title": "2009 Fort Hood shooting",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-02c2902186f2c363e0",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "fort",
+          "hood",
+          "shooting"
+        ],
+        "titleTokenOverlap": [
+          "2009",
+          "fort",
+          "hood",
+          "shooting"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-aaca764b005304c4d3",
@@ -258,39 +287,11 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-ae256377ce5ee532b3",
-      "title": "Chosen one",
-      "previousCandidateId": "trend-e930e8286d9ab18dfc",
+      "lineageId": "lineage-f1551200d1507f80ea",
+      "title": "Ukraine drone wave on Russia",
+      "previousCandidateId": "trend-113f74f2763669f7fb",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-09T23:16:36.987Z"
-    },
-    {
-      "lineageId": "lineage-cf9a5e4509b58316ca",
-      "title": "Sanity AI Challenge Agents & Content Lake",
-      "previousCandidateId": "trend-25bd1eae8c34b977cc",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-09T23:16:36.987Z"
-    },
-    {
-      "lineageId": "lineage-e776bf19bda31da4e7",
-      "title": "Nana Patekar",
-      "previousCandidateId": "trend-8436c0892b67ebcb09",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-09T23:16:36.987Z"
-    },
-    {
-      "lineageId": "lineage-ec5f9de90298439eed",
-      "title": "Trump expands red-dyed diesel use",
-      "previousCandidateId": "trend-3b277e9ee0e015b2d7",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-09T23:16:36.987Z"
-    },
-    {
-      "lineageId": "lineage-080c3aa882cc4b8f72",
-      "title": "Truth",
-      "previousCandidateId": "trend-3b8d4c8317a6446cf9",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-09T23:16:36.987Z"
+      "lastSeenAt": "2026-10-10T13:41:55.008Z"
     }
   ],
   "notes": [
