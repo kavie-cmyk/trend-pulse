@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-10-11T14:04:15.579Z",
+  "cycleId": "gh-38145558397-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-10-11T14:04:14.903Z",
+  "previousCycleId": "gh-38091677697-a1",
+  "previousSnapshotGeneratedAt": "2026-10-10T22:31:43.956Z",
+  "cycleGapHours": 15.54,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 7,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 179,
+  "current": [
+    {
+      "lineageId": "lineage-74cc2b4854d1a850ad",
+      "candidateId": "trend-6287b8d3afcd44692a",
+      "title": "Bot traffic plunged to near 0 following the strike on its Vladimir data center",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-534d69b3e24828672e",
+      "candidateId": "trend-3ced3f4e642ea4e347",
+      "title": "storytold/wordcraft",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-3ced3f4e642ea4e347",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "storytold",
+          "programming rust"
+        ],
+        "titleTokenOverlap": [
+          "storytold",
+          "wordcraft"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "candidateId": "trend-717a315acb70fb211e",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-3067b6e89e471e87c4",
+      "signalCountDelta": 3,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "touch",
+          "grass",
+          "hacktoberfest",
+          "dev",
+          "community",
+          "challenge"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "touch",
+          "grass",
+          "challenge"
+        ],
+        "similarity": 0.73,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-66bbb679c1c8425a6f",
+      "candidateId": "trend-c85c2384df95114f8e",
+      "title": "Anh trai vượt ngàn chông gai (mùa 2)",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-6d6cd12c150cf79d3d",
+      "candidateId": "trend-834b0ebb6dfe4f788b",
+      "title": "Report on British Christian nationalism",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-d2eb6bf3d062b146c8",
+      "candidateId": "trend-a25188ae398087d0bb",
+      "title": "AI Agent Benchmarking & Judgment",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-ae22c8d4001037748b",
+      "candidateId": "trend-7c5d5be3a1654e66d5",
+      "title": "East of Eden (2026 miniseries)",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-7c5d5be3a1654e66d5",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "east",
+          "eden"
+        ],
+        "titleTokenOverlap": [
+          "east",
+          "eden"
+        ],
+        "similarity": 0.856,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "title": "Thành phố Hồ Chí Minh",
+      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-cf9a5e4509b58316ca",
+      "title": "Sanity AI Agents & Content Challenges",
+      "previousCandidateId": "trend-7e4db8f8b61e1a5d00",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-b40b8d1455ce0effdd",
+      "title": "Hacktoberfest Weekend Challenge: Build for a Friend",
+      "previousCandidateId": "trend-11060fea40cc2511d7",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "title": "Kaggle Benchmarking Challenge",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-ab6806e95b0605934c",
+      "title": "2009 Fort Hood shooting",
+      "previousCandidateId": "trend-02c2902186f2c363e0",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}

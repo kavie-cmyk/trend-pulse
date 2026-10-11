@@ -1,30 +1,51 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-10T22:31:44.639Z",
-  "cycleId": "gh-38091677697-a1",
+  "generatedAt": "2026-10-11T14:04:15.579Z",
+  "cycleId": "gh-38145558397-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-10T22:31:43.956Z",
-  "previousCycleId": "gh-38056593936-a1",
-  "previousSnapshotGeneratedAt": "2026-10-10T13:41:55.008Z",
-  "cycleGapHours": 8.83,
+  "currentTrendSnapshotGeneratedAt": "2026-10-11T14:04:14.903Z",
+  "previousCycleId": "gh-38091677697-a1",
+  "previousSnapshotGeneratedAt": "2026-10-10T22:31:43.956Z",
+  "cycleGapHours": 15.54,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 175,
+  "trackedLineageCount": 179,
   "current": [
+    {
+      "lineageId": "lineage-74cc2b4854d1a850ad",
+      "candidateId": "trend-6287b8d3afcd44692a",
+      "title": "Bot traffic plunged to near 0 following the strike on its Vladimir data center",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
     {
       "lineageId": "lineage-534d69b3e24828672e",
       "candidateId": "trend-3ced3f4e642ea4e347",
       "title": "storytold/wordcraft",
       "presence": "continuing",
-      "evidenceDirection": "stable",
+      "evidenceDirection": "expanding",
       "previousCandidateId": "trend-3ced3f4e642ea4e347",
-      "signalCountDelta": 0,
+      "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -48,47 +69,13 @@
       }
     },
     {
-      "lineageId": "lineage-ed48a8373640ce6da5",
-      "candidateId": "trend-c59e294cbefa542c45",
-      "title": "Kaggle Benchmarking Challenge",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-c59e294cbefa542c45",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-3067b6e89e471e87c4",
-      "title": "Hacktoberfest 'Touch Grass' AI Challenge",
+      "candidateId": "trend-717a315acb70fb211e",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
+      "evidenceDirection": "expanding",
       "previousCandidateId": "trend-3067b6e89e471e87c4",
-      "signalCountDelta": -1,
+      "signalCountDelta": 3,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -103,9 +90,9 @@
           "touch",
           "grass",
           "hacktoberfest",
-          "challenge",
           "dev",
-          "community"
+          "community",
+          "challenge"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
@@ -113,150 +100,71 @@
           "grass",
           "challenge"
         ],
-        "similarity": 1,
+        "similarity": 0.73,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-b40b8d1455ce0effdd",
-      "candidateId": "trend-11060fea40cc2511d7",
-      "title": "Hacktoberfest Weekend Challenge: Build for a Friend",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-11060fea40cc2511d7",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-66bbb679c1c8425a6f",
+      "candidateId": "trend-c85c2384df95114f8e",
+      "title": "Anh trai vượt ngàn chông gai (mùa 2)",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "weekend",
-          "friend",
-          "build",
-          "hacktoberfest",
-          "challenge",
-          "dev"
-        ],
-        "titleTokenOverlap": [
-          "hacktoberfest",
-          "weekend",
-          "challenge",
-          "build",
-          "friend"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-cf9a5e4509b58316ca",
-      "candidateId": "trend-7e4db8f8b61e1a5d00",
-      "title": "Sanity AI Agents & Content Challenges",
-      "presence": "reappeared",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-25bd1eae8c34b977cc",
-      "signalCountDelta": -1,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-6d6cd12c150cf79d3d",
+      "candidateId": "trend-834b0ebb6dfe4f788b",
+      "title": "Report on British Christian nationalism",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "content",
-          "sanity",
-          "agents",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "sanity",
-          "agents",
-          "content"
-        ],
-        "similarity": 0.595,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-ab6806e95b0605934c",
-      "candidateId": "trend-02c2902186f2c363e0",
-      "title": "2009 Fort Hood shooting",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-02c2902186f2c363e0",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-d2eb6bf3d062b146c8",
+      "candidateId": "trend-a25188ae398087d0bb",
+      "title": "AI Agent Benchmarking & Judgment",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "fort",
-          "hood",
-          "shooting"
-        ],
-        "titleTokenOverlap": [
-          "2009",
-          "fort",
-          "hood",
-          "shooting"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-aaca764b005304c4d3",
-      "candidateId": "trend-3b9c40ea98b7065c5c",
-      "title": "Thành phố Hồ Chí Minh",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "chi",
-          "minh"
-        ],
-        "titleTokenOverlap": [
-          "thanh",
-          "pho",
-          "chi",
-          "minh"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-ae22c8d4001037748b",
       "candidateId": "trend-7c5d5be3a1654e66d5",
-      "title": "East of Eden (novel)",
+      "title": "East of Eden (2026 miniseries)",
       "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-7c5d5be3a1654e66d5",
@@ -277,21 +185,48 @@
         ],
         "titleTokenOverlap": [
           "east",
-          "eden",
-          "novel"
+          "eden"
         ],
-        "similarity": 1,
+        "similarity": 0.856,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-f1551200d1507f80ea",
-      "title": "Ukraine drone wave on Russia",
-      "previousCandidateId": "trend-113f74f2763669f7fb",
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "title": "Thành phố Hồ Chí Minh",
+      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-10T13:41:55.008Z"
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-cf9a5e4509b58316ca",
+      "title": "Sanity AI Agents & Content Challenges",
+      "previousCandidateId": "trend-7e4db8f8b61e1a5d00",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-b40b8d1455ce0effdd",
+      "title": "Hacktoberfest Weekend Challenge: Build for a Friend",
+      "previousCandidateId": "trend-11060fea40cc2511d7",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "title": "Kaggle Benchmarking Challenge",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+    },
+    {
+      "lineageId": "lineage-ab6806e95b0605934c",
+      "title": "2009 Fort Hood shooting",
+      "previousCandidateId": "trend-02c2902186f2c363e0",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-10T22:31:43.956Z"
     }
   ],
   "notes": [
