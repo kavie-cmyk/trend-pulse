@@ -1,51 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-11T14:04:15.579Z",
-  "cycleId": "gh-38145558397-a1",
+  "generatedAt": "2026-10-11T22:54:49.393Z",
+  "cycleId": "gh-38182208252-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-11T14:04:14.903Z",
-  "previousCycleId": "gh-38091677697-a1",
-  "previousSnapshotGeneratedAt": "2026-10-10T22:31:43.956Z",
-  "cycleGapHours": 15.54,
+  "currentTrendSnapshotGeneratedAt": "2026-10-11T22:54:48.694Z",
+  "previousCycleId": "gh-38145558397-a1",
+  "previousSnapshotGeneratedAt": "2026-10-11T14:04:14.903Z",
+  "cycleGapHours": 8.84,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
   "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 179,
+  "trackedLineageCount": 181,
   "current": [
-    {
-      "lineageId": "lineage-74cc2b4854d1a850ad",
-      "candidateId": "trend-6287b8d3afcd44692a",
-      "title": "Bot traffic plunged to near 0 following the strike on its Vladimir data center",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "hacker-news-api",
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "hacker-news-api",
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
     {
       "lineageId": "lineage-534d69b3e24828672e",
       "candidateId": "trend-3ced3f4e642ea4e347",
       "title": "storytold/wordcraft",
       "presence": "continuing",
-      "evidenceDirection": "expanding",
+      "evidenceDirection": "stable",
       "previousCandidateId": "trend-3ced3f4e642ea4e347",
-      "signalCountDelta": 1,
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -70,12 +49,12 @@
     },
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-717a315acb70fb211e",
+      "candidateId": "trend-fdadbf7972ff8a4055",
       "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
       "presence": "continuing",
       "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-3067b6e89e471e87c4",
-      "signalCountDelta": 3,
+      "previousCandidateId": "trend-717a315acb70fb211e",
+      "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -91,16 +70,53 @@
           "grass",
           "hacktoberfest",
           "dev",
-          "community",
-          "challenge"
+          "open source",
+          "challenge",
+          "community"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
+          "open",
+          "source",
           "touch",
           "grass",
           "challenge"
         ],
-        "similarity": 0.73,
+        "similarity": 0.905,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "candidateId": "trend-c59e294cbefa542c45",
+      "title": "Kaggle AI Benchmarking Challenge",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge"
+        ],
+        "similarity": 1,
         "threshold": 0.38
       }
     },
@@ -108,44 +124,65 @@
       "lineageId": "lineage-66bbb679c1c8425a6f",
       "candidateId": "trend-c85c2384df95114f8e",
       "title": "Anh trai vượt ngàn chông gai (mùa 2)",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c85c2384df95114f8e",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "gai",
+          "trai",
+          "vuot",
+          "ngan",
+          "chong",
+          "anh",
+          "mua"
+        ],
+        "titleTokenOverlap": [
+          "anh",
+          "trai",
+          "vuot",
+          "ngan",
+          "chong",
+          "gai",
+          "mua"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-3a883b8edcfcf9bd27",
+      "candidateId": "trend-e199ce4490d8ccbfd0",
+      "title": "To protect immigrant students, a college told Flock to remove its cameras. The company refused.",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
+        "lemmy-world-hot"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
+        "lemmy-world-hot"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "culture"
+        "community"
       ],
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-6d6cd12c150cf79d3d",
-      "candidateId": "trend-834b0ebb6dfe4f788b",
-      "title": "Report on British Christian nationalism",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-d2eb6bf3d062b146c8",
-      "candidateId": "trend-a25188ae398087d0bb",
-      "title": "AI Agent Benchmarking & Judgment",
+      "lineageId": "lineage-2cab7ceb7ba535dbbd",
+      "candidateId": "trend-4785181da9fcf1ae6c",
+      "title": "Hacktoberfest AI Tools for Friends",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -185,48 +222,36 @@
         ],
         "titleTokenOverlap": [
           "east",
-          "eden"
+          "eden",
+          "2026",
+          "miniseries"
         ],
-        "similarity": 0.856,
+        "similarity": 1,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-aaca764b005304c4d3",
-      "title": "Thành phố Hồ Chí Minh",
-      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
+      "lineageId": "lineage-74cc2b4854d1a850ad",
+      "title": "Bot traffic plunged to near 0 following the strike on its Vladimir data center",
+      "previousCandidateId": "trend-6287b8d3afcd44692a",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+      "lastSeenAt": "2026-10-11T14:04:14.903Z"
     },
     {
-      "lineageId": "lineage-cf9a5e4509b58316ca",
-      "title": "Sanity AI Agents & Content Challenges",
-      "previousCandidateId": "trend-7e4db8f8b61e1a5d00",
+      "lineageId": "lineage-6d6cd12c150cf79d3d",
+      "title": "Report on British Christian nationalism",
+      "previousCandidateId": "trend-834b0ebb6dfe4f788b",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+      "lastSeenAt": "2026-10-11T14:04:14.903Z"
     },
     {
-      "lineageId": "lineage-b40b8d1455ce0effdd",
-      "title": "Hacktoberfest Weekend Challenge: Build for a Friend",
-      "previousCandidateId": "trend-11060fea40cc2511d7",
+      "lineageId": "lineage-d2eb6bf3d062b146c8",
+      "title": "AI Agent Benchmarking & Judgment",
+      "previousCandidateId": "trend-a25188ae398087d0bb",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-10T22:31:43.956Z"
-    },
-    {
-      "lineageId": "lineage-ed48a8373640ce6da5",
-      "title": "Kaggle Benchmarking Challenge",
-      "previousCandidateId": "trend-c59e294cbefa542c45",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-10T22:31:43.956Z"
-    },
-    {
-      "lineageId": "lineage-ab6806e95b0605934c",
-      "title": "2009 Fort Hood shooting",
-      "previousCandidateId": "trend-02c2902186f2c363e0",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-10T22:31:43.956Z"
+      "lastSeenAt": "2026-10-11T14:04:14.903Z"
     }
   ],
   "notes": [
