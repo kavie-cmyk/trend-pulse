@@ -1,22 +1,61 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-11T22:54:49.393Z",
-  "cycleId": "gh-38182208252-a1",
+  "generatedAt": "2026-10-12T16:44:59.929Z",
+  "cycleId": "gh-38279376951-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-11T22:54:48.694Z",
-  "previousCycleId": "gh-38145558397-a1",
-  "previousSnapshotGeneratedAt": "2026-10-11T14:04:14.903Z",
-  "cycleGapHours": 8.84,
+  "currentTrendSnapshotGeneratedAt": "2026-10-12T16:44:59.228Z",
+  "previousCycleId": "gh-38182208252-a1",
+  "previousSnapshotGeneratedAt": "2026-10-11T22:54:48.694Z",
+  "cycleGapHours": 17.84,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
   "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 181,
+  "trackedLineageCount": 183,
   "current": [
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "candidateId": "trend-9785cde8149de91488",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-fdadbf7972ff8a4055",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "touch",
+          "grass",
+          "hacktoberfest",
+          "dev",
+          "community",
+          "challenge",
+          "open source"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "touch",
+          "grass",
+          "challenge"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
     {
       "lineageId": "lineage-534d69b3e24828672e",
       "candidateId": "trend-3ced3f4e642ea4e347",
@@ -48,85 +87,12 @@
       }
     },
     {
-      "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-fdadbf7972ff8a4055",
-      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
-      "presence": "continuing",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-717a315acb70fb211e",
-      "signalCountDelta": 1,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "touch",
-          "grass",
-          "hacktoberfest",
-          "dev",
-          "open source",
-          "challenge",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "hacktoberfest",
-          "open",
-          "source",
-          "touch",
-          "grass",
-          "challenge"
-        ],
-        "similarity": 0.905,
-        "threshold": 0.38
-      }
-    },
-    {
       "lineageId": "lineage-ed48a8373640ce6da5",
       "candidateId": "trend-c59e294cbefa542c45",
       "title": "Kaggle AI Benchmarking Challenge",
-      "presence": "reappeared",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-c59e294cbefa542c45",
-      "signalCountDelta": 1,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-66bbb679c1c8425a6f",
-      "candidateId": "trend-c85c2384df95114f8e",
-      "title": "Anh trai vượt ngàn chông gai (mùa 2)",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-c85c2384df95114f8e",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -139,43 +105,56 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "gai",
-          "trai",
-          "vuot",
-          "ngan",
-          "chong",
-          "anh",
-          "mua"
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
         ],
         "titleTokenOverlap": [
-          "anh",
-          "trai",
-          "vuot",
-          "ngan",
-          "chong",
-          "gai",
-          "mua"
+          "kaggle",
+          "benchmarking",
+          "challenge"
         ],
         "similarity": 1,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-3a883b8edcfcf9bd27",
-      "candidateId": "trend-e199ce4490d8ccbfd0",
-      "title": "To protect immigrant students, a college told Flock to remove its cameras. The company refused.",
+      "lineageId": "lineage-9ba5d955adb0d592c0",
+      "candidateId": "trend-48a02d5e0fb4ccc6de",
+      "title": "Trump strikes diesel deal with Russia",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "lemmy-world-hot"
+        "bluesky-trends-api"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "lemmy-world-hot"
+        "bluesky-trends-api"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "community"
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-0f47d40fe6da47ff85",
+      "candidateId": "trend-6018f7587cae720b66",
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "techcrunch-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "techcrunch-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "publisher"
       ],
       "independentSourceFamiliesRemoved": []
     },
@@ -183,20 +162,35 @@
       "lineageId": "lineage-2cab7ceb7ba535dbbd",
       "candidateId": "trend-4785181da9fcf1ae6c",
       "title": "Hacktoberfest AI Tools for Friends",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-4785181da9fcf1ae6c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "friends",
+          "tools",
+          "hacktoberfest",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "tools",
+          "friends"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-ae22c8d4001037748b",
@@ -233,25 +227,18 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-74cc2b4854d1a850ad",
-      "title": "Bot traffic plunged to near 0 following the strike on its Vladimir data center",
-      "previousCandidateId": "trend-6287b8d3afcd44692a",
+      "lineageId": "lineage-66bbb679c1c8425a6f",
+      "title": "Anh trai vượt ngàn chông gai (mùa 2)",
+      "previousCandidateId": "trend-c85c2384df95114f8e",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-11T14:04:14.903Z"
+      "lastSeenAt": "2026-10-11T22:54:48.694Z"
     },
     {
-      "lineageId": "lineage-6d6cd12c150cf79d3d",
-      "title": "Report on British Christian nationalism",
-      "previousCandidateId": "trend-834b0ebb6dfe4f788b",
+      "lineageId": "lineage-3a883b8edcfcf9bd27",
+      "title": "To protect immigrant students, a college told Flock to remove its cameras. The company refused.",
+      "previousCandidateId": "trend-e199ce4490d8ccbfd0",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-11T14:04:14.903Z"
-    },
-    {
-      "lineageId": "lineage-d2eb6bf3d062b146c8",
-      "title": "AI Agent Benchmarking & Judgment",
-      "previousCandidateId": "trend-a25188ae398087d0bb",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-11T14:04:14.903Z"
+      "lastSeenAt": "2026-10-11T22:54:48.694Z"
     }
   ],
   "notes": [
