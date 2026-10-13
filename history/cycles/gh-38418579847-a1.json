@@ -1,0 +1,323 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-10-13T15:03:48.998Z",
+  "cycleId": "gh-38418579847-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-10-13T15:03:48.296Z",
+  "previousCycleId": "gh-38331633329-a1",
+  "previousSnapshotGeneratedAt": "2026-10-13T01:21:31.721Z",
+  "cycleGapHours": 13.7,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 10,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 191,
+  "current": [
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "candidateId": "trend-ab2d04491f39fac148",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-ab2d04491f39fac148",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "touch",
+          "grass",
+          "hacktoberfest",
+          "dev",
+          "community",
+          "open source",
+          "challenge"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "touch",
+          "grass",
+          "challenge"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-534d69b3e24828672e",
+      "candidateId": "trend-3ced3f4e642ea4e347",
+      "title": "storytold/wordcraft",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-3ced3f4e642ea4e347",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "storytold",
+          "programming rust"
+        ],
+        "titleTokenOverlap": [
+          "storytold",
+          "wordcraft"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-d32c25843c69d8d3a4",
+      "candidateId": "trend-115f60e2f016a3bd72",
+      "title": "Paxton's Dubai New Year's party",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "candidateId": "trend-c59e294cbefa542c45",
+      "title": "Kaggle AI Benchmarking Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-8d5bde3be5d13d3246",
+      "candidateId": "trend-0e34873cea3dae435d",
+      "title": "Greene breaks with Trump",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-4069e5ebbeb6d6f583",
+      "candidateId": "trend-93ac03f4a0e70a7973",
+      "title": "New press secretary's first briefing",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-64ec8fd4c528d03a44",
+      "candidateId": "trend-f1955f6c9408055afb",
+      "title": "Zelensky links strikes to fewer bots",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-b7194c7f1f98d41681",
+      "candidateId": "trend-1cff061c2c7b8b48c6",
+      "title": "BBC bias and funding",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-2cab7ceb7ba535dbbd",
+      "candidateId": "trend-4785181da9fcf1ae6c",
+      "title": "Hacktoberfest AI Tools for Friends",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-4785181da9fcf1ae6c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "friends",
+          "tools",
+          "hacktoberfest",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "tools",
+          "friends"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-ae22c8d4001037748b",
+      "candidateId": "trend-7c5d5be3a1654e66d5",
+      "title": "East of Eden (2026 miniseries)",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-7c5d5be3a1654e66d5",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "east",
+          "eden"
+        ],
+        "titleTokenOverlap": [
+          "east",
+          "eden",
+          "2026",
+          "miniseries"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-0f47d40fe6da47ff85",
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "previousCandidateId": "trend-6018f7587cae720b66",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+    },
+    {
+      "lineageId": "lineage-2d67b0e156471d4b79",
+      "title": "Talarico mental hospital rumor",
+      "previousCandidateId": "trend-b2471472809c5e6caf",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+    },
+    {
+      "lineageId": "lineage-df61235b492751eba0",
+      "title": "DC tree removal court case",
+      "previousCandidateId": "trend-c3bd9e1512587311f1",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+    },
+    {
+      "lineageId": "lineage-8f544af91992805fb9",
+      "title": "Taxpayer-funded Trump ads case",
+      "previousCandidateId": "trend-760dda26ed2284f7c4",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}

@@ -1,22 +1,61 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-13T01:21:32.268Z",
-  "cycleId": "gh-38331633329-a1",
+  "generatedAt": "2026-10-13T15:03:48.998Z",
+  "cycleId": "gh-38418579847-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-13T01:21:31.721Z",
-  "previousCycleId": "gh-38279376951-a1",
-  "previousSnapshotGeneratedAt": "2026-10-12T16:44:59.228Z",
-  "cycleGapHours": 8.61,
+  "currentTrendSnapshotGeneratedAt": "2026-10-13T15:03:48.296Z",
+  "previousCycleId": "gh-38331633329-a1",
+  "previousSnapshotGeneratedAt": "2026-10-13T01:21:31.721Z",
+  "cycleGapHours": 13.7,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 9,
+  "currentCandidateCount": 10,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 186,
+  "trackedLineageCount": 191,
   "current": [
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "candidateId": "trend-ab2d04491f39fac148",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-ab2d04491f39fac148",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "touch",
+          "grass",
+          "hacktoberfest",
+          "dev",
+          "community",
+          "open source",
+          "challenge"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "touch",
+          "grass",
+          "challenge"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
     {
       "lineageId": "lineage-534d69b3e24828672e",
       "candidateId": "trend-3ced3f4e642ea4e347",
@@ -48,43 +87,23 @@
       }
     },
     {
-      "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-ab2d04491f39fac148",
-      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
-      "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-9785cde8149de91488",
-      "signalCountDelta": -1,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-d32c25843c69d8d3a4",
+      "candidateId": "trend-115f60e2f016a3bd72",
+      "title": "Paxton's Dubai New Year's party",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "touch",
-          "grass",
-          "hacktoberfest",
-          "dev",
-          "community",
-          "open source",
-          "challenge"
-        ],
-        "titleTokenOverlap": [
-          "hacktoberfest",
-          "open",
-          "source",
-          "touch",
-          "grass",
-          "challenge"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-ed48a8373640ce6da5",
@@ -121,50 +140,9 @@
       }
     },
     {
-      "lineageId": "lineage-0f47d40fe6da47ff85",
-      "candidateId": "trend-6018f7587cae720b66",
-      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-6018f7587cae720b66",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "everything",
-          "need",
-          "know",
-          "disrupt",
-          "8217",
-          "techcrunch"
-        ],
-        "titleTokenOverlap": [
-          "founder",
-          "guide",
-          "techcrunch",
-          "disrupt",
-          "2026",
-          "everything",
-          "you",
-          "need",
-          "know"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-2d67b0e156471d4b79",
-      "candidateId": "trend-b2471472809c5e6caf",
-      "title": "Talarico mental hospital rumor",
+      "lineageId": "lineage-8d5bde3be5d13d3246",
+      "candidateId": "trend-0e34873cea3dae435d",
+      "title": "Greene breaks with Trump",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -181,9 +159,9 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-df61235b492751eba0",
-      "candidateId": "trend-c3bd9e1512587311f1",
-      "title": "DC tree removal court case",
+      "lineageId": "lineage-4069e5ebbeb6d6f583",
+      "candidateId": "trend-93ac03f4a0e70a7973",
+      "title": "New press secretary's first briefing",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -200,9 +178,28 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-8f544af91992805fb9",
-      "candidateId": "trend-760dda26ed2284f7c4",
-      "title": "Taxpayer-funded Trump ads case",
+      "lineageId": "lineage-64ec8fd4c528d03a44",
+      "candidateId": "trend-f1955f6c9408055afb",
+      "title": "Zelensky links strikes to fewer bots",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-b7194c7f1f98d41681",
+      "candidateId": "trend-1cff061c2c7b8b48c6",
+      "title": "BBC bias and funding",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -287,11 +284,32 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-9ba5d955adb0d592c0",
-      "title": "Trump strikes diesel deal with Russia",
-      "previousCandidateId": "trend-48a02d5e0fb4ccc6de",
+      "lineageId": "lineage-0f47d40fe6da47ff85",
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "previousCandidateId": "trend-6018f7587cae720b66",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-12T16:44:59.228Z"
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+    },
+    {
+      "lineageId": "lineage-2d67b0e156471d4b79",
+      "title": "Talarico mental hospital rumor",
+      "previousCandidateId": "trend-b2471472809c5e6caf",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+    },
+    {
+      "lineageId": "lineage-df61235b492751eba0",
+      "title": "DC tree removal court case",
+      "previousCandidateId": "trend-c3bd9e1512587311f1",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+    },
+    {
+      "lineageId": "lineage-8f544af91992805fb9",
+      "title": "Taxpayer-funded Trump ads case",
+      "previousCandidateId": "trend-760dda26ed2284f7c4",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T01:21:31.721Z"
     }
   ],
   "notes": [
