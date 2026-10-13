@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-10-13T01:21:32.268Z",
+  "cycleId": "gh-38331633329-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-10-13T01:21:31.721Z",
+  "previousCycleId": "gh-38279376951-a1",
+  "previousSnapshotGeneratedAt": "2026-10-12T16:44:59.228Z",
+  "cycleGapHours": 8.61,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 9,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 186,
+  "current": [
+    {
+      "lineageId": "lineage-534d69b3e24828672e",
+      "candidateId": "trend-3ced3f4e642ea4e347",
+      "title": "storytold/wordcraft",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-3ced3f4e642ea4e347",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "storytold",
+          "programming rust"
+        ],
+        "titleTokenOverlap": [
+          "storytold",
+          "wordcraft"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "candidateId": "trend-ab2d04491f39fac148",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-9785cde8149de91488",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "touch",
+          "grass",
+          "hacktoberfest",
+          "dev",
+          "community",
+          "open source",
+          "challenge"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "touch",
+          "grass",
+          "challenge"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "candidateId": "trend-c59e294cbefa542c45",
+      "title": "Kaggle AI Benchmarking Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-0f47d40fe6da47ff85",
+      "candidateId": "trend-6018f7587cae720b66",
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-6018f7587cae720b66",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "everything",
+          "need",
+          "know",
+          "disrupt",
+          "8217",
+          "techcrunch"
+        ],
+        "titleTokenOverlap": [
+          "founder",
+          "guide",
+          "techcrunch",
+          "disrupt",
+          "2026",
+          "everything",
+          "you",
+          "need",
+          "know"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2d67b0e156471d4b79",
+      "candidateId": "trend-b2471472809c5e6caf",
+      "title": "Talarico mental hospital rumor",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-df61235b492751eba0",
+      "candidateId": "trend-c3bd9e1512587311f1",
+      "title": "DC tree removal court case",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-8f544af91992805fb9",
+      "candidateId": "trend-760dda26ed2284f7c4",
+      "title": "Taxpayer-funded Trump ads case",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-2cab7ceb7ba535dbbd",
+      "candidateId": "trend-4785181da9fcf1ae6c",
+      "title": "Hacktoberfest AI Tools for Friends",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-4785181da9fcf1ae6c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "friends",
+          "tools",
+          "hacktoberfest",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "tools",
+          "friends"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-ae22c8d4001037748b",
+      "candidateId": "trend-7c5d5be3a1654e66d5",
+      "title": "East of Eden (2026 miniseries)",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-7c5d5be3a1654e66d5",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "east",
+          "eden"
+        ],
+        "titleTokenOverlap": [
+          "east",
+          "eden",
+          "2026",
+          "miniseries"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-9ba5d955adb0d592c0",
+      "title": "Trump strikes diesel deal with Russia",
+      "previousCandidateId": "trend-48a02d5e0fb4ccc6de",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-12T16:44:59.228Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
