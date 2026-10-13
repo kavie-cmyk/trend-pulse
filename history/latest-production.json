@@ -1,30 +1,51 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-13T15:03:48.998Z",
-  "cycleId": "gh-38418579847-a1",
+  "generatedAt": "2026-10-13T23:17:17.235Z",
+  "cycleId": "gh-38483168913-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-13T15:03:48.296Z",
-  "previousCycleId": "gh-38331633329-a1",
-  "previousSnapshotGeneratedAt": "2026-10-13T01:21:31.721Z",
-  "cycleGapHours": 13.7,
+  "currentTrendSnapshotGeneratedAt": "2026-10-13T23:17:16.621Z",
+  "previousCycleId": "gh-38418579847-a1",
+  "previousSnapshotGeneratedAt": "2026-10-13T15:03:48.296Z",
+  "cycleGapHours": 8.22,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 10,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 191,
+  "trackedLineageCount": 193,
   "current": [
+    {
+      "lineageId": "lineage-b57d8249a251920677",
+      "candidateId": "trend-9cdd802e0faeb1a94d",
+      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
       "candidateId": "trend-ab2d04491f39fac148",
       "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
       "presence": "continuing",
-      "evidenceDirection": "expanding",
+      "evidenceDirection": "stable",
       "previousCandidateId": "trend-ab2d04491f39fac148",
-      "signalCountDelta": 1,
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -87,25 +108,6 @@
       }
     },
     {
-      "lineageId": "lineage-d32c25843c69d8d3a4",
-      "candidateId": "trend-115f60e2f016a3bd72",
-      "title": "Paxton's Dubai New Year's party",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
       "lineageId": "lineage-ed48a8373640ce6da5",
       "candidateId": "trend-c59e294cbefa542c45",
       "title": "Kaggle AI Benchmarking Challenge",
@@ -140,66 +142,9 @@
       }
     },
     {
-      "lineageId": "lineage-8d5bde3be5d13d3246",
-      "candidateId": "trend-0e34873cea3dae435d",
-      "title": "Greene breaks with Trump",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-4069e5ebbeb6d6f583",
-      "candidateId": "trend-93ac03f4a0e70a7973",
-      "title": "New press secretary's first briefing",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-64ec8fd4c528d03a44",
-      "candidateId": "trend-f1955f6c9408055afb",
-      "title": "Zelensky links strikes to fewer bots",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-b7194c7f1f98d41681",
-      "candidateId": "trend-1cff061c2c7b8b48c6",
-      "title": "BBC bias and funding",
+      "lineageId": "lineage-ee30123ae079e25190",
+      "candidateId": "trend-3e2a0edce36477f5f9",
+      "title": "Talarico mental hospital rumor",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -217,7 +162,7 @@
     },
     {
       "lineageId": "lineage-2cab7ceb7ba535dbbd",
-      "candidateId": "trend-4785181da9fcf1ae6c",
+      "candidateId": "trend-d0143f4ccedc3a7880",
       "title": "Hacktoberfest AI Tools for Friends",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -234,8 +179,8 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "friends",
           "tools",
+          "friends",
           "hacktoberfest",
           "dev",
           "community"
@@ -284,32 +229,39 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-0f47d40fe6da47ff85",
-      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "previousCandidateId": "trend-6018f7587cae720b66",
+      "lineageId": "lineage-d32c25843c69d8d3a4",
+      "title": "Paxton's Dubai New Year's party",
+      "previousCandidateId": "trend-115f60e2f016a3bd72",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+      "lastSeenAt": "2026-10-13T15:03:48.296Z"
     },
     {
-      "lineageId": "lineage-2d67b0e156471d4b79",
-      "title": "Talarico mental hospital rumor",
-      "previousCandidateId": "trend-b2471472809c5e6caf",
+      "lineageId": "lineage-8d5bde3be5d13d3246",
+      "title": "Greene breaks with Trump",
+      "previousCandidateId": "trend-0e34873cea3dae435d",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+      "lastSeenAt": "2026-10-13T15:03:48.296Z"
     },
     {
-      "lineageId": "lineage-df61235b492751eba0",
-      "title": "DC tree removal court case",
-      "previousCandidateId": "trend-c3bd9e1512587311f1",
+      "lineageId": "lineage-4069e5ebbeb6d6f583",
+      "title": "New press secretary's first briefing",
+      "previousCandidateId": "trend-93ac03f4a0e70a7973",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+      "lastSeenAt": "2026-10-13T15:03:48.296Z"
     },
     {
-      "lineageId": "lineage-8f544af91992805fb9",
-      "title": "Taxpayer-funded Trump ads case",
-      "previousCandidateId": "trend-760dda26ed2284f7c4",
+      "lineageId": "lineage-64ec8fd4c528d03a44",
+      "title": "Zelensky links strikes to fewer bots",
+      "previousCandidateId": "trend-f1955f6c9408055afb",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-13T01:21:31.721Z"
+      "lastSeenAt": "2026-10-13T15:03:48.296Z"
+    },
+    {
+      "lineageId": "lineage-b7194c7f1f98d41681",
+      "title": "BBC bias and funding",
+      "previousCandidateId": "trend-1cff061c2c7b8b48c6",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-13T15:03:48.296Z"
     }
   ],
   "notes": [
