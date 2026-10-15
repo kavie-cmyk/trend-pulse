@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-10-15T12:40:03.048Z",
+  "cycleId": "gh-38736201464-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-10-15T12:40:02.316Z",
+  "previousCycleId": "gh-38567108749-a1",
+  "previousSnapshotGeneratedAt": "2026-10-14T12:53:07.912Z",
+  "cycleGapHours": 23.78,
+  "comparisonWindow": "stale-gap",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 9,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 197,
+  "current": [
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "candidateId": "trend-1edd1433df5abc92cf",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-6f7e150dcb3a216253",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "touch",
+          "grass",
+          "hacktoberfest",
+          "dev",
+          "challenge",
+          "community",
+          "open source"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "touch",
+          "grass",
+          "challenge"
+        ],
+        "similarity": 0.905,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "candidateId": "trend-6d4670702df27c96e4",
+      "title": "Kaggle AI Agent Benchmarking Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c59e294cbefa542c45",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge"
+        ],
+        "similarity": 0.8133,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "candidateId": "trend-5b62427391328c0406",
+      "title": "Thành phố Hồ Chí Minh",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "chi",
+          "minh"
+        ],
+        "titleTokenOverlap": [
+          "thanh",
+          "pho",
+          "chi",
+          "minh"
+        ],
+        "similarity": 0.62,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-534d69b3e24828672e",
+      "candidateId": "trend-3ced3f4e642ea4e347",
+      "title": "storytold/craft-launcher",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-3ced3f4e642ea4e347",
+      "signalCountDelta": -4,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "storytold",
+          "programming rust"
+        ],
+        "titleTokenOverlap": [
+          "storytold"
+        ],
+        "similarity": 0.82,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-7a173054d32ce43859",
+      "candidateId": "trend-fda0cf962923de2f67",
+      "title": "Midterm get-out-the-vote push",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "candidateId": "trend-374d3b3f6055248f70",
+      "title": "Condom rule",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-bd8491842d8c65c489",
+      "signalCountDelta": -3,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "rule",
+          "miisha",
+          "196"
+        ],
+        "titleTokenOverlap": [
+          "rule"
+        ],
+        "similarity": 0.84,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-5271659ac5985074f1",
+      "candidateId": "trend-444f7522dfcc44b43b",
+      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-8114d9e46cd0916178",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "side",
+          "hustles",
+          "open source",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "side",
+          "hustles"
+        ],
+        "similarity": 0.8733,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2cab7ceb7ba535dbbd",
+      "candidateId": "trend-d0143f4ccedc3a7880",
+      "title": "Hacktoberfest AI Tools for Friends",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-4785181da9fcf1ae6c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "tools",
+          "friends",
+          "hacktoberfest",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "tools",
+          "friends"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-ff32625ddf4c1af87b",
+      "candidateId": "trend-5371b39782638c368f",
+      "title": "Narnia: The Magician's Nephew",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-1b1d76f067e8258d42",
+      "title": "Daniel and Luis Moncada",
+      "previousCandidateId": "trend-5ecd8ef9611a4fe2f4",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-14T12:53:07.912Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
