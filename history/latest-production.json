@@ -1,30 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-15T22:17:23.332Z",
-  "cycleId": "gh-38815914483-a1",
+  "generatedAt": "2026-10-16T12:25:04.983Z",
+  "cycleId": "gh-38900184763-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-15T22:17:22.834Z",
-  "previousCycleId": "gh-38736201464-a1",
-  "previousSnapshotGeneratedAt": "2026-10-15T12:40:02.316Z",
-  "cycleGapHours": 9.62,
+  "currentTrendSnapshotGeneratedAt": "2026-10-16T12:25:04.276Z",
+  "previousCycleId": "gh-38815914483-a1",
+  "previousSnapshotGeneratedAt": "2026-10-15T22:17:22.834Z",
+  "cycleGapHours": 14.13,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
   "currentCandidateCount": 8,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 199,
+  "trackedLineageCount": 201,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-3067b6e89e471e87c4",
-      "title": "Hacktoberfest 'Touch Grass' AI Challenge",
+      "candidateId": "trend-ab2d04491f39fac148",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-1edd1433df5abc92cf",
-      "signalCountDelta": -2,
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-3067b6e89e471e87c4",
+      "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -39,9 +39,9 @@
           "touch",
           "grass",
           "hacktoberfest",
-          "challenge",
           "dev",
-          "community"
+          "community",
+          "challenge"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
@@ -54,45 +54,9 @@
       }
     },
     {
-      "lineageId": "lineage-ed48a8373640ce6da5",
-      "candidateId": "trend-6d4670702df27c96e4",
-      "title": "Kaggle AI Agent Benchmarking Challenge",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-6d4670702df27c96e4",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge",
-          "dev",
-          "community",
-          "agent"
-        ],
-        "titleTokenOverlap": [
-          "kaggle",
-          "agent",
-          "benchmarking",
-          "challenge"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-b4cd3c8c1e7aa5a7bf",
-      "candidateId": "trend-27a3cff7aab5931188",
-      "title": "Ukraine resumes Russian refinery strikes",
+      "lineageId": "lineage-1189a5b46a9ccc1363",
+      "candidateId": "trend-c69eb37243cc2b1c41",
+      "title": "Republicans and school shootings",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -109,13 +73,13 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-aaca764b005304c4d3",
-      "candidateId": "trend-5b62427391328c0406",
-      "title": "Thành phố Hồ Chí Minh",
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "candidateId": "trend-c59e294cbefa542c45",
+      "title": "Kaggle AI Benchmarking Challenge",
       "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-5b62427391328c0406",
-      "signalCountDelta": 0,
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-6d4670702df27c96e4",
+      "signalCountDelta": -1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -127,18 +91,18 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "chi",
-          "minh",
-          "pho",
-          "thanh"
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
         ],
         "titleTokenOverlap": [
-          "thanh",
-          "pho",
-          "chi",
-          "minh"
+          "kaggle",
+          "benchmarking",
+          "challenge"
         ],
-        "similarity": 1,
+        "similarity": 0.8133,
         "threshold": 0.38
       }
     },
@@ -174,9 +138,9 @@
       }
     },
     {
-      "lineageId": "lineage-8eb05d214161660e9b",
-      "candidateId": "trend-e9f50973867a16658d",
-      "title": "No Kings protests October 17",
+      "lineageId": "lineage-a401c22a3dc90f9225",
+      "candidateId": "trend-a24b093ae181a9115d",
+      "title": "Musk blames Trump over Starlink",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -193,12 +157,39 @@
       "independentSourceFamiliesRemoved": []
     },
     {
+      "lineageId": "lineage-178bb00ec11cf94427",
+      "candidateId": "trend-ba6ed58a2fce1d5f65",
+      "title": "trule",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-ba6ed58a2fce1d5f65",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "lyya",
+          "196"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
+        "threshold": 0.46
+      }
+    },
+    {
       "lineageId": "lineage-2cab7ceb7ba535dbbd",
       "candidateId": "trend-4785181da9fcf1ae6c",
       "title": "Hacktoberfest AI Tools for Friends",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-d0143f4ccedc3a7880",
+      "previousCandidateId": "trend-4785181da9fcf1ae6c",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -227,13 +218,13 @@
       }
     },
     {
-      "lineageId": "lineage-ff32625ddf4c1af87b",
-      "candidateId": "trend-5371b39782638c368f",
-      "title": "Narnia: The Magician's Nephew",
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "candidateId": "trend-3b9c40ea98b7065c5c",
+      "title": "Thành phố Hồ Chí Minh",
       "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-5371b39782638c368f",
-      "signalCountDelta": 0,
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-5b62427391328c0406",
+      "signalCountDelta": -1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -245,40 +236,41 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "magician",
-          "nephew"
+          "chi",
+          "minh"
         ],
         "titleTokenOverlap": [
-          "narnia",
-          "magician",
-          "nephew"
+          "thanh",
+          "pho",
+          "chi",
+          "minh"
         ],
-        "similarity": 1,
+        "similarity": 0.62,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-9b475d30fae95190eb",
-      "title": "Condom rule",
-      "previousCandidateId": "trend-374d3b3f6055248f70",
+      "lineageId": "lineage-ff32625ddf4c1af87b",
+      "title": "Narnia: The Magician's Nephew",
+      "previousCandidateId": "trend-5371b39782638c368f",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-15T12:40:02.316Z"
+      "lastSeenAt": "2026-10-15T22:17:22.834Z"
     },
     {
-      "lineageId": "lineage-5271659ac5985074f1",
-      "title": "Hacktoberfest Open-Source AI Side Hustles",
-      "previousCandidateId": "trend-444f7522dfcc44b43b",
+      "lineageId": "lineage-b4cd3c8c1e7aa5a7bf",
+      "title": "Ukraine resumes Russian refinery strikes",
+      "previousCandidateId": "trend-27a3cff7aab5931188",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-15T12:40:02.316Z"
+      "lastSeenAt": "2026-10-15T22:17:22.834Z"
     },
     {
-      "lineageId": "lineage-7a173054d32ce43859",
-      "title": "Midterm get-out-the-vote push",
-      "previousCandidateId": "trend-fda0cf962923de2f67",
+      "lineageId": "lineage-8eb05d214161660e9b",
+      "title": "No Kings protests October 17",
+      "previousCandidateId": "trend-e9f50973867a16658d",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-15T12:40:02.316Z"
+      "lastSeenAt": "2026-10-15T22:17:22.834Z"
     }
   ],
   "notes": [
