@@ -1,30 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-16T22:06:07.003Z",
-  "cycleId": "gh-38973547259-a1",
+  "generatedAt": "2026-10-17T11:37:57.406Z",
+  "cycleId": "gh-39029351808-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-16T22:06:06.301Z",
-  "previousCycleId": "gh-38900184763-a1",
-  "previousSnapshotGeneratedAt": "2026-10-16T12:25:04.276Z",
-  "cycleGapHours": 9.68,
+  "currentTrendSnapshotGeneratedAt": "2026-10-17T11:37:56.711Z",
+  "previousCycleId": "gh-38973547259-a1",
+  "previousSnapshotGeneratedAt": "2026-10-16T22:06:06.301Z",
+  "cycleGapHours": 13.53,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 6,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 203,
+  "trackedLineageCount": 206,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-9785cde8149de91488",
-      "title": "Hacktoberfest 'Touch Grass' AI Challenge",
+      "candidateId": "trend-15ed2050825e52299a",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
       "presence": "continuing",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-ab2d04491f39fac148",
-      "signalCountDelta": 2,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-9785cde8149de91488",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -39,9 +39,9 @@
           "touch",
           "grass",
           "hacktoberfest",
+          "challenge",
           "dev",
           "community",
-          "challenge",
           "open source"
         ],
         "titleTokenOverlap": [
@@ -56,12 +56,12 @@
     },
     {
       "lineageId": "lineage-ed48a8373640ce6da5",
-      "candidateId": "trend-ceb11eee017b9b04cd",
+      "candidateId": "trend-6d4670702df27c96e4",
       "title": "Kaggle AI Agent Benchmarking Challenge",
       "presence": "continuing",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-c59e294cbefa542c45",
-      "signalCountDelta": 1,
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-ceb11eee017b9b04cd",
+      "signalCountDelta": -1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -75,149 +75,77 @@
         "anchorOverlap": [
           "kaggle",
           "benchmarking",
+          "challenge",
           "dev",
           "community",
-          "challenge"
+          "agent"
         ],
         "titleTokenOverlap": [
           "kaggle",
+          "agent",
           "benchmarking",
           "challenge"
         ],
-        "similarity": 0.8133,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-534d69b3e24828672e",
-      "candidateId": "trend-3ced3f4e642ea4e347",
-      "title": "storytold/craft-launcher",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-3ced3f4e642ea4e347",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "storytold",
-          "programming rust"
-        ],
-        "titleTokenOverlap": [
-          "storytold",
-          "craft",
-          "launcher"
-        ],
         "similarity": 1,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-7a173054d32ce43859",
-      "candidateId": "trend-6fe6725b653aa2ee18",
-      "title": "No Kings protests October 17",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-fda0cf962923de2f67",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "stevenbeschloss bsky social",
-          "politics",
-          "cooling"
-        ],
-        "titleTokenOverlap": [],
-        "similarity": 0.456,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-462b6bb4bb4d728100",
-      "candidateId": "trend-57dfdc254b9670387a",
-      "title": "Son [heyokyay]",
+      "lineageId": "lineage-02cb1e073e78977155",
+      "candidateId": "trend-a9086fa9e77032d8fa",
+      "title": "Trump exempts Russia from sanctions",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "lemmy-world-hot"
+        "bluesky-trends-api"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "lemmy-world-hot"
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-d9242c4f916fb4236b",
+      "candidateId": "trend-d85886fe7a625d5704",
+      "title": "Shooting reported at Bend school",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-8f8c9ab44bada54724",
+      "candidateId": "trend-9e09db4e2a6ffa4ce8",
+      "title": "Local AI Side Hustle Tools",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
         "community"
       ],
       "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-b9bbf251bb5a39bcb4",
-      "candidateId": "trend-c1ee29995b895f602f",
-      "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-2cab7ceb7ba535dbbd",
-      "candidateId": "trend-4785181da9fcf1ae6c",
-      "title": "Hacktoberfest AI Tools for Friends",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-4785181da9fcf1ae6c",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "friends",
-          "tools",
-          "hacktoberfest",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "hacktoberfest",
-          "tools",
-          "friends"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
     },
     {
       "lineageId": "lineage-aaca764b005304c4d3",
@@ -254,25 +182,39 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-178bb00ec11cf94427",
-      "title": "trule",
-      "previousCandidateId": "trend-ba6ed58a2fce1d5f65",
+      "lineageId": "lineage-534d69b3e24828672e",
+      "title": "storytold/craft-launcher",
+      "previousCandidateId": "trend-3ced3f4e642ea4e347",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-16T12:25:04.276Z"
+      "lastSeenAt": "2026-10-16T22:06:06.301Z"
     },
     {
-      "lineageId": "lineage-1189a5b46a9ccc1363",
-      "title": "Republicans and school shootings",
-      "previousCandidateId": "trend-c69eb37243cc2b1c41",
+      "lineageId": "lineage-2cab7ceb7ba535dbbd",
+      "title": "Hacktoberfest AI Tools for Friends",
+      "previousCandidateId": "trend-4785181da9fcf1ae6c",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-16T12:25:04.276Z"
+      "lastSeenAt": "2026-10-16T22:06:06.301Z"
     },
     {
-      "lineageId": "lineage-a401c22a3dc90f9225",
-      "title": "Musk blames Trump over Starlink",
-      "previousCandidateId": "trend-a24b093ae181a9115d",
+      "lineageId": "lineage-7a173054d32ce43859",
+      "title": "No Kings protests October 17",
+      "previousCandidateId": "trend-6fe6725b653aa2ee18",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-16T12:25:04.276Z"
+      "lastSeenAt": "2026-10-16T22:06:06.301Z"
+    },
+    {
+      "lineageId": "lineage-462b6bb4bb4d728100",
+      "title": "Son [heyokyay]",
+      "previousCandidateId": "trend-57dfdc254b9670387a",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-16T22:06:06.301Z"
+    },
+    {
+      "lineageId": "lineage-b9bbf251bb5a39bcb4",
+      "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+      "previousCandidateId": "trend-c1ee29995b895f602f",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-16T22:06:06.301Z"
     }
   ],
   "notes": [
