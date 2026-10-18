@@ -1,30 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-17T21:28:32.590Z",
-  "cycleId": "gh-39071011229-a1",
+  "generatedAt": "2026-10-18T12:04:08.685Z",
+  "cycleId": "gh-39125679942-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-17T21:28:32.012Z",
-  "previousCycleId": "gh-39029351808-a1",
-  "previousSnapshotGeneratedAt": "2026-10-17T11:37:56.711Z",
-  "cycleGapHours": 9.84,
+  "currentTrendSnapshotGeneratedAt": "2026-10-18T12:04:07.975Z",
+  "previousCycleId": "gh-39071011229-a1",
+  "previousSnapshotGeneratedAt": "2026-10-17T21:28:32.012Z",
+  "cycleGapHours": 14.59,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 4,
+  "currentCandidateCount": 6,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 206,
+  "trackedLineageCount": 208,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
       "candidateId": "trend-ab2d04491f39fac148",
       "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-15ed2050825e52299a",
-      "signalCountDelta": -1,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-ab2d04491f39fac148",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -57,44 +57,13 @@
       }
     },
     {
-      "lineageId": "lineage-7a173054d32ce43859",
-      "candidateId": "trend-ca6a5efe8eaba357a2",
-      "title": "No Kings protests October 17",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-6fe6725b653aa2ee18",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "politics",
-          "cooling"
-        ],
-        "titleTokenOverlap": [
-          "kings",
-          "protests",
-          "october"
-        ],
-        "similarity": 0.4933,
-        "threshold": 0.38
-      }
-    },
-    {
       "lineageId": "lineage-8f8c9ab44bada54724",
       "candidateId": "trend-41ab4c16f049a9ddf5",
       "title": "Local AI Side Hustle Tools",
       "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-9e09db4e2a6ffa4ce8",
-      "signalCountDelta": 0,
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-41ab4c16f049a9ddf5",
+      "signalCountDelta": 2,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -122,6 +91,78 @@
         "similarity": 1,
         "threshold": 0.38
       }
+    },
+    {
+      "lineageId": "lineage-64d83f8cf0b58cc309",
+      "candidateId": "trend-72ffd6b504285ac0ff",
+      "title": "Meta locks No Kings account",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "candidateId": "trend-a193973f6cb3878014",
+      "title": "Kaggle LLM Benchmarking Challenge",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-6d4670702df27c96e4",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "kaggle",
+          "benchmarking",
+          "challenge"
+        ],
+        "similarity": 0.6869,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-5ed6fb6078dcd11668",
+      "candidateId": "trend-429ca1ed7d46f67223",
+      "title": "White House Ballroom Megadonors Revealed",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-aaca764b005304c4d3",
@@ -158,25 +199,11 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-ed48a8373640ce6da5",
-      "title": "Kaggle AI Agent Benchmarking Challenge",
-      "previousCandidateId": "trend-6d4670702df27c96e4",
+      "lineageId": "lineage-7a173054d32ce43859",
+      "title": "No Kings protests October 17",
+      "previousCandidateId": "trend-ca6a5efe8eaba357a2",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-17T11:37:56.711Z"
-    },
-    {
-      "lineageId": "lineage-02cb1e073e78977155",
-      "title": "Trump exempts Russia from sanctions",
-      "previousCandidateId": "trend-a9086fa9e77032d8fa",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-17T11:37:56.711Z"
-    },
-    {
-      "lineageId": "lineage-d9242c4f916fb4236b",
-      "title": "Shooting reported at Bend school",
-      "previousCandidateId": "trend-d85886fe7a625d5704",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-17T11:37:56.711Z"
+      "lastSeenAt": "2026-10-17T21:28:32.012Z"
     }
   ],
   "notes": [
