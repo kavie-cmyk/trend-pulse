@@ -1,30 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-18T21:31:20.140Z",
-  "cycleId": "gh-39168102948-a1",
+  "generatedAt": "2026-10-19T14:42:01.870Z",
+  "cycleId": "gh-39270966637-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-18T21:31:19.572Z",
-  "previousCycleId": "gh-39125679942-a1",
-  "previousSnapshotGeneratedAt": "2026-10-18T12:04:07.975Z",
-  "cycleGapHours": 9.45,
+  "currentTrendSnapshotGeneratedAt": "2026-10-19T14:42:01.145Z",
+  "previousCycleId": "gh-39168102948-a1",
+  "previousSnapshotGeneratedAt": "2026-10-18T21:31:19.572Z",
+  "cycleGapHours": 17.18,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 4,
   "currentCorroboratedCount": 0,
   "trackedLineageCount": 211,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-9785cde8149de91488",
-      "title": "Hacktoberfest Open-Source AI: Touch Grass Challenge",
+      "candidateId": "trend-dbddb094cf3ffaa417",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-ab2d04491f39fac148",
-      "signalCountDelta": -2,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-9785cde8149de91488",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -41,7 +41,6 @@
           "hacktoberfest",
           "dev",
           "community",
-          "challenge",
           "open source"
         ],
         "titleTokenOverlap": [
@@ -49,31 +48,11 @@
           "open",
           "source",
           "touch",
-          "grass",
-          "challenge"
+          "grass"
         ],
-        "similarity": 1,
+        "similarity": 0.8514,
         "threshold": 0.38
       }
-    },
-    {
-      "lineageId": "lineage-9731c20a55e4c48366",
-      "candidateId": "trend-0ed02c61dfe95f0535",
-      "title": "Trump to close East Potomac golf course",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-ed48a8373640ce6da5",
@@ -112,51 +91,12 @@
       }
     },
     {
-      "lineageId": "lineage-3db7a1e6ab101e8d53",
-      "candidateId": "trend-f68568874e20316767",
-      "title": "How the Elizabeth Holmes documentary “You Can See Everything” is deceiving",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "hacker-news-api",
-        "techcrunch-rss"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "techcrunch-rss"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "publisher"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-e73558c76ad952cfdb",
-      "candidateId": "trend-6a04b6df045bd20c59",
-      "title": "El-Sayed's viral town hall response",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-5271659ac5985074f1",
-      "candidateId": "trend-c58f5875994513e50a",
-      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "lineageId": "lineage-f6bec68e38c9ae32b2",
+      "candidateId": "trend-683d7ea9ac1499f376",
+      "title": "Trump waives Russia sanctions",
       "presence": "reappeared",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-444f7522dfcc44b43b",
+      "previousCandidateId": "trend-6828bf59134ee05397",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -169,62 +109,21 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "hustles",
-          "open source",
-          "side",
-          "dev",
-          "community"
+          "emptywheel bsky social",
+          "politics",
+          "cooling"
         ],
         "titleTokenOverlap": [
-          "hacktoberfest",
-          "open",
-          "source",
-          "side",
-          "hustles"
+          "trump"
         ],
-        "similarity": 0.8733,
+        "similarity": 0.4903,
         "threshold": 0.46
-      }
-    },
-    {
-      "lineageId": "lineage-8f8c9ab44bada54724",
-      "candidateId": "trend-3c4a3c352175b2a36f",
-      "title": "Local AI Side Hustle Tools for Freelancers",
-      "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-41ab4c16f049a9ddf5",
-      "signalCountDelta": -2,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "tools",
-          "local",
-          "hustle",
-          "side",
-          "dev"
-        ],
-        "titleTokenOverlap": [
-          "local",
-          "side",
-          "hustle",
-          "tools"
-        ],
-        "similarity": 0.7349,
-        "threshold": 0.38
       }
     },
     {
       "lineageId": "lineage-aaca764b005304c4d3",
       "candidateId": "trend-3b9c40ea98b7065c5c",
-      "title": "Thành phố Hồ Chí Minh",
+      "title": "Hồ Chí Minh",
       "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-3b9c40ea98b7065c5c",
@@ -244,30 +143,49 @@
           "minh"
         ],
         "titleTokenOverlap": [
-          "thanh",
-          "pho",
           "chi",
           "minh"
         ],
-        "similarity": 1,
+        "similarity": 0.88,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-64d83f8cf0b58cc309",
-      "title": "Meta locks No Kings account",
-      "previousCandidateId": "trend-72ffd6b504285ac0ff",
+      "lineageId": "lineage-5271659ac5985074f1",
+      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "previousCandidateId": "trend-c58f5875994513e50a",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-18T12:04:07.975Z"
+      "lastSeenAt": "2026-10-18T21:31:19.572Z"
     },
     {
-      "lineageId": "lineage-5ed6fb6078dcd11668",
-      "title": "White House Ballroom Megadonors Revealed",
-      "previousCandidateId": "trend-429ca1ed7d46f67223",
+      "lineageId": "lineage-8f8c9ab44bada54724",
+      "title": "Local AI Side Hustle Tools for Freelancers",
+      "previousCandidateId": "trend-3c4a3c352175b2a36f",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-18T12:04:07.975Z"
+      "lastSeenAt": "2026-10-18T21:31:19.572Z"
+    },
+    {
+      "lineageId": "lineage-9731c20a55e4c48366",
+      "title": "Trump to close East Potomac golf course",
+      "previousCandidateId": "trend-0ed02c61dfe95f0535",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-18T21:31:19.572Z"
+    },
+    {
+      "lineageId": "lineage-3db7a1e6ab101e8d53",
+      "title": "How the Elizabeth Holmes documentary “You Can See Everything” is deceiving",
+      "previousCandidateId": "trend-f68568874e20316767",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-18T21:31:19.572Z"
+    },
+    {
+      "lineageId": "lineage-e73558c76ad952cfdb",
+      "title": "El-Sayed's viral town hall response",
+      "previousCandidateId": "trend-6a04b6df045bd20c59",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-18T21:31:19.572Z"
     }
   ],
   "notes": [
