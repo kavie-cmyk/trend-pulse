@@ -1,16 +1,16 @@
 {
   "schemaVersion": "trend-history-state.v1",
-  "updatedAt": "2026-10-20T12:43:50.382Z",
-  "latestCycleId": "gh-39424378420-a1",
-  "latestSnapshotGeneratedAt": "2026-10-20T12:43:49.656Z",
-  "cyclesRecorded": 102,
+  "updatedAt": "2026-10-20T22:18:18.235Z",
+  "latestCycleId": "gh-39506958433-a1",
+  "latestSnapshotGeneratedAt": "2026-10-20T22:18:17.479Z",
+  "cyclesRecorded": 103,
   "lineages": [
     {
       "lineageId": "lineage-4f45f4ca073832d2e7",
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-10-02T13:51:53.087Z",
       "seenCycles": 6,
-      "missedCycles": 35,
+      "missedCycles": 36,
       "latestCandidateId": "trend-d7ec1f40b55ca6d4be",
       "latestTitle": "That'll impress 'em",
       "latestResolutionAnchors": [
@@ -39,7 +39,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 5,
-      "missedCycles": 92,
+      "missedCycles": 93,
       "latestCandidateId": "trend-07a658f84abdc4bada",
       "latestTitle": "The Hidden Costs of Free AI Infrastructure",
       "latestResolutionAnchors": [
@@ -69,7 +69,7 @@
       "firstSeenAt": "2026-08-30T12:53:46.413Z",
       "lastSeenAt": "2026-09-30T13:43:14.026Z",
       "seenCycles": 5,
-      "missedCycles": 39,
+      "missedCycles": 40,
       "latestCandidateId": "trend-9e3a249069e540cd86",
       "latestTitle": "Giải vô địch bóng đá ASEAN",
       "latestResolutionAnchors": [
@@ -98,7 +98,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 100,
+      "missedCycles": 101,
       "latestCandidateId": "trend-6db8d3d495433c3020",
       "latestTitle": "Omarchy: Any User Process Can Escalate to Root",
       "latestResolutionAnchors": [
@@ -130,7 +130,7 @@
       "firstSeenAt": "2026-08-30T21:55:10.787Z",
       "lastSeenAt": "2026-08-30T21:55:10.787Z",
       "seenCycles": 1,
-      "missedCycles": 100,
+      "missedCycles": 101,
       "latestCandidateId": "trend-b5c9d1781feec055fd",
       "latestTitle": "Explosion at depot near Kyiv",
       "latestResolutionAnchors": [
@@ -159,7 +159,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 99,
+      "missedCycles": 100,
       "latestCandidateId": "trend-c16f2d653c4e779866",
       "latestTitle": "So, SO sleepy",
       "latestResolutionAnchors": [
@@ -187,7 +187,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T15:06:43.080Z",
       "seenCycles": 1,
-      "missedCycles": 99,
+      "missedCycles": 100,
       "latestCandidateId": "trend-e75ff3e391be657045",
       "latestTitle": "Cover of MAD Magazine monthly #186, 1976... these blokes seem kinda familiar!",
       "latestResolutionAnchors": [
@@ -218,7 +218,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-09-06T21:21:37.263Z",
       "seenCycles": 8,
-      "missedCycles": 86,
+      "missedCycles": 87,
       "latestCandidateId": "trend-bc19cdb81d165eb563",
       "latestTitle": "Client-Side Developer Micro-Tools",
       "latestResolutionAnchors": [
@@ -248,7 +248,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 98,
+      "missedCycles": 99,
       "latestCandidateId": "trend-3cf046355a7b99bb37",
       "latestTitle": "Emiliano Martínez",
       "latestResolutionAnchors": [
@@ -275,7 +275,7 @@
       "firstSeenAt": "2026-08-31T15:06:43.080Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 2,
-      "missedCycles": 98,
+      "missedCycles": 99,
       "latestCandidateId": "trend-d323e9aa6dd1b8664a",
       "latestTitle": "Gabriel Jesus",
       "latestResolutionAnchors": [
@@ -302,7 +302,7 @@
       "firstSeenAt": "2026-08-31T23:13:13.245Z",
       "lastSeenAt": "2026-08-31T23:13:13.245Z",
       "seenCycles": 1,
-      "missedCycles": 98,
+      "missedCycles": 99,
       "latestCandidateId": "trend-5b4bea33a920908fb7",
       "latestTitle": "Army Secretary Dan Driscoll",
       "latestResolutionAnchors": [
@@ -331,7 +331,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 97,
+      "missedCycles": 98,
       "latestCandidateId": "trend-202a76d919f1cb856b",
       "latestTitle": "Military brass warn Hegseth on Iran war",
       "latestResolutionAnchors": [
@@ -360,7 +360,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T12:35:05.432Z",
       "seenCycles": 1,
-      "missedCycles": 97,
+      "missedCycles": 98,
       "latestCandidateId": "trend-5f606320ae3d84554f",
       "latestTitle": "Dwarf Fortress' creator says the industry's in shambles over AI and layoff-happy CEOs: 'Everyone I know, their bosses are slowly getting psychosis'",
       "latestResolutionAnchors": [
@@ -391,7 +391,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-10-15T12:40:02.316Z",
       "seenCycles": 3,
-      "missedCycles": 10,
+      "missedCycles": 11,
       "latestCandidateId": "trend-374d3b3f6055248f70",
       "latestTitle": "Condom rule",
       "latestResolutionAnchors": [
@@ -419,7 +419,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-07T22:01:53.533Z",
       "seenCycles": 13,
-      "missedCycles": 84,
+      "missedCycles": 85,
       "latestCandidateId": "trend-cf936b65b8eaca0b0e",
       "latestTitle": "Evaluating Free LLM Servers & Tiers",
       "latestResolutionAnchors": [
@@ -450,7 +450,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-10-08T23:45:30.069Z",
       "seenCycles": 4,
-      "missedCycles": 22,
+      "missedCycles": 23,
       "latestCandidateId": "trend-62c9ea8f44876a78c3",
       "latestTitle": "Lionel Messi",
       "latestResolutionAnchors": [
@@ -477,7 +477,7 @@
       "firstSeenAt": "2026-09-01T12:35:05.432Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 2,
-      "missedCycles": 96,
+      "missedCycles": 97,
       "latestCandidateId": "trend-40e2ef2c79d416b4f6",
       "latestTitle": "Giải bóng đá Ngoại hạng Anh 2026–27",
       "latestResolutionAnchors": [
@@ -507,7 +507,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-11T21:43:52.944Z",
       "seenCycles": 4,
-      "missedCycles": 76,
+      "missedCycles": 77,
       "latestCandidateId": "trend-9520d5e1aeb5c61fc7",
       "latestTitle": "John Ternus",
       "latestResolutionAnchors": [
@@ -534,7 +534,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 96,
+      "missedCycles": 97,
       "latestCandidateId": "trend-4ea365d04c1e943d04",
       "latestTitle": "Steam Frame Reportedly Coming with a Copy of ‘Half-Life: Alyx’ for Free",
       "latestResolutionAnchors": [
@@ -567,7 +567,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-10-01T23:12:34.008Z",
       "seenCycles": 2,
-      "missedCycles": 36,
+      "missedCycles": 37,
       "latestCandidateId": "trend-58d09fa374fd489d96",
       "latestTitle": "Ask HN: Who is hiring? (October 2026)",
       "latestResolutionAnchors": [
@@ -595,7 +595,7 @@
       "firstSeenAt": "2026-09-01T21:47:18.678Z",
       "lastSeenAt": "2026-09-01T21:47:18.678Z",
       "seenCycles": 1,
-      "missedCycles": 96,
+      "missedCycles": 97,
       "latestCandidateId": "trend-c7a3ad20e77ebe9d2d",
       "latestTitle": "Russia intensifies drone strikes on Kyiv",
       "latestResolutionAnchors": [
@@ -625,7 +625,7 @@
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 4,
-      "missedCycles": 92,
+      "missedCycles": 93,
       "latestCandidateId": "trend-b559640a4333d163da",
       "latestTitle": "Murder of Tupac Shakur",
       "latestResolutionAnchors": [
@@ -650,8 +650,8 @@
     {
       "lineageId": "lineage-aaca764b005304c4d3",
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
-      "lastSeenAt": "2026-10-20T12:43:49.656Z",
-      "seenCycles": 69,
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 70,
       "missedCycles": 0,
       "latestCandidateId": "trend-3b9c40ea98b7065c5c",
       "latestTitle": "Hồ Chí Minh",
@@ -679,7 +679,7 @@
       "firstSeenAt": "2026-09-02T12:07:41.772Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 4,
-      "missedCycles": 92,
+      "missedCycles": 93,
       "latestCandidateId": "trend-7c4a95b439ea9faf48",
       "latestTitle": "Enzo Fernández",
       "latestResolutionAnchors": [
@@ -706,7 +706,7 @@
       "firstSeenAt": "2026-09-02T21:50:14.513Z",
       "lastSeenAt": "2026-09-02T21:50:14.513Z",
       "seenCycles": 1,
-      "missedCycles": 94,
+      "missedCycles": 95,
       "latestCandidateId": "trend-74939f3010cf15e865",
       "latestTitle": "Wendell Berry has died",
       "latestResolutionAnchors": [
@@ -737,7 +737,7 @@
       "firstSeenAt": "2026-09-02T21:50:14.513Z",
       "lastSeenAt": "2026-09-02T21:50:14.513Z",
       "seenCycles": 1,
-      "missedCycles": 94,
+      "missedCycles": 95,
       "latestCandidateId": "trend-78ff14465d4e1016bb",
       "latestTitle": "Norway considers ban on camera-enabled wearable ‘pervert glasses’",
       "latestResolutionAnchors": [
@@ -770,7 +770,7 @@
       "firstSeenAt": "2026-09-02T21:50:14.513Z",
       "lastSeenAt": "2026-09-02T21:50:14.513Z",
       "seenCycles": 1,
-      "missedCycles": 94,
+      "missedCycles": 95,
       "latestCandidateId": "trend-fbd0188edd3ceacc10",
       "latestTitle": "Muse Spark 1.3",
       "latestResolutionAnchors": [
@@ -798,7 +798,7 @@
       "firstSeenAt": "2026-09-03T12:07:09.091Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 2,
-      "missedCycles": 92,
+      "missedCycles": 93,
       "latestCandidateId": "trend-054643f503f764d843",
       "latestTitle": "Hùng Cao",
       "latestResolutionAnchors": [
@@ -823,8 +823,8 @@
     {
       "lineageId": "lineage-98a99bfee9ba0dacbf",
       "firstSeenAt": "2026-09-03T12:07:09.091Z",
-      "lastSeenAt": "2026-10-20T12:43:49.656Z",
-      "seenCycles": 12,
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 13,
       "missedCycles": 0,
       "latestCandidateId": "trend-98b5bc9812d66d5b92",
       "latestTitle": "Việt Nam",
@@ -852,7 +852,7 @@
       "firstSeenAt": "2026-09-03T21:43:25.048Z",
       "lastSeenAt": "2026-09-03T21:43:25.048Z",
       "seenCycles": 1,
-      "missedCycles": 92,
+      "missedCycles": 93,
       "latestCandidateId": "trend-fd76cf4586dec57a42",
       "latestTitle": "ICE could enter polling places",
       "latestResolutionAnchors": [
@@ -883,7 +883,7 @@
       "firstSeenAt": "2026-09-03T21:43:25.048Z",
       "lastSeenAt": "2026-09-04T12:08:36.230Z",
       "seenCycles": 2,
-      "missedCycles": 91,
+      "missedCycles": 92,
       "latestCandidateId": "trend-04a4fb964e17fb3df0",
       "latestTitle": "Channel 4 airs Reform UK allegations",
       "latestResolutionAnchors": [
@@ -913,7 +913,7 @@
       "firstSeenAt": "2026-09-04T12:08:36.230Z",
       "lastSeenAt": "2026-09-04T12:08:36.230Z",
       "seenCycles": 1,
-      "missedCycles": 91,
+      "missedCycles": 92,
       "latestCandidateId": "trend-3d62c98ed1b5805643",
       "latestTitle": "Trump arch excavation begins",
       "latestResolutionAnchors": [
@@ -941,7 +941,7 @@
       "firstSeenAt": "2026-09-04T21:28:58.247Z",
       "lastSeenAt": "2026-09-04T21:28:58.247Z",
       "seenCycles": 1,
-      "missedCycles": 90,
+      "missedCycles": 91,
       "latestCandidateId": "trend-471286f313e92bbfa8",
       "latestTitle": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
       "latestResolutionAnchors": [
@@ -974,7 +974,7 @@
       "firstSeenAt": "2026-09-04T21:28:58.247Z",
       "lastSeenAt": "2026-09-04T21:28:58.247Z",
       "seenCycles": 1,
-      "missedCycles": 90,
+      "missedCycles": 91,
       "latestCandidateId": "trend-95c28922663ab65a77",
       "latestTitle": "Gaming Tetris issues legal warning after White House releases arcade full of parody games",
       "latestResolutionAnchors": [
@@ -1005,7 +1005,7 @@
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
       "lastSeenAt": "2026-09-05T11:16:44.217Z",
       "seenCycles": 1,
-      "missedCycles": 89,
+      "missedCycles": 90,
       "latestCandidateId": "trend-2455c2b314520538b8",
       "latestTitle": "Record-High 89% in U.S. Say Government Corruption Widespread",
       "latestResolutionAnchors": [
@@ -1038,7 +1038,7 @@
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
       "lastSeenAt": "2026-09-08T21:51:45.936Z",
       "seenCycles": 8,
-      "missedCycles": 82,
+      "missedCycles": 83,
       "latestCandidateId": "trend-eb13cd79aee40d8da6",
       "latestTitle": "anthropics/commerce-agents",
       "latestResolutionAnchors": [
@@ -1064,7 +1064,7 @@
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
       "lastSeenAt": "2026-09-05T11:16:44.217Z",
       "seenCycles": 1,
-      "missedCycles": 89,
+      "missedCycles": 90,
       "latestCandidateId": "trend-49c6e9f184d89ddc74",
       "latestTitle": "Russia's war on Ukraine continues",
       "latestResolutionAnchors": [
@@ -1093,7 +1093,7 @@
       "firstSeenAt": "2026-09-05T11:16:44.217Z",
       "lastSeenAt": "2026-09-05T11:16:44.217Z",
       "seenCycles": 1,
-      "missedCycles": 89,
+      "missedCycles": 90,
       "latestCandidateId": "trend-f9e6172aae98a3254f",
       "latestTitle": "Calling deleted function - continued",
       "latestResolutionAnchors": [
@@ -1124,7 +1124,7 @@
       "firstSeenAt": "2026-09-05T21:14:57.415Z",
       "lastSeenAt": "2026-09-05T21:14:57.415Z",
       "seenCycles": 1,
-      "missedCycles": 88,
+      "missedCycles": 89,
       "latestCandidateId": "trend-70be89b9676275c2c8",
       "latestTitle": "Russia's war on Ukraine continues",
       "latestResolutionAnchors": [
@@ -1153,7 +1153,7 @@
       "firstSeenAt": "2026-09-05T21:14:57.415Z",
       "lastSeenAt": "2026-09-12T11:37:18.153Z",
       "seenCycles": 14,
-      "missedCycles": 75,
+      "missedCycles": 76,
       "latestCandidateId": "trend-fa66be4335c36816b7",
       "latestTitle": "AI Agent Production Failures & Architecture",
       "latestResolutionAnchors": [
@@ -1184,7 +1184,7 @@
       "firstSeenAt": "2026-09-06T11:40:05.599Z",
       "lastSeenAt": "2026-09-07T22:01:53.533Z",
       "seenCycles": 4,
-      "missedCycles": 84,
+      "missedCycles": 85,
       "latestCandidateId": "trend-c900def96e8adbc56f",
       "latestTitle": "Hoa hậu Thế giới 2026",
       "latestResolutionAnchors": [
@@ -1212,7 +1212,7 @@
       "firstSeenAt": "2026-09-06T11:40:05.599Z",
       "lastSeenAt": "2026-09-06T11:40:05.599Z",
       "seenCycles": 1,
-      "missedCycles": 87,
+      "missedCycles": 88,
       "latestCandidateId": "trend-15dd7e0c47750d2166",
       "latestTitle": "Reform conference controversy",
       "latestResolutionAnchors": [
@@ -1241,7 +1241,7 @@
       "firstSeenAt": "2026-09-06T11:40:05.599Z",
       "lastSeenAt": "2026-09-06T11:40:05.599Z",
       "seenCycles": 1,
-      "missedCycles": 87,
+      "missedCycles": 88,
       "latestCandidateId": "trend-1887daffd6ff581f7c",
       "latestTitle": "‘Governments continue to fail’: Freedom Flotilla sails again, vowing to challenge Israel’s Gaza blockade",
       "latestResolutionAnchors": [
@@ -1272,7 +1272,7 @@
       "firstSeenAt": "2026-09-06T11:40:05.599Z",
       "lastSeenAt": "2026-09-06T11:40:05.599Z",
       "seenCycles": 1,
-      "missedCycles": 87,
+      "missedCycles": 88,
       "latestCandidateId": "trend-31fdb04a2421f02ad9",
       "latestTitle": "Boots",
       "latestResolutionAnchors": [
@@ -1301,7 +1301,7 @@
       "firstSeenAt": "2026-09-06T21:21:37.263Z",
       "lastSeenAt": "2026-09-06T21:21:37.263Z",
       "seenCycles": 1,
-      "missedCycles": 86,
+      "missedCycles": 87,
       "latestCandidateId": "trend-d81e3b53477471502e",
       "latestTitle": "College football season opens",
       "latestResolutionAnchors": [
@@ -1329,7 +1329,7 @@
       "firstSeenAt": "2026-09-06T21:21:37.263Z",
       "lastSeenAt": "2026-10-09T23:16:36.987Z",
       "seenCycles": 5,
-      "missedCycles": 20,
+      "missedCycles": 21,
       "latestCandidateId": "trend-e930e8286d9ab18dfc",
       "latestTitle": "Chosen one",
       "latestResolutionAnchors": [
@@ -1358,7 +1358,7 @@
       "firstSeenAt": "2026-09-06T21:21:37.263Z",
       "lastSeenAt": "2026-09-06T21:21:37.263Z",
       "seenCycles": 1,
-      "missedCycles": 86,
+      "missedCycles": 87,
       "latestCandidateId": "trend-b3c69a398400207225",
       "latestTitle": "This one right here officer",
       "latestResolutionAnchors": [
@@ -1387,7 +1387,7 @@
       "firstSeenAt": "2026-09-07T13:32:00.105Z",
       "lastSeenAt": "2026-09-07T13:32:00.105Z",
       "seenCycles": 1,
-      "missedCycles": 85,
+      "missedCycles": 86,
       "latestCandidateId": "trend-209234ce3b11731f54",
       "latestTitle": "Poetry",
       "latestResolutionAnchors": [
@@ -1415,7 +1415,7 @@
       "firstSeenAt": "2026-09-07T13:32:00.105Z",
       "lastSeenAt": "2026-09-07T13:32:00.105Z",
       "seenCycles": 1,
-      "missedCycles": 85,
+      "missedCycles": 86,
       "latestCandidateId": "trend-904918bb4a61620a0c",
       "latestTitle": "iOS app intermittently fails with “An SSL error has occurred” for some users — AWS backend",
       "latestResolutionAnchors": [
@@ -1446,7 +1446,7 @@
       "firstSeenAt": "2026-09-07T13:32:00.105Z",
       "lastSeenAt": "2026-09-07T13:32:00.105Z",
       "seenCycles": 1,
-      "missedCycles": 85,
+      "missedCycles": 86,
       "latestCandidateId": "trend-2e7803bc1495e56401",
       "latestTitle": "Binary tree preorder + inorder to postorder: correct output for visible tests but Logical Test 4 fails so please help me to solve this guys",
       "latestResolutionAnchors": [
@@ -1477,7 +1477,7 @@
       "firstSeenAt": "2026-09-07T22:01:53.533Z",
       "lastSeenAt": "2026-09-07T22:01:53.533Z",
       "seenCycles": 1,
-      "missedCycles": 84,
+      "missedCycles": 85,
       "latestCandidateId": "trend-7a67577aa9dbe3a39d",
       "latestTitle": "On Labor Day, Mamdani Announces City's First Office to Organize Workers",
       "latestResolutionAnchors": [
@@ -1508,7 +1508,7 @@
       "firstSeenAt": "2026-09-08T21:51:45.936Z",
       "lastSeenAt": "2026-09-08T21:51:45.936Z",
       "seenCycles": 1,
-      "missedCycles": 82,
+      "missedCycles": 83,
       "latestCandidateId": "trend-f5edd7df48d242d0b8",
       "latestTitle": "OpenAI fought dirty on career-making math problem",
       "latestResolutionAnchors": [
@@ -1541,7 +1541,7 @@
       "firstSeenAt": "2026-09-08T21:51:45.936Z",
       "lastSeenAt": "2026-09-08T21:51:45.936Z",
       "seenCycles": 1,
-      "missedCycles": 82,
+      "missedCycles": 83,
       "latestCandidateId": "trend-35dde31f8b1753dd4c",
       "latestTitle": "Canada imposes counter-tariffs on U.S.",
       "latestResolutionAnchors": [
@@ -1570,7 +1570,7 @@
       "firstSeenAt": "2026-09-09T12:20:40.880Z",
       "lastSeenAt": "2026-09-09T21:42:45.811Z",
       "seenCycles": 2,
-      "missedCycles": 80,
+      "missedCycles": 81,
       "latestCandidateId": "trend-86f89cef0e6c0819a6",
       "latestTitle": "Coyote v. Acme (1990)",
       "latestResolutionAnchors": [
@@ -1601,7 +1601,7 @@
       "firstSeenAt": "2026-09-09T12:20:40.880Z",
       "lastSeenAt": "2026-10-07T14:30:26.330Z",
       "seenCycles": 4,
-      "missedCycles": 25,
+      "missedCycles": 26,
       "latestCandidateId": "trend-6b880957d71379ce34",
       "latestTitle": "2026-10-07 #1",
       "latestResolutionAnchors": [
@@ -1629,7 +1629,7 @@
       "firstSeenAt": "2026-09-09T21:42:45.811Z",
       "lastSeenAt": "2026-09-09T21:42:45.811Z",
       "seenCycles": 1,
-      "missedCycles": 80,
+      "missedCycles": 81,
       "latestCandidateId": "trend-98067ba179e5f525b0",
       "latestTitle": "Champions League matchday lineups",
       "latestResolutionAnchors": [
@@ -1658,7 +1658,7 @@
       "firstSeenAt": "2026-09-09T21:42:45.811Z",
       "lastSeenAt": "2026-09-09T21:42:45.811Z",
       "seenCycles": 1,
-      "missedCycles": 80,
+      "missedCycles": 81,
       "latestCandidateId": "trend-2001fa46061927d77a",
       "latestTitle": "mood",
       "latestResolutionAnchors": [
@@ -1686,7 +1686,7 @@
       "firstSeenAt": "2026-09-10T12:14:45.527Z",
       "lastSeenAt": "2026-09-10T21:38:28.655Z",
       "seenCycles": 2,
-      "missedCycles": 78,
+      "missedCycles": 79,
       "latestCandidateId": "trend-0c4785581ce5c30a2c",
       "latestTitle": "Apple ra mắt iPhone Duo",
       "latestResolutionAnchors": [
@@ -1716,7 +1716,7 @@
       "firstSeenAt": "2026-09-10T12:14:45.527Z",
       "lastSeenAt": "2026-09-10T12:14:45.527Z",
       "seenCycles": 1,
-      "missedCycles": 79,
+      "missedCycles": 80,
       "latestCandidateId": "trend-af32328b8e5907d388",
       "latestTitle": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
       "latestResolutionAnchors": [
@@ -1749,7 +1749,7 @@
       "firstSeenAt": "2026-09-10T12:14:45.527Z",
       "lastSeenAt": "2026-09-10T12:14:45.527Z",
       "seenCycles": 1,
-      "missedCycles": 79,
+      "missedCycles": 80,
       "latestCandidateId": "trend-f3fcea9357a5c687ca",
       "latestTitle": "Trump pledges $5,000 GOP dividend",
       "latestResolutionAnchors": [
@@ -1779,7 +1779,7 @@
       "firstSeenAt": "2026-09-10T21:38:28.655Z",
       "lastSeenAt": "2026-09-10T21:38:28.655Z",
       "seenCycles": 1,
-      "missedCycles": 78,
+      "missedCycles": 79,
       "latestCandidateId": "trend-7f2baa934750567c26",
       "latestTitle": "Trump predicts Iran war ends after election",
       "latestResolutionAnchors": [
@@ -1810,7 +1810,7 @@
       "firstSeenAt": "2026-09-11T12:13:00.660Z",
       "lastSeenAt": "2026-09-11T12:13:00.660Z",
       "seenCycles": 1,
-      "missedCycles": 77,
+      "missedCycles": 78,
       "latestCandidateId": "trend-ed437c33fcb147f522",
       "latestTitle": "GOP holds Dallas midterm convention",
       "latestResolutionAnchors": [
@@ -1840,7 +1840,7 @@
       "firstSeenAt": "2026-09-11T12:13:00.660Z",
       "lastSeenAt": "2026-09-11T21:43:52.944Z",
       "seenCycles": 2,
-      "missedCycles": 76,
+      "missedCycles": 77,
       "latestCandidateId": "trend-89b574ea0ab8699fb3",
       "latestTitle": "Sabah FK (Azerbaijan)",
       "latestResolutionAnchors": [
@@ -1867,7 +1867,7 @@
       "firstSeenAt": "2026-09-11T12:13:00.660Z",
       "lastSeenAt": "2026-09-12T21:27:23.767Z",
       "seenCycles": 4,
-      "missedCycles": 74,
+      "missedCycles": 75,
       "latestCandidateId": "trend-69ff8da26ee55c1746",
       "latestTitle": "Charlie Kirk",
       "latestResolutionAnchors": [
@@ -1894,7 +1894,7 @@
       "firstSeenAt": "2026-09-11T21:43:52.944Z",
       "lastSeenAt": "2026-09-11T21:43:52.944Z",
       "seenCycles": 1,
-      "missedCycles": 76,
+      "missedCycles": 77,
       "latestCandidateId": "trend-a17196bba4e12b3217",
       "latestTitle": "Reflecting Pool damage dispute",
       "latestResolutionAnchors": [
@@ -1923,7 +1923,7 @@
       "firstSeenAt": "2026-09-12T11:37:18.153Z",
       "lastSeenAt": "2026-09-12T11:37:18.153Z",
       "seenCycles": 1,
-      "missedCycles": 75,
+      "missedCycles": 76,
       "latestCandidateId": "trend-33a9a2f15ec83a414d",
       "latestTitle": "Saudi East-West pipeline incident",
       "latestResolutionAnchors": [
@@ -1955,7 +1955,7 @@
       "firstSeenAt": "2026-09-12T11:37:18.153Z",
       "lastSeenAt": "2026-09-13T21:26:54.156Z",
       "seenCycles": 4,
-      "missedCycles": 72,
+      "missedCycles": 73,
       "latestCandidateId": "trend-83401c6c4c0f75c13b",
       "latestTitle": "September 11 attacks",
       "latestResolutionAnchors": [
@@ -1982,7 +1982,7 @@
       "firstSeenAt": "2026-09-12T11:37:18.153Z",
       "lastSeenAt": "2026-09-12T11:37:18.153Z",
       "seenCycles": 1,
-      "missedCycles": 75,
+      "missedCycles": 76,
       "latestCandidateId": "trend-514eb2ae62bf8df3ab",
       "latestTitle": "Crypto donation to Reform UK",
       "latestResolutionAnchors": [
@@ -2013,7 +2013,7 @@
       "firstSeenAt": "2026-09-12T11:37:18.153Z",
       "lastSeenAt": "2026-09-13T21:26:54.156Z",
       "seenCycles": 4,
-      "missedCycles": 72,
+      "missedCycles": 73,
       "latestCandidateId": "trend-ef5de4f6d0313c7d22",
       "latestTitle": "United Airlines Flight 93",
       "latestResolutionAnchors": [
@@ -2040,7 +2040,7 @@
       "firstSeenAt": "2026-09-12T11:37:18.153Z",
       "lastSeenAt": "2026-09-13T21:26:54.156Z",
       "seenCycles": 4,
-      "missedCycles": 72,
+      "missedCycles": 73,
       "latestCandidateId": "trend-8695bccbc2c83e9391",
       "latestTitle": "Osama bin Laden",
       "latestResolutionAnchors": [
@@ -2068,7 +2068,7 @@
       "firstSeenAt": "2026-09-13T12:44:40.199Z",
       "lastSeenAt": "2026-09-13T12:44:40.199Z",
       "seenCycles": 1,
-      "missedCycles": 73,
+      "missedCycles": 74,
       "latestCandidateId": "trend-d9cbed9e84a1b41ef0",
       "latestTitle": "Revolut confirms customer data breach through fake government requests",
       "latestResolutionAnchors": [
@@ -2101,7 +2101,7 @@
       "firstSeenAt": "2026-09-13T12:44:40.199Z",
       "lastSeenAt": "2026-09-13T12:44:40.199Z",
       "seenCycles": 1,
-      "missedCycles": 73,
+      "missedCycles": 74,
       "latestCandidateId": "trend-4f0ac045532220ce4d",
       "latestTitle": "Iran conflict",
       "latestResolutionAnchors": [
@@ -2129,7 +2129,7 @@
       "firstSeenAt": "2026-09-13T21:26:54.156Z",
       "lastSeenAt": "2026-09-13T21:26:54.156Z",
       "seenCycles": 1,
-      "missedCycles": 72,
+      "missedCycles": 73,
       "latestCandidateId": "trend-92ff958c54d371519f",
       "latestTitle": "Why is Google still serving dodgy ads?",
       "latestResolutionAnchors": [
@@ -2161,7 +2161,7 @@
       "firstSeenAt": "2026-09-13T21:26:54.156Z",
       "lastSeenAt": "2026-09-13T21:26:54.156Z",
       "seenCycles": 1,
-      "missedCycles": 72,
+      "missedCycles": 73,
       "latestCandidateId": "trend-3ed4bc4de05ded3f79",
       "latestTitle": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
       "latestResolutionAnchors": [
@@ -2194,7 +2194,7 @@
       "firstSeenAt": "2026-09-13T21:26:54.156Z",
       "lastSeenAt": "2026-09-13T21:26:54.156Z",
       "seenCycles": 1,
-      "missedCycles": 72,
+      "missedCycles": 73,
       "latestCandidateId": "trend-dd6e86635b0d75110e",
       "latestTitle": "what kind of bird is that?",
       "latestResolutionAnchors": [
@@ -2223,7 +2223,7 @@
       "firstSeenAt": "2026-09-14T14:03:03.196Z",
       "lastSeenAt": "2026-09-14T14:03:03.196Z",
       "seenCycles": 1,
-      "missedCycles": 71,
+      "missedCycles": 72,
       "latestCandidateId": "trend-40178e5cee8afbae77",
       "latestTitle": "Mullenweg has returned as CEO after attempted board ouster",
       "latestResolutionAnchors": [
@@ -2256,7 +2256,7 @@
       "firstSeenAt": "2026-09-14T14:03:03.196Z",
       "lastSeenAt": "2026-09-14T14:03:03.196Z",
       "seenCycles": 1,
-      "missedCycles": 71,
+      "missedCycles": 72,
       "latestCandidateId": "trend-fc03a02f1a038e1ce9",
       "latestTitle": "Carney may seek EU status for Canada",
       "latestResolutionAnchors": [
@@ -2286,7 +2286,7 @@
       "firstSeenAt": "2026-09-14T14:03:03.196Z",
       "lastSeenAt": "2026-09-14T14:03:03.196Z",
       "seenCycles": 1,
-      "missedCycles": 71,
+      "missedCycles": 72,
       "latestCandidateId": "trend-b7ddb92ce82bb50b47",
       "latestTitle": "[UK] Police Raid Home of 84-Year-Old Priest Who Joined Just Stop Oil Protest",
       "latestResolutionAnchors": [
@@ -2317,7 +2317,7 @@
       "firstSeenAt": "2026-09-14T14:03:03.196Z",
       "lastSeenAt": "2026-09-14T22:31:28.986Z",
       "seenCycles": 2,
-      "missedCycles": 70,
+      "missedCycles": 71,
       "latestCandidateId": "trend-31dc5769bb1cb47f49",
       "latestTitle": "Elena Rybakina",
       "latestResolutionAnchors": [
@@ -2344,7 +2344,7 @@
       "firstSeenAt": "2026-09-14T22:31:28.986Z",
       "lastSeenAt": "2026-09-14T22:31:28.986Z",
       "seenCycles": 1,
-      "missedCycles": 70,
+      "missedCycles": 71,
       "latestCandidateId": "trend-970264c9d427556615",
       "latestTitle": "DHS voter database access claims",
       "latestResolutionAnchors": [
@@ -2375,7 +2375,7 @@
       "firstSeenAt": "2026-09-15T12:41:29.444Z",
       "lastSeenAt": "2026-09-15T12:41:29.444Z",
       "seenCycles": 1,
-      "missedCycles": 69,
+      "missedCycles": 70,
       "latestCandidateId": "trend-057f0c35299ccc1d01",
       "latestTitle": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
       "latestResolutionAnchors": [
@@ -2408,7 +2408,7 @@
       "firstSeenAt": "2026-09-15T12:41:29.444Z",
       "lastSeenAt": "2026-09-15T12:41:29.444Z",
       "seenCycles": 1,
-      "missedCycles": 69,
+      "missedCycles": 70,
       "latestCandidateId": "trend-56219918a6d56783a6",
       "latestTitle": "Trump mail ballot order case",
       "latestResolutionAnchors": [
@@ -2437,7 +2437,7 @@
       "firstSeenAt": "2026-09-15T12:41:29.444Z",
       "lastSeenAt": "2026-09-15T22:14:26.052Z",
       "seenCycles": 2,
-      "missedCycles": 68,
+      "missedCycles": 69,
       "latestCandidateId": "trend-da546e232382e387eb",
       "latestTitle": "Alexander Zverev",
       "latestResolutionAnchors": [
@@ -2464,7 +2464,7 @@
       "firstSeenAt": "2026-09-15T12:41:29.444Z",
       "lastSeenAt": "2026-10-04T22:21:18.133Z",
       "seenCycles": 30,
-      "missedCycles": 30,
+      "missedCycles": 31,
       "latestCandidateId": "trend-a11608435603d5c50a",
       "latestTitle": "Đại hội Thể thao châu Á 2026",
       "latestResolutionAnchors": [
@@ -2493,7 +2493,7 @@
       "firstSeenAt": "2026-09-15T22:14:26.052Z",
       "lastSeenAt": "2026-09-15T22:14:26.052Z",
       "seenCycles": 1,
-      "missedCycles": 68,
+      "missedCycles": 69,
       "latestCandidateId": "trend-37b15f157414a6c9ed",
       "latestTitle": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
       "latestResolutionAnchors": [
@@ -2526,7 +2526,7 @@
       "firstSeenAt": "2026-09-15T22:14:26.052Z",
       "lastSeenAt": "2026-09-15T22:14:26.052Z",
       "seenCycles": 1,
-      "missedCycles": 68,
+      "missedCycles": 69,
       "latestCandidateId": "trend-377a964f5812ca91e0",
       "latestTitle": "Trump son's gift from Putin friend",
       "latestResolutionAnchors": [
@@ -2557,7 +2557,7 @@
       "firstSeenAt": "2026-09-15T22:14:26.052Z",
       "lastSeenAt": "2026-09-15T22:14:26.052Z",
       "seenCycles": 1,
-      "missedCycles": 68,
+      "missedCycles": 69,
       "latestCandidateId": "trend-f8fb086a72dc2f6582",
       "latestTitle": "All supporting acts in Ed Sheeran's tour have dropped out, leaving him with no openers.",
       "latestResolutionAnchors": [
@@ -2588,7 +2588,7 @@
       "firstSeenAt": "2026-09-16T12:38:09.572Z",
       "lastSeenAt": "2026-09-18T21:41:46.218Z",
       "seenCycles": 2,
-      "missedCycles": 62,
+      "missedCycles": 63,
       "latestCandidateId": "trend-731b7dd29e84323f0a",
       "latestTitle": "Trump bans CNN, MSNBC, Politico",
       "latestResolutionAnchors": [
@@ -2617,7 +2617,7 @@
       "firstSeenAt": "2026-09-16T12:38:09.572Z",
       "lastSeenAt": "2026-09-23T22:18:09.773Z",
       "seenCycles": 4,
-      "missedCycles": 52,
+      "missedCycles": 53,
       "latestCandidateId": "trend-8cec2288bc156994c8",
       "latestTitle": "Cúp bóng đá U-23 châu Á",
       "latestResolutionAnchors": [
@@ -2646,7 +2646,7 @@
       "firstSeenAt": "2026-09-16T22:11:30.518Z",
       "lastSeenAt": "2026-09-16T22:11:30.518Z",
       "seenCycles": 1,
-      "missedCycles": 66,
+      "missedCycles": 67,
       "latestCandidateId": "trend-89a9c3470c366655b2",
       "latestTitle": "Macklemore pledges $1 million to Palestinian relief, challenges Robert Kraft to match it",
       "latestResolutionAnchors": [
@@ -2679,7 +2679,7 @@
       "firstSeenAt": "2026-09-17T12:36:02.597Z",
       "lastSeenAt": "2026-09-17T12:36:02.597Z",
       "seenCycles": 1,
-      "missedCycles": 65,
+      "missedCycles": 66,
       "latestCandidateId": "trend-9ab1959803db03b428",
       "latestTitle": "Fed raises interest rates",
       "latestResolutionAnchors": [
@@ -2708,7 +2708,7 @@
       "firstSeenAt": "2026-09-17T12:36:02.597Z",
       "lastSeenAt": "2026-09-17T12:36:02.597Z",
       "seenCycles": 1,
-      "missedCycles": 65,
+      "missedCycles": 66,
       "latestCandidateId": "trend-8131fdb57d90019a37",
       "latestTitle": "Gas prices surge",
       "latestResolutionAnchors": [
@@ -2737,7 +2737,7 @@
       "firstSeenAt": "2026-09-17T12:36:02.597Z",
       "lastSeenAt": "2026-09-17T22:10:05.791Z",
       "seenCycles": 2,
-      "missedCycles": 64,
+      "missedCycles": 65,
       "latestCandidateId": "trend-c6a64d16b2859b19db",
       "latestTitle": "List of Tim Curry performances",
       "latestResolutionAnchors": [
@@ -2764,7 +2764,7 @@
       "firstSeenAt": "2026-09-18T12:14:21.203Z",
       "lastSeenAt": "2026-09-18T12:14:21.203Z",
       "seenCycles": 1,
-      "missedCycles": 63,
+      "missedCycles": 64,
       "latestCandidateId": "trend-5b24a069b874ea1a7d",
       "latestTitle": "Google illegally retains customer data,and I am taking legal action against them",
       "latestResolutionAnchors": [
@@ -2797,7 +2797,7 @@
       "firstSeenAt": "2026-09-18T12:14:21.203Z",
       "lastSeenAt": "2026-09-18T12:14:21.203Z",
       "seenCycles": 1,
-      "missedCycles": 63,
+      "missedCycles": 64,
       "latestCandidateId": "trend-4fcd15784f2929acb3",
       "latestTitle": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
       "latestResolutionAnchors": [
@@ -2830,7 +2830,7 @@
       "firstSeenAt": "2026-09-18T12:14:21.203Z",
       "lastSeenAt": "2026-09-18T12:14:21.203Z",
       "seenCycles": 1,
-      "missedCycles": 63,
+      "missedCycles": 64,
       "latestCandidateId": "trend-5be866f79b238be2f8",
       "latestTitle": "‘I feel invisible’: over-50s reveal harsh realities of trying to get a job",
       "latestResolutionAnchors": [
@@ -2861,7 +2861,7 @@
       "firstSeenAt": "2026-09-18T12:14:21.203Z",
       "lastSeenAt": "2026-09-18T12:14:21.203Z",
       "seenCycles": 1,
-      "missedCycles": 63,
+      "missedCycles": 64,
       "latestCandidateId": "trend-92cb14a5f157747c70",
       "latestTitle": "2026-09-18",
       "latestResolutionAnchors": [
@@ -2888,7 +2888,7 @@
       "firstSeenAt": "2026-09-18T12:14:21.203Z",
       "lastSeenAt": "2026-09-18T12:14:21.203Z",
       "seenCycles": 1,
-      "missedCycles": 63,
+      "missedCycles": 64,
       "latestCandidateId": "trend-0f01dfa2973bcf38ef",
       "latestTitle": "𝗘𝗻𝗴𝗹𝗶𝘀𝗵: Water. 𝗚𝗲𝗿𝗺𝗮𝗻: Wasser. 𝗦𝗽𝗮𝗻𝗶𝘀𝗵: Agua. 𝗜𝘁𝗮𝗹𝗶𝗮𝗻: Acqua. 𝗙𝗿𝗲𝗻𝗰𝗵:",
       "latestResolutionAnchors": [
@@ -2919,7 +2919,7 @@
       "firstSeenAt": "2026-09-18T12:14:21.203Z",
       "lastSeenAt": "2026-10-01T23:12:34.008Z",
       "seenCycles": 28,
-      "missedCycles": 36,
+      "missedCycles": 37,
       "latestCandidateId": "trend-561aa63eb1dd4ac7bd",
       "latestTitle": "Lizzie Borden",
       "latestResolutionAnchors": [
@@ -2946,7 +2946,7 @@
       "firstSeenAt": "2026-09-18T12:14:21.203Z",
       "lastSeenAt": "2026-09-18T21:41:46.218Z",
       "seenCycles": 2,
-      "missedCycles": 62,
+      "missedCycles": 63,
       "latestCandidateId": "trend-c7a8d0d18ebc2127c0",
       "latestTitle": "Dancing with the Stars (American TV series) season 35",
       "latestResolutionAnchors": [
@@ -2975,7 +2975,7 @@
       "firstSeenAt": "2026-09-18T21:41:46.218Z",
       "lastSeenAt": "2026-09-20T21:33:49.508Z",
       "seenCycles": 3,
-      "missedCycles": 58,
+      "missedCycles": 59,
       "latestCandidateId": "trend-12ab7040efcc953ddc",
       "latestTitle": "Client-Side Privacy for Online Dev Tools",
       "latestResolutionAnchors": [
@@ -3005,7 +3005,7 @@
       "firstSeenAt": "2026-09-19T11:56:38.832Z",
       "lastSeenAt": "2026-09-19T11:56:38.832Z",
       "seenCycles": 1,
-      "missedCycles": 61,
+      "missedCycles": 62,
       "latestCandidateId": "trend-853a1c745b1e9bf388",
       "latestTitle": "Human brain is two separate organs, Stanford Medicine-led research finds",
       "latestResolutionAnchors": [
@@ -3038,7 +3038,7 @@
       "firstSeenAt": "2026-09-19T21:28:41.208Z",
       "lastSeenAt": "2026-09-19T21:28:41.208Z",
       "seenCycles": 1,
-      "missedCycles": 60,
+      "missedCycles": 61,
       "latestCandidateId": "trend-55691d7cf426e664ef",
       "latestTitle": "Trump bans 3 news orgs from White House",
       "latestResolutionAnchors": [
@@ -3067,7 +3067,7 @@
       "firstSeenAt": "2026-09-20T21:33:49.508Z",
       "lastSeenAt": "2026-09-20T21:33:49.508Z",
       "seenCycles": 1,
-      "missedCycles": 58,
+      "missedCycles": 59,
       "latestCandidateId": "trend-731502758b1fbe526e",
       "latestTitle": "6 days left to get ahead at TechCrunch Disrupt 2026",
       "latestResolutionAnchors": [
@@ -3096,7 +3096,7 @@
       "firstSeenAt": "2026-09-21T14:08:39.627Z",
       "lastSeenAt": "2026-09-26T21:58:16.920Z",
       "seenCycles": 12,
-      "missedCycles": 46,
+      "missedCycles": 47,
       "latestCandidateId": "trend-0bb61da2c3bf234ba1",
       "latestTitle": "mizorewww/laya-mlx",
       "latestResolutionAnchors": [
@@ -3127,7 +3127,7 @@
       "firstSeenAt": "2026-09-21T22:35:30.815Z",
       "lastSeenAt": "2026-09-21T22:35:30.815Z",
       "seenCycles": 1,
-      "missedCycles": 56,
+      "missedCycles": 57,
       "latestCandidateId": "trend-6267e5a5893bbd0080",
       "latestTitle": "FAA deploys AI at DC airports",
       "latestResolutionAnchors": [
@@ -3156,7 +3156,7 @@
       "firstSeenAt": "2026-09-22T12:37:35.648Z",
       "lastSeenAt": "2026-09-22T12:37:35.648Z",
       "seenCycles": 1,
-      "missedCycles": 55,
+      "missedCycles": 56,
       "latestCandidateId": "trend-d73f06c672c32bbffb",
       "latestTitle": "Landlords quitting “in droves” since Renters’ Rights Act",
       "latestResolutionAnchors": [
@@ -3187,7 +3187,7 @@
       "firstSeenAt": "2026-09-22T12:37:35.648Z",
       "lastSeenAt": "2026-09-22T12:37:35.648Z",
       "seenCycles": 1,
-      "missedCycles": 55,
+      "missedCycles": 56,
       "latestCandidateId": "trend-c11c44b4d8f8904da4",
       "latestTitle": "Israel Blocking Hundreds of Wheelchairs for Injured Children From Entering Gaza | Common Dreams",
       "latestResolutionAnchors": [
@@ -3218,7 +3218,7 @@
       "firstSeenAt": "2026-09-22T12:37:35.648Z",
       "lastSeenAt": "2026-09-22T22:09:25.332Z",
       "seenCycles": 2,
-      "missedCycles": 54,
+      "missedCycles": 55,
       "latestCandidateId": "trend-5c7f11616ecf89db33",
       "latestTitle": "Mohammed bin Rashid Al Maktoum",
       "latestResolutionAnchors": [
@@ -3246,7 +3246,7 @@
       "firstSeenAt": "2026-09-22T22:09:25.332Z",
       "lastSeenAt": "2026-09-22T22:09:25.332Z",
       "seenCycles": 1,
-      "missedCycles": 54,
+      "missedCycles": 55,
       "latestCandidateId": "trend-6de97ddc14b8e06d1e",
       "latestTitle": "People hooked on vapes try a new way to quit: cigarettes",
       "latestResolutionAnchors": [
@@ -3279,7 +3279,7 @@
       "firstSeenAt": "2026-09-22T22:09:25.332Z",
       "lastSeenAt": "2026-09-22T22:09:25.332Z",
       "seenCycles": 1,
-      "missedCycles": 54,
+      "missedCycles": 55,
       "latestCandidateId": "trend-678f3462e98f7f25aa",
       "latestTitle": "ACA enrollment reduction reports",
       "latestResolutionAnchors": [
@@ -3308,7 +3308,7 @@
       "firstSeenAt": "2026-09-22T22:09:25.332Z",
       "lastSeenAt": "2026-09-22T22:09:25.332Z",
       "seenCycles": 1,
-      "missedCycles": 54,
+      "missedCycles": 55,
       "latestCandidateId": "trend-dbda22a4528192aef3",
       "latestTitle": "Nguyễn Sinh Nhật Tân",
       "latestResolutionAnchors": [
@@ -3335,7 +3335,7 @@
       "firstSeenAt": "2026-09-23T12:45:51.299Z",
       "lastSeenAt": "2026-09-23T12:45:51.299Z",
       "seenCycles": 1,
-      "missedCycles": 53,
+      "missedCycles": 54,
       "latestCandidateId": "trend-7d1c14a532757a77eb",
       "latestTitle": "Trump attacks Kaitlan Collins",
       "latestResolutionAnchors": [
@@ -3364,7 +3364,7 @@
       "firstSeenAt": "2026-09-23T12:45:51.299Z",
       "lastSeenAt": "2026-09-23T12:45:51.299Z",
       "seenCycles": 1,
-      "missedCycles": 53,
+      "missedCycles": 54,
       "latestCandidateId": "trend-67e57fb3b107158c67",
       "latestTitle": "Trump threatens to demolish Kennedy Center",
       "latestResolutionAnchors": [
@@ -3393,7 +3393,7 @@
       "firstSeenAt": "2026-09-24T12:44:12.762Z",
       "lastSeenAt": "2026-09-24T12:44:12.762Z",
       "seenCycles": 1,
-      "missedCycles": 51,
+      "missedCycles": 52,
       "latestCandidateId": "trend-61bfde20428467cdc5",
       "latestTitle": "Politico source and press ban",
       "latestResolutionAnchors": [
@@ -3424,7 +3424,7 @@
       "firstSeenAt": "2026-09-24T12:44:12.762Z",
       "lastSeenAt": "2026-09-24T12:44:12.762Z",
       "seenCycles": 1,
-      "missedCycles": 51,
+      "missedCycles": 52,
       "latestCandidateId": "trend-5292e979a4eed5ece9",
       "latestTitle": "Wolf (2026-09-23)",
       "latestResolutionAnchors": [
@@ -3453,7 +3453,7 @@
       "firstSeenAt": "2026-09-24T22:24:19.169Z",
       "lastSeenAt": "2026-09-24T22:24:19.169Z",
       "seenCycles": 1,
-      "missedCycles": 50,
+      "missedCycles": 51,
       "latestCandidateId": "trend-b914b2328f412ca0c9",
       "latestTitle": "California Supreme Court orders Riverside County sheriff to return 650,000 seized ballots",
       "latestResolutionAnchors": [
@@ -3484,7 +3484,7 @@
       "firstSeenAt": "2026-09-24T22:24:19.169Z",
       "lastSeenAt": "2026-09-29T22:58:06.762Z",
       "seenCycles": 10,
-      "missedCycles": 40,
+      "missedCycles": 41,
       "latestCandidateId": "trend-d5dba582e5b7588130",
       "latestTitle": "Agentic Fraud Investigation with TigerGraph",
       "latestResolutionAnchors": [
@@ -3514,7 +3514,7 @@
       "firstSeenAt": "2026-09-24T22:24:19.169Z",
       "lastSeenAt": "2026-10-10T22:31:43.956Z",
       "seenCycles": 11,
-      "missedCycles": 18,
+      "missedCycles": 19,
       "latestCandidateId": "trend-7e4db8f8b61e1a5d00",
       "latestTitle": "Sanity AI Agents & Content Challenges",
       "latestResolutionAnchors": [
@@ -3545,7 +3545,7 @@
       "firstSeenAt": "2026-09-25T12:46:54.525Z",
       "lastSeenAt": "2026-09-25T12:46:54.525Z",
       "seenCycles": 1,
-      "missedCycles": 49,
+      "missedCycles": 50,
       "latestCandidateId": "trend-871ae91839d1fefdce",
       "latestTitle": "Doctors Against Genocide: #Palestine - The Freedom Campaign",
       "latestResolutionAnchors": [
@@ -3576,7 +3576,7 @@
       "firstSeenAt": "2026-09-25T12:46:54.525Z",
       "lastSeenAt": "2026-09-25T22:20:14.167Z",
       "seenCycles": 2,
-      "missedCycles": 48,
+      "missedCycles": 49,
       "latestCandidateId": "trend-53e136b652a353aa77",
       "latestTitle": "The Love Hypothesis (film)",
       "latestResolutionAnchors": [
@@ -3603,7 +3603,7 @@
       "firstSeenAt": "2026-09-25T22:20:14.167Z",
       "lastSeenAt": "2026-09-25T22:20:14.167Z",
       "seenCycles": 1,
-      "missedCycles": 48,
+      "missedCycles": 49,
       "latestCandidateId": "trend-8ef0d9fd1924478f86",
       "latestTitle": "me_irl",
       "latestResolutionAnchors": [
@@ -3630,7 +3630,7 @@
       "firstSeenAt": "2026-09-25T22:20:14.167Z",
       "lastSeenAt": "2026-09-25T22:20:14.167Z",
       "seenCycles": 1,
-      "missedCycles": 48,
+      "missedCycles": 49,
       "latestCandidateId": "trend-d45ef73ab720f366f8",
       "latestTitle": "Too handsome",
       "latestResolutionAnchors": [
@@ -3659,7 +3659,7 @@
       "firstSeenAt": "2026-09-26T12:14:31.834Z",
       "lastSeenAt": "2026-09-28T23:50:20.735Z",
       "seenCycles": 6,
-      "missedCycles": 42,
+      "missedCycles": 43,
       "latestCandidateId": "trend-458ce6c192dfbcb19e",
       "latestTitle": "jev-chat/jev-chat-jarvis",
       "latestResolutionAnchors": [
@@ -3687,7 +3687,7 @@
       "firstSeenAt": "2026-09-26T21:58:16.920Z",
       "lastSeenAt": "2026-09-26T21:58:16.920Z",
       "seenCycles": 1,
-      "missedCycles": 46,
+      "missedCycles": 47,
       "latestCandidateId": "trend-56443838ac59042e82",
       "latestTitle": "Automattic has a new board after failed attempt to put CEO on leave",
       "latestResolutionAnchors": [
@@ -3720,7 +3720,7 @@
       "firstSeenAt": "2026-09-27T13:02:02.255Z",
       "lastSeenAt": "2026-09-27T13:02:02.255Z",
       "seenCycles": 1,
-      "missedCycles": 45,
+      "missedCycles": 46,
       "latestCandidateId": "trend-56dd9502464c90fe34",
       "latestTitle": "Russian drone strikes hit Kyiv",
       "latestResolutionAnchors": [
@@ -3749,7 +3749,7 @@
       "firstSeenAt": "2026-09-27T13:02:02.255Z",
       "lastSeenAt": "2026-09-27T13:02:02.255Z",
       "seenCycles": 1,
-      "missedCycles": 45,
+      "missedCycles": 46,
       "latestCandidateId": "trend-65999f7fb3b6b428d9",
       "latestTitle": "AEW holds All Out PPV",
       "latestResolutionAnchors": [
@@ -3778,7 +3778,7 @@
       "firstSeenAt": "2026-09-27T13:02:02.255Z",
       "lastSeenAt": "2026-09-27T13:02:02.255Z",
       "seenCycles": 1,
-      "missedCycles": 45,
+      "missedCycles": 46,
       "latestCandidateId": "trend-2c0b4a88c81a2d0687",
       "latestTitle": "Piece by Piece",
       "latestResolutionAnchors": [
@@ -3806,7 +3806,7 @@
       "firstSeenAt": "2026-09-27T13:02:02.255Z",
       "lastSeenAt": "2026-10-02T22:58:14.481Z",
       "seenCycles": 5,
-      "missedCycles": 34,
+      "missedCycles": 35,
       "latestCandidateId": "trend-cb79f0263c0c834e2a",
       "latestTitle": "FIFA ASEAN Cup 2026",
       "latestResolutionAnchors": [
@@ -3834,7 +3834,7 @@
       "firstSeenAt": "2026-09-27T22:10:56.814Z",
       "lastSeenAt": "2026-09-27T22:10:56.814Z",
       "seenCycles": 1,
-      "missedCycles": 44,
+      "missedCycles": 45,
       "latestCandidateId": "trend-0257ecff1a9e5d042e",
       "latestTitle": "Phillies risk historic playoff collapse",
       "latestResolutionAnchors": [
@@ -3863,7 +3863,7 @@
       "firstSeenAt": "2026-09-28T15:27:52.948Z",
       "lastSeenAt": "2026-09-29T22:58:06.762Z",
       "seenCycles": 4,
-      "missedCycles": 40,
+      "missedCycles": 41,
       "latestCandidateId": "trend-e6c965d47d07128424",
       "latestTitle": "JohnHeibel/PDoomVideo",
       "latestResolutionAnchors": [
@@ -3890,7 +3890,7 @@
       "firstSeenAt": "2026-09-28T15:27:52.948Z",
       "lastSeenAt": "2026-10-06T00:49:52.303Z",
       "seenCycles": 12,
-      "missedCycles": 28,
+      "missedCycles": 29,
       "latestCandidateId": "trend-c4ed1d7d91303f501b",
       "latestTitle": "LLM Benchmarking & Security Auditing",
       "latestResolutionAnchors": [
@@ -3921,7 +3921,7 @@
       "firstSeenAt": "2026-09-28T23:50:20.735Z",
       "lastSeenAt": "2026-09-28T23:50:20.735Z",
       "seenCycles": 1,
-      "missedCycles": 42,
+      "missedCycles": 43,
       "latestCandidateId": "trend-7eb691df0372614446",
       "latestTitle": "Virginity",
       "latestResolutionAnchors": [
@@ -3950,7 +3950,7 @@
       "firstSeenAt": "2026-09-28T23:50:20.735Z",
       "lastSeenAt": "2026-09-28T23:50:20.735Z",
       "seenCycles": 1,
-      "missedCycles": 42,
+      "missedCycles": 43,
       "latestCandidateId": "trend-8806a6756487697afa",
       "latestTitle": "Never clean",
       "latestResolutionAnchors": [
@@ -3979,7 +3979,7 @@
       "firstSeenAt": "2026-09-29T14:04:51.848Z",
       "lastSeenAt": "2026-10-06T00:49:52.303Z",
       "seenCycles": 13,
-      "missedCycles": 28,
+      "missedCycles": 29,
       "latestCandidateId": "trend-385be809843cfda0ad",
       "latestTitle": "AI Agents with Persistent Hindsight Memory",
       "latestResolutionAnchors": [
@@ -4010,7 +4010,7 @@
       "firstSeenAt": "2026-09-29T22:58:06.762Z",
       "lastSeenAt": "2026-10-07T23:36:26.795Z",
       "seenCycles": 13,
-      "missedCycles": 24,
+      "missedCycles": 25,
       "latestCandidateId": "trend-1d3be33ddff2c2a735",
       "latestTitle": "Hindsight-Powered Incident Response Agents",
       "latestResolutionAnchors": [
@@ -4040,7 +4040,7 @@
       "firstSeenAt": "2026-09-29T22:58:06.762Z",
       "lastSeenAt": "2026-09-29T22:58:06.762Z",
       "seenCycles": 1,
-      "missedCycles": 40,
+      "missedCycles": 41,
       "latestCandidateId": "trend-56b79c6adb780d09ca",
       "latestTitle": "Schmitt confuses Hawks with Hawkeyes",
       "latestResolutionAnchors": [
@@ -4071,7 +4071,7 @@
       "firstSeenAt": "2026-09-30T13:43:14.026Z",
       "lastSeenAt": "2026-10-19T14:42:01.145Z",
       "seenCycles": 2,
-      "missedCycles": 2,
+      "missedCycles": 3,
       "latestCandidateId": "trend-683d7ea9ac1499f376",
       "latestTitle": "Trump waives Russia sanctions",
       "latestResolutionAnchors": [
@@ -4100,7 +4100,7 @@
       "firstSeenAt": "2026-09-30T23:01:07.474Z",
       "lastSeenAt": "2026-09-30T23:01:07.474Z",
       "seenCycles": 1,
-      "missedCycles": 38,
+      "missedCycles": 39,
       "latestCandidateId": "trend-9e32d8557198ddd018",
       "latestTitle": "Why the Bronze Age Collapsed",
       "latestResolutionAnchors": [
@@ -4128,7 +4128,7 @@
       "firstSeenAt": "2026-09-30T23:01:07.474Z",
       "lastSeenAt": "2026-09-30T23:01:07.474Z",
       "seenCycles": 1,
-      "missedCycles": 38,
+      "missedCycles": 39,
       "latestCandidateId": "trend-1683b60d44652a2cba",
       "latestTitle": "Hegseth to cut 20% generals",
       "latestResolutionAnchors": [
@@ -4159,7 +4159,7 @@
       "firstSeenAt": "2026-10-01T14:28:37.555Z",
       "lastSeenAt": "2026-10-01T14:28:37.555Z",
       "seenCycles": 1,
-      "missedCycles": 37,
+      "missedCycles": 38,
       "latestCandidateId": "trend-bfb9d00a820d6a1dce",
       "latestTitle": "ICE expands hiring and detention",
       "latestResolutionAnchors": [
@@ -4187,7 +4187,7 @@
       "firstSeenAt": "2026-10-01T14:28:37.555Z",
       "lastSeenAt": "2026-10-01T14:28:37.555Z",
       "seenCycles": 1,
-      "missedCycles": 37,
+      "missedCycles": 38,
       "latestCandidateId": "trend-13f40d87dc779fa0be",
       "latestTitle": "Spooky Season part 2",
       "latestResolutionAnchors": [
@@ -4218,7 +4218,7 @@
       "firstSeenAt": "2026-10-02T13:51:53.087Z",
       "lastSeenAt": "2026-10-19T22:55:06.634Z",
       "seenCycles": 2,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-e4bd381fa57a810dcf",
       "latestTitle": "All politics is yokel",
       "latestResolutionAnchors": [
@@ -4246,7 +4246,7 @@
       "firstSeenAt": "2026-10-02T13:51:53.087Z",
       "lastSeenAt": "2026-10-02T13:51:53.087Z",
       "seenCycles": 1,
-      "missedCycles": 35,
+      "missedCycles": 36,
       "latestCandidateId": "trend-3165b0e0c6d5ae688c",
       "latestTitle": "Trump attacks Fox News",
       "latestResolutionAnchors": [
@@ -4277,7 +4277,7 @@
       "firstSeenAt": "2026-10-02T13:51:53.087Z",
       "lastSeenAt": "2026-10-02T22:58:14.481Z",
       "seenCycles": 2,
-      "missedCycles": 34,
+      "missedCycles": 35,
       "latestCandidateId": "trend-d4c9503b0b25ff78c6",
       "latestTitle": "Cristiano Ronaldo",
       "latestResolutionAnchors": [
@@ -4304,7 +4304,7 @@
       "firstSeenAt": "2026-10-02T13:51:53.087Z",
       "lastSeenAt": "2026-10-13T23:17:16.621Z",
       "seenCycles": 22,
-      "missedCycles": 12,
+      "missedCycles": 13,
       "latestCandidateId": "trend-7c5d5be3a1654e66d5",
       "latestTitle": "East of Eden (2026 miniseries)",
       "latestResolutionAnchors": [
@@ -4331,7 +4331,7 @@
       "firstSeenAt": "2026-10-02T13:51:53.087Z",
       "lastSeenAt": "2026-10-02T22:58:14.481Z",
       "seenCycles": 2,
-      "missedCycles": 34,
+      "missedCycles": 35,
       "latestCandidateId": "trend-a6793da74de682b18f",
       "latestTitle": "Quân chủng Hải quân, Quân đội nhân dân Việt Nam",
       "latestResolutionAnchors": [
@@ -4362,7 +4362,7 @@
       "firstSeenAt": "2026-10-02T22:58:14.481Z",
       "lastSeenAt": "2026-10-02T22:58:14.481Z",
       "seenCycles": 1,
-      "missedCycles": 34,
+      "missedCycles": 35,
       "latestCandidateId": "trend-fe4194be965a24ea27",
       "latestTitle": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
       "latestResolutionAnchors": [
@@ -4395,7 +4395,7 @@
       "firstSeenAt": "2026-10-02T22:58:14.481Z",
       "lastSeenAt": "2026-10-02T22:58:14.481Z",
       "seenCycles": 1,
-      "missedCycles": 34,
+      "missedCycles": 35,
       "latestCandidateId": "trend-694f76826222ec095a",
       "latestTitle": "Trump Went Looking for Election Fraud. His Own Investigation Came Up Empty",
       "latestResolutionAnchors": [
@@ -4426,7 +4426,7 @@
       "firstSeenAt": "2026-10-02T22:58:14.481Z",
       "lastSeenAt": "2026-10-04T22:21:18.133Z",
       "seenCycles": 5,
-      "missedCycles": 30,
+      "missedCycles": 31,
       "latestCandidateId": "trend-b378096eaeb69d0935",
       "latestTitle": "chasmlol/SkyCraft",
       "latestResolutionAnchors": [
@@ -4452,7 +4452,7 @@
       "firstSeenAt": "2026-10-03T12:34:03.705Z",
       "lastSeenAt": "2026-10-03T22:08:13.422Z",
       "seenCycles": 2,
-      "missedCycles": 32,
+      "missedCycles": 33,
       "latestCandidateId": "trend-e7f176bc8ca48a859c",
       "latestTitle": "Lý do Việt Nam có Ngày hội Đổi mới sáng tạo quốc gia",
       "latestResolutionAnchors": [
@@ -4489,7 +4489,7 @@
       "firstSeenAt": "2026-10-03T12:34:03.705Z",
       "lastSeenAt": "2026-10-04T22:21:18.133Z",
       "seenCycles": 4,
-      "missedCycles": 30,
+      "missedCycles": 31,
       "latestCandidateId": "trend-126d1a4dc0b1156ad7",
       "latestTitle": "Tinh hà \"say hi\" (mùa 1)",
       "latestResolutionAnchors": [
@@ -4516,7 +4516,7 @@
       "firstSeenAt": "2026-10-03T22:08:13.422Z",
       "lastSeenAt": "2026-10-03T22:08:13.422Z",
       "seenCycles": 1,
-      "missedCycles": 32,
+      "missedCycles": 33,
       "latestCandidateId": "trend-f49cc178fedc3c765f",
       "latestTitle": "Trench Coat [Ellis Rosen]",
       "latestResolutionAnchors": [
@@ -4546,7 +4546,7 @@
       "firstSeenAt": "2026-10-03T22:08:13.422Z",
       "lastSeenAt": "2026-10-10T22:31:43.956Z",
       "seenCycles": 9,
-      "missedCycles": 18,
+      "missedCycles": 19,
       "latestCandidateId": "trend-11060fea40cc2511d7",
       "latestTitle": "Hacktoberfest Weekend Challenge: Build for a Friend",
       "latestResolutionAnchors": [
@@ -4577,7 +4577,7 @@
       "firstSeenAt": "2026-10-04T13:12:40.482Z",
       "lastSeenAt": "2026-10-16T12:25:04.276Z",
       "seenCycles": 2,
-      "missedCycles": 8,
+      "missedCycles": 9,
       "latestCandidateId": "trend-ba6ed58a2fce1d5f65",
       "latestTitle": "trule",
       "latestResolutionAnchors": [
@@ -4604,7 +4604,7 @@
       "firstSeenAt": "2026-10-04T13:12:40.482Z",
       "lastSeenAt": "2026-10-04T13:12:40.482Z",
       "seenCycles": 1,
-      "missedCycles": 31,
+      "missedCycles": 32,
       "latestCandidateId": "trend-4796ecda539190cd98",
       "latestTitle": "How can I change the theme of a Richeditbox Scrollbar via code in WinUi 3?",
       "latestResolutionAnchors": [
@@ -4635,7 +4635,7 @@
       "firstSeenAt": "2026-10-04T22:21:18.133Z",
       "lastSeenAt": "2026-10-04T22:21:18.133Z",
       "seenCycles": 1,
-      "missedCycles": 30,
+      "missedCycles": 31,
       "latestCandidateId": "trend-e478543f2266bf2fa2",
       "latestTitle": "Midterm get-out-the-vote push",
       "latestResolutionAnchors": [
@@ -4663,7 +4663,7 @@
       "firstSeenAt": "2026-10-05T16:02:06.064Z",
       "lastSeenAt": "2026-10-06T00:49:52.303Z",
       "seenCycles": 2,
-      "missedCycles": 28,
+      "missedCycles": 29,
       "latestCandidateId": "trend-30b6f17c01542f4f94",
       "latestTitle": "10 địa phương dẫn đầu cả nước về đổi mới sáng tạo",
       "latestResolutionAnchors": [
@@ -4694,7 +4694,7 @@
       "firstSeenAt": "2026-10-05T16:02:06.064Z",
       "lastSeenAt": "2026-10-05T16:02:06.064Z",
       "seenCycles": 1,
-      "missedCycles": 29,
+      "missedCycles": 30,
       "latestCandidateId": "trend-ea3ca11787b35853ed",
       "latestTitle": "GOP spending in Texas Senate race",
       "latestResolutionAnchors": [
@@ -4724,7 +4724,7 @@
       "firstSeenAt": "2026-10-06T00:49:52.303Z",
       "lastSeenAt": "2026-10-06T00:49:52.303Z",
       "seenCycles": 1,
-      "missedCycles": 28,
+      "missedCycles": 29,
       "latestCandidateId": "trend-516c3ca4eb08c17d80",
       "latestTitle": "Trump responds to Russia plague question",
       "latestResolutionAnchors": [
@@ -4756,7 +4756,7 @@
       "firstSeenAt": "2026-10-06T00:49:52.303Z",
       "lastSeenAt": "2026-10-07T14:30:26.330Z",
       "seenCycles": 3,
-      "missedCycles": 25,
+      "missedCycles": 26,
       "latestCandidateId": "trend-a396ccc829283e8777",
       "latestTitle": "Sanity Challenge AI Submissions",
       "latestResolutionAnchors": [
@@ -4786,7 +4786,7 @@
       "firstSeenAt": "2026-10-06T00:49:52.303Z",
       "lastSeenAt": "2026-10-16T22:06:06.301Z",
       "seenCycles": 22,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-3ced3f4e642ea4e347",
       "latestTitle": "storytold/craft-launcher",
       "latestResolutionAnchors": [
@@ -4813,7 +4813,7 @@
       "firstSeenAt": "2026-10-06T00:49:52.303Z",
       "lastSeenAt": "2026-10-06T00:49:52.303Z",
       "seenCycles": 1,
-      "missedCycles": 28,
+      "missedCycles": 29,
       "latestCandidateId": "trend-408cd5e8aff6b82df2",
       "latestTitle": "That's very considerate",
       "latestResolutionAnchors": [
@@ -4841,7 +4841,7 @@
       "firstSeenAt": "2026-10-06T14:12:16.484Z",
       "lastSeenAt": "2026-10-06T14:12:16.484Z",
       "seenCycles": 1,
-      "missedCycles": 27,
+      "missedCycles": 28,
       "latestCandidateId": "trend-5c098bf3a20d63ff09",
       "latestTitle": "Plague death reported in Siberia",
       "latestResolutionAnchors": [
@@ -4872,7 +4872,7 @@
       "firstSeenAt": "2026-10-06T14:12:16.484Z",
       "lastSeenAt": "2026-10-06T14:12:16.484Z",
       "seenCycles": 1,
-      "missedCycles": 27,
+      "missedCycles": 28,
       "latestCandidateId": "trend-c4bc80ccbb4b3e567f",
       "latestTitle": "Trump renews $5,000 check pledge",
       "latestResolutionAnchors": [
@@ -4899,17 +4899,17 @@
     {
       "lineageId": "lineage-ed48a8373640ce6da5",
       "firstSeenAt": "2026-10-06T14:12:16.484Z",
-      "lastSeenAt": "2026-10-20T12:43:49.656Z",
-      "seenCycles": 26,
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 27,
       "missedCycles": 0,
-      "latestCandidateId": "trend-85832d25178ce7e05c",
+      "latestCandidateId": "trend-a193973f6cb3878014",
       "latestTitle": "Kaggle LLM Benchmarking Challenge",
       "latestResolutionAnchors": [
         "kaggle",
         "benchmarking",
         "challenge",
-        "community",
         "dev",
+        "community",
         "llm"
       ],
       "latestSignalCount": 3,
@@ -4932,7 +4932,7 @@
       "firstSeenAt": "2026-10-06T23:04:12.016Z",
       "lastSeenAt": "2026-10-06T23:04:12.016Z",
       "seenCycles": 1,
-      "missedCycles": 26,
+      "missedCycles": 27,
       "latestCandidateId": "trend-7c9e9fe6ab98809e02",
       "latestTitle": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
       "latestResolutionAnchors": [
@@ -4966,7 +4966,7 @@
       "firstSeenAt": "2026-10-06T23:04:12.016Z",
       "lastSeenAt": "2026-10-06T23:04:12.016Z",
       "seenCycles": 1,
-      "missedCycles": 26,
+      "missedCycles": 27,
       "latestCandidateId": "trend-9293dd6756f9a1f5e4",
       "latestTitle": "openai/mcp-extensions",
       "latestResolutionAnchors": [
@@ -4990,17 +4990,17 @@
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
       "firstSeenAt": "2026-10-06T23:04:12.016Z",
-      "lastSeenAt": "2026-10-20T12:43:49.656Z",
-      "seenCycles": 27,
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 28,
       "missedCycles": 0,
-      "latestCandidateId": "trend-8106f30b6e9aaea215",
+      "latestCandidateId": "trend-dbddb094cf3ffaa417",
       "latestTitle": "Hacktoberfest Open-Source AI: Touch Grass",
       "latestResolutionAnchors": [
-        "hacktoberfest",
         "touch",
         "grass",
-        "community",
+        "hacktoberfest",
         "dev",
+        "community",
         "open-source"
       ],
       "latestSignalCount": 4,
@@ -5023,7 +5023,7 @@
       "firstSeenAt": "2026-10-08T14:35:18.221Z",
       "lastSeenAt": "2026-10-08T14:35:18.221Z",
       "seenCycles": 1,
-      "missedCycles": 23,
+      "missedCycles": 24,
       "latestCandidateId": "trend-d1309d6f9848d6873d",
       "latestTitle": "Ken Paxton's Senate campaign remarks",
       "latestResolutionAnchors": [
@@ -5052,7 +5052,7 @@
       "firstSeenAt": "2026-10-09T14:23:06.259Z",
       "lastSeenAt": "2026-10-09T23:16:36.987Z",
       "seenCycles": 2,
-      "missedCycles": 20,
+      "missedCycles": 21,
       "latestCandidateId": "trend-8436c0892b67ebcb09",
       "latestTitle": "Nana Patekar",
       "latestResolutionAnchors": [
@@ -5079,7 +5079,7 @@
       "firstSeenAt": "2026-10-09T23:16:36.987Z",
       "lastSeenAt": "2026-10-09T23:16:36.987Z",
       "seenCycles": 1,
-      "missedCycles": 20,
+      "missedCycles": 21,
       "latestCandidateId": "trend-3b277e9ee0e015b2d7",
       "latestTitle": "Trump expands red-dyed diesel use",
       "latestResolutionAnchors": [
@@ -5110,7 +5110,7 @@
       "firstSeenAt": "2026-10-09T23:16:36.987Z",
       "lastSeenAt": "2026-10-09T23:16:36.987Z",
       "seenCycles": 1,
-      "missedCycles": 20,
+      "missedCycles": 21,
       "latestCandidateId": "trend-3b8d4c8317a6446cf9",
       "latestTitle": "Truth",
       "latestResolutionAnchors": [
@@ -5138,7 +5138,7 @@
       "firstSeenAt": "2026-10-10T13:41:55.008Z",
       "lastSeenAt": "2026-10-10T13:41:55.008Z",
       "seenCycles": 1,
-      "missedCycles": 19,
+      "missedCycles": 20,
       "latestCandidateId": "trend-113f74f2763669f7fb",
       "latestTitle": "Ukraine drone wave on Russia",
       "latestResolutionAnchors": [
@@ -5169,7 +5169,7 @@
       "firstSeenAt": "2026-10-10T13:41:55.008Z",
       "lastSeenAt": "2026-10-10T22:31:43.956Z",
       "seenCycles": 2,
-      "missedCycles": 18,
+      "missedCycles": 19,
       "latestCandidateId": "trend-02c2902186f2c363e0",
       "latestTitle": "2009 Fort Hood shooting",
       "latestResolutionAnchors": [
@@ -5197,7 +5197,7 @@
       "firstSeenAt": "2026-10-11T14:04:14.903Z",
       "lastSeenAt": "2026-10-11T14:04:14.903Z",
       "seenCycles": 1,
-      "missedCycles": 17,
+      "missedCycles": 18,
       "latestCandidateId": "trend-6287b8d3afcd44692a",
       "latestTitle": "Bot traffic plunged to near 0 following the strike on its Vladimir data center",
       "latestResolutionAnchors": [
@@ -5230,7 +5230,7 @@
       "firstSeenAt": "2026-10-11T14:04:14.903Z",
       "lastSeenAt": "2026-10-11T22:54:48.694Z",
       "seenCycles": 2,
-      "missedCycles": 16,
+      "missedCycles": 17,
       "latestCandidateId": "trend-c85c2384df95114f8e",
       "latestTitle": "Anh trai vượt ngàn chông gai (mùa 2)",
       "latestResolutionAnchors": [
@@ -5262,7 +5262,7 @@
       "firstSeenAt": "2026-10-11T14:04:14.903Z",
       "lastSeenAt": "2026-10-11T14:04:14.903Z",
       "seenCycles": 1,
-      "missedCycles": 17,
+      "missedCycles": 18,
       "latestCandidateId": "trend-834b0ebb6dfe4f788b",
       "latestTitle": "Report on British Christian nationalism",
       "latestResolutionAnchors": [
@@ -5290,7 +5290,7 @@
       "firstSeenAt": "2026-10-11T14:04:14.903Z",
       "lastSeenAt": "2026-10-11T14:04:14.903Z",
       "seenCycles": 1,
-      "missedCycles": 17,
+      "missedCycles": 18,
       "latestCandidateId": "trend-a25188ae398087d0bb",
       "latestTitle": "AI Agent Benchmarking & Judgment",
       "latestResolutionAnchors": [
@@ -5320,7 +5320,7 @@
       "firstSeenAt": "2026-10-11T22:54:48.694Z",
       "lastSeenAt": "2026-10-11T22:54:48.694Z",
       "seenCycles": 1,
-      "missedCycles": 16,
+      "missedCycles": 17,
       "latestCandidateId": "trend-e199ce4490d8ccbfd0",
       "latestTitle": "To protect immigrant students, a college told Flock to remove its cameras. The company refused.",
       "latestResolutionAnchors": [
@@ -5351,7 +5351,7 @@
       "firstSeenAt": "2026-10-11T22:54:48.694Z",
       "lastSeenAt": "2026-10-16T22:06:06.301Z",
       "seenCycles": 10,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-4785181da9fcf1ae6c",
       "latestTitle": "Hacktoberfest AI Tools for Friends",
       "latestResolutionAnchors": [
@@ -5381,7 +5381,7 @@
       "firstSeenAt": "2026-10-12T16:44:59.228Z",
       "lastSeenAt": "2026-10-12T16:44:59.228Z",
       "seenCycles": 1,
-      "missedCycles": 15,
+      "missedCycles": 16,
       "latestCandidateId": "trend-48a02d5e0fb4ccc6de",
       "latestTitle": "Trump strikes diesel deal with Russia",
       "latestResolutionAnchors": [
@@ -5412,7 +5412,7 @@
       "firstSeenAt": "2026-10-12T16:44:59.228Z",
       "lastSeenAt": "2026-10-13T01:21:31.721Z",
       "seenCycles": 2,
-      "missedCycles": 14,
+      "missedCycles": 15,
       "latestCandidateId": "trend-6018f7587cae720b66",
       "latestTitle": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
       "latestResolutionAnchors": [
@@ -5443,7 +5443,7 @@
       "firstSeenAt": "2026-10-13T01:21:31.721Z",
       "lastSeenAt": "2026-10-13T01:21:31.721Z",
       "seenCycles": 1,
-      "missedCycles": 14,
+      "missedCycles": 15,
       "latestCandidateId": "trend-b2471472809c5e6caf",
       "latestTitle": "Talarico mental hospital rumor",
       "latestResolutionAnchors": [
@@ -5471,7 +5471,7 @@
       "firstSeenAt": "2026-10-13T01:21:31.721Z",
       "lastSeenAt": "2026-10-13T01:21:31.721Z",
       "seenCycles": 1,
-      "missedCycles": 14,
+      "missedCycles": 15,
       "latestCandidateId": "trend-c3bd9e1512587311f1",
       "latestTitle": "DC tree removal court case",
       "latestResolutionAnchors": [
@@ -5501,7 +5501,7 @@
       "firstSeenAt": "2026-10-13T01:21:31.721Z",
       "lastSeenAt": "2026-10-13T01:21:31.721Z",
       "seenCycles": 1,
-      "missedCycles": 14,
+      "missedCycles": 15,
       "latestCandidateId": "trend-760dda26ed2284f7c4",
       "latestTitle": "Taxpayer-funded Trump ads case",
       "latestResolutionAnchors": [
@@ -5529,7 +5529,7 @@
       "firstSeenAt": "2026-10-13T15:03:48.296Z",
       "lastSeenAt": "2026-10-13T15:03:48.296Z",
       "seenCycles": 1,
-      "missedCycles": 13,
+      "missedCycles": 14,
       "latestCandidateId": "trend-115f60e2f016a3bd72",
       "latestTitle": "Paxton's Dubai New Year's party",
       "latestResolutionAnchors": [
@@ -5561,7 +5561,7 @@
       "firstSeenAt": "2026-10-13T15:03:48.296Z",
       "lastSeenAt": "2026-10-13T15:03:48.296Z",
       "seenCycles": 1,
-      "missedCycles": 13,
+      "missedCycles": 14,
       "latestCandidateId": "trend-0e34873cea3dae435d",
       "latestTitle": "Greene breaks with Trump",
       "latestResolutionAnchors": [
@@ -5591,7 +5591,7 @@
       "firstSeenAt": "2026-10-13T15:03:48.296Z",
       "lastSeenAt": "2026-10-13T15:03:48.296Z",
       "seenCycles": 1,
-      "missedCycles": 13,
+      "missedCycles": 14,
       "latestCandidateId": "trend-93ac03f4a0e70a7973",
       "latestTitle": "New press secretary's first briefing",
       "latestResolutionAnchors": [
@@ -5620,7 +5620,7 @@
       "firstSeenAt": "2026-10-13T15:03:48.296Z",
       "lastSeenAt": "2026-10-13T15:03:48.296Z",
       "seenCycles": 1,
-      "missedCycles": 13,
+      "missedCycles": 14,
       "latestCandidateId": "trend-f1955f6c9408055afb",
       "latestTitle": "Zelensky links strikes to fewer bots",
       "latestResolutionAnchors": [
@@ -5650,7 +5650,7 @@
       "firstSeenAt": "2026-10-13T15:03:48.296Z",
       "lastSeenAt": "2026-10-13T15:03:48.296Z",
       "seenCycles": 1,
-      "missedCycles": 13,
+      "missedCycles": 14,
       "latestCandidateId": "trend-1cff061c2c7b8b48c6",
       "latestTitle": "BBC bias and funding",
       "latestResolutionAnchors": [
@@ -5680,7 +5680,7 @@
       "firstSeenAt": "2026-10-13T23:17:16.621Z",
       "lastSeenAt": "2026-10-13T23:17:16.621Z",
       "seenCycles": 1,
-      "missedCycles": 12,
+      "missedCycles": 13,
       "latestCandidateId": "trend-9cdd802e0faeb1a94d",
       "latestTitle": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
       "latestResolutionAnchors": [
@@ -5712,7 +5712,7 @@
       "firstSeenAt": "2026-10-13T23:17:16.621Z",
       "lastSeenAt": "2026-10-13T23:17:16.621Z",
       "seenCycles": 1,
-      "missedCycles": 12,
+      "missedCycles": 13,
       "latestCandidateId": "trend-3e2a0edce36477f5f9",
       "latestTitle": "Talarico mental hospital rumor",
       "latestResolutionAnchors": [
@@ -5742,7 +5742,7 @@
       "firstSeenAt": "2026-10-14T12:53:07.912Z",
       "lastSeenAt": "2026-10-19T22:55:06.634Z",
       "seenCycles": 4,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-c019b036674b473ce1",
       "latestTitle": "Hacktoberfest Open-Source AI Side Hustles",
       "latestResolutionAnchors": [
@@ -5773,7 +5773,7 @@
       "firstSeenAt": "2026-10-14T12:53:07.912Z",
       "lastSeenAt": "2026-10-14T12:53:07.912Z",
       "seenCycles": 1,
-      "missedCycles": 11,
+      "missedCycles": 12,
       "latestCandidateId": "trend-5ecd8ef9611a4fe2f4",
       "latestTitle": "Daniel and Luis Moncada",
       "latestResolutionAnchors": [
@@ -5800,7 +5800,7 @@
       "firstSeenAt": "2026-10-15T12:40:02.316Z",
       "lastSeenAt": "2026-10-17T21:28:32.012Z",
       "seenCycles": 3,
-      "missedCycles": 5,
+      "missedCycles": 6,
       "latestCandidateId": "trend-ca6a5efe8eaba357a2",
       "latestTitle": "No Kings protests October 17",
       "latestResolutionAnchors": [
@@ -5829,7 +5829,7 @@
       "firstSeenAt": "2026-10-15T12:40:02.316Z",
       "lastSeenAt": "2026-10-15T22:17:22.834Z",
       "seenCycles": 2,
-      "missedCycles": 9,
+      "missedCycles": 10,
       "latestCandidateId": "trend-5371b39782638c368f",
       "latestTitle": "Narnia: The Magician's Nephew",
       "latestResolutionAnchors": [
@@ -5856,7 +5856,7 @@
       "firstSeenAt": "2026-10-15T22:17:22.834Z",
       "lastSeenAt": "2026-10-15T22:17:22.834Z",
       "seenCycles": 1,
-      "missedCycles": 9,
+      "missedCycles": 10,
       "latestCandidateId": "trend-27a3cff7aab5931188",
       "latestTitle": "Ukraine resumes Russian refinery strikes",
       "latestResolutionAnchors": [
@@ -5888,7 +5888,7 @@
       "firstSeenAt": "2026-10-15T22:17:22.834Z",
       "lastSeenAt": "2026-10-15T22:17:22.834Z",
       "seenCycles": 1,
-      "missedCycles": 9,
+      "missedCycles": 10,
       "latestCandidateId": "trend-e9f50973867a16658d",
       "latestTitle": "No Kings protests October 17",
       "latestResolutionAnchors": [
@@ -5916,7 +5916,7 @@
       "firstSeenAt": "2026-10-16T12:25:04.276Z",
       "lastSeenAt": "2026-10-16T12:25:04.276Z",
       "seenCycles": 1,
-      "missedCycles": 8,
+      "missedCycles": 9,
       "latestCandidateId": "trend-c69eb37243cc2b1c41",
       "latestTitle": "Republicans and school shootings",
       "latestResolutionAnchors": [
@@ -5948,7 +5948,7 @@
       "firstSeenAt": "2026-10-16T12:25:04.276Z",
       "lastSeenAt": "2026-10-16T12:25:04.276Z",
       "seenCycles": 1,
-      "missedCycles": 8,
+      "missedCycles": 9,
       "latestCandidateId": "trend-a24b093ae181a9115d",
       "latestTitle": "Musk blames Trump over Starlink",
       "latestResolutionAnchors": [
@@ -5978,7 +5978,7 @@
       "firstSeenAt": "2026-10-16T22:06:06.301Z",
       "lastSeenAt": "2026-10-16T22:06:06.301Z",
       "seenCycles": 1,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-57dfdc254b9670387a",
       "latestTitle": "Son [heyokyay]",
       "latestResolutionAnchors": [
@@ -6007,7 +6007,7 @@
       "firstSeenAt": "2026-10-16T22:06:06.301Z",
       "lastSeenAt": "2026-10-16T22:06:06.301Z",
       "seenCycles": 1,
-      "missedCycles": 7,
+      "missedCycles": 8,
       "latestCandidateId": "trend-c1ee29995b895f602f",
       "latestTitle": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
       "latestResolutionAnchors": [
@@ -6038,7 +6038,7 @@
       "firstSeenAt": "2026-10-17T11:37:56.711Z",
       "lastSeenAt": "2026-10-17T11:37:56.711Z",
       "seenCycles": 1,
-      "missedCycles": 6,
+      "missedCycles": 7,
       "latestCandidateId": "trend-a9086fa9e77032d8fa",
       "latestTitle": "Trump exempts Russia from sanctions",
       "latestResolutionAnchors": [
@@ -6069,7 +6069,7 @@
       "firstSeenAt": "2026-10-17T11:37:56.711Z",
       "lastSeenAt": "2026-10-17T11:37:56.711Z",
       "seenCycles": 1,
-      "missedCycles": 6,
+      "missedCycles": 7,
       "latestCandidateId": "trend-d85886fe7a625d5704",
       "latestTitle": "Shooting reported at Bend school",
       "latestResolutionAnchors": [
@@ -6097,7 +6097,7 @@
       "firstSeenAt": "2026-10-17T11:37:56.711Z",
       "lastSeenAt": "2026-10-18T21:31:19.572Z",
       "seenCycles": 4,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-3c4a3c352175b2a36f",
       "latestTitle": "Local AI Side Hustle Tools for Freelancers",
       "latestResolutionAnchors": [
@@ -6128,7 +6128,7 @@
       "firstSeenAt": "2026-10-18T12:04:07.975Z",
       "lastSeenAt": "2026-10-18T12:04:07.975Z",
       "seenCycles": 1,
-      "missedCycles": 4,
+      "missedCycles": 5,
       "latestCandidateId": "trend-72ffd6b504285ac0ff",
       "latestTitle": "Meta locks No Kings account",
       "latestResolutionAnchors": [
@@ -6161,7 +6161,7 @@
       "firstSeenAt": "2026-10-18T12:04:07.975Z",
       "lastSeenAt": "2026-10-18T12:04:07.975Z",
       "seenCycles": 1,
-      "missedCycles": 4,
+      "missedCycles": 5,
       "latestCandidateId": "trend-429ca1ed7d46f67223",
       "latestTitle": "White House Ballroom Megadonors Revealed",
       "latestResolutionAnchors": [
@@ -6191,7 +6191,7 @@
       "firstSeenAt": "2026-10-18T21:31:19.572Z",
       "lastSeenAt": "2026-10-18T21:31:19.572Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-0ed02c61dfe95f0535",
       "latestTitle": "Trump to close East Potomac golf course",
       "latestResolutionAnchors": [
@@ -6223,7 +6223,7 @@
       "firstSeenAt": "2026-10-18T21:31:19.572Z",
       "lastSeenAt": "2026-10-18T21:31:19.572Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-f68568874e20316767",
       "latestTitle": "How the Elizabeth Holmes documentary “You Can See Everything” is deceiving",
       "latestResolutionAnchors": [
@@ -6255,7 +6255,7 @@
       "firstSeenAt": "2026-10-18T21:31:19.572Z",
       "lastSeenAt": "2026-10-18T21:31:19.572Z",
       "seenCycles": 1,
-      "missedCycles": 3,
+      "missedCycles": 4,
       "latestCandidateId": "trend-6a04b6df045bd20c59",
       "latestTitle": "El-Sayed's viral town hall response",
       "latestResolutionAnchors": [
@@ -6285,7 +6285,7 @@
       "firstSeenAt": "2026-10-19T22:55:06.634Z",
       "lastSeenAt": "2026-10-19T22:55:06.634Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-1355fabc259feefbbd",
       "latestTitle": "What Russia's doing to Ukraine is 'fine,' Trump says",
       "latestResolutionAnchors": [
@@ -6316,7 +6316,7 @@
       "firstSeenAt": "2026-10-19T22:55:06.634Z",
       "lastSeenAt": "2026-10-19T22:55:06.634Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-059bc492bde9d9d2aa",
       "latestTitle": "No Kings rallies urge early voting",
       "latestResolutionAnchors": [
@@ -6345,7 +6345,7 @@
       "firstSeenAt": "2026-10-19T22:55:06.634Z",
       "lastSeenAt": "2026-10-19T22:55:06.634Z",
       "seenCycles": 1,
-      "missedCycles": 1,
+      "missedCycles": 2,
       "latestCandidateId": "trend-942425db2d02ba1147",
       "latestTitle": "Putin proposes Trump-Xi summit",
       "latestResolutionAnchors": [
@@ -6374,7 +6374,7 @@
       "firstSeenAt": "2026-10-20T12:43:49.656Z",
       "lastSeenAt": "2026-10-20T12:43:49.656Z",
       "seenCycles": 1,
-      "missedCycles": 0,
+      "missedCycles": 1,
       "latestCandidateId": "trend-96203030fc6cb76f61",
       "latestTitle": "AI Scope-Creep Guards for Freelancers",
       "latestResolutionAnchors": [
@@ -6393,6 +6393,125 @@
       ],
       "latestIndependentSourceIds": [
         "dev-forem-trends"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-27f06efbdb83b18978",
+      "firstSeenAt": "2026-10-20T22:18:17.479Z",
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-48b54b537adc38444d",
+      "latestTitle": "Starlink restrictions in Ukraine",
+      "latestResolutionAnchors": [
+        "angrystaffer.bsky.social",
+        "blueheartedly1.bsky.social",
+        "politics"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestSourceFamilies": [
+        "social"
+      ],
+      "latestIndependentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestIndependentSourceFamilies": [
+        "social"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-de8a523851a15bd350",
+      "firstSeenAt": "2026-10-20T22:18:17.479Z",
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-a41ff0d9410e21517a",
+      "latestTitle": "NBA season tips off",
+      "latestResolutionAnchors": [
+        "omarisankofa.bsky.social",
+        "lawmurraythenu.bsky.social",
+        "sports",
+        "cooling"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestSourceFamilies": [
+        "social"
+      ],
+      "latestIndependentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "latestIndependentSourceFamilies": [
+        "social"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-c7997ae0db30e4735f",
+      "firstSeenAt": "2026-10-20T22:18:17.479Z",
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-ff01e6de242554a5c8",
+      "latestTitle": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "latestResolutionAnchors": [
+        "discovery",
+        "compromised",
+        "tls",
+        "certs",
+        "socialistvibes01",
+        "goes"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestIndependentSourceFamilies": [
+        "community"
+      ],
+      "latestStatus": "candidate"
+    },
+    {
+      "lineageId": "lineage-85391382269a7a24f2",
+      "firstSeenAt": "2026-10-20T22:18:17.479Z",
+      "lastSeenAt": "2026-10-20T22:18:17.479Z",
+      "seenCycles": 1,
+      "missedCycles": 0,
+      "latestCandidateId": "trend-b1fc376a7634b4a64d",
+      "latestTitle": "Brazil's Lula wins electoral court challenge against Meta for alleged pro-Bolsonaro algorithm bias",
+      "latestResolutionAnchors": [
+        "brazil",
+        "lula",
+        "electoral",
+        "court",
+        "alleged",
+        "pro-bolsonaro"
+      ],
+      "latestSignalCount": 2,
+      "latestSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "latestSourceFamilies": [
+        "community"
+      ],
+      "latestIndependentSourceIds": [
+        "lemmy-world-hot"
       ],
       "latestIndependentSourceFamilies": [
         "community"
