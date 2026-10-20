@@ -1,25 +1,25 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-19T22:55:07.326Z",
-  "cycleId": "gh-39338091662-a1",
+  "generatedAt": "2026-10-20T12:43:50.382Z",
+  "cycleId": "gh-39424378420-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-19T22:55:06.634Z",
-  "previousCycleId": "gh-39270966637-a1",
-  "previousSnapshotGeneratedAt": "2026-10-19T14:42:01.145Z",
-  "cycleGapHours": 8.22,
+  "currentTrendSnapshotGeneratedAt": "2026-10-20T12:43:49.656Z",
+  "previousCycleId": "gh-39338091662-a1",
+  "previousSnapshotGeneratedAt": "2026-10-19T22:55:06.634Z",
+  "cycleGapHours": 13.81,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 9,
+  "currentCandidateCount": 5,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 214,
+  "trackedLineageCount": 215,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-dbddb094cf3ffaa417",
+      "candidateId": "trend-8106f30b6e9aaea215",
       "title": "Hacktoberfest Open-Source AI: Touch Grass",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -36,11 +36,11 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
+          "hacktoberfest",
           "touch",
           "grass",
-          "hacktoberfest",
-          "dev",
           "community",
+          "dev",
           "open source"
         ],
         "titleTokenOverlap": [
@@ -55,27 +55,8 @@
       }
     },
     {
-      "lineageId": "lineage-18e2069938568efe30",
-      "candidateId": "trend-1355fabc259feefbbd",
-      "title": "What Russia's doing to Ukraine is 'fine,' Trump says",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
       "lineageId": "lineage-ed48a8373640ce6da5",
-      "candidateId": "trend-a193973f6cb3878014",
+      "candidateId": "trend-85832d25178ce7e05c",
       "title": "Kaggle LLM Benchmarking Challenge",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -95,8 +76,8 @@
           "kaggle",
           "benchmarking",
           "challenge",
-          "dev",
           "community",
+          "dev",
           "llm"
         ],
         "titleTokenOverlap": [
@@ -110,51 +91,13 @@
       }
     },
     {
-      "lineageId": "lineage-49c435a860c79433f9",
-      "candidateId": "trend-059bc492bde9d9d2aa",
-      "title": "No Kings rallies urge early voting",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-3eec04bfdc6853ef6a",
-      "candidateId": "trend-942425db2d02ba1147",
-      "title": "Putin proposes Trump-Xi summit",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-f627d3e0219f751570",
-      "candidateId": "trend-e4bd381fa57a810dcf",
-      "title": "All politics is yokel",
-      "presence": "reappeared",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-e4bd381fa57a810dcf",
-      "signalCountDelta": -2,
+      "lineageId": "lineage-98a99bfee9ba0dacbf",
+      "candidateId": "trend-98b5bc9812d66d5b92",
+      "title": "Việt Nam",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -166,87 +109,35 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "cantstopthesignal",
-          "lemmy",
-          "shitpost"
-        ],
-        "titleTokenOverlap": [],
-        "similarity": 0.76,
-        "threshold": 0.46
-      }
-    },
-    {
-      "lineageId": "lineage-5271659ac5985074f1",
-      "candidateId": "trend-c019b036674b473ce1",
-      "title": "Hacktoberfest Open-Source AI Side Hustles",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-c58f5875994513e50a",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "hustles",
-          "side",
-          "hacktoberfest",
-          "open source",
-          "dev",
-          "community"
+          "viet",
+          "nam"
         ],
         "titleTokenOverlap": [
-          "hacktoberfest",
-          "open",
-          "source",
-          "side",
-          "hustles"
+          "viet",
+          "nam"
         ],
         "similarity": 1,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-98a99bfee9ba0dacbf",
-      "candidateId": "trend-98b5bc9812d66d5b92",
-      "title": "Việt Nam",
-      "presence": "reappeared",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-e3f65cfc87a73d190d",
-      "signalCountDelta": 0,
-      "independentSourceDelta": -1,
-      "independentSourceFamilyDelta": -1,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [
-        "vnexpress-tech-rss"
+      "lineageId": "lineage-d31765eed6002cfc3d",
+      "candidateId": "trend-96203030fc6cb76f61",
+      "title": "AI Scope-Creep Guards for Freelancers",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
       ],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [
-        "vnexpress-tech-rss"
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
       ],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [
-        "publisher"
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
       ],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "viet",
-          "nam"
-        ],
-        "titleTokenOverlap": [
-          "viet",
-          "nam"
-        ],
-        "similarity": 0.856,
-        "threshold": 0.46
-      }
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-aaca764b005304c4d3",
@@ -281,11 +172,39 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-f6bec68e38c9ae32b2",
-      "title": "Trump waives Russia sanctions",
-      "previousCandidateId": "trend-683d7ea9ac1499f376",
+      "lineageId": "lineage-f627d3e0219f751570",
+      "title": "All politics is yokel",
+      "previousCandidateId": "trend-e4bd381fa57a810dcf",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-19T14:42:01.145Z"
+      "lastSeenAt": "2026-10-19T22:55:06.634Z"
+    },
+    {
+      "lineageId": "lineage-5271659ac5985074f1",
+      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "previousCandidateId": "trend-c019b036674b473ce1",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-19T22:55:06.634Z"
+    },
+    {
+      "lineageId": "lineage-18e2069938568efe30",
+      "title": "What Russia's doing to Ukraine is 'fine,' Trump says",
+      "previousCandidateId": "trend-1355fabc259feefbbd",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-19T22:55:06.634Z"
+    },
+    {
+      "lineageId": "lineage-49c435a860c79433f9",
+      "title": "No Kings rallies urge early voting",
+      "previousCandidateId": "trend-059bc492bde9d9d2aa",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-19T22:55:06.634Z"
+    },
+    {
+      "lineageId": "lineage-3eec04bfdc6853ef6a",
+      "title": "Putin proposes Trump-Xi summit",
+      "previousCandidateId": "trend-942425db2d02ba1147",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-19T22:55:06.634Z"
     }
   ],
   "notes": [
