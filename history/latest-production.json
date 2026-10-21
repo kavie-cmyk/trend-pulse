@@ -1,21 +1,21 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-21T12:57:07.948Z",
-  "cycleId": "gh-39603549377-a1",
+  "generatedAt": "2026-10-21T22:21:00.034Z",
+  "cycleId": "gh-39685677399-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-21T12:57:07.381Z",
-  "previousCycleId": "gh-39506958433-a1",
-  "previousSnapshotGeneratedAt": "2026-10-20T22:18:17.479Z",
-  "cycleGapHours": 14.65,
+  "currentTrendSnapshotGeneratedAt": "2026-10-21T22:20:59.321Z",
+  "previousCycleId": "gh-39603549377-a1",
+  "previousSnapshotGeneratedAt": "2026-10-21T12:57:07.381Z",
+  "cycleGapHours": 9.4,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 6,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 223,
+  "trackedLineageCount": 225,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
@@ -121,9 +121,29 @@
       }
     },
     {
-      "lineageId": "lineage-4afff259e1296143ac",
-      "candidateId": "trend-70fc3ac8fcbd7685a4",
-      "title": "Zelensky meets Witkoff in Oslo",
+      "lineageId": "lineage-4292a104483bf19438",
+      "candidateId": "trend-042e6ba4c9e1d9134f",
+      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "techcrunch-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "techcrunch-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "publisher"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-eab9edab82c838728f",
+      "candidateId": "trend-220283128c67c38252",
+      "title": "Trump withholds Ukraine Patriot missiles",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -136,63 +156,6 @@
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
         "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-6ef3580ad5bf7e7165",
-      "candidateId": "trend-6e6b09d4d04559c139",
-      "title": "Trump describes studying a man's body",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-14e01646ed04c7ce09",
-      "candidateId": "trend-70879dcf4c6f1146cc",
-      "title": "World must cut emissions by 18% in four years ‘to find our way back’, UN says",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-5ccfef64bbb2f5b8b4",
-      "candidateId": "trend-717e0a1788cd208e16",
-      "title": "AI-Powered Freelance Scope and Invoicing Tools",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
       ],
       "independentSourceFamiliesRemoved": []
     },
@@ -219,42 +182,44 @@
           "minh"
         ],
         "titleTokenOverlap": [
+          "thanh",
+          "pho",
           "chi",
           "minh"
         ],
-        "similarity": 0.88,
+        "similarity": 1,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-27f06efbdb83b18978",
-      "title": "Starlink restrictions in Ukraine",
-      "previousCandidateId": "trend-48b54b537adc38444d",
+      "lineageId": "lineage-4afff259e1296143ac",
+      "title": "Zelensky meets Witkoff in Oslo",
+      "previousCandidateId": "trend-70fc3ac8fcbd7685a4",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-20T22:18:17.479Z"
+      "lastSeenAt": "2026-10-21T12:57:07.381Z"
     },
     {
-      "lineageId": "lineage-de8a523851a15bd350",
-      "title": "NBA season tips off",
-      "previousCandidateId": "trend-a41ff0d9410e21517a",
+      "lineageId": "lineage-6ef3580ad5bf7e7165",
+      "title": "Trump describes studying a man's body",
+      "previousCandidateId": "trend-6e6b09d4d04559c139",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-20T22:18:17.479Z"
+      "lastSeenAt": "2026-10-21T12:57:07.381Z"
     },
     {
-      "lineageId": "lineage-c7997ae0db30e4735f",
-      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-      "previousCandidateId": "trend-ff01e6de242554a5c8",
+      "lineageId": "lineage-14e01646ed04c7ce09",
+      "title": "World must cut emissions by 18% in four years ‘to find our way back’, UN says",
+      "previousCandidateId": "trend-70879dcf4c6f1146cc",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-20T22:18:17.479Z"
+      "lastSeenAt": "2026-10-21T12:57:07.381Z"
     },
     {
-      "lineageId": "lineage-85391382269a7a24f2",
-      "title": "Brazil's Lula wins electoral court challenge against Meta for alleged pro-Bolsonaro algorithm bias",
-      "previousCandidateId": "trend-b1fc376a7634b4a64d",
+      "lineageId": "lineage-5ccfef64bbb2f5b8b4",
+      "title": "AI-Powered Freelance Scope and Invoicing Tools",
+      "previousCandidateId": "trend-717e0a1788cd208e16",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-20T22:18:17.479Z"
+      "lastSeenAt": "2026-10-21T12:57:07.381Z"
     }
   ],
   "notes": [
