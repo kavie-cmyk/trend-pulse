@@ -1,21 +1,21 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-20T22:18:18.235Z",
-  "cycleId": "gh-39506958433-a1",
+  "generatedAt": "2026-10-21T12:57:07.948Z",
+  "cycleId": "gh-39603549377-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-20T22:18:17.479Z",
-  "previousCycleId": "gh-39424378420-a1",
-  "previousSnapshotGeneratedAt": "2026-10-20T12:43:49.656Z",
-  "cycleGapHours": 9.57,
+  "currentTrendSnapshotGeneratedAt": "2026-10-21T12:57:07.381Z",
+  "previousCycleId": "gh-39506958433-a1",
+  "previousSnapshotGeneratedAt": "2026-10-20T22:18:17.479Z",
+  "cycleGapHours": 14.65,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
   "currentCandidateCount": 8,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 219,
+  "trackedLineageCount": 223,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
@@ -23,7 +23,7 @@
       "title": "Hacktoberfest Open-Source AI: Touch Grass",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-8106f30b6e9aaea215",
+      "previousCandidateId": "trend-dbddb094cf3ffaa417",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -60,7 +60,7 @@
       "title": "Kaggle LLM Benchmarking Challenge",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-85832d25178ce7e05c",
+      "previousCandidateId": "trend-a193973f6cb3878014",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -121,9 +121,9 @@
       }
     },
     {
-      "lineageId": "lineage-27f06efbdb83b18978",
-      "candidateId": "trend-48b54b537adc38444d",
-      "title": "Starlink restrictions in Ukraine",
+      "lineageId": "lineage-4afff259e1296143ac",
+      "candidateId": "trend-70fc3ac8fcbd7685a4",
+      "title": "Zelensky meets Witkoff in Oslo",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -140,9 +140,9 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-de8a523851a15bd350",
-      "candidateId": "trend-a41ff0d9410e21517a",
-      "title": "NBA season tips off",
+      "lineageId": "lineage-6ef3580ad5bf7e7165",
+      "candidateId": "trend-6e6b09d4d04559c139",
+      "title": "Trump describes studying a man's body",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -159,9 +159,9 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-c7997ae0db30e4735f",
-      "candidateId": "trend-ff01e6de242554a5c8",
-      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "lineageId": "lineage-14e01646ed04c7ce09",
+      "candidateId": "trend-70879dcf4c6f1146cc",
+      "title": "World must cut emissions by 18% in four years ‘to find our way back’, UN says",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -178,17 +178,17 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-85391382269a7a24f2",
-      "candidateId": "trend-b1fc376a7634b4a64d",
-      "title": "Brazil's Lula wins electoral court challenge against Meta for alleged pro-Bolsonaro algorithm bias",
+      "lineageId": "lineage-5ccfef64bbb2f5b8b4",
+      "candidateId": "trend-717e0a1788cd208e16",
+      "title": "AI-Powered Freelance Scope and Invoicing Tools",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "lemmy-world-hot"
+        "dev-forem-trends"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "lemmy-world-hot"
+        "dev-forem-trends"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
@@ -199,7 +199,7 @@
     {
       "lineageId": "lineage-aaca764b005304c4d3",
       "candidateId": "trend-3b9c40ea98b7065c5c",
-      "title": "Hồ Chí Minh",
+      "title": "Thành phố Hồ Chí Minh",
       "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-3b9c40ea98b7065c5c",
@@ -222,18 +222,39 @@
           "chi",
           "minh"
         ],
-        "similarity": 1,
+        "similarity": 0.88,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-d31765eed6002cfc3d",
-      "title": "AI Scope-Creep Guards for Freelancers",
-      "previousCandidateId": "trend-96203030fc6cb76f61",
+      "lineageId": "lineage-27f06efbdb83b18978",
+      "title": "Starlink restrictions in Ukraine",
+      "previousCandidateId": "trend-48b54b537adc38444d",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-20T12:43:49.656Z"
+      "lastSeenAt": "2026-10-20T22:18:17.479Z"
+    },
+    {
+      "lineageId": "lineage-de8a523851a15bd350",
+      "title": "NBA season tips off",
+      "previousCandidateId": "trend-a41ff0d9410e21517a",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-20T22:18:17.479Z"
+    },
+    {
+      "lineageId": "lineage-c7997ae0db30e4735f",
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "previousCandidateId": "trend-ff01e6de242554a5c8",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-20T22:18:17.479Z"
+    },
+    {
+      "lineageId": "lineage-85391382269a7a24f2",
+      "title": "Brazil's Lula wins electoral court challenge against Meta for alleged pro-Bolsonaro algorithm bias",
+      "previousCandidateId": "trend-b1fc376a7634b4a64d",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-20T22:18:17.479Z"
     }
   ],
   "notes": [
