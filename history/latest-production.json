@@ -1,22 +1,51 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-21T22:21:00.034Z",
-  "cycleId": "gh-39685677399-a1",
+  "generatedAt": "2026-10-22T12:58:31.361Z",
+  "cycleId": "gh-39782655086-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-21T22:20:59.321Z",
-  "previousCycleId": "gh-39603549377-a1",
-  "previousSnapshotGeneratedAt": "2026-10-21T12:57:07.381Z",
-  "cycleGapHours": 9.4,
+  "currentTrendSnapshotGeneratedAt": "2026-10-22T12:58:30.767Z",
+  "previousCycleId": "gh-39685677399-a1",
+  "previousSnapshotGeneratedAt": "2026-10-21T22:20:59.321Z",
+  "cycleGapHours": 14.63,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
+  "currentCandidateCount": 12,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 225,
+  "trackedLineageCount": 231,
   "current": [
+    {
+      "lineageId": "lineage-d1132825be96d69ddc",
+      "candidateId": "trend-db24e699b2aa7b9ff0",
+      "title": "2026-10-22 #0",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-6b880957d71379ce34",
+      "signalCountDelta": 2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "far",
+          "side"
+        ],
+        "titleTokenOverlap": [
+          "2026"
+        ],
+        "similarity": 0.62,
+        "threshold": 0.46
+      }
+    },
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
       "candidateId": "trend-dbddb094cf3ffaa417",
@@ -55,95 +84,49 @@
       }
     },
     {
-      "lineageId": "lineage-ed48a8373640ce6da5",
-      "candidateId": "trend-a193973f6cb3878014",
-      "title": "Kaggle LLM Benchmarking Challenge",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-a193973f6cb3878014",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "kaggle",
-          "benchmarking",
-          "challenge",
-          "dev",
-          "community",
-          "llm"
-        ],
-        "titleTokenOverlap": [
-          "kaggle",
-          "llm",
-          "benchmarking",
-          "challenge"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-98a99bfee9ba0dacbf",
-      "candidateId": "trend-98b5bc9812d66d5b92",
-      "title": "Việt Nam",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-98b5bc9812d66d5b92",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "viet",
-          "nam"
-        ],
-        "titleTokenOverlap": [
-          "viet",
-          "nam"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
       "lineageId": "lineage-4292a104483bf19438",
-      "candidateId": "trend-042e6ba4c9e1d9134f",
+      "candidateId": "trend-7a728055d6ec239b78",
       "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "hacker-news-api",
-        "techcrunch-rss"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-042e6ba4c9e1d9134f",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "techcrunch-rss"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "publisher"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "ordered",
+          "cambridge",
+          "analytica",
+          "case",
+          "pay"
+        ],
+        "titleTokenOverlap": [
+          "meta",
+          "ordered",
+          "pay",
+          "25b",
+          "penalty",
+          "mexico",
+          "cambridge",
+          "analytica",
+          "case"
+        ],
+        "similarity": 0.7829,
+        "threshold": 0.38
+      }
     },
     {
-      "lineageId": "lineage-eab9edab82c838728f",
-      "candidateId": "trend-220283128c67c38252",
-      "title": "Trump withholds Ukraine Patriot missiles",
+      "lineageId": "lineage-2a8d4c01dd1f107bf0",
+      "candidateId": "trend-f64e1ee7819a533d75",
+      "title": "Israel-US tensions with Iran",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -160,9 +143,171 @@
       "independentSourceFamiliesRemoved": []
     },
     {
+      "lineageId": "lineage-517e81cb63ecb147e3",
+      "candidateId": "trend-9f344f6033d9c0519a",
+      "title": "Trump describes studying a man's body",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-3896293ecfd52a84dc",
+      "candidateId": "trend-74e40977b7cd8c1f17",
+      "title": "United States regime officer violently bodyslams a womans on her face into a concussion for opposing datacenters",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-49340e730122138d3b",
+      "candidateId": "trend-36029cf2c97813f9f2",
+      "title": "Resident Evil makers Capcom reveal data breach has affected over 11 million Capcom ID accounts, warn against potential phishing emails",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-5271659ac5985074f1",
+      "candidateId": "trend-7948ec87ab92649042",
+      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c019b036674b473ce1",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "hustles",
+          "hacktoberfest",
+          "open source",
+          "side",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "side",
+          "hustles"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-98a99bfee9ba0dacbf",
+      "candidateId": "trend-98b5bc9812d66d5b92",
+      "title": "Việt Nam",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "viet",
+          "nam"
+        ],
+        "titleTokenOverlap": [
+          "viet",
+          "nam"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-0cb11a0d42e8dd84f4",
+      "candidateId": "trend-9e2cb038a32a475e7a",
+      "title": "Como 1907",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-bf59297c1bc5a3dfd1",
+      "candidateId": "trend-4a70168821381ce648",
+      "title": "Nico Paz",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-aaca764b005304c4d3",
       "candidateId": "trend-3b9c40ea98b7065c5c",
-      "title": "Thành phố Hồ Chí Minh",
+      "title": "Hồ Chí Minh",
       "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-3b9c40ea98b7065c5c",
@@ -182,44 +327,28 @@
           "minh"
         ],
         "titleTokenOverlap": [
-          "thanh",
-          "pho",
           "chi",
           "minh"
         ],
-        "similarity": 1,
+        "similarity": 0.88,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-4afff259e1296143ac",
-      "title": "Zelensky meets Witkoff in Oslo",
-      "previousCandidateId": "trend-70fc3ac8fcbd7685a4",
+      "lineageId": "lineage-ed48a8373640ce6da5",
+      "title": "Kaggle LLM Benchmarking Challenge",
+      "previousCandidateId": "trend-a193973f6cb3878014",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-21T12:57:07.381Z"
+      "lastSeenAt": "2026-10-21T22:20:59.321Z"
     },
     {
-      "lineageId": "lineage-6ef3580ad5bf7e7165",
-      "title": "Trump describes studying a man's body",
-      "previousCandidateId": "trend-6e6b09d4d04559c139",
+      "lineageId": "lineage-eab9edab82c838728f",
+      "title": "Trump withholds Ukraine Patriot missiles",
+      "previousCandidateId": "trend-220283128c67c38252",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-21T12:57:07.381Z"
-    },
-    {
-      "lineageId": "lineage-14e01646ed04c7ce09",
-      "title": "World must cut emissions by 18% in four years ‘to find our way back’, UN says",
-      "previousCandidateId": "trend-70879dcf4c6f1146cc",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-21T12:57:07.381Z"
-    },
-    {
-      "lineageId": "lineage-5ccfef64bbb2f5b8b4",
-      "title": "AI-Powered Freelance Scope and Invoicing Tools",
-      "previousCandidateId": "trend-717e0a1788cd208e16",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-21T12:57:07.381Z"
+      "lastSeenAt": "2026-10-21T22:20:59.321Z"
     }
   ],
   "notes": [
