@@ -1,21 +1,21 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-23T12:38:01.843Z",
-  "cycleId": "gh-39954632534-a1",
+  "generatedAt": "2026-10-23T22:10:29.617Z",
+  "cycleId": "gh-40031753097-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-23T12:38:01.102Z",
-  "previousCycleId": "gh-39864120702-a1",
-  "previousSnapshotGeneratedAt": "2026-10-22T22:20:45.142Z",
-  "cycleGapHours": 14.29,
+  "currentTrendSnapshotGeneratedAt": "2026-10-23T22:10:28.886Z",
+  "previousCycleId": "gh-39954632534-a1",
+  "previousSnapshotGeneratedAt": "2026-10-23T12:38:01.102Z",
+  "cycleGapHours": 9.54,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
   "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 234,
+  "trackedLineageCount": 235,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
@@ -55,70 +55,59 @@
       }
     },
     {
-      "lineageId": "lineage-e82f672d5eaaf6beeb",
-      "candidateId": "trend-f3946a7c28daf73ba5",
-      "title": "PHP2Shell Critical Vulnerabilities (CVE-2026-109618/19)",
+      "lineageId": "lineage-2d81dbb241727b22b0",
+      "candidateId": "trend-b4ae304eaafa80286d",
+      "title": "Amy Acton's mother in Ramaswamy ad",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "dev-forem-trends"
+        "bluesky-trends-api"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "dev-forem-trends"
+        "bluesky-trends-api"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "community"
+        "social"
       ],
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-e398cb075c095c455f",
-      "candidateId": "trend-ca141a87bf3bce420e",
-      "title": "AI: EU Member States approve “digital expropriation” for AI companies",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
+      "lineageId": "lineage-517e81cb63ecb147e3",
+      "candidateId": "trend-8202248c8392353c6b",
+      "title": "Michigan voters' remarks on national TV",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-9f344f6033d9c0519a",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-55dd728c9e4ac4416a",
-      "candidateId": "trend-c019b036674b473ce1",
-      "title": "Hacktoberfest Open-Source AI Side Hustles",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "thetnholler bsky social",
+          "politics"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.38,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-5271659ac5985074f1",
-      "candidateId": "trend-99c77d00779bf9d50c",
+      "candidateId": "trend-4044efd6739523d0f9",
       "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-0040729c9f248c7398",
-      "signalCountDelta": -1,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-99c77d00779bf9d50c",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -131,9 +120,9 @@
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
           "hustle",
+          "open source",
           "side",
           "hacktoberfest",
-          "open source",
           "dev",
           "community"
         ],
@@ -145,7 +134,39 @@
           "hustle",
           "tools"
         ],
-        "similarity": 0.8914,
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "candidateId": "trend-76ad17de8360ba3031",
+      "title": "PHP2Shell Emergency RCE Vulnerabilities",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-f3946a7c28daf73ba5",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "vulnerabilities",
+          "php2shell",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "php2shell",
+          "vulnerabilities"
+        ],
+        "similarity": 0.5667,
         "threshold": 0.38
       }
     },
@@ -185,7 +206,7 @@
       "title": "Hồ Chí Minh",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
+      "previousCandidateId": "trend-92b427adbbb41f6340",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -212,32 +233,18 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-2cab7ceb7ba535dbbd",
-      "title": "Hacktoberfest Local-First AI Tools",
-      "previousCandidateId": "trend-aa8e33eff117c39549",
+      "lineageId": "lineage-e398cb075c095c455f",
+      "title": "AI: EU Member States approve “digital expropriation” for AI companies",
+      "previousCandidateId": "trend-ca141a87bf3bce420e",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T22:20:45.142Z"
+      "lastSeenAt": "2026-10-23T12:38:01.102Z"
     },
     {
-      "lineageId": "lineage-8f8c9ab44bada54724",
-      "title": "Local AI Side Hustle & Financial Tools",
-      "previousCandidateId": "trend-351412d4d144c7a07f",
+      "lineageId": "lineage-55dd728c9e4ac4416a",
+      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "previousCandidateId": "trend-c019b036674b473ce1",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T22:20:45.142Z"
-    },
-    {
-      "lineageId": "lineage-0cb11a0d42e8dd84f4",
-      "title": "Como 1907",
-      "previousCandidateId": "trend-9e2cb038a32a475e7a",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T22:20:45.142Z"
-    },
-    {
-      "lineageId": "lineage-bf59297c1bc5a3dfd1",
-      "title": "Nico Paz",
-      "previousCandidateId": "trend-4a70168821381ce648",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T22:20:45.142Z"
+      "lastSeenAt": "2026-10-23T12:38:01.102Z"
     }
   ],
   "notes": [
