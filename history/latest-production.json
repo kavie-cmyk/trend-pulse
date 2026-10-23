@@ -1,21 +1,21 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-22T22:20:45.919Z",
-  "cycleId": "gh-39864120702-a1",
+  "generatedAt": "2026-10-23T12:38:01.843Z",
+  "cycleId": "gh-39954632534-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-22T22:20:45.142Z",
-  "previousCycleId": "gh-39782655086-a1",
-  "previousSnapshotGeneratedAt": "2026-10-22T12:58:30.767Z",
-  "cycleGapHours": 9.37,
+  "currentTrendSnapshotGeneratedAt": "2026-10-23T12:38:01.102Z",
+  "previousCycleId": "gh-39864120702-a1",
+  "previousSnapshotGeneratedAt": "2026-10-22T22:20:45.142Z",
+  "cycleGapHours": 14.29,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 231,
+  "trackedLineageCount": 234,
   "current": [
     {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
@@ -55,13 +55,70 @@
       }
     },
     {
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "candidateId": "trend-f3946a7c28daf73ba5",
+      "title": "PHP2Shell Critical Vulnerabilities (CVE-2026-109618/19)",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-e398cb075c095c455f",
+      "candidateId": "trend-ca141a87bf3bce420e",
+      "title": "AI: EU Member States approve “digital expropriation” for AI companies",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-55dd728c9e4ac4416a",
+      "candidateId": "trend-c019b036674b473ce1",
+      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-5271659ac5985074f1",
-      "candidateId": "trend-0040729c9f248c7398",
+      "candidateId": "trend-99c77d00779bf9d50c",
       "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
       "presence": "continuing",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-7948ec87ab92649042",
-      "signalCountDelta": 1,
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-0040729c9f248c7398",
+      "signalCountDelta": -1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -73,87 +130,23 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
+          "hustle",
+          "side",
+          "hacktoberfest",
           "open source",
-          "side",
-          "dev",
-          "community",
-          "hacktoberfest"
-        ],
-        "titleTokenOverlap": [
-          "hacktoberfest",
-          "open",
-          "source",
-          "side"
-        ],
-        "similarity": 0.6121,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-8f8c9ab44bada54724",
-      "candidateId": "trend-351412d4d144c7a07f",
-      "title": "Local AI Side Hustle & Financial Tools",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-3c4a3c352175b2a36f",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "local",
-          "hustle",
-          "tools",
-          "side",
-          "dev"
-        ],
-        "titleTokenOverlap": [
-          "local",
-          "side",
-          "hustle",
-          "tools"
-        ],
-        "similarity": 0.7029,
-        "threshold": 0.46
-      }
-    },
-    {
-      "lineageId": "lineage-2cab7ceb7ba535dbbd",
-      "candidateId": "trend-aa8e33eff117c39549",
-      "title": "Hacktoberfest Local-First AI Tools",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-4785181da9fcf1ae6c",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "tools",
-          "hacktoberfest",
           "dev",
           "community"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
+          "open",
+          "source",
+          "side",
+          "hustle",
           "tools"
         ],
-        "similarity": 0.6027,
-        "threshold": 0.46
+        "similarity": 0.8914,
+        "threshold": 0.38
       }
     },
     {
@@ -187,68 +180,8 @@
       }
     },
     {
-      "lineageId": "lineage-0cb11a0d42e8dd84f4",
-      "candidateId": "trend-9e2cb038a32a475e7a",
-      "title": "Como 1907",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-9e2cb038a32a475e7a",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "como",
-          "1907"
-        ],
-        "titleTokenOverlap": [
-          "como",
-          "1907"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-bf59297c1bc5a3dfd1",
-      "candidateId": "trend-4a70168821381ce648",
-      "title": "Nico Paz",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-4a70168821381ce648",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "nico",
-          "paz"
-        ],
-        "titleTokenOverlap": [
-          "nico",
-          "paz"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
       "lineageId": "lineage-aaca764b005304c4d3",
-      "candidateId": "trend-3b9c40ea98b7065c5c",
+      "candidateId": "trend-92b427adbbb41f6340",
       "title": "Hồ Chí Minh",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -265,8 +198,8 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "chi",
-          "minh"
+          "minh",
+          "chi"
         ],
         "titleTokenOverlap": [
           "chi",
@@ -279,46 +212,32 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-d1132825be96d69ddc",
-      "title": "2026-10-22 #0",
-      "previousCandidateId": "trend-db24e699b2aa7b9ff0",
+      "lineageId": "lineage-2cab7ceb7ba535dbbd",
+      "title": "Hacktoberfest Local-First AI Tools",
+      "previousCandidateId": "trend-aa8e33eff117c39549",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T12:58:30.767Z"
+      "lastSeenAt": "2026-10-22T22:20:45.142Z"
     },
     {
-      "lineageId": "lineage-4292a104483bf19438",
-      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-      "previousCandidateId": "trend-7a728055d6ec239b78",
+      "lineageId": "lineage-8f8c9ab44bada54724",
+      "title": "Local AI Side Hustle & Financial Tools",
+      "previousCandidateId": "trend-351412d4d144c7a07f",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T12:58:30.767Z"
+      "lastSeenAt": "2026-10-22T22:20:45.142Z"
     },
     {
-      "lineageId": "lineage-2a8d4c01dd1f107bf0",
-      "title": "Israel-US tensions with Iran",
-      "previousCandidateId": "trend-f64e1ee7819a533d75",
+      "lineageId": "lineage-0cb11a0d42e8dd84f4",
+      "title": "Como 1907",
+      "previousCandidateId": "trend-9e2cb038a32a475e7a",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T12:58:30.767Z"
+      "lastSeenAt": "2026-10-22T22:20:45.142Z"
     },
     {
-      "lineageId": "lineage-517e81cb63ecb147e3",
-      "title": "Trump describes studying a man's body",
-      "previousCandidateId": "trend-9f344f6033d9c0519a",
+      "lineageId": "lineage-bf59297c1bc5a3dfd1",
+      "title": "Nico Paz",
+      "previousCandidateId": "trend-4a70168821381ce648",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T12:58:30.767Z"
-    },
-    {
-      "lineageId": "lineage-3896293ecfd52a84dc",
-      "title": "United States regime officer violently bodyslams a womans on her face into a concussion for opposing datacenters",
-      "previousCandidateId": "trend-74e40977b7cd8c1f17",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T12:58:30.767Z"
-    },
-    {
-      "lineageId": "lineage-49340e730122138d3b",
-      "title": "Resident Evil makers Capcom reveal data breach has affected over 11 million Capcom ID accounts, warn against potential phishing emails",
-      "previousCandidateId": "trend-36029cf2c97813f9f2",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-22T12:58:30.767Z"
+      "lastSeenAt": "2026-10-22T22:20:45.142Z"
     }
   ],
   "notes": [
