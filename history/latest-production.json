@@ -1,30 +1,122 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-24T12:00:49.309Z",
-  "cycleId": "gh-40092087879-a1",
+  "generatedAt": "2026-10-24T21:37:29.226Z",
+  "cycleId": "gh-40134933458-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-24T12:00:48.582Z",
-  "previousCycleId": "gh-40031753097-a1",
-  "previousSnapshotGeneratedAt": "2026-10-23T22:10:28.886Z",
-  "cycleGapHours": 13.84,
+  "currentTrendSnapshotGeneratedAt": "2026-10-24T21:37:28.512Z",
+  "previousCycleId": "gh-40092087879-a1",
+  "previousSnapshotGeneratedAt": "2026-10-24T12:00:48.582Z",
+  "cycleGapHours": 9.61,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 238,
+  "trackedLineageCount": 240,
   "current": [
     {
+      "lineageId": "lineage-5271659ac5985074f1",
+      "candidateId": "trend-8fb77f9261b69900c7",
+      "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-99c77d00779bf9d50c",
+      "signalCountDelta": 2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "hustle",
+          "side",
+          "open source",
+          "dev",
+          "hacktoberfest",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "side",
+          "hustle",
+          "tools"
+        ],
+        "similarity": 0.81,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-4adab2f23bec4b32aa",
+      "candidateId": "trend-4011a0cb47e1a77a04",
+      "title": "Obama rallies in Cleveland",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-55dd728c9e4ac4416a",
+      "candidateId": "trend-2a9aba476fae780035",
+      "title": "Slow and Steady Open-Source AI Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-bd1572b2dab02a755e",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "slow",
+          "steady",
+          "open source",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "slow",
+          "steady",
+          "open",
+          "source"
+        ],
+        "similarity": 0.7029,
+        "threshold": 0.38
+      }
+    },
+    {
       "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-dbddb094cf3ffaa417",
+      "candidateId": "trend-60b701bc0a6d957639",
       "title": "Hacktoberfest Open-Source AI: Touch Grass",
       "presence": "continuing",
-      "evidenceDirection": "stable",
+      "evidenceDirection": "contracting",
       "previousCandidateId": "trend-dbddb094cf3ffaa417",
-      "signalCountDelta": 0,
+      "signalCountDelta": -1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -39,9 +131,9 @@
           "touch",
           "grass",
           "hacktoberfest",
+          "open source",
           "dev",
-          "community",
-          "open source"
+          "community"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
@@ -55,102 +147,12 @@
       }
     },
     {
-      "lineageId": "lineage-104bc8d89cda3700fb",
-      "candidateId": "trend-1bc7652c94a7325653",
-      "title": "Local AI for Local Commerce & Side Hustles",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
       "lineageId": "lineage-63c9b20d9987473640",
       "candidateId": "trend-fb268cc3d2bde0c97a",
       "title": "aicodeking/leanrea",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "github-rest-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "github-rest-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-16a0211a4e0622301e",
-      "candidateId": "trend-2561383dfc0603f1d7",
-      "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-55dd728c9e4ac4416a",
-      "candidateId": "trend-bd1572b2dab02a755e",
-      "title": "Hacktoberfest Open-Source AI: Slow and Steady",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-c019b036674b473ce1",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "hacktoberfest",
-          "open source",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "hacktoberfest",
-          "open",
-          "source"
-        ],
-        "similarity": 0.4829,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-5271659ac5985074f1",
-      "candidateId": "trend-99c77d00779bf9d50c",
-      "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-4044efd6739523d0f9",
+      "previousCandidateId": "trend-fb268cc3d2bde0c97a",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -163,58 +165,34 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "hustle",
-          "side",
-          "hacktoberfest",
-          "open source",
-          "dev",
-          "community"
+          "aicodeking"
         ],
         "titleTokenOverlap": [
-          "hacktoberfest",
-          "open",
-          "source",
-          "side",
-          "hustle",
-          "tools"
+          "aicodeking",
+          "leanrea"
         ],
         "similarity": 1,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-e82f672d5eaaf6beeb",
-      "candidateId": "trend-dcb29e27eb2212b2af",
-      "title": "PHP2Shell Critical RCE Vulnerabilities",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-76ad17de8360ba3031",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-777eed30059fb59ca0",
+      "candidateId": "trend-7ede710135ab2390ae",
+      "title": "Trump says Ukraine Starlink restored",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "vulnerabilities",
-          "rce",
-          "php2shell",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "php2shell",
-          "rce",
-          "vulnerabilities"
-        ],
-        "similarity": 0.7773,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-aaca764b005304c4d3",
@@ -249,25 +227,25 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-98a99bfee9ba0dacbf",
-      "title": "Việt Nam",
-      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "title": "PHP2Shell Critical RCE Vulnerabilities",
+      "previousCandidateId": "trend-dcb29e27eb2212b2af",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-23T22:10:28.886Z"
+      "lastSeenAt": "2026-10-24T12:00:48.582Z"
     },
     {
-      "lineageId": "lineage-517e81cb63ecb147e3",
-      "title": "Michigan voters' remarks on national TV",
-      "previousCandidateId": "trend-8202248c8392353c6b",
+      "lineageId": "lineage-104bc8d89cda3700fb",
+      "title": "Local AI for Local Commerce & Side Hustles",
+      "previousCandidateId": "trend-1bc7652c94a7325653",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-23T22:10:28.886Z"
+      "lastSeenAt": "2026-10-24T12:00:48.582Z"
     },
     {
-      "lineageId": "lineage-2d81dbb241727b22b0",
-      "title": "Amy Acton's mother in Ramaswamy ad",
-      "previousCandidateId": "trend-b4ae304eaafa80286d",
+      "lineageId": "lineage-16a0211a4e0622301e",
+      "title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "previousCandidateId": "trend-2561383dfc0603f1d7",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-23T22:10:28.886Z"
+      "lastSeenAt": "2026-10-24T12:00:48.582Z"
     }
   ],
   "notes": [
