@@ -1,26 +1,26 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-25T21:47:40.990Z",
-  "cycleId": "gh-40237059493-a1",
+  "generatedAt": "2026-10-26T14:16:04.726Z",
+  "cycleId": "gh-40337784238-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-25T21:47:40.271Z",
-  "previousCycleId": "gh-40193657934-a1",
-  "previousSnapshotGeneratedAt": "2026-10-25T12:35:39.927Z",
-  "cycleGapHours": 9.2,
+  "currentTrendSnapshotGeneratedAt": "2026-10-26T14:16:03.965Z",
+  "previousCycleId": "gh-40237059493-a1",
+  "previousSnapshotGeneratedAt": "2026-10-25T21:47:40.271Z",
+  "cycleGapHours": 16.47,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 245,
+  "trackedLineageCount": 246,
   "current": [
     {
-      "lineageId": "lineage-a0b6cabbbeda9d8800",
-      "candidateId": "trend-ba7bb9cc1fe8cc6255",
-      "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+      "lineageId": "lineage-85ef8891e8d28f40cc",
+      "candidateId": "trend-4b9af91da30c936e17",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -40,12 +40,12 @@
     },
     {
       "lineageId": "lineage-55dd728c9e4ac4416a",
-      "candidateId": "trend-f5cec7ddb26ce5df12",
-      "title": "Slow and Steady Open-Source AI Daemons",
+      "candidateId": "trend-d32a52bc00f3da316d",
+      "title": "Hacktoberfest Open-Source AI Challenge: Slow & Steady",
       "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-65729fb08756dfe8bf",
-      "signalCountDelta": 0,
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-f5cec7ddb26ce5df12",
+      "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -61,84 +61,28 @@
           "steady",
           "dev",
           "community",
-          "open source",
+          "hacktoberfest",
           "challenge",
-          "hacktoberfest"
+          "open source"
         ],
         "titleTokenOverlap": [
-          "slow",
-          "steady",
-          "open",
-          "source"
-        ],
-        "similarity": 0.825,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-be7f062fde0d8b50b3",
-      "candidateId": "trend-c2ebfb7fe9a78def22",
-      "title": "Cheater",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-60b701bc0a6d957639",
-      "title": "Hacktoberfest Open-Source AI: Touch Grass",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-60b701bc0a6d957639",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "touch",
-          "grass",
-          "hacktoberfest",
-          "open source",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "hacktoberfest",
           "open",
           "source",
-          "touch",
-          "grass"
+          "slow",
+          "steady"
         ],
-        "similarity": 1,
+        "similarity": 0.8021,
         "threshold": 0.38
       }
     },
     {
       "lineageId": "lineage-5271659ac5985074f1",
-      "candidateId": "trend-99c77d00779bf9d50c",
+      "candidateId": "trend-0040729c9f248c7398",
       "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-525e23a2eff83c950f",
-      "signalCountDelta": -1,
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-99c77d00779bf9d50c",
+      "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -151,11 +95,11 @@
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
           "hustle",
-          "side",
-          "hacktoberfest",
           "open source",
+          "side",
           "dev",
-          "community"
+          "community",
+          "hacktoberfest"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
@@ -170,12 +114,70 @@
       }
     },
     {
+      "lineageId": "lineage-970827518c4e22f0d0",
+      "candidateId": "trend-5292e979a4eed5ece9",
+      "title": "2009-05-11",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-5292e979a4eed5ece9",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "saturday",
+          "morning",
+          "breakfast",
+          "cereal"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-d1132825be96d69ddc",
+      "candidateId": "trend-7cb23f3825f3154713",
+      "title": "2026-10-26 #0",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-db24e699b2aa7b9ff0",
+      "signalCountDelta": -2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "far",
+          "side"
+        ],
+        "titleTokenOverlap": [
+          "2026"
+        ],
+        "similarity": 0.62,
+        "threshold": 0.46
+      }
+    },
+    {
       "lineageId": "lineage-e82f672d5eaaf6beeb",
       "candidateId": "trend-aa70d2aea2292cc37e",
       "title": "PHP2Shell Critical Core Vulnerabilities",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-f3946a7c28daf73ba5",
+      "previousCandidateId": "trend-aa70d2aea2292cc37e",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -197,34 +199,65 @@
         "titleTokenOverlap": [
           "php2shell",
           "critical",
+          "core",
           "vulnerabilities"
         ],
-        "similarity": 0.8629,
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "candidateId": "trend-92b427adbbb41f6340",
+      "title": "Thành phố Hồ Chí Minh",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-92b427adbbb41f6340",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "minh",
+          "chi"
+        ],
+        "titleTokenOverlap": [
+          "chi",
+          "minh"
+        ],
+        "similarity": 0.88,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-af9577e23c9d585c08",
-      "title": "El-Sayed's viral town hall response",
-      "previousCandidateId": "trend-d22ec3b63d72b012cd",
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass",
+      "previousCandidateId": "trend-60b701bc0a6d957639",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-25T12:35:39.927Z"
+      "lastSeenAt": "2026-10-25T21:47:40.271Z"
     },
     {
-      "lineageId": "lineage-1b59626b15a5f5d68b",
-      "title": "Trump cites Amy Acton's mother",
-      "previousCandidateId": "trend-55ee23b2843260bfc9",
+      "lineageId": "lineage-a0b6cabbbeda9d8800",
+      "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+      "previousCandidateId": "trend-ba7bb9cc1fe8cc6255",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-25T12:35:39.927Z"
+      "lastSeenAt": "2026-10-25T21:47:40.271Z"
     },
     {
-      "lineageId": "lineage-e4d134d2ffc5aab326",
-      "title": "25 years ago, Microsoft released Windows XP. It was the first consumer edition of Windows to use the Windows NT kernel.",
-      "previousCandidateId": "trend-16171e314e87315fef",
+      "lineageId": "lineage-be7f062fde0d8b50b3",
+      "title": "Cheater",
+      "previousCandidateId": "trend-c2ebfb7fe9a78def22",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-25T12:35:39.927Z"
+      "lastSeenAt": "2026-10-25T21:47:40.271Z"
     }
   ],
   "notes": [

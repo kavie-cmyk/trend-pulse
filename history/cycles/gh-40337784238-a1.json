@@ -1,0 +1,271 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-10-26T14:16:04.726Z",
+  "cycleId": "gh-40337784238-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-10-26T14:16:03.965Z",
+  "previousCycleId": "gh-40237059493-a1",
+  "previousSnapshotGeneratedAt": "2026-10-25T21:47:40.271Z",
+  "cycleGapHours": 16.47,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 7,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 246,
+  "current": [
+    {
+      "lineageId": "lineage-85ef8891e8d28f40cc",
+      "candidateId": "trend-4b9af91da30c936e17",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-55dd728c9e4ac4416a",
+      "candidateId": "trend-d32a52bc00f3da316d",
+      "title": "Hacktoberfest Open-Source AI Challenge: Slow & Steady",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-f5cec7ddb26ce5df12",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "slow",
+          "steady",
+          "dev",
+          "community",
+          "hacktoberfest",
+          "challenge",
+          "open source"
+        ],
+        "titleTokenOverlap": [
+          "open",
+          "source",
+          "slow",
+          "steady"
+        ],
+        "similarity": 0.8021,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-5271659ac5985074f1",
+      "candidateId": "trend-0040729c9f248c7398",
+      "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-99c77d00779bf9d50c",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "hustle",
+          "open source",
+          "side",
+          "dev",
+          "community",
+          "hacktoberfest"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "side",
+          "hustle",
+          "tools"
+        ],
+        "similarity": 0.8914,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-970827518c4e22f0d0",
+      "candidateId": "trend-5292e979a4eed5ece9",
+      "title": "2009-05-11",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-5292e979a4eed5ece9",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "saturday",
+          "morning",
+          "breakfast",
+          "cereal"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-d1132825be96d69ddc",
+      "candidateId": "trend-7cb23f3825f3154713",
+      "title": "2026-10-26 #0",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-db24e699b2aa7b9ff0",
+      "signalCountDelta": -2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "far",
+          "side"
+        ],
+        "titleTokenOverlap": [
+          "2026"
+        ],
+        "similarity": 0.62,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "candidateId": "trend-aa70d2aea2292cc37e",
+      "title": "PHP2Shell Critical Core Vulnerabilities",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-aa70d2aea2292cc37e",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "vulnerabilities",
+          "critical",
+          "php2shell",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "php2shell",
+          "critical",
+          "core",
+          "vulnerabilities"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "candidateId": "trend-92b427adbbb41f6340",
+      "title": "Thành phố Hồ Chí Minh",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-92b427adbbb41f6340",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "minh",
+          "chi"
+        ],
+        "titleTokenOverlap": [
+          "chi",
+          "minh"
+        ],
+        "similarity": 0.88,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "title": "Hacktoberfest Open-Source AI: Touch Grass",
+      "previousCandidateId": "trend-60b701bc0a6d957639",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-25T21:47:40.271Z"
+    },
+    {
+      "lineageId": "lineage-a0b6cabbbeda9d8800",
+      "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+      "previousCandidateId": "trend-ba7bb9cc1fe8cc6255",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-25T21:47:40.271Z"
+    },
+    {
+      "lineageId": "lineage-be7f062fde0d8b50b3",
+      "title": "Cheater",
+      "previousCandidateId": "trend-c2ebfb7fe9a78def22",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-25T21:47:40.271Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
