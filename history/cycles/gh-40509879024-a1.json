@@ -1,0 +1,306 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-10-27T13:12:38.430Z",
+  "cycleId": "gh-40509879024-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-10-27T13:12:37.775Z",
+  "previousCycleId": "gh-40417440214-a1",
+  "previousSnapshotGeneratedAt": "2026-10-26T23:07:46.348Z",
+  "cycleGapHours": 14.08,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 9,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 256,
+  "current": [
+    {
+      "lineageId": "lineage-2170aaf8d8c637d1a5",
+      "candidateId": "trend-b6c4bc58aceb77a39e",
+      "title": "Microsoft offers voluntary buyouts to 60,000 employees",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot",
+        "pocketgamer-rss",
+        "techcrunch-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "pocketgamer-rss",
+        "techcrunch-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "publisher"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-55dd728c9e4ac4416a",
+      "candidateId": "trend-316b53361a539258f4",
+      "title": "Hacktoberfest Open-Source AI: Slow & Steady",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-82b1bd333a734f6346",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "slow",
+          "steady",
+          "dev",
+          "community",
+          "open source",
+          "hacktoberfest",
+          "challenge"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "slow",
+          "steady"
+        ],
+        "similarity": 0.88,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-f5a787861a9a4bd58c",
+      "candidateId": "trend-5c5bc3b7870291f150",
+      "title": "Trump on Obama's Cheesecake jab",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-5271659ac5985074f1",
+      "candidateId": "trend-525e23a2eff83c950f",
+      "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-525e23a2eff83c950f",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "hustle",
+          "side",
+          "open source",
+          "dev",
+          "community",
+          "tools",
+          "hacktoberfest"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "side",
+          "hustle",
+          "tools"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "candidateId": "trend-f3946a7c28daf73ba5",
+      "title": "PHP2Shell Critical RCE Vulnerabilities",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-f3946a7c28daf73ba5",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "critical",
+          "vulnerabilities",
+          "php2shell",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "php2shell",
+          "critical",
+          "vulnerabilities"
+        ],
+        "similarity": 0.94,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-7f4e641ca025157024",
+      "candidateId": "trend-d94e520afaa221029e",
+      "title": "Brandon Woodruff warms up in bullpen",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-6b9ee04c66bf59af7d",
+      "candidateId": "trend-fbe66fe39485b60ab0",
+      "title": "House Democrats' Trump-Epstein report",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-7e02e25bf97c337646",
+      "candidateId": "trend-a52efbccc261b00257",
+      "title": "2026 Brazilian general election",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-5f64877b364e8bd6e7",
+      "candidateId": "trend-423bb075c879d690a4",
+      "title": "Harry Kane",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "title": "Thành phố Hồ Chí Minh",
+      "previousCandidateId": "trend-92b427adbbb41f6340",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-26T23:07:46.348Z"
+    },
+    {
+      "lineageId": "lineage-777eed30059fb59ca0",
+      "title": "Push to vote early in US election",
+      "previousCandidateId": "trend-0aafc1f19dbeea5f1d",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-26T23:07:46.348Z"
+    },
+    {
+      "lineageId": "lineage-be7f062fde0d8b50b3",
+      "title": "Progress",
+      "previousCandidateId": "trend-c2ebfb7fe9a78def22",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-26T23:07:46.348Z"
+    },
+    {
+      "lineageId": "lineage-f1959fc2f50f413b20",
+      "title": "In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn't Real",
+      "previousCandidateId": "trend-c0375a68e2f6707e60",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-26T23:07:46.348Z"
+    },
+    {
+      "lineageId": "lineage-47d5a8dfe7e58a7217",
+      "title": "Trump's remarks on Husted, Nicki Minaj",
+      "previousCandidateId": "trend-010d9bf5be861b1bf5",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-26T23:07:46.348Z"
+    },
+    {
+      "lineageId": "lineage-55567fb954a96b5658",
+      "title": "AI doomerism is AI company marketing",
+      "previousCandidateId": "trend-2f52aa46ac16bac5c8",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-26T23:07:46.348Z"
+    },
+    {
+      "lineageId": "lineage-98bb12edc33ad7dd16",
+      "title": "Local AI File Organizers",
+      "previousCandidateId": "trend-1947b19232dd75441f",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-26T23:07:46.348Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
