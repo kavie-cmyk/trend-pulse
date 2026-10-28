@@ -1,0 +1,347 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-10-28T14:01:40.988Z",
+  "cycleId": "gh-40701658460-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-10-28T14:01:40.275Z",
+  "previousCycleId": "gh-40509879024-a1",
+  "previousSnapshotGeneratedAt": "2026-10-27T13:12:37.775Z",
+  "cycleGapHours": 24.82,
+  "comparisonWindow": "stale-gap",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 10,
+  "currentCorroboratedCount": 1,
+  "trackedLineageCount": 260,
+  "current": [
+    {
+      "lineageId": "lineage-98a99bfee9ba0dacbf",
+      "candidateId": "trend-e3f65cfc87a73d190d",
+      "title": "Hôm nay diễn ra Tuần lễ Số Quốc tế Việt Nam 2026",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 1,
+      "independentSourceFamilyDelta": 1,
+      "sourceIdsAdded": [
+        "vnexpress-tech-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "vnexpress-tech-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "publisher"
+      ],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "viet",
+          "nam"
+        ],
+        "titleTokenOverlap": [
+          "viet",
+          "nam"
+        ],
+        "similarity": 0.82,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-4e4ea6ae9e578892fd",
+      "candidateId": "trend-43f18ea6f5a501af9d",
+      "title": "Trump's 'love the meat' comment",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-4c10c1af7acdeffc7d",
+      "candidateId": "trend-67b5b7315114ff86d7",
+      "title": "Trump on Brazil runoff",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-55dd728c9e4ac4416a",
+      "candidateId": "trend-a631e2cc380576583a",
+      "title": "Hacktoberfest Slow and Steady AI Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-316b53361a539258f4",
+      "signalCountDelta": -2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "slow",
+          "steady",
+          "dev",
+          "community",
+          "challenge",
+          "hacktoberfest",
+          "open source"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "slow",
+          "steady"
+        ],
+        "similarity": 0.88,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-5271659ac5985074f1",
+      "candidateId": "trend-525e23a2eff83c950f",
+      "title": "Hacktoberfest Open-Source AI Side Hustle Tools",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-525e23a2eff83c950f",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "hustle",
+          "side",
+          "open source",
+          "dev",
+          "community",
+          "tools",
+          "hacktoberfest"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source",
+          "side",
+          "hustle",
+          "tools"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "candidateId": "trend-f3946a7c28daf73ba5",
+      "title": "PHP2Shell Critical Vulnerabilities",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-f3946a7c28daf73ba5",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "critical",
+          "vulnerabilities",
+          "php2shell",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "php2shell",
+          "critical",
+          "vulnerabilities"
+        ],
+        "similarity": 0.94,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-fa46153636c7dee37c",
+      "candidateId": "trend-9355a1412a6faaf7c2",
+      "title": "2026 Israeli legislative election",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-5f64877b364e8bd6e7",
+      "candidateId": "trend-423bb075c879d690a4",
+      "title": "Harry Kane",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-423bb075c879d690a4",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "harry",
+          "kane"
+        ],
+        "titleTokenOverlap": [
+          "harry",
+          "kane"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-efea7cc09efa03ce32",
+      "candidateId": "trend-9270395ac4377adc18",
+      "title": "Alexia Putellas",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "candidateId": "trend-3b9c40ea98b7065c5c",
+      "title": "Hồ Chí Minh",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-92b427adbbb41f6340",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "chi",
+          "minh"
+        ],
+        "titleTokenOverlap": [
+          "chi",
+          "minh"
+        ],
+        "similarity": 0.88,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-2170aaf8d8c637d1a5",
+      "title": "Microsoft offers voluntary buyouts to 60,000 employees",
+      "previousCandidateId": "trend-b6c4bc58aceb77a39e",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+    },
+    {
+      "lineageId": "lineage-f5a787861a9a4bd58c",
+      "title": "Trump on Obama's Cheesecake jab",
+      "previousCandidateId": "trend-5c5bc3b7870291f150",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+    },
+    {
+      "lineageId": "lineage-7f4e641ca025157024",
+      "title": "Brandon Woodruff warms up in bullpen",
+      "previousCandidateId": "trend-d94e520afaa221029e",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+    },
+    {
+      "lineageId": "lineage-6b9ee04c66bf59af7d",
+      "title": "House Democrats' Trump-Epstein report",
+      "previousCandidateId": "trend-fbe66fe39485b60ab0",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+    },
+    {
+      "lineageId": "lineage-7e02e25bf97c337646",
+      "title": "2026 Brazilian general election",
+      "previousCandidateId": "trend-a52efbccc261b00257",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
