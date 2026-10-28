@@ -1,43 +1,37 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-28T14:01:40.988Z",
-  "cycleId": "gh-40701658460-a1",
+  "generatedAt": "2026-10-28T23:14:23.060Z",
+  "cycleId": "gh-40785780847-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-28T14:01:40.275Z",
-  "previousCycleId": "gh-40509879024-a1",
-  "previousSnapshotGeneratedAt": "2026-10-27T13:12:37.775Z",
-  "cycleGapHours": 24.82,
-  "comparisonWindow": "stale-gap",
+  "currentTrendSnapshotGeneratedAt": "2026-10-28T23:14:22.198Z",
+  "previousCycleId": "gh-40701658460-a1",
+  "previousSnapshotGeneratedAt": "2026-10-28T14:01:40.275Z",
+  "cycleGapHours": 9.21,
+  "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 10,
+  "currentCandidateCount": 11,
   "currentCorroboratedCount": 1,
-  "trackedLineageCount": 260,
+  "trackedLineageCount": 263,
   "current": [
     {
       "lineageId": "lineage-98a99bfee9ba0dacbf",
       "candidateId": "trend-e3f65cfc87a73d190d",
       "title": "Hôm nay diễn ra Tuần lễ Số Quốc tế Việt Nam 2026",
-      "presence": "reappeared",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-e3f65cfc87a73d190d",
       "signalCountDelta": 0,
-      "independentSourceDelta": 1,
-      "independentSourceFamilyDelta": 1,
-      "sourceIdsAdded": [
-        "vnexpress-tech-rss"
-      ],
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "vnexpress-tech-rss"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "publisher"
-      ],
+      "independentSourceFamiliesAdded": [],
       "independentSourceFamiliesRemoved": [],
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
@@ -46,59 +40,48 @@
           "nam"
         ],
         "titleTokenOverlap": [
+          "hom",
+          "nay",
+          "dien",
+          "tuan",
+          "quoc",
           "viet",
-          "nam"
+          "nam",
+          "2026"
         ],
-        "similarity": 0.82,
-        "threshold": 0.46
+        "similarity": 1,
+        "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-4e4ea6ae9e578892fd",
-      "candidateId": "trend-43f18ea6f5a501af9d",
-      "title": "Trump's 'love the meat' comment",
+      "lineageId": "lineage-365a40f69436f1852c",
+      "candidateId": "trend-52359ee23e80f4ac3d",
+      "title": "Massive leak exposes 41,000 Homeland Security workers—including undercover ICE agents",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "bluesky-trends-api"
+        "hacker-news-api",
+        "lemmy-world-hot"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "bluesky-trends-api"
+        "hacker-news-api",
+        "lemmy-world-hot"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-4c10c1af7acdeffc7d",
-      "candidateId": "trend-67b5b7315114ff86d7",
-      "title": "Trump on Brazil runoff",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
+        "community"
       ],
       "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-55dd728c9e4ac4416a",
-      "candidateId": "trend-a631e2cc380576583a",
-      "title": "Hacktoberfest Slow and Steady AI Challenge",
+      "candidateId": "trend-b82bb32e65eb96aed2",
+      "title": "Hacktoberfest Open-Source AI: Slow and Steady",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-316b53361a539258f4",
-      "signalCountDelta": -2,
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-a631e2cc380576583a",
+      "signalCountDelta": 3,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -114,7 +97,6 @@
           "steady",
           "dev",
           "community",
-          "challenge",
           "hacktoberfest",
           "open source"
         ],
@@ -123,9 +105,28 @@
           "slow",
           "steady"
         ],
-        "similarity": 0.88,
+        "similarity": 0.6267,
         "threshold": 0.38
       }
+    },
+    {
+      "lineageId": "lineage-8bb0e1ff561e9f8ab9",
+      "candidateId": "trend-9c55cfa0bea53af9a8",
+      "title": "El-Sayed's viral town hall response",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-5271659ac5985074f1",
@@ -167,12 +168,64 @@
       }
     },
     {
-      "lineageId": "lineage-e82f672d5eaaf6beeb",
-      "candidateId": "trend-f3946a7c28daf73ba5",
-      "title": "PHP2Shell Critical Vulnerabilities",
+      "lineageId": "lineage-c298cec0ed40d6ff4b",
+      "candidateId": "trend-0bd5af04f2aea8e354",
+      "title": "Hacktoberfest Ghost in the Machine AI Challenge",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "candidateId": "trend-c019b036674b473ce1",
+      "title": "Hacktoberfest Open-Source AI Side Hustles",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-60b701bc0a6d957639",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "hacktoberfest",
+          "open source",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "open",
+          "source"
+        ],
+        "similarity": 0.4829,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-fa46153636c7dee37c",
+      "candidateId": "trend-9355a1412a6faaf7c2",
+      "title": "2026 Israeli legislative election",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-f3946a7c28daf73ba5",
+      "previousCandidateId": "trend-9355a1412a6faaf7c2",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -185,39 +238,19 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "critical",
-          "vulnerabilities",
-          "php2shell",
-          "dev",
-          "community"
+          "israeli",
+          "legislative",
+          "election"
         ],
         "titleTokenOverlap": [
-          "php2shell",
-          "critical",
-          "vulnerabilities"
+          "2026",
+          "israeli",
+          "legislative",
+          "election"
         ],
-        "similarity": 0.94,
+        "similarity": 1,
         "threshold": 0.38
       }
-    },
-    {
-      "lineageId": "lineage-fa46153636c7dee37c",
-      "candidateId": "trend-9355a1412a6faaf7c2",
-      "title": "2026 Israeli legislative election",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-5f64877b364e8bd6e7",
@@ -253,28 +286,39 @@
       "lineageId": "lineage-efea7cc09efa03ce32",
       "candidateId": "trend-9270395ac4377adc18",
       "title": "Alexia Putellas",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-9270395ac4377adc18",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "alexia",
+          "putellas"
+        ],
+        "titleTokenOverlap": [
+          "alexia",
+          "putellas"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-aaca764b005304c4d3",
       "candidateId": "trend-3b9c40ea98b7065c5c",
       "title": "Hồ Chí Minh",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-92b427adbbb41f6340",
+      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -294,46 +338,32 @@
           "chi",
           "minh"
         ],
-        "similarity": 0.88,
+        "similarity": 1,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-2170aaf8d8c637d1a5",
-      "title": "Microsoft offers voluntary buyouts to 60,000 employees",
-      "previousCandidateId": "trend-b6c4bc58aceb77a39e",
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "title": "PHP2Shell Critical Vulnerabilities",
+      "previousCandidateId": "trend-f3946a7c28daf73ba5",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+      "lastSeenAt": "2026-10-28T14:01:40.275Z"
     },
     {
-      "lineageId": "lineage-f5a787861a9a4bd58c",
-      "title": "Trump on Obama's Cheesecake jab",
-      "previousCandidateId": "trend-5c5bc3b7870291f150",
+      "lineageId": "lineage-4e4ea6ae9e578892fd",
+      "title": "Trump's 'love the meat' comment",
+      "previousCandidateId": "trend-43f18ea6f5a501af9d",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+      "lastSeenAt": "2026-10-28T14:01:40.275Z"
     },
     {
-      "lineageId": "lineage-7f4e641ca025157024",
-      "title": "Brandon Woodruff warms up in bullpen",
-      "previousCandidateId": "trend-d94e520afaa221029e",
+      "lineageId": "lineage-4c10c1af7acdeffc7d",
+      "title": "Trump on Brazil runoff",
+      "previousCandidateId": "trend-67b5b7315114ff86d7",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-27T13:12:37.775Z"
-    },
-    {
-      "lineageId": "lineage-6b9ee04c66bf59af7d",
-      "title": "House Democrats' Trump-Epstein report",
-      "previousCandidateId": "trend-fbe66fe39485b60ab0",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-27T13:12:37.775Z"
-    },
-    {
-      "lineageId": "lineage-7e02e25bf97c337646",
-      "title": "2026 Brazilian general election",
-      "previousCandidateId": "trend-a52efbccc261b00257",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-10-27T13:12:37.775Z"
+      "lastSeenAt": "2026-10-28T14:01:40.275Z"
     }
   ],
   "notes": [
