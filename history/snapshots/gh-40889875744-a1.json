@@ -1,0 +1,1147 @@
+{
+  "schemaVersion": "trend-resolution-snapshot.v1",
+  "generatedAt": "2026-10-29T14:17:52.185Z",
+  "methodologyVersion": "trend-resolution-04c.v1",
+  "inputSignalCount": 334,
+  "uniqueSignalCount": 334,
+  "candidateCount": 9,
+  "corroboratedCount": 1,
+  "clusteredSignalCount": 26,
+  "unclusteredSignalCount": 308,
+  "candidates": [
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-c8674093d4b8b71696",
+      "title": "DoorDash to Acquire Instacart",
+      "summary": "Independent cross-source corroboration: 2 observations across 2 raw sources; 2 sources remain independent after derivative-evidence calibration. Shared resolution anchors: acquire, instacart, doordash.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "corroborated",
+      "signalIds": [
+        "hn-50287919",
+        "rss-ac143bb40704210d34"
+      ],
+      "sourceIds": [
+        "hacker-news-api",
+        "techcrunch-rss"
+      ],
+      "sourceDiversity": 2,
+      "sourceFamilies": [
+        "community",
+        "publisher"
+      ],
+      "sourceFamilyDiversity": 2,
+      "resolutionAnchors": [
+        "acquire",
+        "instacart",
+        "doordash"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "English"
+      ],
+      "firstObservedAt": "2026-10-29T12:33:05.000Z",
+      "lastObservedAt": "2026-10-29T14:17:20.010Z",
+      "evidenceRefs": [
+        "https://news.ycombinator.com/item?id=50287919",
+        "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "2 distinct source IDs; 2 distinct source families.",
+        "Shared distinctive anchors: acquire, instacart, doordash.",
+        "2 independent source IDs and 2 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "2 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "2 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: acquire, instacart, doordash"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "English"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Corroboration remains after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://news.ycombinator.com/item?id=50287919",
+          "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "hacker-news-api",
+        "techcrunch-rss"
+      ],
+      "independentSourceFamilies": [
+        "community",
+        "publisher"
+      ],
+      "independentSourceDiversity": 2,
+      "independentSourceFamilyDiversity": 2,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-1d8d62ff1d35cc89ad",
+      "title": "Brewers Win World Series",
+      "summary": "Repeated source evidence: 5 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: normcharlatan.bsky.social, mobute.bsky.social, npr.org, baumann.bsky.social, sports.",
+      "trendType": "platform-native",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "bluesky-395a4fee744eebd0a1",
+        "bluesky-3a0023fa86c588f9bd",
+        "bluesky-856c808feed645d15f",
+        "bluesky-d80958763506f43b49",
+        "bluesky-f30ed56e37fd3eb6c6"
+      ],
+      "sourceIds": [
+        "bluesky-trends-api"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "social"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "normcharlatan.bsky.social",
+        "mobute.bsky.social",
+        "npr.org",
+        "baumann.bsky.social",
+        "sports",
+        "ndrew.bsky.social",
+        "brewers",
+        "cooling"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-29T14:17:26.278Z",
+      "lastObservedAt": "2026-10-29T14:17:26.278Z",
+      "evidenceRefs": [
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/57cd8d8a64ad",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/5acf58bd3744",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9de471638bfa",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d3548da8e7bb",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/dc7a8d68f265"
+      ],
+      "corroborationRationale": [
+        "5 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: normcharlatan.bsky.social, mobute.bsky.social, npr.org, baumann.bsky.social, sports, ndrew.bsky.social.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: normcharlatan.bsky.social, mobute.bsky.social, npr.org, baumann.bsky.social, sports, ndrew.bsky.social, brewers, cooling"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/57cd8d8a64ad",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/5acf58bd3744",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9de471638bfa",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d3548da8e7bb",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/dc7a8d68f265"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceFamilies": [
+        "social"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-6bf238e4bf9b80eb47",
+      "title": "Bernie Moreno's remarks on El-Sayed",
+      "summary": "Repeated source evidence: 3 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: jamellebouie.net, michaelsderby.bsky.social, donmoyn.bsky.social, edburmila.bsky.social, chadbourn.bsky.social.",
+      "trendType": "platform-native",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "bluesky-90e23181f6f4f414fd",
+        "bluesky-acf426a5b0485c0757",
+        "bluesky-b32e0de7af75878539"
+      ],
+      "sourceIds": [
+        "bluesky-trends-api"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "social"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "jamellebouie.net",
+        "michaelsderby.bsky.social",
+        "donmoyn.bsky.social",
+        "edburmila.bsky.social",
+        "chadbourn.bsky.social",
+        "cooling",
+        "politics",
+        "el-sayed"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-29T14:17:26.278Z",
+      "lastObservedAt": "2026-10-29T14:17:26.278Z",
+      "evidenceRefs": [
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1dacdc705c9b",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/bf8f1620-d6de-43e6-b23f-80bd26c28462",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f4f5f6b5f7da"
+      ],
+      "corroborationRationale": [
+        "3 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: jamellebouie.net, michaelsderby.bsky.social, donmoyn.bsky.social, edburmila.bsky.social, chadbourn.bsky.social, cooling.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: jamellebouie.net, michaelsderby.bsky.social, donmoyn.bsky.social, edburmila.bsky.social, chadbourn.bsky.social, cooling, politics, el-sayed"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1dacdc705c9b",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/bf8f1620-d6de-43e6-b23f-80bd26c28462",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f4f5f6b5f7da"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceFamilies": [
+        "social"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-c2ebfb7fe9a78def22",
+      "title": "Be The Best You Can Be",
+      "summary": "Repeated source evidence: 3 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: sarron2z, comic, strips.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "lemmy-b2d28f10ec1beaee2b",
+        "lemmy-dd4d2e99354d583971",
+        "lemmy-e7378f5b9fae1975b2"
+      ],
+      "sourceIds": [
+        "lemmy-world-hot"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "sarron2z",
+        "comic",
+        "strips"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-29T14:17:26.688Z",
+      "lastObservedAt": "2026-10-29T14:17:26.688Z",
+      "evidenceRefs": [
+        "https://lemmy.zip/post/74088568",
+        "https://lemmy.zip/post/74089001",
+        "https://lemmy.zip/post/74090290"
+      ],
+      "corroborationRationale": [
+        "3 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: sarron2z, comic, strips.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: sarron2z, comic, strips"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://lemmy.zip/post/74088568",
+          "https://lemmy.zip/post/74089001",
+          "https://lemmy.zip/post/74090290"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-0a5d266b980b74b1ac",
+      "title": "Hacktoberfest Slow and Steady AI Challenge",
+      "summary": "Repeated source evidence: 3 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: slow, steady, challenge, hacktoberfest, dev.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-555b39a54fcc226c5b",
+        "forem-a38e48b7ecd3faed06",
+        "forem-b2fd67bc96ae65f97c"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "slow",
+        "steady",
+        "challenge",
+        "hacktoberfest",
+        "dev",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-29T14:17:26.688Z",
+      "lastObservedAt": "2026-10-29T14:17:26.688Z",
+      "evidenceRefs": [
+        "https://dev.to/t/hacktoberfest-open-source-ai-challenge-slow-steady",
+        "https://dev.to/t/hacktoberfest-slow-and-steady-ai-challenge",
+        "https://dev.to/t/hacktoberfest-slow-and-steady-ai-challenge-1"
+      ],
+      "corroborationRationale": [
+        "3 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: slow, steady, challenge, hacktoberfest, dev, community.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: slow, steady, challenge, hacktoberfest, dev, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/hacktoberfest-open-source-ai-challenge-slow-steady",
+          "https://dev.to/t/hacktoberfest-slow-and-steady-ai-challenge",
+          "https://dev.to/t/hacktoberfest-slow-and-steady-ai-challenge-1"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-f4d5c6f1bb0841022a",
+      "title": "Trump fan blames deep state",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: shanavwhite.blacksky.app, warren.senate.gov, atrupar.com.",
+      "trendType": "platform-native",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "bluesky-a7b7dbd0cf9336d36f",
+        "bluesky-d7e4b88b5bcd9c1b99"
+      ],
+      "sourceIds": [
+        "bluesky-trends-api"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "social"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "shanavwhite.blacksky.app",
+        "warren.senate.gov",
+        "atrupar.com"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-29T14:17:26.278Z",
+      "lastObservedAt": "2026-10-29T14:17:26.278Z",
+      "evidenceRefs": [
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/522cc3f5d4eb",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/fc9c98b96f1f"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: shanavwhite.blacksky.app, warren.senate.gov, atrupar.com.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: shanavwhite.blacksky.app, warren.senate.gov, atrupar.com"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/522cc3f5d4eb",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/fc9c98b96f1f"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceFamilies": [
+        "social"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-79deea858ce6c4b817",
+      "title": "NYT's Peltola story source",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: nycsouthpaw.bsky.social, mamasissiesays.bsky.social, chrismurphyct.bsky.social, peltola, politics.",
+      "trendType": "platform-native",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "bluesky-12608d8f2b4df6ee33",
+        "bluesky-edfcec8d79905bfa48"
+      ],
+      "sourceIds": [
+        "bluesky-trends-api"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "social"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "nycsouthpaw.bsky.social",
+        "mamasissiesays.bsky.social",
+        "chrismurphyct.bsky.social",
+        "peltola",
+        "politics"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-29T14:17:26.278Z",
+      "lastObservedAt": "2026-10-29T14:17:26.278Z",
+      "evidenceRefs": [
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1817951e5646",
+        "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/2f7bf0e1d527"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: nycsouthpaw.bsky.social, mamasissiesays.bsky.social, chrismurphyct.bsky.social, peltola, politics.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: nycsouthpaw.bsky.social, mamasissiesays.bsky.social, chrismurphyct.bsky.social, peltola, politics"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1817951e5646",
+          "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/2f7bf0e1d527"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceFamilies": [
+        "social"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-0a41fdcfd5f379b695",
+      "title": "PHP2Shell Critical Vulnerabilities (CVE-2026-109618/19)",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: critical, cve-2026-109618, php2shell, dev, community.",
+      "trendType": "narrative",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "forem-1ea21068a782a10b92",
+        "forem-8b537032b162dc06d1"
+      ],
+      "sourceIds": [
+        "dev-forem-trends"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "community"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "critical",
+        "cve-2026-109618",
+        "php2shell",
+        "dev",
+        "community"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [],
+      "firstObservedAt": "2026-10-29T14:17:26.688Z",
+      "lastObservedAt": "2026-10-29T14:17:26.688Z",
+      "evidenceRefs": [
+        "https://dev.to/t/php2shell-critical-vulnerabilities-cve-2026-109618-19",
+        "https://dev.to/t/php2shell-critical-vulnerability-cve-2026-109618"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: critical, cve-2026-109618, php2shell, dev, community.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: critical, cve-2026-109618, php2shell, dev, community"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "missing",
+            "note": "Language is not consistently supplied across current source families"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://dev.to/t/php2shell-critical-vulnerabilities-cve-2026-109618-19",
+          "https://dev.to/t/php2shell-critical-vulnerability-cve-2026-109618"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "dev-forem-trends"
+      ],
+      "independentSourceFamilies": [
+        "community"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-3e0cd7a41f86577735",
+      "title": "2026 Israeli legislative election",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: legislative, israeli, election.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-b9c0b21b57cb301c2e",
+        "wikimedia-f139204f18bc6d997c"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "legislative",
+        "israeli",
+        "election"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "English"
+      ],
+      "firstObservedAt": "2026-10-28T23:59:59.000Z",
+      "lastObservedAt": "2026-10-28T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
+        "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: legislative, israeli, election.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: legislative, israeli, election"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "English"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
+          "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    },
+    {
+      "schemaVersion": "trend-candidate.v1",
+      "id": "trend-423bb075c879d690a4",
+      "title": "Harry Kane",
+      "summary": "Repeated source evidence: 2 observations across 1 raw source; 1 source remain independent after derivative-evidence calibration. Shared resolution anchors: harry, kane.",
+      "trendType": "other",
+      "lifecycleStage": "weak-signal",
+      "status": "candidate",
+      "signalIds": [
+        "wikimedia-419ced3c6c00a9161a",
+        "wikimedia-5641b662026364ef32"
+      ],
+      "sourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceDiversity": 1,
+      "sourceFamilies": [
+        "culture"
+      ],
+      "sourceFamilyDiversity": 1,
+      "resolutionAnchors": [
+        "harry",
+        "kane"
+      ],
+      "resolutionMethodologyVersion": "trend-resolution-04c.v1",
+      "geographies": [],
+      "languages": [
+        "English",
+        "Vietnamese"
+      ],
+      "firstObservedAt": "2026-10-28T23:59:59.000Z",
+      "lastObservedAt": "2026-10-28T23:59:59.000Z",
+      "evidenceRefs": [
+        "https://en.wikipedia.org/wiki/Harry_Kane",
+        "https://vi.wikipedia.org/wiki/Harry_Kane"
+      ],
+      "corroborationRationale": [
+        "2 observations survived deterministic deduplication and clustering.",
+        "1 distinct source IDs; 1 distinct source families.",
+        "Shared distinctive anchors: harry, kane.",
+        "1 independent source IDs and 1 independent source families remain after derivative-evidence calibration.",
+        "No near-duplicate publisher/distribution dependency was detected by the 04C calibration rule.",
+        "Independent source-family corroboration gate not yet passed after dependency calibration."
+      ],
+      "confidence": {
+        "status": "provisional",
+        "scaleMax": 10,
+        "methodologyVersion": "trend-confidence-04c.v1",
+        "factors": [
+          {
+            "key": "distinct-sources",
+            "label": "Distinct sources",
+            "status": "available",
+            "note": "1 distinct source IDs"
+          },
+          {
+            "key": "source-family-diversity",
+            "label": "Independent source-family diversity",
+            "status": "available",
+            "note": "1 source families"
+          },
+          {
+            "key": "resolution-anchors",
+            "label": "Resolution anchors",
+            "status": "available",
+            "note": "Shared anchors: harry, kane"
+          },
+          {
+            "key": "geography-coverage",
+            "label": "Geography coverage",
+            "status": "missing",
+            "note": "Most current broad feeds do not provide reliable geography"
+          },
+          {
+            "key": "language-coverage",
+            "label": "Language coverage",
+            "status": "available",
+            "note": "English, Vietnamese"
+          },
+          {
+            "key": "historical-persistence",
+            "label": "Historical persistence",
+            "status": "missing",
+            "note": "04C uses the current collection snapshot; persistence requires stored multi-cycle history"
+          }
+        ],
+        "rationale": [
+          "No numeric confidence score is emitted in 04C because empirical calibration is not yet available.",
+          "Lexical/entity resolution evidence is deterministic and inspectable; it is not a model-generated semantic claim.",
+          "Candidate does not have two independent source families after near-duplicate publisher/distribution evidence is discounted."
+        ],
+        "evidenceRefs": [
+          "https://en.wikipedia.org/wiki/Harry_Kane",
+          "https://vi.wikipedia.org/wiki/Harry_Kane"
+        ],
+        "computedAt": "2026-10-29T14:17:52.185Z"
+      },
+      "independentSourceIds": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceFamilies": [
+        "culture"
+      ],
+      "independentSourceDiversity": 1,
+      "independentSourceFamilyDiversity": 1,
+      "dependencyRisks": [],
+      "calibrationChange": "none"
+    }
+  ],
+  "notes": [
+    "Global/broad source signals remain workspace-unscoped. TrendCandidate.workspaceId is omitted until a real workspace projection is applied.",
+    "A single observation never becomes a Trend Candidate.",
+    "Corroborated requires at least two distinct source IDs and at least two independent source families.",
+    "Lifecycle stays weak-signal in 04C because one current snapshot cannot establish acceleration, breakout, saturation or decline.",
+    "No Virality, Brand Fit, Opportunity or numeric Confidence score is computed in 04C.",
+    "Source-native metrics are not compared across platforms during resolution.",
+    "04C dependency calibration discounts near-duplicate publisher headlines redistributed through community/social surfaces from independent corroboration counts.",
+    "A distribution/community repost may remain useful attention evidence, but it is not treated as a second independent origin of the claim/narrative."
+  ],
+  "inputSummary": [
+    {
+      "file": "backbone-signals.json",
+      "signalCount": 169
+    },
+    {
+      "file": "social-signals.json",
+      "signalCount": 25
+    },
+    {
+      "file": "permissionless-social-signals.json",
+      "signalCount": 80
+    },
+    {
+      "file": "live-signals.json",
+      "signalCount": 60
+    }
+  ],
+  "dependencyCalibrationVersion": "corroboration-dependency-04c.v1"
+}
