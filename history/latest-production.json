@@ -1,96 +1,26 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-10-29T23:18:08.705Z",
-  "cycleId": "gh-40972046656-a1",
+  "generatedAt": "2026-10-30T14:07:51.992Z",
+  "cycleId": "gh-41068952413-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-10-29T23:18:07.893Z",
-  "previousCycleId": "gh-40889875744-a1",
-  "previousSnapshotGeneratedAt": "2026-10-29T14:17:52.185Z",
-  "cycleGapHours": 9,
+  "currentTrendSnapshotGeneratedAt": "2026-10-30T14:07:51.288Z",
+  "previousCycleId": "gh-40972046656-a1",
+  "previousSnapshotGeneratedAt": "2026-10-29T23:18:07.893Z",
+  "cycleGapHours": 14.83,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 11,
-  "currentCorroboratedCount": 1,
-  "trackedLineageCount": 272,
+  "currentCandidateCount": 2,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 273,
   "current": [
     {
-      "lineageId": "lineage-04cc700843c16ed6b9",
-      "candidateId": "trend-efc1473ca36740f533",
-      "title": "DoorDash to acquire Instacart",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-c8674093d4b8b71696",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "doordash",
-          "acquire",
-          "instacart"
-        ],
-        "titleTokenOverlap": [
-          "doordash",
-          "acquire",
-          "instacart"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-d385db3d2239ce7716",
-      "candidateId": "trend-6a6af86693a8cd33e3",
-      "title": "Trump warns of Talarico win",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-d09356c460338c18b7",
-      "candidateId": "trend-425de13210b55d8573",
-      "title": "NYT's Hatch Act headline",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-3afa3dff229a26ad90",
-      "candidateId": "trend-0ff7a6305d9f378e90",
-      "title": "Patrick Stewart’s Final Movie Is ‘Avengers: Doomsday’; He Said Before His Death That ‘I Can’t Imagine Retiring. I’ll Forever Be an Actor’",
+      "lineageId": "lineage-ff62673aba63878e6a",
+      "candidateId": "trend-38adf58d057ea38ac0",
+      "title": "Shaka",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -107,32 +37,13 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-7b0ea01409a74f4806",
-      "candidateId": "trend-81d1ce25d2045c5856",
-      "title": "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-2cab7ceb7ba535dbbd",
-      "candidateId": "trend-f98272a0ee955833ab",
-      "title": "Local-First AI Agents",
+      "lineageId": "lineage-55dd728c9e4ac4416a",
+      "candidateId": "trend-0964e0909621bc76e4",
+      "title": "Hacktoberfest Slow and Steady Local AI Agents",
       "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-aa8e33eff117c39549",
-      "signalCountDelta": 0,
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-0a5d266b980b74b1ac",
+      "signalCountDelta": -1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -144,224 +55,98 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "local first",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "local",
-          "first"
-        ],
-        "similarity": 0.476,
-        "threshold": 0.46
-      }
-    },
-    {
-      "lineageId": "lineage-3f3f7b9150d12d8ef5",
-      "candidateId": "trend-e83cb61980df113780",
-      "title": "Hacktoberfest Open-Source AI Agents",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-c019b036674b473ce1",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "open source",
-          "hacktoberfest",
+          "slow",
+          "steady",
           "dev",
           "community"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
-          "open",
-          "source"
+          "slow",
+          "steady"
         ],
-        "similarity": 0.5543,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-e82f672d5eaaf6beeb",
-      "candidateId": "trend-0a41fdcfd5f379b695",
-      "title": "PHP2Shell Critical Vulnerabilities (CVE-2026-109618/19)",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-0a41fdcfd5f379b695",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "critical",
-          "cve 2026 109618",
-          "php2shell",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "php2shell",
-          "critical",
-          "vulnerabilities",
-          "cve",
-          "2026",
-          "109618"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-fa46153636c7dee37c",
-      "candidateId": "trend-9355a1412a6faaf7c2",
-      "title": "2026 Israeli legislative election",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-3e0cd7a41f86577735",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "israeli",
-          "legislative",
-          "election"
-        ],
-        "titleTokenOverlap": [
-          "2026",
-          "israeli",
-          "legislative",
-          "election"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-5f64877b364e8bd6e7",
-      "candidateId": "trend-423bb075c879d690a4",
-      "title": "Harry Kane",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-423bb075c879d690a4",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "harry",
-          "kane"
-        ],
-        "titleTokenOverlap": [
-          "harry",
-          "kane"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-aaca764b005304c4d3",
-      "candidateId": "trend-92b427adbbb41f6340",
-      "title": "Hồ Chí Minh",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "minh",
-          "chi"
-        ],
-        "titleTokenOverlap": [
-          "chi",
-          "minh"
-        ],
-        "similarity": 1,
+        "similarity": 0.5,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-55dd728c9e4ac4416a",
-      "title": "Hacktoberfest Slow and Steady AI Challenge",
-      "previousCandidateId": "trend-0a5d266b980b74b1ac",
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "title": "Hồ Chí Minh",
+      "previousCandidateId": "trend-92b427adbbb41f6340",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-29T14:17:52.185Z"
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
     },
     {
-      "lineageId": "lineage-be7f062fde0d8b50b3",
-      "title": "Be The Best You Can Be",
-      "previousCandidateId": "trend-c2ebfb7fe9a78def22",
+      "lineageId": "lineage-3f3f7b9150d12d8ef5",
+      "title": "Hacktoberfest Open-Source AI Agents",
+      "previousCandidateId": "trend-e83cb61980df113780",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-29T14:17:52.185Z"
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
     },
     {
-      "lineageId": "lineage-a1e02ad99c534d84eb",
-      "title": "Brewers Win World Series",
-      "previousCandidateId": "trend-1d8d62ff1d35cc89ad",
+      "lineageId": "lineage-2cab7ceb7ba535dbbd",
+      "title": "Local-First AI Agents",
+      "previousCandidateId": "trend-f98272a0ee955833ab",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-29T14:17:52.185Z"
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
     },
     {
-      "lineageId": "lineage-571f936e3025f86269",
-      "title": "Bernie Moreno's remarks on El-Sayed",
-      "previousCandidateId": "trend-6bf238e4bf9b80eb47",
+      "lineageId": "lineage-e82f672d5eaaf6beeb",
+      "title": "PHP2Shell Critical Vulnerabilities (CVE-2026-109618/19)",
+      "previousCandidateId": "trend-0a41fdcfd5f379b695",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-29T14:17:52.185Z"
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
     },
     {
-      "lineageId": "lineage-a6285a7037ad4828dd",
-      "title": "Trump fan blames deep state",
-      "previousCandidateId": "trend-f4d5c6f1bb0841022a",
+      "lineageId": "lineage-5f64877b364e8bd6e7",
+      "title": "Harry Kane",
+      "previousCandidateId": "trend-423bb075c879d690a4",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-29T14:17:52.185Z"
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
     },
     {
-      "lineageId": "lineage-f5f54c98159245d776",
-      "title": "NYT's Peltola story source",
-      "previousCandidateId": "trend-79deea858ce6c4b817",
+      "lineageId": "lineage-fa46153636c7dee37c",
+      "title": "2026 Israeli legislative election",
+      "previousCandidateId": "trend-9355a1412a6faaf7c2",
       "missedCycles": 1,
-      "lastSeenAt": "2026-10-29T14:17:52.185Z"
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
+    },
+    {
+      "lineageId": "lineage-04cc700843c16ed6b9",
+      "title": "DoorDash to acquire Instacart",
+      "previousCandidateId": "trend-efc1473ca36740f533",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
+    },
+    {
+      "lineageId": "lineage-d385db3d2239ce7716",
+      "title": "Trump warns of Talarico win",
+      "previousCandidateId": "trend-6a6af86693a8cd33e3",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
+    },
+    {
+      "lineageId": "lineage-d09356c460338c18b7",
+      "title": "NYT's Hatch Act headline",
+      "previousCandidateId": "trend-425de13210b55d8573",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
+    },
+    {
+      "lineageId": "lineage-3afa3dff229a26ad90",
+      "title": "Patrick Stewart’s Final Movie Is ‘Avengers: Doomsday’; He Said Before His Death That ‘I Can’t Imagine Retiring. I’ll Forever Be an Actor’",
+      "previousCandidateId": "trend-0ff7a6305d9f378e90",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
+    },
+    {
+      "lineageId": "lineage-7b0ea01409a74f4806",
+      "title": "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'",
+      "previousCandidateId": "trend-81d1ce25d2045c5856",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-10-29T23:18:07.893Z"
     }
   ],
   "notes": [
