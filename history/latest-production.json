@@ -1,29 +1,29 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-01T14:17:35.342Z",
-  "cycleId": "gh-41315286761-a1",
+  "generatedAt": "2026-11-01T22:50:08.790Z",
+  "cycleId": "gh-41358952707-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-01T14:17:34.660Z",
-  "previousCycleId": "gh-41248310228-a1",
-  "previousSnapshotGeneratedAt": "2026-10-31T22:32:35.892Z",
-  "cycleGapHours": 15.75,
+  "currentTrendSnapshotGeneratedAt": "2026-11-01T22:50:08.045Z",
+  "previousCycleId": "gh-41315286761-a1",
+  "previousSnapshotGeneratedAt": "2026-11-01T14:17:34.660Z",
+  "cycleGapHours": 8.54,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 4,
+  "currentCandidateCount": 6,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 278,
+  "trackedLineageCount": 281,
   "current": [
     {
       "lineageId": "lineage-c298cec0ed40d6ff4b",
-      "candidateId": "trend-1336e15127e7a21d99",
-      "title": "Hacktoberfest Ghost in the Machine AI Challenge",
+      "candidateId": "trend-af832dfe4879db4a0f",
+      "title": "Hacktoberfest Open-Source AI: Ghost in the Machine",
       "presence": "continuing",
       "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-b297b51234f04c1ab5",
+      "previousCandidateId": "trend-1336e15127e7a21d99",
       "signalCountDelta": -2,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -36,11 +36,11 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
+          "hacktoberfest",
           "machine",
           "ghost",
           "dev",
           "community",
-          "hacktoberfest",
           "open source"
         ],
         "titleTokenOverlap": [
@@ -53,9 +53,9 @@
       }
     },
     {
-      "lineageId": "lineage-985d4b7f05a9d3a223",
-      "candidateId": "trend-cfcaafc8f2160fb588",
-      "title": "Hide-n-Seek",
+      "lineageId": "lineage-250f9ce4d21c140865",
+      "candidateId": "trend-08ffd2411fada6c6a4",
+      "title": "Anon is from the USA",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -72,12 +72,50 @@
       "independentSourceFamiliesRemoved": []
     },
     {
+      "lineageId": "lineage-1384bcc47b46e964a6",
+      "candidateId": "trend-e31ec20511f2e85663",
+      "title": "Ghost in the Machine: AI for Dead Code",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-05ec993d44789480ee",
+      "candidateId": "trend-07459c0cbd78a00d96",
+      "title": "Ghost in the Machine AI Challenge",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-5d960e6f560cc48883",
-      "candidateId": "trend-7fc136a37616ce23e6",
+      "candidateId": "trend-12ab7040efcc953ddc",
       "title": "Zero-Backend Client-Side Privacy Tools",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-12ab7040efcc953ddc",
+      "previousCandidateId": "trend-7fc136a37616ce23e6",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -90,8 +128,8 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "privacy",
           "client side",
+          "privacy",
           "tools",
           "dev",
           "community"
@@ -139,7 +177,15 @@
       }
     }
   ],
-  "disappeared": [],
+  "disappeared": [
+    {
+      "lineageId": "lineage-985d4b7f05a9d3a223",
+      "title": "Hide-n-Seek",
+      "previousCandidateId": "trend-cfcaafc8f2160fb588",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-01T14:17:34.660Z"
+    }
+  ],
   "notes": [
     "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
     "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
