@@ -1,30 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-01T22:50:08.790Z",
-  "cycleId": "gh-41358952707-a1",
+  "generatedAt": "2026-11-02T17:05:11.938Z",
+  "cycleId": "gh-41487396165-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-01T22:50:08.045Z",
-  "previousCycleId": "gh-41315286761-a1",
-  "previousSnapshotGeneratedAt": "2026-11-01T14:17:34.660Z",
-  "cycleGapHours": 8.54,
-  "comparisonWindow": "comparable",
+  "currentTrendSnapshotGeneratedAt": "2026-11-02T17:05:11.202Z",
+  "previousCycleId": "gh-41358952707-a1",
+  "previousSnapshotGeneratedAt": "2026-11-01T22:50:08.045Z",
+  "cycleGapHours": 18.25,
+  "comparisonWindow": "stale-gap",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
+  "currentCandidateCount": 4,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 281,
+  "trackedLineageCount": 282,
   "current": [
     {
       "lineageId": "lineage-c298cec0ed40d6ff4b",
-      "candidateId": "trend-af832dfe4879db4a0f",
-      "title": "Hacktoberfest Open-Source AI: Ghost in the Machine",
+      "candidateId": "trend-ae298b9d5a5c2579db",
+      "title": "Hacktoberfest Open-Source AI Challenge: Ghost in the Machine",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-1336e15127e7a21d99",
-      "signalCountDelta": -2,
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-af832dfe4879db4a0f",
+      "signalCountDelta": 3,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -36,86 +36,79 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "hacktoberfest",
-          "machine",
           "ghost",
+          "machine",
           "dev",
           "community",
+          "hacktoberfest",
           "open source"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
+          "open",
+          "source",
           "ghost",
           "machine"
         ],
-        "similarity": 0.7714,
+        "similarity": 0.8514,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-250f9ce4d21c140865",
-      "candidateId": "trend-08ffd2411fada6c6a4",
-      "title": "Anon is from the USA",
+      "lineageId": "lineage-8a9997e859a5d981d6",
+      "candidateId": "trend-a5b7caab789ce54039",
+      "title": "Đường lên đỉnh Olympia năm thứ 26",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "lemmy-world-hot"
+        "wikimedia-pageviews-top"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "lemmy-world-hot"
+        "wikimedia-pageviews-top"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "community"
+        "culture"
       ],
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-1384bcc47b46e964a6",
-      "candidateId": "trend-e31ec20511f2e85663",
-      "title": "Ghost in the Machine: AI for Dead Code",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "candidateId": "trend-704cff10ffb277fea1",
+      "title": "Vibrating Rule",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-374d3b3f6055248f70",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-05ec993d44789480ee",
-      "candidateId": "trend-07459c0cbd78a00d96",
-      "title": "Ghost in the Machine AI Challenge",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "196",
+          "rule"
+        ],
+        "titleTokenOverlap": [
+          "rule"
+        ],
+        "similarity": 0.46,
+        "threshold": 0.46
+      }
     },
     {
       "lineageId": "lineage-5d960e6f560cc48883",
-      "candidateId": "trend-12ab7040efcc953ddc",
+      "candidateId": "trend-303c7f99d2328daf68",
       "title": "Zero-Backend Client-Side Privacy Tools",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-7fc136a37616ce23e6",
+      "previousCandidateId": "trend-12ab7040efcc953ddc",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -129,8 +122,8 @@
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
           "client side",
-          "privacy",
           "tools",
+          "privacy",
           "dev",
           "community"
         ],
@@ -145,45 +138,36 @@
         "similarity": 1,
         "threshold": 0.38
       }
-    },
-    {
-      "lineageId": "lineage-1b1a54890d58fab1d6",
-      "candidateId": "trend-94059495ba5ae05953",
-      "title": "Patrick Stewart",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-94059495ba5ae05953",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "patrick",
-          "stewart"
-        ],
-        "titleTokenOverlap": [
-          "patrick",
-          "stewart"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-985d4b7f05a9d3a223",
-      "title": "Hide-n-Seek",
-      "previousCandidateId": "trend-cfcaafc8f2160fb588",
+      "lineageId": "lineage-1b1a54890d58fab1d6",
+      "title": "Patrick Stewart",
+      "previousCandidateId": "trend-94059495ba5ae05953",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-01T14:17:34.660Z"
+      "lastSeenAt": "2026-11-01T22:50:08.045Z"
+    },
+    {
+      "lineageId": "lineage-250f9ce4d21c140865",
+      "title": "Anon is from the USA",
+      "previousCandidateId": "trend-08ffd2411fada6c6a4",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-01T22:50:08.045Z"
+    },
+    {
+      "lineageId": "lineage-1384bcc47b46e964a6",
+      "title": "Ghost in the Machine: AI for Dead Code",
+      "previousCandidateId": "trend-e31ec20511f2e85663",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-01T22:50:08.045Z"
+    },
+    {
+      "lineageId": "lineage-05ec993d44789480ee",
+      "title": "Ghost in the Machine AI Challenge",
+      "previousCandidateId": "trend-07459c0cbd78a00d96",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-01T22:50:08.045Z"
     }
   ],
   "notes": [
