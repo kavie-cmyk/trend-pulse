@@ -1,30 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-02T17:05:11.938Z",
-  "cycleId": "gh-41487396165-a1",
+  "generatedAt": "2026-11-03T01:37:49.280Z",
+  "cycleId": "gh-41560680324-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-02T17:05:11.202Z",
-  "previousCycleId": "gh-41358952707-a1",
-  "previousSnapshotGeneratedAt": "2026-11-01T22:50:08.045Z",
-  "cycleGapHours": 18.25,
-  "comparisonWindow": "stale-gap",
+  "currentTrendSnapshotGeneratedAt": "2026-11-03T01:37:48.530Z",
+  "previousCycleId": "gh-41487396165-a1",
+  "previousSnapshotGeneratedAt": "2026-11-02T17:05:11.202Z",
+  "cycleGapHours": 8.54,
+  "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 4,
+  "currentCandidateCount": 6,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 282,
+  "trackedLineageCount": 284,
   "current": [
     {
       "lineageId": "lineage-c298cec0ed40d6ff4b",
-      "candidateId": "trend-ae298b9d5a5c2579db",
-      "title": "Hacktoberfest Open-Source AI Challenge: Ghost in the Machine",
+      "candidateId": "trend-a5065a689b4e5ece83",
+      "title": "Hacktoberfest AI Ghost in the Machine Challenge",
       "presence": "continuing",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-af832dfe4879db4a0f",
-      "signalCountDelta": 3,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-ae298b9d5a5c2579db",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -38,19 +38,19 @@
         "anchorOverlap": [
           "ghost",
           "machine",
+          "hacktoberfest",
           "dev",
           "community",
-          "hacktoberfest",
-          "open source"
+          "open source",
+          "challenge"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
-          "open",
-          "source",
           "ghost",
-          "machine"
+          "machine",
+          "challenge"
         ],
-        "similarity": 0.8514,
+        "similarity": 0.92,
         "threshold": 0.38
       }
     },
@@ -58,28 +58,9 @@
       "lineageId": "lineage-8a9997e859a5d981d6",
       "candidateId": "trend-a5b7caab789ce54039",
       "title": "Đường lên đỉnh Olympia năm thứ 26",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-9b475d30fae95190eb",
-      "candidateId": "trend-704cff10ffb277fea1",
-      "title": "Vibrating Rule",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-374d3b3f6055248f70",
+      "previousCandidateId": "trend-a5b7caab789ce54039",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -92,23 +73,99 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "196",
-          "rule"
+          "đuong",
+          "olympia",
+          "len",
+          "đinh",
+          "nam",
+          "thu"
         ],
         "titleTokenOverlap": [
-          "rule"
+          "đuong",
+          "len",
+          "đinh",
+          "olympia",
+          "nam",
+          "thu"
         ],
-        "similarity": 0.46,
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-6e97b977d6a0ac932d",
+      "candidateId": "trend-dd6e86635b0d75110e",
+      "title": "thinkpanties",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-dd6e86635b0d75110e",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "gandalf",
+          "der",
+          "12te",
+          "196"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
         "threshold": 0.46
       }
     },
     {
+      "lineageId": "lineage-89d7f81875f74b7498",
+      "candidateId": "trend-e510dbc8bb4ad8446a",
+      "title": "Ken Paxton’s Office Sues Over Efforts to Get People of Color to Vote | The New Republic",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-994880a6f4d3579c07",
+      "candidateId": "trend-1a45f0daf12fc6e555",
+      "title": "The Doorbell",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-5d960e6f560cc48883",
-      "candidateId": "trend-303c7f99d2328daf68",
+      "candidateId": "trend-12ab7040efcc953ddc",
       "title": "Zero-Backend Client-Side Privacy Tools",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-12ab7040efcc953ddc",
+      "previousCandidateId": "trend-303c7f99d2328daf68",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -122,8 +179,8 @@
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
           "client side",
-          "tools",
           "privacy",
+          "tools",
           "dev",
           "community"
         ],
@@ -142,32 +199,11 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-1b1a54890d58fab1d6",
-      "title": "Patrick Stewart",
-      "previousCandidateId": "trend-94059495ba5ae05953",
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "title": "Vibrating Rule",
+      "previousCandidateId": "trend-704cff10ffb277fea1",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-01T22:50:08.045Z"
-    },
-    {
-      "lineageId": "lineage-250f9ce4d21c140865",
-      "title": "Anon is from the USA",
-      "previousCandidateId": "trend-08ffd2411fada6c6a4",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-01T22:50:08.045Z"
-    },
-    {
-      "lineageId": "lineage-1384bcc47b46e964a6",
-      "title": "Ghost in the Machine: AI for Dead Code",
-      "previousCandidateId": "trend-e31ec20511f2e85663",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-01T22:50:08.045Z"
-    },
-    {
-      "lineageId": "lineage-05ec993d44789480ee",
-      "title": "Ghost in the Machine AI Challenge",
-      "previousCandidateId": "trend-07459c0cbd78a00d96",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-01T22:50:08.045Z"
+      "lastSeenAt": "2026-11-02T17:05:11.202Z"
     }
   ],
   "notes": [
