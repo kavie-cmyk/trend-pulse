@@ -1,30 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-03T15:07:54.652Z",
-  "cycleId": "gh-41660249065-a1",
+  "generatedAt": "2026-11-04T00:01:07.652Z",
+  "cycleId": "gh-41743266588-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-03T15:07:53.861Z",
-  "previousCycleId": "gh-41560680324-a1",
-  "previousSnapshotGeneratedAt": "2026-11-03T01:37:48.530Z",
-  "cycleGapHours": 13.5,
+  "currentTrendSnapshotGeneratedAt": "2026-11-04T00:01:06.889Z",
+  "previousCycleId": "gh-41660249065-a1",
+  "previousSnapshotGeneratedAt": "2026-11-03T15:07:53.861Z",
+  "cycleGapHours": 8.89,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
+  "currentCandidateCount": 5,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 288,
+  "trackedLineageCount": 290,
   "current": [
     {
       "lineageId": "lineage-c298cec0ed40d6ff4b",
-      "candidateId": "trend-7287617224d893f41c",
-      "title": "Hacktoberfest Open-Source AI Challenge: Ghost in the Machine",
+      "candidateId": "trend-8d51bebb41b4053d87",
+      "title": "Hacktoberfest Ghost in the Machine AI Challenge",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-a5065a689b4e5ece83",
-      "signalCountDelta": -1,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-7287617224d893f41c",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -40,62 +40,43 @@
           "machine",
           "dev",
           "community",
-          "open source",
           "challenge",
-          "hacktoberfest"
+          "hacktoberfest",
+          "open source"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
-          "challenge",
           "ghost",
-          "machine"
+          "machine",
+          "challenge"
         ],
         "similarity": 0.92,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-fa64cc8448e28abf35",
-      "candidateId": "trend-1e08437b07ea311e85",
-      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "lineageId": "lineage-de9fb386c212c4787a",
+      "candidateId": "trend-fe25817defd17a6acb",
+      "title": "Trump's space freedom proclamation",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "hacker-news-api"
+        "bluesky-trends-api"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "hacker-news-api"
+        "bluesky-trends-api"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "community"
+        "social"
       ],
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-056557222563f1d089",
-      "candidateId": "trend-6c1a972ef19a20cfa7",
-      "title": "Hairdresser Regrets Trump Vote, Says She Lost Her Home, Car and Clients: 'Only the Devil Governs That Way'",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-baa080e5b078961d9a",
-      "candidateId": "trend-7b8f50b5a40014f242",
-      "title": "Study Claims Vizio Simply Ignores ‘Smart’ TV Spying Opt Out Requests",
+      "lineageId": "lineage-b76fa42c22d7eae579",
+      "candidateId": "trend-f3751a314f4de2ca45",
+      "title": "Anon loves Kebab",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -113,22 +94,40 @@
     },
     {
       "lineageId": "lineage-994d53c9053d63d7ad",
-      "candidateId": "trend-631943ff4288e002c5",
+      "candidateId": "trend-15c658058248eb2a81",
       "title": "AI Agent Prompt Injection & Tool Security",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-631943ff4288e002c5",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "agent",
+          "prompt",
+          "injection",
+          "security",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "agent",
+          "prompt",
+          "injection",
+          "tool",
+          "security"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-5d960e6f560cc48883",
@@ -136,7 +135,7 @@
       "title": "Zero-Backend Client-Side Privacy Tools",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-12ab7040efcc953ddc",
+      "previousCandidateId": "trend-303c7f99d2328daf68",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -170,32 +169,25 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-6e97b977d6a0ac932d",
-      "title": "thinkpanties",
-      "previousCandidateId": "trend-dd6e86635b0d75110e",
+      "lineageId": "lineage-fa64cc8448e28abf35",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "previousCandidateId": "trend-1e08437b07ea311e85",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-03T01:37:48.530Z"
+      "lastSeenAt": "2026-11-03T15:07:53.861Z"
     },
     {
-      "lineageId": "lineage-8a9997e859a5d981d6",
-      "title": "Đường lên đỉnh Olympia năm thứ 26",
-      "previousCandidateId": "trend-a5b7caab789ce54039",
+      "lineageId": "lineage-056557222563f1d089",
+      "title": "Hairdresser Regrets Trump Vote, Says She Lost Her Home, Car and Clients: 'Only the Devil Governs That Way'",
+      "previousCandidateId": "trend-6c1a972ef19a20cfa7",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-03T01:37:48.530Z"
+      "lastSeenAt": "2026-11-03T15:07:53.861Z"
     },
     {
-      "lineageId": "lineage-89d7f81875f74b7498",
-      "title": "Ken Paxton’s Office Sues Over Efforts to Get People of Color to Vote | The New Republic",
-      "previousCandidateId": "trend-e510dbc8bb4ad8446a",
+      "lineageId": "lineage-baa080e5b078961d9a",
+      "title": "Study Claims Vizio Simply Ignores ‘Smart’ TV Spying Opt Out Requests",
+      "previousCandidateId": "trend-7b8f50b5a40014f242",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-03T01:37:48.530Z"
-    },
-    {
-      "lineageId": "lineage-994880a6f4d3579c07",
-      "title": "The Doorbell",
-      "previousCandidateId": "trend-1a45f0daf12fc6e555",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-03T01:37:48.530Z"
+      "lastSeenAt": "2026-11-03T15:07:53.861Z"
     }
   ],
   "notes": [
