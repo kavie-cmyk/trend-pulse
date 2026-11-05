@@ -1,0 +1,296 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-05T15:28:36.912Z",
+  "cycleId": "gh-42055094834-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-05T15:28:36.345Z",
+  "previousCycleId": "gh-41940781302-a1",
+  "previousSnapshotGeneratedAt": "2026-11-05T00:23:37.559Z",
+  "cycleGapHours": 15.08,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 10,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 299,
+  "current": [
+    {
+      "lineageId": "lineage-371fbcc0912bc96bed",
+      "candidateId": "trend-5f424326bfb63da65c",
+      "title": "Download your favourite YouTube videos",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-a9cc84b6d8522e1fb4",
+      "candidateId": "trend-1aeab6ffe9421c9af5",
+      "title": "2026 United States Senate elections",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-32233993e637f7b652",
+      "signalCountDelta": 5,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "united",
+          "states",
+          "elections"
+        ],
+        "titleTokenOverlap": [
+          "2026",
+          "united",
+          "states",
+          "elections"
+        ],
+        "similarity": 0.572,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-c298cec0ed40d6ff4b",
+      "candidateId": "trend-8d51bebb41b4053d87",
+      "title": "Hacktoberfest Ghost in the Machine AI Challenge",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-7b07bb6594bd145a35",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "ghost",
+          "machine",
+          "dev",
+          "community",
+          "challenge",
+          "hacktoberfest"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "ghost",
+          "machine",
+          "challenge"
+        ],
+        "similarity": 0.8914,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-c8eb2f68880169f48a",
+      "candidateId": "trend-ae9b7dfe03eb280004",
+      "title": "5 tài năng Việt được vinh danh tại AI Awards 2026",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "vnexpress-tech-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "vnexpress-tech-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "publisher"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-994d53c9053d63d7ad",
+      "candidateId": "trend-15c658058248eb2a81",
+      "title": "AI Agent Prompt Injection & Tool Security",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-733a3773501839a04a",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "agent",
+          "prompt",
+          "injection",
+          "security",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "agent",
+          "prompt",
+          "injection",
+          "tool",
+          "security"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-b85ebcf4322fb54d35",
+      "candidateId": "trend-641fbc18b4e82a0cc5",
+      "title": "Building AI Memory Connectors with Cognee",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-5d1e4f680f2a230ec3",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "building",
+          "memory",
+          "connectors",
+          "cognee",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "building",
+          "memory",
+          "connectors",
+          "cognee"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-512415d5861c20db17",
+      "candidateId": "trend-9f77d5a60c84c6d167",
+      "title": "Donald Trump",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-658d4f436c280f09c5",
+      "candidateId": "trend-b92039e463edb82224",
+      "title": "Quần đảo Hoàng Sa",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-2aa23850d054f047f6",
+      "candidateId": "trend-cc8bc3a9a639a9f473",
+      "title": "Democratic Party (United States)",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-af148236e6c54795a8",
+      "candidateId": "trend-52cca4f4d0191bbc1e",
+      "title": "Thượng viện Hoa Kỳ",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-536b2d6e24f1c6ae5d",
+      "title": "Texas Democrats' full control bid",
+      "previousCandidateId": "trend-cb1e348d2aac1baed6",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-05T00:23:37.559Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
