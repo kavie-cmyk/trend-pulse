@@ -1,15 +1,15 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-06T15:02:57.917Z",
-  "cycleId": "gh-42239159588-a1",
+  "generatedAt": "2026-11-06T23:44:31.555Z",
+  "cycleId": "gh-42313730114-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-06T15:02:57.432Z",
-  "previousCycleId": "gh-42135469720-a1",
-  "previousSnapshotGeneratedAt": "2026-11-06T00:16:40.085Z",
-  "cycleGapHours": 14.77,
+  "currentTrendSnapshotGeneratedAt": "2026-11-06T23:44:30.846Z",
+  "previousCycleId": "gh-42239159588-a1",
+  "previousSnapshotGeneratedAt": "2026-11-06T15:02:57.432Z",
+  "cycleGapHours": 8.69,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
@@ -21,10 +21,10 @@
       "lineageId": "lineage-a9cc84b6d8522e1fb4",
       "candidateId": "trend-7354be00bbf25348c2",
       "title": "2026 United States Senate elections",
-      "presence": "reappeared",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-1aeab6ffe9421c9af5",
-      "signalCountDelta": -1,
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-7354be00bbf25348c2",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -48,18 +48,18 @@
           "senate",
           "elections"
         ],
-        "similarity": 0.7467,
+        "similarity": 1,
         "threshold": 0.38
       }
     },
     {
       "lineageId": "lineage-c298cec0ed40d6ff4b",
-      "candidateId": "trend-5b2c3e0b782ec05d2e",
+      "candidateId": "trend-5654b15ba80343ebf1",
       "title": "Hacktoberfest Ghost in the Machine AI Challenge",
-      "presence": "reappeared",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-8d51bebb41b4053d87",
-      "signalCountDelta": 1,
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-5b2c3e0b782ec05d2e",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -71,12 +71,12 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "machine",
+          "challenge",
           "ghost",
+          "machine",
           "dev",
-          "community",
           "hacktoberfest",
-          "challenge"
+          "community"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
@@ -132,9 +132,9 @@
       "lineageId": "lineage-994d53c9053d63d7ad",
       "candidateId": "trend-abe4d7294dec6fc96f",
       "title": "AI Agent Prompt Injection & Tool Security",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-15c658058248eb2a81",
+      "previousCandidateId": "trend-abe4d7294dec6fc96f",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -167,11 +167,11 @@
     },
     {
       "lineageId": "lineage-b85ebcf4322fb54d35",
-      "candidateId": "trend-641fbc18b4e82a0cc5",
+      "candidateId": "trend-a34e41bcc01c2a3020",
       "title": "Building AI Memory Connectors with Cognee",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-b7c09dc19b99f3755f",
+      "previousCandidateId": "trend-641fbc18b4e82a0cc5",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -185,9 +185,9 @@
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
           "building",
+          "cognee",
           "memory",
           "connectors",
-          "cognee",
           "dev",
           "community"
         ],
@@ -236,7 +236,7 @@
       "lineageId": "lineage-617b15664890dd20f3",
       "candidateId": "trend-d4c9503b0b25ff78c6",
       "title": "Cristiano Ronaldo",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-d4c9503b0b25ff78c6",
       "signalCountDelta": 0,
@@ -259,14 +259,14 @@
           "ronaldo"
         ],
         "similarity": 1,
-        "threshold": 0.46
+        "threshold": 0.38
       }
     },
     {
       "lineageId": "lineage-512415d5861c20db17",
       "candidateId": "trend-9f77d5a60c84c6d167",
       "title": "Donald Trump",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-9f77d5a60c84c6d167",
       "signalCountDelta": 0,
@@ -294,61 +294,37 @@
     },
     {
       "lineageId": "lineage-5b72da9baa8e597eac",
-      "candidateId": "trend-2c9dcd257043178d47",
+      "candidateId": "trend-11be24776c99c7beb0",
       "title": "Guy Fawkes Night",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-2c9dcd257043178d47",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "guy",
+          "fawkes"
+        ],
+        "titleTokenOverlap": [
+          "guy",
+          "fawkes",
+          "night"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     }
   ],
-  "disappeared": [
-    {
-      "lineageId": "lineage-af148236e6c54795a8",
-      "title": "Thượng viện Hoa Kỳ",
-      "previousCandidateId": "trend-52cca4f4d0191bbc1e",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-06T00:16:40.085Z"
-    },
-    {
-      "lineageId": "lineage-d34fa83d80e275cee5",
-      "title": "Rubio reportedly eyes presidential run",
-      "previousCandidateId": "trend-86e94e61912f3185cf",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-06T00:16:40.085Z"
-    },
-    {
-      "lineageId": "lineage-ba01214b2e754b7d2f",
-      "title": "Democrat Who Dropped Out Still Beat Republican in Deep Trump Country",
-      "previousCandidateId": "trend-4a4a1276787d12a5bb",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-06T00:16:40.085Z"
-    },
-    {
-      "lineageId": "lineage-ff72852ebf26f27151",
-      "title": "Hegseth’s Wife Was Paid by Consulting Firm Whose Clients Include Lockheed Martin",
-      "previousCandidateId": "trend-80719066af20ca966c",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-06T00:16:40.085Z"
-    },
-    {
-      "lineageId": "lineage-bc4536404bd39cf433",
-      "title": "AI-Powered Legacy Code Resurrection",
-      "previousCandidateId": "trend-e7915b44dcbfeb1099",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-06T00:16:40.085Z"
-    }
-  ],
+  "disappeared": [],
   "notes": [
     "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
     "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
