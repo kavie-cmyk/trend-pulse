@@ -1,22 +1,93 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-06T00:16:40.677Z",
-  "cycleId": "gh-42135469720-a1",
+  "generatedAt": "2026-11-06T15:02:57.917Z",
+  "cycleId": "gh-42239159588-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-06T00:16:40.085Z",
-  "previousCycleId": "gh-42055094834-a1",
-  "previousSnapshotGeneratedAt": "2026-11-05T15:28:36.345Z",
-  "cycleGapHours": 8.8,
+  "currentTrendSnapshotGeneratedAt": "2026-11-06T15:02:57.432Z",
+  "previousCycleId": "gh-42135469720-a1",
+  "previousSnapshotGeneratedAt": "2026-11-06T00:16:40.085Z",
+  "cycleGapHours": 14.77,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 9,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 303,
+  "trackedLineageCount": 304,
   "current": [
+    {
+      "lineageId": "lineage-a9cc84b6d8522e1fb4",
+      "candidateId": "trend-7354be00bbf25348c2",
+      "title": "2026 United States Senate elections",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-1aeab6ffe9421c9af5",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "united",
+          "states",
+          "elections",
+          "senate"
+        ],
+        "titleTokenOverlap": [
+          "2026",
+          "united",
+          "states",
+          "senate",
+          "elections"
+        ],
+        "similarity": 0.7467,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-c298cec0ed40d6ff4b",
+      "candidateId": "trend-5b2c3e0b782ec05d2e",
+      "title": "Hacktoberfest Ghost in the Machine AI Challenge",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-8d51bebb41b4053d87",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "machine",
+          "ghost",
+          "dev",
+          "community",
+          "hacktoberfest",
+          "challenge"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "ghost",
+          "machine",
+          "challenge"
+        ],
+        "similarity": 0.8914,
+        "threshold": 0.38
+      }
+    },
     {
       "lineageId": "lineage-c8eb2f68880169f48a",
       "candidateId": "trend-ae9b7dfe03eb280004",
@@ -58,88 +129,49 @@
       }
     },
     {
-      "lineageId": "lineage-d34fa83d80e275cee5",
-      "candidateId": "trend-86e94e61912f3185cf",
-      "title": "Rubio reportedly eyes presidential run",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
+      "lineageId": "lineage-994d53c9053d63d7ad",
+      "candidateId": "trend-abe4d7294dec6fc96f",
+      "title": "AI Agent Prompt Injection & Tool Security",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-15c658058248eb2a81",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-ba01214b2e754b7d2f",
-      "candidateId": "trend-4a4a1276787d12a5bb",
-      "title": "Democrat Who Dropped Out Still Beat Republican in Deep Trump Country",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-ff72852ebf26f27151",
-      "candidateId": "trend-80719066af20ca966c",
-      "title": "Hegseth’s Wife Was Paid by Consulting Firm Whose Clients Include Lockheed Martin",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-bc4536404bd39cf433",
-      "candidateId": "trend-e7915b44dcbfeb1099",
-      "title": "AI-Powered Legacy Code Resurrection",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "dev-forem-trends"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "prompt",
+          "injection",
+          "security",
+          "agent",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "agent",
+          "prompt",
+          "injection",
+          "tool",
+          "security"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-b85ebcf4322fb54d35",
-      "candidateId": "trend-b7c09dc19b99f3755f",
+      "candidateId": "trend-641fbc18b4e82a0cc5",
       "title": "Building AI Memory Connectors with Cognee",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-641fbc18b4e82a0cc5",
+      "previousCandidateId": "trend-b7c09dc19b99f3755f",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -156,8 +188,8 @@
           "memory",
           "connectors",
           "cognee",
-          "community",
-          "dev"
+          "dev",
+          "community"
         ],
         "titleTokenOverlap": [
           "building",
@@ -201,12 +233,12 @@
       }
     },
     {
-      "lineageId": "lineage-af148236e6c54795a8",
-      "candidateId": "trend-52cca4f4d0191bbc1e",
-      "title": "Thượng viện Hoa Kỳ",
-      "presence": "continuing",
+      "lineageId": "lineage-617b15664890dd20f3",
+      "candidateId": "trend-d4c9503b0b25ff78c6",
+      "title": "Cristiano Ronaldo",
+      "presence": "reappeared",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-52cca4f4d0191bbc1e",
+      "previousCandidateId": "trend-d4c9503b0b25ff78c6",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -219,61 +251,102 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "vien",
-          "hoa"
+          "cristiano",
+          "ronaldo"
         ],
         "titleTokenOverlap": [
-          "thuong",
-          "vien",
-          "hoa"
+          "cristiano",
+          "ronaldo"
+        ],
+        "similarity": 1,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-512415d5861c20db17",
+      "candidateId": "trend-9f77d5a60c84c6d167",
+      "title": "Donald Trump",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-9f77d5a60c84c6d167",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "donald",
+          "trump"
+        ],
+        "titleTokenOverlap": [
+          "donald",
+          "trump"
         ],
         "similarity": 1,
         "threshold": 0.38
       }
+    },
+    {
+      "lineageId": "lineage-5b72da9baa8e597eac",
+      "candidateId": "trend-2c9dcd257043178d47",
+      "title": "Guy Fawkes Night",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-c298cec0ed40d6ff4b",
-      "title": "Hacktoberfest Ghost in the Machine AI Challenge",
-      "previousCandidateId": "trend-8d51bebb41b4053d87",
+      "lineageId": "lineage-af148236e6c54795a8",
+      "title": "Thượng viện Hoa Kỳ",
+      "previousCandidateId": "trend-52cca4f4d0191bbc1e",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-05T15:28:36.345Z"
+      "lastSeenAt": "2026-11-06T00:16:40.085Z"
     },
     {
-      "lineageId": "lineage-994d53c9053d63d7ad",
-      "title": "AI Agent Prompt Injection & Tool Security",
-      "previousCandidateId": "trend-15c658058248eb2a81",
+      "lineageId": "lineage-d34fa83d80e275cee5",
+      "title": "Rubio reportedly eyes presidential run",
+      "previousCandidateId": "trend-86e94e61912f3185cf",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-05T15:28:36.345Z"
+      "lastSeenAt": "2026-11-06T00:16:40.085Z"
     },
     {
-      "lineageId": "lineage-a9cc84b6d8522e1fb4",
-      "title": "2026 United States Senate elections",
-      "previousCandidateId": "trend-1aeab6ffe9421c9af5",
+      "lineageId": "lineage-ba01214b2e754b7d2f",
+      "title": "Democrat Who Dropped Out Still Beat Republican in Deep Trump Country",
+      "previousCandidateId": "trend-4a4a1276787d12a5bb",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-05T15:28:36.345Z"
+      "lastSeenAt": "2026-11-06T00:16:40.085Z"
     },
     {
-      "lineageId": "lineage-371fbcc0912bc96bed",
-      "title": "Download your favourite YouTube videos",
-      "previousCandidateId": "trend-5f424326bfb63da65c",
+      "lineageId": "lineage-ff72852ebf26f27151",
+      "title": "Hegseth’s Wife Was Paid by Consulting Firm Whose Clients Include Lockheed Martin",
+      "previousCandidateId": "trend-80719066af20ca966c",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-05T15:28:36.345Z"
+      "lastSeenAt": "2026-11-06T00:16:40.085Z"
     },
     {
-      "lineageId": "lineage-512415d5861c20db17",
-      "title": "Donald Trump",
-      "previousCandidateId": "trend-9f77d5a60c84c6d167",
+      "lineageId": "lineage-bc4536404bd39cf433",
+      "title": "AI-Powered Legacy Code Resurrection",
+      "previousCandidateId": "trend-e7915b44dcbfeb1099",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-05T15:28:36.345Z"
-    },
-    {
-      "lineageId": "lineage-2aa23850d054f047f6",
-      "title": "Democratic Party (United States)",
-      "previousCandidateId": "trend-cc8bc3a9a639a9f473",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-05T15:28:36.345Z"
+      "lastSeenAt": "2026-11-06T00:16:40.085Z"
     }
   ],
   "notes": [
