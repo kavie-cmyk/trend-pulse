@@ -1,29 +1,29 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-08T22:54:06.098Z",
-  "cycleId": "gh-42532385140-a1",
+  "generatedAt": "2026-11-09T17:29:40.915Z",
+  "cycleId": "gh-42664821570-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-08T22:54:05.445Z",
-  "previousCycleId": "gh-42489044319-a1",
-  "previousSnapshotGeneratedAt": "2026-11-08T14:19:03.472Z",
-  "cycleGapHours": 8.58,
-  "comparisonWindow": "comparable",
+  "currentTrendSnapshotGeneratedAt": "2026-11-09T17:29:40.208Z",
+  "previousCycleId": "gh-42532385140-a1",
+  "previousSnapshotGeneratedAt": "2026-11-08T22:54:05.445Z",
+  "cycleGapHours": 18.59,
+  "comparisonWindow": "stale-gap",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 5,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 309,
+  "trackedLineageCount": 310,
   "current": [
     {
-      "lineageId": "lineage-a9cc84b6d8522e1fb4",
-      "candidateId": "trend-7354be00bbf25348c2",
-      "title": "2026 United States Senate elections",
-      "presence": "continuing",
+      "lineageId": "lineage-994880a6f4d3579c07",
+      "candidateId": "trend-1a45f0daf12fc6e555",
+      "title": "Not my type",
+      "presence": "reappeared",
       "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-7354be00bbf25348c2",
+      "previousCandidateId": "trend-1a45f0daf12fc6e555",
       "signalCountDelta": 2,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -36,19 +36,13 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "united",
-          "states",
-          "elections",
-          "senate"
+          "yorbeya",
+          "comic",
+          "strips"
         ],
-        "titleTokenOverlap": [
-          "2026",
-          "united",
-          "states",
-          "elections"
-        ],
-        "similarity": 0.952,
-        "threshold": 0.38
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
+        "threshold": 0.46
       }
     },
     {
@@ -88,41 +82,23 @@
       }
     },
     {
-      "lineageId": "lineage-994d53c9053d63d7ad",
-      "candidateId": "trend-abe4d7294dec6fc96f",
-      "title": "AI Agent Prompt Injection & Tool Security",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-abe4d7294dec6fc96f",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-e05a749bfb071654a0",
+      "candidateId": "trend-e1ecd5f2cfe969be6b",
+      "title": "Trump questions midterm election honesty",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "prompt",
-          "injection",
-          "security",
-          "agent",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "agent",
-          "prompt",
-          "injection",
-          "tool",
-          "security"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-b85ebcf4322fb54d35",
@@ -130,7 +106,7 @@
       "title": "Building AI Memory Connectors with Cognee",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-5d1e4f680f2a230ec3",
+      "previousCandidateId": "trend-01a6e8dbe6b61a40a3",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -161,44 +137,13 @@
       }
     },
     {
-      "lineageId": "lineage-658d4f436c280f09c5",
-      "candidateId": "trend-b92039e463edb82224",
-      "title": "Quần đảo Hoàng Sa",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-b92039e463edb82224",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "quan",
-          "đao"
-        ],
-        "titleTokenOverlap": [
-          "quan",
-          "đao",
-          "hoang"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-617b15664890dd20f3",
-      "candidateId": "trend-d4c9503b0b25ff78c6",
-      "title": "Cristiano Ronaldo",
+      "lineageId": "lineage-8a9997e859a5d981d6",
+      "candidateId": "trend-62229fa417c7357644",
+      "title": "Các trận đấu trong Đường lên đỉnh Olympia năm thứ 27",
       "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-d4c9503b0b25ff78c6",
-      "signalCountDelta": 0,
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-a5b7caab789ce54039",
+      "signalCountDelta": -2,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -210,86 +155,68 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "cristiano",
-          "ronaldo"
+          "đuong",
+          "len",
+          "olympia",
+          "đinh",
+          "thu",
+          "nam"
         ],
         "titleTokenOverlap": [
-          "cristiano",
-          "ronaldo"
+          "đuong",
+          "len",
+          "đinh",
+          "olympia",
+          "nam",
+          "thu"
         ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-512415d5861c20db17",
-      "candidateId": "trend-9f77d5a60c84c6d167",
-      "title": "Donald Trump",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-9f77d5a60c84c6d167",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "donald",
-          "trump"
-        ],
-        "titleTokenOverlap": [
-          "donald",
-          "trump"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-5b72da9baa8e597eac",
-      "candidateId": "trend-11be24776c99c7beb0",
-      "title": "Guy Fawkes Night",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-11be24776c99c7beb0",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "guy",
-          "fawkes"
-        ],
-        "titleTokenOverlap": [
-          "guy",
-          "fawkes",
-          "night"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
+        "similarity": 0.92,
+        "threshold": 0.46
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-1ad70a9586cbaa1906",
-      "title": "How can I add Scroll to Top to HTML with HelpNDoc?",
-      "previousCandidateId": "trend-9b640852d2be50bcc9",
+      "lineageId": "lineage-617b15664890dd20f3",
+      "title": "Cristiano Ronaldo",
+      "previousCandidateId": "trend-d4c9503b0b25ff78c6",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-08T14:19:03.472Z"
+      "lastSeenAt": "2026-11-08T22:54:05.445Z"
+    },
+    {
+      "lineageId": "lineage-994d53c9053d63d7ad",
+      "title": "AI Agent Prompt Injection & Tool Security",
+      "previousCandidateId": "trend-abe4d7294dec6fc96f",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-08T22:54:05.445Z"
+    },
+    {
+      "lineageId": "lineage-a9cc84b6d8522e1fb4",
+      "title": "2026 United States Senate elections",
+      "previousCandidateId": "trend-7354be00bbf25348c2",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-08T22:54:05.445Z"
+    },
+    {
+      "lineageId": "lineage-512415d5861c20db17",
+      "title": "Donald Trump",
+      "previousCandidateId": "trend-9f77d5a60c84c6d167",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-08T22:54:05.445Z"
+    },
+    {
+      "lineageId": "lineage-658d4f436c280f09c5",
+      "title": "Quần đảo Hoàng Sa",
+      "previousCandidateId": "trend-b92039e463edb82224",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-08T22:54:05.445Z"
+    },
+    {
+      "lineageId": "lineage-5b72da9baa8e597eac",
+      "title": "Guy Fawkes Night",
+      "previousCandidateId": "trend-11be24776c99c7beb0",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-08T22:54:05.445Z"
     }
   ],
   "notes": [
