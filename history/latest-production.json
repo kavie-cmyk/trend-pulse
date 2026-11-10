@@ -1,50 +1,22 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-09T17:29:40.915Z",
-  "cycleId": "gh-42664821570-a1",
+  "generatedAt": "2026-11-10T02:08:45.693Z",
+  "cycleId": "gh-42740461249-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-09T17:29:40.208Z",
-  "previousCycleId": "gh-42532385140-a1",
-  "previousSnapshotGeneratedAt": "2026-11-08T22:54:05.445Z",
-  "cycleGapHours": 18.59,
-  "comparisonWindow": "stale-gap",
+  "currentTrendSnapshotGeneratedAt": "2026-11-10T02:08:45.004Z",
+  "previousCycleId": "gh-42664821570-a1",
+  "previousSnapshotGeneratedAt": "2026-11-09T17:29:40.208Z",
+  "cycleGapHours": 8.65,
+  "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 5,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 310,
+  "trackedLineageCount": 311,
   "current": [
-    {
-      "lineageId": "lineage-994880a6f4d3579c07",
-      "candidateId": "trend-1a45f0daf12fc6e555",
-      "title": "Not my type",
-      "presence": "reappeared",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-1a45f0daf12fc6e555",
-      "signalCountDelta": 2,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "yorbeya",
-          "comic",
-          "strips"
-        ],
-        "titleTokenOverlap": [],
-        "similarity": 0.76,
-        "threshold": 0.46
-      }
-    },
     {
       "lineageId": "lineage-05ec993d44789480ee",
       "candidateId": "trend-c043fad848708496c1",
@@ -82,23 +54,105 @@
       }
     },
     {
-      "lineageId": "lineage-e05a749bfb071654a0",
-      "candidateId": "trend-e1ecd5f2cfe969be6b",
-      "title": "Trump questions midterm election honesty",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
+      "lineageId": "lineage-d34fa83d80e275cee5",
+      "candidateId": "trend-0aa2afe14879c1bca8",
+      "title": "Van Hollen open to Senate leader run",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-86e94e61912f3185cf",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "joncooper us bsky social",
+          "cooling",
+          "politics"
+        ],
+        "titleTokenOverlap": [
+          "run"
+        ],
+        "similarity": 0.48,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-48c512afc9a9d85f5f",
+      "candidateId": "trend-a29f6d4c0070ccc70f",
+      "title": "On-Call Agents with Historical Failure Memory",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-42c9f61b4d6d9ba186",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "on call",
+          "agents",
+          "memory",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "call",
+          "agents",
+          "memory"
+        ],
+        "similarity": 0.5779,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-994d53c9053d63d7ad",
+      "candidateId": "trend-abe4d7294dec6fc96f",
+      "title": "AI Agent Prompt Injection & Tool Security",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-abe4d7294dec6fc96f",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "prompt",
+          "injection",
+          "security",
+          "agent",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "agent",
+          "prompt",
+          "injection",
+          "tool",
+          "security"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-b85ebcf4322fb54d35",
@@ -137,13 +191,32 @@
       }
     },
     {
+      "lineageId": "lineage-b8b6c93ea7534369b3",
+      "candidateId": "trend-5ecfbb646cd59aadc7",
+      "title": "Difference between __import__() and importlib.__import__()",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "stackoverflow-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "stackoverflow-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-8a9997e859a5d981d6",
       "candidateId": "trend-62229fa417c7357644",
       "title": "Các trận đấu trong Đường lên đỉnh Olympia năm thứ 27",
-      "presence": "reappeared",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-a5b7caab789ce54039",
-      "signalCountDelta": -2,
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-62229fa417c7357644",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -163,6 +236,9 @@
           "nam"
         ],
         "titleTokenOverlap": [
+          "cac",
+          "tran",
+          "đau",
           "đuong",
           "len",
           "đinh",
@@ -170,53 +246,25 @@
           "nam",
           "thu"
         ],
-        "similarity": 0.92,
-        "threshold": 0.46
+        "similarity": 1,
+        "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-617b15664890dd20f3",
-      "title": "Cristiano Ronaldo",
-      "previousCandidateId": "trend-d4c9503b0b25ff78c6",
+      "lineageId": "lineage-994880a6f4d3579c07",
+      "title": "Not my type",
+      "previousCandidateId": "trend-1a45f0daf12fc6e555",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-08T22:54:05.445Z"
+      "lastSeenAt": "2026-11-09T17:29:40.208Z"
     },
     {
-      "lineageId": "lineage-994d53c9053d63d7ad",
-      "title": "AI Agent Prompt Injection & Tool Security",
-      "previousCandidateId": "trend-abe4d7294dec6fc96f",
+      "lineageId": "lineage-e05a749bfb071654a0",
+      "title": "Trump questions midterm election honesty",
+      "previousCandidateId": "trend-e1ecd5f2cfe969be6b",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-08T22:54:05.445Z"
-    },
-    {
-      "lineageId": "lineage-a9cc84b6d8522e1fb4",
-      "title": "2026 United States Senate elections",
-      "previousCandidateId": "trend-7354be00bbf25348c2",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-08T22:54:05.445Z"
-    },
-    {
-      "lineageId": "lineage-512415d5861c20db17",
-      "title": "Donald Trump",
-      "previousCandidateId": "trend-9f77d5a60c84c6d167",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-08T22:54:05.445Z"
-    },
-    {
-      "lineageId": "lineage-658d4f436c280f09c5",
-      "title": "Quần đảo Hoàng Sa",
-      "previousCandidateId": "trend-b92039e463edb82224",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-08T22:54:05.445Z"
-    },
-    {
-      "lineageId": "lineage-5b72da9baa8e597eac",
-      "title": "Guy Fawkes Night",
-      "previousCandidateId": "trend-11be24776c99c7beb0",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-08T22:54:05.445Z"
+      "lastSeenAt": "2026-11-09T17:29:40.208Z"
     }
   ],
   "notes": [
