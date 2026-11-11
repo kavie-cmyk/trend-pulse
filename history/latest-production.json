@@ -1,25 +1,47 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-10T15:36:31.905Z",
-  "cycleId": "gh-42845828388-a1",
+  "generatedAt": "2026-11-11T00:03:12.989Z",
+  "cycleId": "gh-42928065021-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-10T15:36:31.214Z",
-  "previousCycleId": "gh-42740461249-a1",
-  "previousSnapshotGeneratedAt": "2026-11-10T02:08:45.004Z",
-  "cycleGapHours": 13.46,
+  "currentTrendSnapshotGeneratedAt": "2026-11-11T00:03:12.393Z",
+  "previousCycleId": "gh-42845828388-a1",
+  "previousSnapshotGeneratedAt": "2026-11-10T15:36:31.214Z",
+  "cycleGapHours": 8.44,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 4,
-  "currentCorroboratedCount": 0,
-  "trackedLineageCount": 313,
+  "currentCandidateCount": 6,
+  "currentCorroboratedCount": 1,
+  "trackedLineageCount": 316,
   "current": [
     {
+      "lineageId": "lineage-d8210676c58d3a9b15",
+      "candidateId": "trend-188b9922e21aed8ead",
+      "title": "Cuộc sống 'bóng ma' của Alice Huang",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "vnexpress-tech-rss",
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "vnexpress-tech-rss",
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture",
+        "publisher"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-05ec993d44789480ee",
-      "candidateId": "trend-c043fad848708496c1",
+      "candidateId": "trend-dfa30944ac29beb593",
       "title": "Hacktoberfest AI Challenge: Ghost in the Machine",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -39,8 +61,8 @@
           "challenge",
           "ghost",
           "machine",
-          "dev",
           "community",
+          "dev",
           "hacktoberfest"
         ],
         "titleTokenOverlap": [
@@ -54,9 +76,28 @@
       }
     },
     {
-      "lineageId": "lineage-c1a4363e1aec914760",
-      "candidateId": "trend-19480de1a753d9daf0",
-      "title": "No thanks, Honey isn't vegan",
+      "lineageId": "lineage-d12220401ee5cf7194",
+      "candidateId": "trend-e7839ba15aa75a6599",
+      "title": "Midterm election aftermath",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-981e6c92a1c519f493",
+      "candidateId": "trend-a0d1d0fdaa682d68ec",
+      "title": "Educational game dev program cancelled because students were submitting games made entirely with AI",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -74,11 +115,11 @@
     },
     {
       "lineageId": "lineage-b85ebcf4322fb54d35",
-      "candidateId": "trend-5d1e4f680f2a230ec3",
+      "candidateId": "trend-2b0d2fa0152c4e6265",
       "title": "Building AI Memory Connectors with Cognee",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-01a6e8dbe6b61a40a3",
+      "previousCandidateId": "trend-5d1e4f680f2a230ec3",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -95,8 +136,8 @@
           "cognee",
           "building",
           "memory",
-          "dev",
-          "community"
+          "community",
+          "dev"
         ],
         "titleTokenOverlap": [
           "building",
@@ -112,57 +153,40 @@
       "lineageId": "lineage-2a4f3eca9a1df71929",
       "candidateId": "trend-dee4effae29d18ea30",
       "title": "Jensen Huang",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-48c512afc9a9d85f5f",
-      "title": "On-Call Agents with Historical Failure Memory",
-      "previousCandidateId": "trend-a29f6d4c0070ccc70f",
+      "lineageId": "lineage-c1a4363e1aec914760",
+      "title": "No thanks, Honey isn't vegan",
+      "previousCandidateId": "trend-19480de1a753d9daf0",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-10T02:08:45.004Z"
-    },
-    {
-      "lineageId": "lineage-8a9997e859a5d981d6",
-      "title": "Các trận đấu trong Đường lên đỉnh Olympia năm thứ 27",
-      "previousCandidateId": "trend-62229fa417c7357644",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-10T02:08:45.004Z"
-    },
-    {
-      "lineageId": "lineage-994d53c9053d63d7ad",
-      "title": "AI Agent Prompt Injection & Tool Security",
-      "previousCandidateId": "trend-abe4d7294dec6fc96f",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-10T02:08:45.004Z"
-    },
-    {
-      "lineageId": "lineage-d34fa83d80e275cee5",
-      "title": "Van Hollen open to Senate leader run",
-      "previousCandidateId": "trend-0aa2afe14879c1bca8",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-10T02:08:45.004Z"
-    },
-    {
-      "lineageId": "lineage-b8b6c93ea7534369b3",
-      "title": "Difference between __import__() and importlib.__import__()",
-      "previousCandidateId": "trend-5ecfbb646cd59aadc7",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-10T02:08:45.004Z"
+      "lastSeenAt": "2026-11-10T15:36:31.214Z"
     }
   ],
   "notes": [
