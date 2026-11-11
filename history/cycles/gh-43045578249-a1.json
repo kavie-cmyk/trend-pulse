@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-11T15:11:57.288Z",
+  "cycleId": "gh-43045578249-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-11T15:11:56.548Z",
+  "previousCycleId": "gh-42928065021-a1",
+  "previousSnapshotGeneratedAt": "2026-11-11T00:03:12.393Z",
+  "cycleGapHours": 15.15,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 7,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 320,
+  "current": [
+    {
+      "lineageId": "lineage-05ec993d44789480ee",
+      "candidateId": "trend-7b07bb6594bd145a35",
+      "title": "Hacktoberfest AI Challenge: Ghost in the Machine",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-dfa30944ac29beb593",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "ghost",
+          "machine",
+          "dev",
+          "community",
+          "hacktoberfest",
+          "challenge"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "challenge",
+          "ghost",
+          "machine"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-b050d4b4730d92f5dd",
+      "candidateId": "trend-616ad6923cc339456f",
+      "title": "kcgeekedup-hash/delta-force-trainer-tool",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "github-rest-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "github-rest-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-dd22aa20c744cc44dd",
+      "candidateId": "trend-85a39f28e256a60a1d",
+      "title": "Floof",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-4bd5cf5454aaa42c13",
+      "candidateId": "trend-933955b22ab0692424",
+      "title": "How a small, newly socialist US city became the second to cut ties with Israel",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-4151d8e963433e9586",
+      "candidateId": "trend-5668f317e037f38019",
+      "title": "Human-Gated AI Incident Agents",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-1d3be33ddff2c2a735",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "incident",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "incident",
+          "agents"
+        ],
+        "similarity": 0.5752,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "candidateId": "trend-dee4effae29d18ea30",
+      "title": "Jensen Huang",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-8f9892a81026806ae8",
+      "candidateId": "trend-40c34d618bef29afdb",
+      "title": "Mauricio Pochettino",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-b85ebcf4322fb54d35",
+      "title": "Building AI Memory Connectors with Cognee",
+      "previousCandidateId": "trend-2b0d2fa0152c4e6265",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-11T00:03:12.393Z"
+    },
+    {
+      "lineageId": "lineage-d8210676c58d3a9b15",
+      "title": "Cuộc sống 'bóng ma' của Alice Huang",
+      "previousCandidateId": "trend-188b9922e21aed8ead",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-11T00:03:12.393Z"
+    },
+    {
+      "lineageId": "lineage-d12220401ee5cf7194",
+      "title": "Midterm election aftermath",
+      "previousCandidateId": "trend-e7839ba15aa75a6599",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-11T00:03:12.393Z"
+    },
+    {
+      "lineageId": "lineage-981e6c92a1c519f493",
+      "title": "Educational game dev program cancelled because students were submitting games made entirely with AI",
+      "previousCandidateId": "trend-a0d1d0fdaa682d68ec",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-11T00:03:12.393Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
