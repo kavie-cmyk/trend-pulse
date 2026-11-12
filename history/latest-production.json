@@ -1,51 +1,66 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-12T01:32:55.870Z",
-  "cycleId": "gh-43135056536-a1",
+  "generatedAt": "2026-11-12T16:00:47.929Z",
+  "cycleId": "gh-43253418900-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-12T01:32:55.278Z",
-  "previousCycleId": "gh-43045578249-a1",
-  "previousSnapshotGeneratedAt": "2026-11-11T15:11:56.548Z",
-  "cycleGapHours": 10.35,
+  "currentTrendSnapshotGeneratedAt": "2026-11-12T16:00:47.191Z",
+  "previousCycleId": "gh-43135056536-a1",
+  "previousSnapshotGeneratedAt": "2026-11-12T01:32:55.278Z",
+  "cycleGapHours": 14.46,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
-  "currentCorroboratedCount": 0,
+  "currentCandidateCount": 8,
+  "currentCorroboratedCount": 1,
   "trackedLineageCount": 321,
   "current": [
     {
-      "lineageId": "lineage-bc7763fde99abe1102",
-      "candidateId": "trend-0b48dd6ef3670a6078",
-      "title": "Nvidia is preparing to oust Jensen Huang",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "candidateId": "trend-4863f3f7cef96228ac",
+      "title": "Jensen Huang",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 1,
+      "independentSourceFamilyDelta": 1,
       "sourceIdsAdded": [
-        "hacker-news-api",
         "lemmy-world-hot"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "hacker-news-api",
         "lemmy-world-hot"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
         "community"
       ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-05ec993d44789480ee",
       "candidateId": "trend-c5d99bcef6634de9f7",
       "title": "Hacktoberfest AI Challenge: Ghost in the Machine",
       "presence": "continuing",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-7b07bb6594bd145a35",
-      "signalCountDelta": 1,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c5d99bcef6634de9f7",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -75,13 +90,13 @@
       }
     },
     {
-      "lineageId": "lineage-4151d8e963433e9586",
-      "candidateId": "trend-fb39268dd6093882d6",
-      "title": "Human-Gated AI Incident Response Agents",
-      "presence": "continuing",
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "candidateId": "trend-4f7a446a59f4936710",
+      "title": "Stab Rule",
+      "presence": "reappeared",
       "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-5668f317e037f38019",
-      "signalCountDelta": 1,
+      "previousCandidateId": "trend-704cff10ffb277fea1",
+      "signalCountDelta": 2,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -93,11 +108,70 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
+          "rule",
+          "zizzy",
+          "196"
+        ],
+        "titleTokenOverlap": [
+          "rule"
+        ],
+        "similarity": 0.84,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-d1132825be96d69ddc",
+      "candidateId": "trend-42d2d864cdc7ef58da",
+      "title": "2026-11-12 #2",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-7cb23f3825f3154713",
+      "signalCountDelta": 2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "far",
+          "side"
+        ],
+        "titleTokenOverlap": [
+          "2026"
+        ],
+        "similarity": 0.62,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-4151d8e963433e9586",
+      "candidateId": "trend-5668f317e037f38019",
+      "title": "Human-Gated AI Incident Agents",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-fb39268dd6093882d6",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "human gated",
           "incident",
           "agents",
           "dev",
-          "community",
-          "human gated"
+          "community"
         ],
         "titleTokenOverlap": [
           "human",
@@ -111,11 +185,11 @@
     },
     {
       "lineageId": "lineage-48c512afc9a9d85f5f",
-      "candidateId": "trend-2ff43305abe4e2b5cc",
-      "title": "Hindsight Memory for Incident Agents",
-      "presence": "reappeared",
+      "candidateId": "trend-27a5e7521ec0d5f3bd",
+      "title": "Hindsight Memory for On-Call AI Agents",
+      "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-a29f6d4c0070ccc70f",
+      "previousCandidateId": "trend-2ff43305abe4e2b5cc",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -134,40 +208,11 @@
           "community"
         ],
         "titleTokenOverlap": [
+          "hindsight",
           "memory",
           "agents"
         ],
-        "similarity": 0.5029,
-        "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-2a4f3eca9a1df71929",
-      "candidateId": "trend-dee4effae29d18ea30",
-      "title": "Jensen Huang",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-dee4effae29d18ea30",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "jensen",
-          "huang"
-        ],
-        "titleTokenOverlap": [
-          "jensen",
-          "huang"
-        ],
-        "similarity": 1,
+        "similarity": 0.6507,
         "threshold": 0.38
       }
     },
@@ -200,29 +245,45 @@
         "similarity": 1,
         "threshold": 0.38
       }
+    },
+    {
+      "lineageId": "lineage-2aa23850d054f047f6",
+      "candidateId": "trend-f589a77a76d947cd3f",
+      "title": "SS United States",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-cc8bc3a9a639a9f473",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "united",
+          "states"
+        ],
+        "titleTokenOverlap": [
+          "united",
+          "states"
+        ],
+        "similarity": 0.6267,
+        "threshold": 0.46
+      }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-b050d4b4730d92f5dd",
-      "title": "kcgeekedup-hash/delta-force-trainer-tool",
-      "previousCandidateId": "trend-616ad6923cc339456f",
+      "lineageId": "lineage-bc7763fde99abe1102",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "previousCandidateId": "trend-0b48dd6ef3670a6078",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-11T15:11:56.548Z"
-    },
-    {
-      "lineageId": "lineage-dd22aa20c744cc44dd",
-      "title": "Floof",
-      "previousCandidateId": "trend-85a39f28e256a60a1d",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-11T15:11:56.548Z"
-    },
-    {
-      "lineageId": "lineage-4bd5cf5454aaa42c13",
-      "title": "How a small, newly socialist US city became the second to cut ties with Israel",
-      "previousCandidateId": "trend-933955b22ab0692424",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-11T15:11:56.548Z"
+      "lastSeenAt": "2026-11-12T01:32:55.278Z"
     }
   ],
   "notes": [
