@@ -1,29 +1,50 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-11T15:11:57.288Z",
-  "cycleId": "gh-43045578249-a1",
+  "generatedAt": "2026-11-12T01:32:55.870Z",
+  "cycleId": "gh-43135056536-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-11T15:11:56.548Z",
-  "previousCycleId": "gh-42928065021-a1",
-  "previousSnapshotGeneratedAt": "2026-11-11T00:03:12.393Z",
-  "cycleGapHours": 15.15,
+  "currentTrendSnapshotGeneratedAt": "2026-11-12T01:32:55.278Z",
+  "previousCycleId": "gh-43045578249-a1",
+  "previousSnapshotGeneratedAt": "2026-11-11T15:11:56.548Z",
+  "cycleGapHours": 10.35,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 7,
+  "currentCandidateCount": 6,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 320,
+  "trackedLineageCount": 321,
   "current": [
     {
+      "lineageId": "lineage-bc7763fde99abe1102",
+      "candidateId": "trend-0b48dd6ef3670a6078",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-05ec993d44789480ee",
-      "candidateId": "trend-7b07bb6594bd145a35",
+      "candidateId": "trend-c5d99bcef6634de9f7",
       "title": "Hacktoberfest AI Challenge: Ghost in the Machine",
       "presence": "continuing",
       "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-dfa30944ac29beb593",
+      "previousCandidateId": "trend-7b07bb6594bd145a35",
       "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -39,9 +60,9 @@
           "ghost",
           "machine",
           "dev",
+          "challenge",
           "community",
-          "hacktoberfest",
-          "challenge"
+          "hacktoberfest"
         ],
         "titleTokenOverlap": [
           "hacktoberfest",
@@ -54,70 +75,13 @@
       }
     },
     {
-      "lineageId": "lineage-b050d4b4730d92f5dd",
-      "candidateId": "trend-616ad6923cc339456f",
-      "title": "kcgeekedup-hash/delta-force-trainer-tool",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "github-rest-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "github-rest-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-dd22aa20c744cc44dd",
-      "candidateId": "trend-85a39f28e256a60a1d",
-      "title": "Floof",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-4bd5cf5454aaa42c13",
-      "candidateId": "trend-933955b22ab0692424",
-      "title": "How a small, newly socialist US city became the second to cut ties with Israel",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
       "lineageId": "lineage-4151d8e963433e9586",
-      "candidateId": "trend-5668f317e037f38019",
-      "title": "Human-Gated AI Incident Agents",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-1d3be33ddff2c2a735",
-      "signalCountDelta": 0,
+      "candidateId": "trend-fb39268dd6093882d6",
+      "title": "Human-Gated AI Incident Response Agents",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-5668f317e037f38019",
+      "signalCountDelta": 1,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -132,14 +96,49 @@
           "incident",
           "agents",
           "dev",
-          "community"
+          "community",
+          "human gated"
         ],
         "titleTokenOverlap": [
+          "human",
+          "gated",
           "incident",
           "agents"
         ],
-        "similarity": 0.5752,
-        "threshold": 0.46
+        "similarity": 0.8253,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-48c512afc9a9d85f5f",
+      "candidateId": "trend-2ff43305abe4e2b5cc",
+      "title": "Hindsight Memory for Incident Agents",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-a29f6d4c0070ccc70f",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "memory",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "memory",
+          "agents"
+        ],
+        "similarity": 0.5029,
+        "threshold": 0.38
       }
     },
     {
@@ -176,50 +175,54 @@
       "lineageId": "lineage-8f9892a81026806ae8",
       "candidateId": "trend-40c34d618bef29afdb",
       "title": "Mauricio Pochettino",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-40c34d618bef29afdb",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "mauricio",
+          "pochettino"
+        ],
+        "titleTokenOverlap": [
+          "mauricio",
+          "pochettino"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-b85ebcf4322fb54d35",
-      "title": "Building AI Memory Connectors with Cognee",
-      "previousCandidateId": "trend-2b0d2fa0152c4e6265",
+      "lineageId": "lineage-b050d4b4730d92f5dd",
+      "title": "kcgeekedup-hash/delta-force-trainer-tool",
+      "previousCandidateId": "trend-616ad6923cc339456f",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-11T00:03:12.393Z"
+      "lastSeenAt": "2026-11-11T15:11:56.548Z"
     },
     {
-      "lineageId": "lineage-d8210676c58d3a9b15",
-      "title": "Cuộc sống 'bóng ma' của Alice Huang",
-      "previousCandidateId": "trend-188b9922e21aed8ead",
+      "lineageId": "lineage-dd22aa20c744cc44dd",
+      "title": "Floof",
+      "previousCandidateId": "trend-85a39f28e256a60a1d",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-11T00:03:12.393Z"
+      "lastSeenAt": "2026-11-11T15:11:56.548Z"
     },
     {
-      "lineageId": "lineage-d12220401ee5cf7194",
-      "title": "Midterm election aftermath",
-      "previousCandidateId": "trend-e7839ba15aa75a6599",
+      "lineageId": "lineage-4bd5cf5454aaa42c13",
+      "title": "How a small, newly socialist US city became the second to cut ties with Israel",
+      "previousCandidateId": "trend-933955b22ab0692424",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-11T00:03:12.393Z"
-    },
-    {
-      "lineageId": "lineage-981e6c92a1c519f493",
-      "title": "Educational game dev program cancelled because students were submitting games made entirely with AI",
-      "previousCandidateId": "trend-a0d1d0fdaa682d68ec",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-11T00:03:12.393Z"
+      "lastSeenAt": "2026-11-11T15:11:56.548Z"
     }
   ],
   "notes": [
