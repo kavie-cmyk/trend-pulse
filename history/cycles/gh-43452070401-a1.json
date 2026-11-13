@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-13T15:24:31.050Z",
+  "cycleId": "gh-43452070401-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-13T15:24:30.430Z",
+  "previousCycleId": "gh-43336390376-a1",
+  "previousSnapshotGeneratedAt": "2026-11-13T00:23:43.019Z",
+  "cycleGapHours": 15.01,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 9,
+  "currentCorroboratedCount": 1,
+  "trackedLineageCount": 325,
+  "current": [
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "candidateId": "trend-03aee7a65a1931077c",
+      "title": "Nvidia CEO Jensen Huang resigns",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-eb00979c52d728834d",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 1,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [
+        "vnexpress-tech-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "vnexpress-tech-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang",
+          "resigns"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 0.552,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-05ec993d44789480ee",
+      "candidateId": "trend-69289a67519df2ffd1",
+      "title": "Hacktoberfest AI Challenge: Ghost in the Machine",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-25417dc93897381c91",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "ghost",
+          "machine",
+          "dev",
+          "community",
+          "challenge",
+          "hacktoberfest"
+        ],
+        "titleTokenOverlap": [
+          "hacktoberfest",
+          "challenge",
+          "ghost",
+          "machine"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-9e57b09a60724344f8",
+      "candidateId": "trend-142263f2201a6b0712",
+      "title": "Trump's Nvidia stock trades",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-3504088463bc614ee1",
+      "candidateId": "trend-97b2c34de9560a5051",
+      "title": "Poland ousts Russia in vote for seat on UN oversight body",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-3a3bda19da4d0d2e6f",
+      "candidateId": "trend-9ef23da4211cb7706b",
+      "title": "AI Agent Memory & Provenance in Incident Response",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-4151d8e963433e9586",
+      "candidateId": "trend-5668f317e037f38019",
+      "title": "Human-Gated AI Incident Agents",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-5668f317e037f38019",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "human gated",
+          "incident",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "human",
+          "gated",
+          "incident",
+          "agents"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-48c512afc9a9d85f5f",
+      "candidateId": "trend-068afd5884136f528c",
+      "title": "Memory-Augmented On-Call AI Agents",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-27a5e7521ec0d5f3bd",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "on call",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "memory",
+          "call",
+          "agents"
+        ],
+        "similarity": 0.6507,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-8f9892a81026806ae8",
+      "candidateId": "trend-40c34d618bef29afdb",
+      "title": "Mauricio Pochettino",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-40c34d618bef29afdb",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "mauricio",
+          "pochettino"
+        ],
+        "titleTokenOverlap": [
+          "mauricio",
+          "pochettino"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-aaca764b005304c4d3",
+      "candidateId": "trend-d4578434ed1550b435",
+      "title": "Thành ủy Thành phố Hồ Chí Minh",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-3b9c40ea98b7065c5c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "minh",
+          "chi"
+        ],
+        "titleTokenOverlap": [
+          "chi",
+          "minh"
+        ],
+        "similarity": 0.5,
+        "threshold": 0.46
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "title": "Daughter rule",
+      "previousCandidateId": "trend-70f8692de9125d1921",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-13T00:23:43.019Z"
+    },
+    {
+      "lineageId": "lineage-2aa23850d054f047f6",
+      "title": "SS United States",
+      "previousCandidateId": "trend-a960539c55a8ec27e9",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-13T00:23:43.019Z"
+    },
+    {
+      "lineageId": "lineage-420e11afe4aad8dd50",
+      "title": "Making pong game, how do I accelerate the ball in Swift?",
+      "previousCandidateId": "trend-c7dcf51cbec864f071",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-13T00:23:43.019Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
