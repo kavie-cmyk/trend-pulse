@@ -1,42 +1,48 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-12T16:00:47.929Z",
-  "cycleId": "gh-43253418900-a1",
+  "generatedAt": "2026-11-13T00:23:43.726Z",
+  "cycleId": "gh-43336390376-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-12T16:00:47.191Z",
-  "previousCycleId": "gh-43135056536-a1",
-  "previousSnapshotGeneratedAt": "2026-11-12T01:32:55.278Z",
-  "cycleGapHours": 14.46,
+  "currentTrendSnapshotGeneratedAt": "2026-11-13T00:23:43.019Z",
+  "previousCycleId": "gh-43253418900-a1",
+  "previousSnapshotGeneratedAt": "2026-11-12T16:00:47.191Z",
+  "cycleGapHours": 8.38,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 1,
-  "trackedLineageCount": 321,
+  "trackedLineageCount": 322,
   "current": [
     {
       "lineageId": "lineage-2a4f3eca9a1df71929",
-      "candidateId": "trend-4863f3f7cef96228ac",
+      "candidateId": "trend-eb00979c52d728834d",
       "title": "Jensen Huang",
       "presence": "continuing",
       "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "previousCandidateId": "trend-4863f3f7cef96228ac",
       "signalCountDelta": 1,
       "independentSourceDelta": 1,
       "independentSourceFamilyDelta": 1,
       "sourceIdsAdded": [
+        "hacker-news-api",
+        "pocketgamer-rss"
+      ],
+      "sourceIdsRemoved": [
         "lemmy-world-hot"
       ],
-      "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "pocketgamer-rss"
+      ],
+      "independentSourceIdsRemoved": [
         "lemmy-world-hot"
       ],
-      "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "community"
+        "publisher"
       ],
       "independentSourceFamiliesRemoved": [],
       "matchEvidence": {
@@ -49,18 +55,47 @@
           "jensen",
           "huang"
         ],
-        "similarity": 1,
+        "similarity": 0.7467,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "candidateId": "trend-70f8692de9125d1921",
+      "title": "Daughter rule",
+      "presence": "continuing",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-4f7a446a59f4936710",
+      "signalCountDelta": 1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "rule",
+          "196"
+        ],
+        "titleTokenOverlap": [
+          "rule"
+        ],
+        "similarity": 0.46,
         "threshold": 0.38
       }
     },
     {
       "lineageId": "lineage-05ec993d44789480ee",
-      "candidateId": "trend-c5d99bcef6634de9f7",
+      "candidateId": "trend-25417dc93897381c91",
       "title": "Hacktoberfest AI Challenge: Ghost in the Machine",
       "presence": "continuing",
-      "evidenceDirection": "stable",
+      "evidenceDirection": "contracting",
       "previousCandidateId": "trend-c5d99bcef6634de9f7",
-      "signalCountDelta": 0,
+      "signalCountDelta": -2,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -73,9 +108,9 @@
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
           "ghost",
+          "challenge",
           "machine",
           "dev",
-          "challenge",
           "community",
           "hacktoberfest"
         ],
@@ -90,72 +125,13 @@
       }
     },
     {
-      "lineageId": "lineage-9b475d30fae95190eb",
-      "candidateId": "trend-4f7a446a59f4936710",
-      "title": "Stab Rule",
-      "presence": "reappeared",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-704cff10ffb277fea1",
-      "signalCountDelta": 2,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "rule",
-          "zizzy",
-          "196"
-        ],
-        "titleTokenOverlap": [
-          "rule"
-        ],
-        "similarity": 0.84,
-        "threshold": 0.46
-      }
-    },
-    {
-      "lineageId": "lineage-d1132825be96d69ddc",
-      "candidateId": "trend-42d2d864cdc7ef58da",
-      "title": "2026-11-12 #2",
-      "presence": "reappeared",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-7cb23f3825f3154713",
-      "signalCountDelta": 2,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "far",
-          "side"
-        ],
-        "titleTokenOverlap": [
-          "2026"
-        ],
-        "similarity": 0.62,
-        "threshold": 0.46
-      }
-    },
-    {
       "lineageId": "lineage-4151d8e963433e9586",
       "candidateId": "trend-5668f317e037f38019",
       "title": "Human-Gated AI Incident Agents",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-fb39268dd6093882d6",
-      "signalCountDelta": -1,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-5668f317e037f38019",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -179,42 +155,28 @@
           "incident",
           "agents"
         ],
-        "similarity": 0.8253,
+        "similarity": 1,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-48c512afc9a9d85f5f",
-      "candidateId": "trend-27a5e7521ec0d5f3bd",
-      "title": "Hindsight Memory for On-Call AI Agents",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-2ff43305abe4e2b5cc",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-420e11afe4aad8dd50",
+      "candidateId": "trend-c7dcf51cbec864f071",
+      "title": "Making pong game, how do I accelerate the ball in Swift?",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "stackoverflow-hot"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "stackoverflow-hot"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "memory",
-          "agents",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "hindsight",
-          "memory",
-          "agents"
-        ],
-        "similarity": 0.6507,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-8f9892a81026806ae8",
@@ -248,11 +210,11 @@
     },
     {
       "lineageId": "lineage-2aa23850d054f047f6",
-      "candidateId": "trend-f589a77a76d947cd3f",
+      "candidateId": "trend-a960539c55a8ec27e9",
       "title": "SS United States",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-cc8bc3a9a639a9f473",
+      "previousCandidateId": "trend-f589a77a76d947cd3f",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -265,25 +227,32 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "united",
-          "states"
+          "states",
+          "united"
         ],
         "titleTokenOverlap": [
           "united",
           "states"
         ],
-        "similarity": 0.6267,
-        "threshold": 0.46
+        "similarity": 1,
+        "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-bc7763fde99abe1102",
-      "title": "Nvidia is preparing to oust Jensen Huang",
-      "previousCandidateId": "trend-0b48dd6ef3670a6078",
+      "lineageId": "lineage-d1132825be96d69ddc",
+      "title": "2026-11-12 #2",
+      "previousCandidateId": "trend-42d2d864cdc7ef58da",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-12T01:32:55.278Z"
+      "lastSeenAt": "2026-11-12T16:00:47.191Z"
+    },
+    {
+      "lineageId": "lineage-48c512afc9a9d85f5f",
+      "title": "Hindsight Memory for On-Call AI Agents",
+      "previousCandidateId": "trend-27a5e7521ec0d5f3bd",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-12T16:00:47.191Z"
     }
   ],
   "notes": [
