@@ -1,21 +1,21 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-14T14:09:57.918Z",
-  "cycleId": "gh-43603257256-a1",
+  "generatedAt": "2026-11-14T22:59:22.530Z",
+  "cycleId": "gh-43650804139-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-14T14:09:57.199Z",
-  "previousCycleId": "gh-43533388112-a1",
-  "previousSnapshotGeneratedAt": "2026-11-14T00:20:42.615Z",
-  "cycleGapHours": 13.82,
+  "currentTrendSnapshotGeneratedAt": "2026-11-14T22:59:22.028Z",
+  "previousCycleId": "gh-43603257256-a1",
+  "previousSnapshotGeneratedAt": "2026-11-14T14:09:57.199Z",
+  "cycleGapHours": 8.82,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
+  "currentCandidateCount": 8,
   "currentCorroboratedCount": 1,
-  "trackedLineageCount": 327,
+  "trackedLineageCount": 330,
   "current": [
     {
       "lineageId": "lineage-2a4f3eca9a1df71929",
@@ -50,17 +50,17 @@
       }
     },
     {
-      "lineageId": "lineage-805681bdeb82014847",
-      "candidateId": "trend-3fb9f7f335c6939742",
-      "title": "New York City votes to ban surveillance pricing",
+      "lineageId": "lineage-0af16dc56e615a2286",
+      "candidateId": "trend-060cce52ec7eb5d1df",
+      "title": "WarriorRemember/IPTV_Player_2.0",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "lemmy-world-hot"
+        "github-rest-api"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "lemmy-world-hot"
+        "github-rest-api"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
@@ -69,41 +69,50 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-d1132825be96d69ddc",
-      "candidateId": "trend-fa7c2f0acd8320dc3a",
-      "title": "2026-11-14 #1",
-      "presence": "reappeared",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-42d2d864cdc7ef58da",
-      "signalCountDelta": -2,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-6d3297de35003e7848",
+      "candidateId": "trend-0d827620d0a80ab945",
+      "title": "trackboatwrightplan/GitHub-Copilot-app",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "github-rest-api"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "github-rest-api"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "far",
-          "side"
-        ],
-        "titleTokenOverlap": [
-          "2026"
-        ],
-        "similarity": 0.62,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-df52ba42cba9f50c15",
+      "candidateId": "trend-cb36ecaa2c56324019",
+      "title": "Topkiflare74/ai--manus2.0",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "github-rest-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "github-rest-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-4151d8e963433e9586",
-      "candidateId": "trend-ea124c2cf24194e6e5",
+      "candidateId": "trend-5668f317e037f38019",
       "title": "Human-Gated AI Incident Agents",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-5668f317e037f38019",
+      "previousCandidateId": "trend-ea124c2cf24194e6e5",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -119,8 +128,8 @@
           "human gated",
           "incident",
           "agents",
-          "community",
-          "dev"
+          "dev",
+          "community"
         ],
         "titleTokenOverlap": [
           "human",
@@ -134,12 +143,12 @@
     },
     {
       "lineageId": "lineage-05ec993d44789480ee",
-      "candidateId": "trend-9c6cf556e287bfe716",
+      "candidateId": "trend-98e6ae14675206647f",
       "title": "Ghost in the Machine AI Challenge",
       "presence": "continuing",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-be9be8d1ee36a4106f",
-      "signalCountDelta": -2,
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-9c6cf556e287bfe716",
+      "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -154,15 +163,49 @@
           "ghost",
           "machine",
           "challenge",
-          "community",
-          "dev"
+          "dev",
+          "community"
         ],
         "titleTokenOverlap": [
           "ghost",
           "machine",
           "challenge"
         ],
-        "similarity": 0.8133,
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-48c512afc9a9d85f5f",
+      "candidateId": "trend-27a5e7521ec0d5f3bd",
+      "title": "AI On-Call Agents with Historical Memory",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-27a5e7521ec0d5f3bd",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "on call",
+          "memory",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "call",
+          "agents",
+          "memory"
+        ],
+        "similarity": 0.904,
         "threshold": 0.38
       }
     },
@@ -199,25 +242,18 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-aaca764b005304c4d3",
-      "title": "Thành ủy Thành phố Hồ Chí Minh",
-      "previousCandidateId": "trend-d4578434ed1550b435",
+      "lineageId": "lineage-d1132825be96d69ddc",
+      "title": "2026-11-14 #1",
+      "previousCandidateId": "trend-fa7c2f0acd8320dc3a",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-14T00:20:42.615Z"
+      "lastSeenAt": "2026-11-14T14:09:57.199Z"
     },
     {
-      "lineageId": "lineage-48c512afc9a9d85f5f",
-      "title": "Hindsight Memory for On-Call AI Agents",
-      "previousCandidateId": "trend-27a5e7521ec0d5f3bd",
+      "lineageId": "lineage-805681bdeb82014847",
+      "title": "New York City votes to ban surveillance pricing",
+      "previousCandidateId": "trend-3fb9f7f335c6939742",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-14T00:20:42.615Z"
-    },
-    {
-      "lineageId": "lineage-2aa44adaf30ec76c05",
-      "title": "US National Weather Service reports nationwide internet, communications issues",
-      "previousCandidateId": "trend-f9480364f9d00d5a7e",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-14T00:20:42.615Z"
+      "lastSeenAt": "2026-11-14T14:09:57.199Z"
     }
   ],
   "notes": [
