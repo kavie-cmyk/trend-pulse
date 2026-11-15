@@ -1,25 +1,25 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-14T22:59:22.530Z",
-  "cycleId": "gh-43650804139-a1",
+  "generatedAt": "2026-11-15T14:46:14.760Z",
+  "cycleId": "gh-43725989003-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-14T22:59:22.028Z",
-  "previousCycleId": "gh-43603257256-a1",
-  "previousSnapshotGeneratedAt": "2026-11-14T14:09:57.199Z",
-  "cycleGapHours": 8.82,
+  "currentTrendSnapshotGeneratedAt": "2026-11-15T14:46:14.184Z",
+  "previousCycleId": "gh-43650804139-a1",
+  "previousSnapshotGeneratedAt": "2026-11-14T22:59:22.028Z",
+  "cycleGapHours": 15.78,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 9,
   "currentCorroboratedCount": 1,
-  "trackedLineageCount": 330,
+  "trackedLineageCount": 331,
   "current": [
     {
       "lineageId": "lineage-2a4f3eca9a1df71929",
-      "candidateId": "trend-c7812d4991cf48889a",
+      "candidateId": "trend-4440b2e0ba9a252299",
       "title": "Jensen Huang",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -38,71 +38,166 @@
         "anchorOverlap": [
           "jensen",
           "huang",
-          "ceo",
           "nvidia"
         ],
         "titleTokenOverlap": [
           "jensen",
           "huang"
         ],
-        "similarity": 1,
+        "similarity": 0.81,
         "threshold": 0.38
       }
     },
     {
       "lineageId": "lineage-0af16dc56e615a2286",
-      "candidateId": "trend-060cce52ec7eb5d1df",
+      "candidateId": "trend-4060c9aeb1f67eb6d2",
       "title": "WarriorRemember/IPTV_Player_2.0",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "github-rest-api"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-060cce52ec7eb5d1df",
+      "signalCountDelta": -2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "github-rest-api"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "iptv",
+          "player",
+          "2 0",
+          "dash",
+          "ip tv",
+          "iptv channels"
+        ],
+        "titleTokenOverlap": [
+          "warriorremember",
+          "iptv",
+          "player"
+        ],
+        "similarity": 0.8914,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-6d3297de35003e7848",
-      "candidateId": "trend-0d827620d0a80ab945",
+      "candidateId": "trend-e09cbd50d14ac19673",
       "title": "trackboatwrightplan/GitHub-Copilot-app",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "github-rest-api"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-0d827620d0a80ab945",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "github-rest-api"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "github copilot app",
+          "adminlte",
+          "awesome",
+          "copilot",
+          "github copilot"
+        ],
+        "titleTokenOverlap": [
+          "trackboatwrightplan",
+          "github",
+          "copilot",
+          "app"
+        ],
+        "similarity": 0.7829,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "candidateId": "trend-4377294eb8efa46bc9",
+      "title": "Equality rule",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-70f8692de9125d1921",
+      "signalCountDelta": -2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "shadowofmiisha",
+          "rule",
+          "196"
+        ],
+        "titleTokenOverlap": [
+          "rule"
+        ],
+        "similarity": 0.84,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-df52ba42cba9f50c15",
       "candidateId": "trend-cb36ecaa2c56324019",
       "title": "Topkiflare74/ai--manus2.0",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-cb36ecaa2c56324019",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "ai manus2 0",
+          "ai sdk",
+          "anthropic",
+          "chatbot",
+          "function calling",
+          "gemeni"
+        ],
+        "titleTokenOverlap": [
+          "topkiflare74",
+          "manus2"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-766fd492909c96c318",
+      "candidateId": "trend-6366a557b1e8f6a084",
+      "title": "Loạt thách thức để bắt tầng trên tên lửa Starship bằng 'đũa gắp'",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "github-rest-api"
+        "vnexpress-tech-rss"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "github-rest-api"
+        "vnexpress-tech-rss"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "community"
+        "publisher"
       ],
       "independentSourceFamiliesRemoved": []
     },
@@ -112,7 +207,7 @@
       "title": "Human-Gated AI Incident Agents",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-ea124c2cf24194e6e5",
+      "previousCandidateId": "trend-5668f317e037f38019",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -142,44 +237,10 @@
       }
     },
     {
-      "lineageId": "lineage-05ec993d44789480ee",
-      "candidateId": "trend-98e6ae14675206647f",
-      "title": "Ghost in the Machine AI Challenge",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-9c6cf556e287bfe716",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "ghost",
-          "machine",
-          "challenge",
-          "dev",
-          "community"
-        ],
-        "titleTokenOverlap": [
-          "ghost",
-          "machine",
-          "challenge"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
       "lineageId": "lineage-48c512afc9a9d85f5f",
       "candidateId": "trend-27a5e7521ec0d5f3bd",
       "title": "AI On-Call Agents with Historical Memory",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
       "previousCandidateId": "trend-27a5e7521ec0d5f3bd",
       "signalCountDelta": 0,
@@ -203,9 +264,10 @@
         "titleTokenOverlap": [
           "call",
           "agents",
+          "historical",
           "memory"
         ],
-        "similarity": 0.904,
+        "similarity": 1,
         "threshold": 0.38
       }
     },
@@ -242,18 +304,11 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-d1132825be96d69ddc",
-      "title": "2026-11-14 #1",
-      "previousCandidateId": "trend-fa7c2f0acd8320dc3a",
+      "lineageId": "lineage-05ec993d44789480ee",
+      "title": "Ghost in the Machine AI Challenge",
+      "previousCandidateId": "trend-98e6ae14675206647f",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-14T14:09:57.199Z"
-    },
-    {
-      "lineageId": "lineage-805681bdeb82014847",
-      "title": "New York City votes to ban surveillance pricing",
-      "previousCandidateId": "trend-3fb9f7f335c6939742",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-14T14:09:57.199Z"
+      "lastSeenAt": "2026-11-14T22:59:22.028Z"
     }
   ],
   "notes": [
