@@ -1,21 +1,21 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-15T23:23:45.047Z",
-  "cycleId": "gh-43774439625-a1",
+  "generatedAt": "2026-11-16T17:02:29.043Z",
+  "cycleId": "gh-43913456832-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-15T23:23:44.526Z",
-  "previousCycleId": "gh-43725989003-a1",
-  "previousSnapshotGeneratedAt": "2026-11-15T14:46:14.184Z",
-  "cycleGapHours": 8.63,
+  "currentTrendSnapshotGeneratedAt": "2026-11-16T17:02:28.391Z",
+  "previousCycleId": "gh-43774439625-a1",
+  "previousSnapshotGeneratedAt": "2026-11-15T23:23:44.526Z",
+  "cycleGapHours": 17.65,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
+  "currentCandidateCount": 5,
   "currentCorroboratedCount": 1,
-  "trackedLineageCount": 332,
+  "trackedLineageCount": 334,
   "current": [
     {
       "lineageId": "lineage-2a4f3eca9a1df71929",
@@ -49,18 +49,16 @@
       }
     },
     {
-      "lineageId": "lineage-aa7e2446a55abd9f0d",
-      "candidateId": "trend-ebdea8725d23937f49",
-      "title": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "candidateId": "trend-b4334b2ff9fede179e",
+      "title": "Attention Seekers",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "hacker-news-api",
         "lemmy-world-hot"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "hacker-news-api",
         "lemmy-world-hot"
       ],
       "independentSourceIdsRemoved": [],
@@ -70,51 +68,8 @@
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-766fd492909c96c318",
-      "candidateId": "trend-6366a557b1e8f6a084",
-      "title": "Loạt thách thức để bắt tầng trên tên lửa Starship bằng 'đũa gắp'",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-6366a557b1e8f6a084",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "ten",
-          "lua",
-          "bat",
-          "đua",
-          "gap",
-          "starship"
-        ],
-        "titleTokenOverlap": [
-          "loat",
-          "thach",
-          "thuc",
-          "bat",
-          "tang",
-          "ten",
-          "lua",
-          "starship",
-          "bang",
-          "đua",
-          "gap"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
-    },
-    {
       "lineageId": "lineage-4151d8e963433e9586",
-      "candidateId": "trend-5668f317e037f38019",
+      "candidateId": "trend-ea124c2cf24194e6e5",
       "title": "Human-Gated AI Incident Agents",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -134,8 +89,8 @@
           "human gated",
           "incident",
           "agents",
-          "dev",
-          "community"
+          "community",
+          "dev"
         ],
         "titleTokenOverlap": [
           "human",
@@ -149,7 +104,7 @@
     },
     {
       "lineageId": "lineage-48c512afc9a9d85f5f",
-      "candidateId": "trend-27a5e7521ec0d5f3bd",
+      "candidateId": "trend-1c296e8bc9be519a44",
       "title": "AI On-Call Agents with Historical Memory",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -169,8 +124,8 @@
           "on call",
           "memory",
           "agents",
-          "dev",
-          "community"
+          "community",
+          "dev"
         ],
         "titleTokenOverlap": [
           "call",
@@ -183,64 +138,46 @@
       }
     },
     {
-      "lineageId": "lineage-8f9892a81026806ae8",
-      "candidateId": "trend-40c34d618bef29afdb",
-      "title": "Mauricio Pochettino",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-40c34d618bef29afdb",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
+      "lineageId": "lineage-2204e106979fb75b4f",
+      "candidateId": "trend-aed59c68ace4219694",
+      "title": "2026–27 UEFA Nations League",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "mauricio",
-          "pochettino"
-        ],
-        "titleTokenOverlap": [
-          "mauricio",
-          "pochettino"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-9b475d30fae95190eb",
-      "title": "Equality rule",
-      "previousCandidateId": "trend-4377294eb8efa46bc9",
+      "lineageId": "lineage-8f9892a81026806ae8",
+      "title": "Mauricio Pochettino",
+      "previousCandidateId": "trend-40c34d618bef29afdb",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-15T14:46:14.184Z"
+      "lastSeenAt": "2026-11-15T23:23:44.526Z"
     },
     {
-      "lineageId": "lineage-0af16dc56e615a2286",
-      "title": "WarriorRemember/IPTV_Player_2.0",
-      "previousCandidateId": "trend-4060c9aeb1f67eb6d2",
+      "lineageId": "lineage-766fd492909c96c318",
+      "title": "Loạt thách thức để bắt tầng trên tên lửa Starship bằng 'đũa gắp'",
+      "previousCandidateId": "trend-6366a557b1e8f6a084",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-15T14:46:14.184Z"
+      "lastSeenAt": "2026-11-15T23:23:44.526Z"
     },
     {
-      "lineageId": "lineage-6d3297de35003e7848",
-      "title": "trackboatwrightplan/GitHub-Copilot-app",
-      "previousCandidateId": "trend-e09cbd50d14ac19673",
+      "lineageId": "lineage-aa7e2446a55abd9f0d",
+      "title": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
+      "previousCandidateId": "trend-ebdea8725d23937f49",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-15T14:46:14.184Z"
-    },
-    {
-      "lineageId": "lineage-df52ba42cba9f50c15",
-      "title": "Topkiflare74/ai--manus2.0",
-      "previousCandidateId": "trend-cb36ecaa2c56324019",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-15T14:46:14.184Z"
+      "lastSeenAt": "2026-11-15T23:23:44.526Z"
     }
   ],
   "notes": [
