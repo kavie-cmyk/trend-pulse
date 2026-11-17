@@ -1,0 +1,290 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-17T02:28:52.606Z",
+  "cycleId": "gh-44003130813-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-17T02:28:52.091Z",
+  "previousCycleId": "gh-43913456832-a1",
+  "previousSnapshotGeneratedAt": "2026-11-16T17:02:28.391Z",
+  "cycleGapHours": 9.44,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 10,
+  "currentCorroboratedCount": 1,
+  "trackedLineageCount": 340,
+  "current": [
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "candidateId": "trend-c7812d4991cf48889a",
+      "title": "Jensen Huang",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-4440b2e0ba9a252299",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang",
+          "nvidia"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 0.81,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-a462e173aea38310f8",
+      "candidateId": "trend-f3079162073a3220b7",
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-3ea8b8b47d6bd27a0a",
+      "candidateId": "trend-b7b433cb74f01ccfbf",
+      "title": "United Airlines experiencing a widespread system outage, airline says",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-a2d15285dac27a5b49",
+      "candidateId": "trend-5ed5e48f5a510abc6a",
+      "title": "credoksopho1984/blender-ai-copilot-studio",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "github-rest-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "github-rest-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-5b220c89f537635a60",
+      "candidateId": "trend-f40bb3bb711b003e43",
+      "title": "Someone Has Made the Dreamcast Play Nintendo 64 Cartridges, Because Apparently It Can",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-abcfdb5c1fb7282b61",
+      "candidateId": "trend-958ee7e2d06276b36d",
+      "title": "Protesters confront Bovino at Rutgers",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-30c545cb57618329c3",
+      "candidateId": "trend-49835621c29a325a65",
+      "title": "New memes comm?",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-4151d8e963433e9586",
+      "candidateId": "trend-5668f317e037f38019",
+      "title": "Human-Gated AI Incident Agents",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-ea124c2cf24194e6e5",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "human gated",
+          "incident",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "human",
+          "gated",
+          "incident",
+          "agents"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-48c512afc9a9d85f5f",
+      "candidateId": "trend-27a5e7521ec0d5f3bd",
+      "title": "AI On-Call Agents with Historical Memory",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-1c296e8bc9be519a44",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "on call",
+          "memory",
+          "agents",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "call",
+          "agents",
+          "historical",
+          "memory"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2204e106979fb75b4f",
+      "candidateId": "trend-aed59c68ace4219694",
+      "title": "2026–27 UEFA Nations League",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-aed59c68ace4219694",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "uefa",
+          "nations",
+          "league"
+        ],
+        "titleTokenOverlap": [
+          "2026",
+          "uefa",
+          "nations",
+          "league"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "title": "Attention Seekers",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-16T17:02:28.391Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
