@@ -1,26 +1,26 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-18T16:28:21.068Z",
-  "cycleId": "gh-44347191123-a1",
+  "generatedAt": "2026-11-19T01:13:26.488Z",
+  "cycleId": "gh-44435093887-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-18T16:28:20.374Z",
-  "previousCycleId": "gh-44217073337-a1",
-  "previousSnapshotGeneratedAt": "2026-11-18T01:38:28.680Z",
-  "cycleGapHours": 14.83,
+  "currentTrendSnapshotGeneratedAt": "2026-11-19T01:13:25.802Z",
+  "previousCycleId": "gh-44347191123-a1",
+  "previousSnapshotGeneratedAt": "2026-11-18T16:28:20.374Z",
+  "cycleGapHours": 8.75,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 6,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 347,
+  "trackedLineageCount": 348,
   "current": [
     {
-      "lineageId": "lineage-10e6218023b16063f7",
-      "candidateId": "trend-5f4107b3bf4182e37f",
-      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "lineageId": "lineage-d54b59f874f41457d2",
+      "candidateId": "trend-d82c7415e29dc9f070",
+      "title": "A 45-Year-Old Commodore Program Was Recovered From a Paper Printout — And It Works Again",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
@@ -37,8 +37,37 @@
       "independentSourceFamiliesRemoved": []
     },
     {
+      "lineageId": "lineage-9b475d30fae95190eb",
+      "candidateId": "trend-a144316883c359d7b5",
+      "title": "Chlamydia rule",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-90fba3163655524990",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "rule",
+          "196"
+        ],
+        "titleTokenOverlap": [
+          "rule"
+        ],
+        "similarity": 0.44,
+        "threshold": 0.38
+      }
+    },
+    {
       "lineageId": "lineage-48c512afc9a9d85f5f",
-      "candidateId": "trend-52681301fc94ef4f76",
+      "candidateId": "trend-27a5e7521ec0d5f3bd",
       "title": "AI On-Call Agents with Historical Memory",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -55,8 +84,8 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "memory",
           "on call",
+          "memory",
           "agents",
           "dev",
           "community"
@@ -103,7 +132,7 @@
     },
     {
       "lineageId": "lineage-2a4f3eca9a1df71929",
-      "candidateId": "trend-dee4effae29d18ea30",
+      "candidateId": "trend-4c2e327d6be5e9439c",
       "title": "Jensen Huang",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -120,8 +149,8 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "jensen",
-          "huang"
+          "huang",
+          "jensen"
         ],
         "titleTokenOverlap": [
           "jensen",
@@ -133,22 +162,40 @@
     },
     {
       "lineageId": "lineage-4721cadbee8e99c0e0",
-      "candidateId": "trend-ca44b88db1723dd361",
+      "candidateId": "trend-8dc8df3ea666ea39e1",
       "title": "Đội tuyển bóng đá quốc gia Kyrgyzstan",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-ca44b88db1723dd361",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
       "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
+      "independentSourceIdsAdded": [],
       "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "tuyen",
+          "bong",
+          "gia",
+          "quoc",
+          "đoi"
+        ],
+        "titleTokenOverlap": [
+          "đoi",
+          "tuyen",
+          "bong",
+          "quoc",
+          "gia",
+          "kyrgyzstan"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
     },
     {
       "lineageId": "lineage-4527550798e1453023",
@@ -185,32 +232,11 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-9b475d30fae95190eb",
-      "title": "Olive oil rule",
-      "previousCandidateId": "trend-90fba3163655524990",
+      "lineageId": "lineage-10e6218023b16063f7",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "previousCandidateId": "trend-5f4107b3bf4182e37f",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-18T01:38:28.680Z"
-    },
-    {
-      "lineageId": "lineage-4151d8e963433e9586",
-      "title": "Human-Gated AI Incident Agents",
-      "previousCandidateId": "trend-5668f317e037f38019",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-18T01:38:28.680Z"
-    },
-    {
-      "lineageId": "lineage-2204e106979fb75b4f",
-      "title": "UEFA Nations League",
-      "previousCandidateId": "trend-aed59c68ace4219694",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-18T01:38:28.680Z"
-    },
-    {
-      "lineageId": "lineage-222e8b4704680098c1",
-      "title": "Node.js Presigned URLs & Private Storage Patterns",
-      "previousCandidateId": "trend-6f2cb39ffcc6bbd601",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-18T01:38:28.680Z"
+      "lastSeenAt": "2026-11-18T16:28:20.374Z"
     }
   ],
   "notes": [
