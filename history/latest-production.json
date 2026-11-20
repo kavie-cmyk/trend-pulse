@@ -1,50 +1,29 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-20T01:16:17.713Z",
-  "cycleId": "gh-44652224616-a1",
+  "generatedAt": "2026-11-20T16:08:49.907Z",
+  "cycleId": "gh-44770215649-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-20T01:16:16.983Z",
-  "previousCycleId": "gh-44567304124-a1",
-  "previousSnapshotGeneratedAt": "2026-11-19T16:33:57.811Z",
-  "cycleGapHours": 8.71,
+  "currentTrendSnapshotGeneratedAt": "2026-11-20T16:08:49.299Z",
+  "previousCycleId": "gh-44652224616-a1",
+  "previousSnapshotGeneratedAt": "2026-11-20T01:16:16.983Z",
+  "cycleGapHours": 14.88,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 8,
+  "currentCandidateCount": 2,
   "currentCorroboratedCount": 0,
   "trackedLineageCount": 353,
   "current": [
-    {
-      "lineageId": "lineage-82e5ba9e073d3fd965",
-      "candidateId": "trend-f7aa9e826f7490a8af",
-      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "hacker-news-api",
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "hacker-news-api",
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
     {
       "lineageId": "lineage-0afe3beef6f5156205",
       "candidateId": "trend-87616459cd8ca8c15c",
       "title": "Grand Theft Auto VI",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-e9c88ec65478cbb38e",
+      "previousCandidateId": "trend-87616459cd8ca8c15c",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -68,92 +47,6 @@
         ],
         "similarity": 1,
         "threshold": 0.38
-      }
-    },
-    {
-      "lineageId": "lineage-c59dbfb87dade30487",
-      "candidateId": "trend-6877d34fa1df44f7d5",
-      "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "github-rest-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "github-rest-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-6efbb3d0eb59cf055c",
-      "candidateId": "trend-54625d1c495313058e",
-      "title": "Trump, Xi and Putin hold summit",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "bluesky-trends-api"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "social"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-69b8cee415f2464587",
-      "candidateId": "trend-658fdca72b5585ee71",
-      "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-ecd6532e3b65c92a93",
-      "candidateId": "trend-b4334b2ff9fede179e",
-      "title": "Best in Show",
-      "presence": "reappeared",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-b4334b2ff9fede179e",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "skyway",
-          "vee",
-          "comic",
-          "strips"
-        ],
-        "titleTokenOverlap": [],
-        "similarity": 0.76,
-        "threshold": 0.46
       }
     },
     {
@@ -190,39 +83,52 @@
         "similarity": 1,
         "threshold": 0.38
       }
-    },
-    {
-      "lineageId": "lineage-2a4f3eca9a1df71929",
-      "candidateId": "trend-dee4effae29d18ea30",
-      "title": "Jensen Huang",
-      "presence": "continuing",
-      "evidenceDirection": "stable",
-      "previousCandidateId": "trend-dee4effae29d18ea30",
-      "signalCountDelta": 0,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "jensen",
-          "huang"
-        ],
-        "titleTokenOverlap": [
-          "jensen",
-          "huang"
-        ],
-        "similarity": 1,
-        "threshold": 0.38
-      }
     }
   ],
-  "disappeared": [],
+  "disappeared": [
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "title": "Jensen Huang",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-20T01:16:16.983Z"
+    },
+    {
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "title": "Best in Show",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-20T01:16:16.983Z"
+    },
+    {
+      "lineageId": "lineage-82e5ba9e073d3fd965",
+      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+      "previousCandidateId": "trend-f7aa9e826f7490a8af",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-20T01:16:16.983Z"
+    },
+    {
+      "lineageId": "lineage-c59dbfb87dade30487",
+      "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+      "previousCandidateId": "trend-6877d34fa1df44f7d5",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-20T01:16:16.983Z"
+    },
+    {
+      "lineageId": "lineage-6efbb3d0eb59cf055c",
+      "title": "Trump, Xi and Putin hold summit",
+      "previousCandidateId": "trend-54625d1c495313058e",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-20T01:16:16.983Z"
+    },
+    {
+      "lineageId": "lineage-69b8cee415f2464587",
+      "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+      "previousCandidateId": "trend-658fdca72b5585ee71",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-20T01:16:16.983Z"
+    }
+  ],
   "notes": [
     "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
     "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
