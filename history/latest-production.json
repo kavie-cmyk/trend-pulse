@@ -1,51 +1,30 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-21T00:48:07.739Z",
-  "cycleId": "gh-44846087055-a1",
+  "generatedAt": "2026-11-21T15:22:05.249Z",
+  "cycleId": "gh-44918683022-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-21T00:48:07.237Z",
-  "previousCycleId": "gh-44770215649-a1",
-  "previousSnapshotGeneratedAt": "2026-11-20T16:08:49.299Z",
-  "cycleGapHours": 8.65,
+  "currentTrendSnapshotGeneratedAt": "2026-11-21T15:22:04.784Z",
+  "previousCycleId": "gh-44846087055-a1",
+  "previousSnapshotGeneratedAt": "2026-11-21T00:48:07.237Z",
+  "cycleGapHours": 14.57,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 5,
+  "currentCandidateCount": 4,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 355,
+  "trackedLineageCount": 356,
   "current": [
     {
-      "lineageId": "lineage-42e20eaecc875fc61d",
-      "candidateId": "trend-1846429b7caad94941",
-      "title": "Signal Is Serious About Protecting Your Privacy",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "hacker-news-api",
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "hacker-news-api",
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
       "lineageId": "lineage-c59dbfb87dade30487",
-      "candidateId": "trend-c2fafeae47a34cc42d",
-      "title": "WindowStaffGate11/Gemini-Config-Checker-",
-      "presence": "reappeared",
-      "evidenceDirection": "expanding",
-      "previousCandidateId": "trend-6877d34fa1df44f7d5",
-      "signalCountDelta": 6,
+      "candidateId": "trend-2da9b1190d5815b774",
+      "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-c2fafeae47a34cc42d",
+      "signalCountDelta": -2,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
       "sourceIdsAdded": [],
@@ -62,6 +41,7 @@
           "aichecker",
           "config checker",
           "gemeni",
+          "programming makefile",
           "gemeni checker"
         ],
         "titleTokenOverlap": [
@@ -69,13 +49,13 @@
           "config",
           "checker"
         ],
-        "similarity": 0.714,
+        "similarity": 0.809,
         "threshold": 0.38
       }
     },
     {
       "lineageId": "lineage-0afe3beef6f5156205",
-      "candidateId": "trend-87616459cd8ca8c15c",
+      "candidateId": "trend-e0dc3e022808719a2d",
       "title": "Grand Theft Auto VI",
       "presence": "continuing",
       "evidenceDirection": "stable",
@@ -92,9 +72,9 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "grand",
           "theft",
-          "auto"
+          "auto",
+          "grand"
         ],
         "titleTokenOverlap": [
           "grand",
@@ -106,31 +86,31 @@
       }
     },
     {
-      "lineageId": "lineage-8379846d7b9bfde8c4",
-      "candidateId": "trend-1ac6d7a092b9af9d55",
-      "title": "US cleared China chip sales",
+      "lineageId": "lineage-c107ac90fb739df31c",
+      "candidateId": "trend-dcf03c65bd40276b1b",
+      "title": "OpenAI GPT-6.2 Astra and Sol Launch",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "bluesky-trends-api"
+        "dev-forem-trends"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "bluesky-trends-api"
+        "dev-forem-trends"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "social"
+        "community"
       ],
       "independentSourceFamiliesRemoved": []
     },
     {
-      "lineageId": "lineage-48c512afc9a9d85f5f",
-      "candidateId": "trend-52681301fc94ef4f76",
-      "title": "AI On-Call Agents with Historical Memory",
-      "presence": "continuing",
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "candidateId": "trend-3d42dd0a79dbb93449",
+      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
+      "presence": "reappeared",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-52681301fc94ef4f76",
+      "previousCandidateId": "trend-9e3a249069e540cd86",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -143,24 +123,43 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "memory",
-          "on call",
-          "agents",
-          "dev",
-          "community"
+          "đich",
+          "giai",
+          "bong"
         ],
         "titleTokenOverlap": [
-          "call",
-          "agents",
-          "historical",
-          "memory"
+          "giai",
+          "đich",
+          "bong"
         ],
-        "similarity": 1,
-        "threshold": 0.38
+        "similarity": 0.5,
+        "threshold": 0.46
       }
     }
   ],
-  "disappeared": [],
+  "disappeared": [
+    {
+      "lineageId": "lineage-48c512afc9a9d85f5f",
+      "title": "AI On-Call Agents with Historical Memory",
+      "previousCandidateId": "trend-52681301fc94ef4f76",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-21T00:48:07.237Z"
+    },
+    {
+      "lineageId": "lineage-42e20eaecc875fc61d",
+      "title": "Signal Is Serious About Protecting Your Privacy",
+      "previousCandidateId": "trend-1846429b7caad94941",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-21T00:48:07.237Z"
+    },
+    {
+      "lineageId": "lineage-8379846d7b9bfde8c4",
+      "title": "US cleared China chip sales",
+      "previousCandidateId": "trend-1ac6d7a092b9af9d55",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-21T00:48:07.237Z"
+    }
+  ],
   "notes": [
     "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
     "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
