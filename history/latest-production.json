@@ -1,22 +1,78 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-20T16:08:49.907Z",
-  "cycleId": "gh-44770215649-a1",
+  "generatedAt": "2026-11-21T00:48:07.739Z",
+  "cycleId": "gh-44846087055-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-20T16:08:49.299Z",
-  "previousCycleId": "gh-44652224616-a1",
-  "previousSnapshotGeneratedAt": "2026-11-20T01:16:16.983Z",
-  "cycleGapHours": 14.88,
+  "currentTrendSnapshotGeneratedAt": "2026-11-21T00:48:07.237Z",
+  "previousCycleId": "gh-44770215649-a1",
+  "previousSnapshotGeneratedAt": "2026-11-20T16:08:49.299Z",
+  "cycleGapHours": 8.65,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 2,
+  "currentCandidateCount": 5,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 353,
+  "trackedLineageCount": 355,
   "current": [
+    {
+      "lineageId": "lineage-42e20eaecc875fc61d",
+      "candidateId": "trend-1846429b7caad94941",
+      "title": "Signal Is Serious About Protecting Your Privacy",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-c59dbfb87dade30487",
+      "candidateId": "trend-c2fafeae47a34cc42d",
+      "title": "WindowStaffGate11/Gemini-Config-Checker-",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-6877d34fa1df44f7d5",
+      "signalCountDelta": 6,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "gemini config checker",
+          "ai search",
+          "aichecker",
+          "config checker",
+          "gemeni",
+          "gemeni checker"
+        ],
+        "titleTokenOverlap": [
+          "gemini",
+          "config",
+          "checker"
+        ],
+        "similarity": 0.714,
+        "threshold": 0.38
+      }
+    },
     {
       "lineageId": "lineage-0afe3beef6f5156205",
       "candidateId": "trend-87616459cd8ca8c15c",
@@ -48,6 +104,25 @@
         "similarity": 1,
         "threshold": 0.38
       }
+    },
+    {
+      "lineageId": "lineage-8379846d7b9bfde8c4",
+      "candidateId": "trend-1ac6d7a092b9af9d55",
+      "title": "US cleared China chip sales",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "bluesky-trends-api"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "social"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-48c512afc9a9d85f5f",
@@ -85,50 +160,7 @@
       }
     }
   ],
-  "disappeared": [
-    {
-      "lineageId": "lineage-2a4f3eca9a1df71929",
-      "title": "Jensen Huang",
-      "previousCandidateId": "trend-dee4effae29d18ea30",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-20T01:16:16.983Z"
-    },
-    {
-      "lineageId": "lineage-ecd6532e3b65c92a93",
-      "title": "Best in Show",
-      "previousCandidateId": "trend-b4334b2ff9fede179e",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-20T01:16:16.983Z"
-    },
-    {
-      "lineageId": "lineage-82e5ba9e073d3fd965",
-      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-      "previousCandidateId": "trend-f7aa9e826f7490a8af",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-20T01:16:16.983Z"
-    },
-    {
-      "lineageId": "lineage-c59dbfb87dade30487",
-      "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-      "previousCandidateId": "trend-6877d34fa1df44f7d5",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-20T01:16:16.983Z"
-    },
-    {
-      "lineageId": "lineage-6efbb3d0eb59cf055c",
-      "title": "Trump, Xi and Putin hold summit",
-      "previousCandidateId": "trend-54625d1c495313058e",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-20T01:16:16.983Z"
-    },
-    {
-      "lineageId": "lineage-69b8cee415f2464587",
-      "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
-      "previousCandidateId": "trend-658fdca72b5585ee71",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-20T01:16:16.983Z"
-    }
-  ],
+  "disappeared": [],
   "notes": [
     "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
     "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
