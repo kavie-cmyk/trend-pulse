@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-23T19:14:49.885Z",
+  "cycleId": "gh-45246687132-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-23T19:14:49.299Z",
+  "previousCycleId": "gh-45087942911-a1",
+  "previousSnapshotGeneratedAt": "2026-11-23T00:18:57.786Z",
+  "cycleGapHours": 18.93,
+  "comparisonWindow": "stale-gap",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 10,
+  "currentCorroboratedCount": 1,
+  "trackedLineageCount": 364,
+  "current": [
+    {
+      "lineageId": "lineage-d7a62b66650188f61b",
+      "candidateId": "trend-d36566f2b9fce52333",
+      "title": "‘You Can See Everything’ has made more than $100M worldwide",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-d36566f2b9fce52333",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "everything",
+          "see"
+        ],
+        "titleTokenOverlap": [
+          "you",
+          "can",
+          "see",
+          "everything",
+          "has",
+          "made",
+          "more",
+          "than",
+          "100m",
+          "worldwide"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "candidateId": "trend-b4334b2ff9fede179e",
+      "title": "The Truth",
+      "presence": "reappeared",
+      "evidenceDirection": "expanding",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
+      "signalCountDelta": 2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "skyway",
+          "vee",
+          "comic",
+          "strips"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2457aca0588fdae7e4",
+      "candidateId": "trend-3ee4fde9b12bdbc7f0",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "pocketgamer-rss"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "pocketgamer-rss"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "publisher"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-c0339e453ab28be0cd",
+      "candidateId": "trend-ec699d84f3d64db83b",
+      "title": "ItsNotRexed/Leonida",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-ec699d84f3d64db83b",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "itsnotrexed"
+        ],
+        "titleTokenOverlap": [
+          "itsnotrexed",
+          "leonida"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-be278fc010c9e8601b",
+      "candidateId": "trend-c8204332545ad2345c",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-c8204332545ad2345c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "sybil solutions",
+          "programming python"
+        ],
+        "titleTokenOverlap": [
+          "sybil",
+          "solutions",
+          "inference",
+          "optimisation",
+          "skill"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-6cd42f953ddaed8823",
+      "candidateId": "trend-fd508c652361d08d11",
+      "title": "zkVerify Agent Games & Proof Gatekeepers",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-584ffd880e7655372b",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "zkverify",
+          "gatekeepers",
+          "agent",
+          "proof",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "zkverify",
+          "agent",
+          "games",
+          "proof",
+          "gatekeepers"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-0afe3beef6f5156205",
+      "candidateId": "trend-87616459cd8ca8c15c",
+      "title": "Grand Theft Auto VI",
+      "presence": "continuing",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-87616459cd8ca8c15c",
+      "signalCountDelta": -2,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "titleTokenOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-9380664678e3343369",
+      "candidateId": "trend-94bf2b55e132717a87",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-94bf2b55e132717a87",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "sunrise",
+          "reaping"
+        ],
+        "titleTokenOverlap": [
+          "hunger",
+          "games",
+          "sunrise",
+          "reaping"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-98a99bfee9ba0dacbf",
+      "candidateId": "trend-98b5bc9812d66d5b92",
+      "title": "Việt Nam",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-e3f65cfc87a73d190d",
+      "signalCountDelta": 0,
+      "independentSourceDelta": -1,
+      "independentSourceFamilyDelta": -1,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [
+        "vnexpress-tech-rss"
+      ],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [
+        "vnexpress-tech-rss"
+      ],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [
+        "publisher"
+      ],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "viet",
+          "nam"
+        ],
+        "titleTokenOverlap": [
+          "viet",
+          "nam"
+        ],
+        "similarity": 0.82,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-8f9892a81026806ae8",
+      "candidateId": "trend-40c34d618bef29afdb",
+      "title": "Mauricio Pochettino",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-40c34d618bef29afdb",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "mauricio",
+          "pochettino"
+        ],
+        "titleTokenOverlap": [
+          "mauricio",
+          "pochettino"
+        ],
+        "similarity": 1,
+        "threshold": 0.46
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
+      "previousCandidateId": "trend-b9a32c2dace9bb296b",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T00:18:57.786Z"
+    },
+    {
+      "lineageId": "lineage-ae256377ce5ee532b3",
+      "title": "Parry this!",
+      "previousCandidateId": "trend-e930e8286d9ab18dfc",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T00:18:57.786Z"
+    },
+    {
+      "lineageId": "lineage-9d3e91797988ff229e",
+      "title": "Client-Side Browser-Based PDF Tooling",
+      "previousCandidateId": "trend-6fa9e0a7cec615ca30",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T00:18:57.786Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
