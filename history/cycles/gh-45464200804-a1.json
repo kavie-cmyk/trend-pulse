@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-24T18:53:49.383Z",
+  "cycleId": "gh-45464200804-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-24T18:53:48.842Z",
+  "previousCycleId": "gh-45325322028-a1",
+  "previousSnapshotGeneratedAt": "2026-11-24T04:18:36.318Z",
+  "cycleGapHours": 14.59,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 8,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 367,
+  "current": [
+    {
+      "lineageId": "lineage-ad0f7f07a8193e4f37",
+      "candidateId": "trend-9ba38ec4e3f08f51a4",
+      "title": "Vermonters vote to enshrine the right to unionize in their state constitution",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "candidateId": "trend-b4334b2ff9fede179e",
+      "title": "Tuesdays",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "skyway",
+          "vee",
+          "comic",
+          "strips"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2457aca0588fdae7e4",
+      "candidateId": "trend-f820930122cada0109",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-f820930122cada0109",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "reinstates",
+          "ceo",
+          "nvidia",
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "nvidia",
+          "reinstates",
+          "jensen",
+          "huang",
+          "ceo"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-6cd42f953ddaed8823",
+      "candidateId": "trend-825578323ba42eaabe",
+      "title": "zkVerify Agent Games & Proof Gatekeepers",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-fd508c652361d08d11",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "zkverify",
+          "proof",
+          "gatekeepers",
+          "agent",
+          "community",
+          "dev"
+        ],
+        "titleTokenOverlap": [
+          "zkverify",
+          "agent",
+          "games",
+          "proof",
+          "gatekeepers"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-98a99bfee9ba0dacbf",
+      "candidateId": "trend-98b5bc9812d66d5b92",
+      "title": "Việt Nam",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "viet",
+          "nam"
+        ],
+        "titleTokenOverlap": [
+          "viet",
+          "nam"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-0afe3beef6f5156205",
+      "candidateId": "trend-87616459cd8ca8c15c",
+      "title": "Grand Theft Auto VI",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-87616459cd8ca8c15c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "titleTokenOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "candidateId": "trend-dee4effae29d18ea30",
+      "title": "Jensen Huang",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "candidateId": "trend-3908767e2b871fce60",
+      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-44ee1e1222b3d62c1a",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "giai",
+          "đich",
+          "bong",
+          "u 17",
+          "gioi"
+        ],
+        "titleTokenOverlap": [
+          "giai",
+          "đich",
+          "bong",
+          "gioi",
+          "2026"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-65094cf259e42ea6e9",
+      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "previousCandidateId": "trend-778015320b5529f7f2",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-24T04:18:36.318Z"
+    },
+    {
+      "lineageId": "lineage-5070db3b8adce20afe",
+      "title": "Cameras Built to Catch Criminals Are Helping ICE Hunt Immigrants",
+      "previousCandidateId": "trend-40406681ae5afdc660",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-24T04:18:36.318Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
