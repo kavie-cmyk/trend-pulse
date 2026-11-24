@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-24T04:18:37.014Z",
+  "cycleId": "gh-45325322028-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-24T04:18:36.318Z",
+  "previousCycleId": "gh-45246687132-a1",
+  "previousSnapshotGeneratedAt": "2026-11-23T19:14:49.299Z",
+  "cycleGapHours": 9.06,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 8,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 366,
+  "current": [
+    {
+      "lineageId": "lineage-65094cf259e42ea6e9",
+      "candidateId": "trend-778015320b5529f7f2",
+      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "hacker-news-api",
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-5070db3b8adce20afe",
+      "candidateId": "trend-40406681ae5afdc660",
+      "title": "Cameras Built to Catch Criminals Are Helping ICE Hunt Immigrants",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-2457aca0588fdae7e4",
+      "candidateId": "trend-f820930122cada0109",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-3ee4fde9b12bdbc7f0",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "reinstates",
+          "ceo",
+          "nvidia",
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "nvidia",
+          "reinstates",
+          "jensen",
+          "huang",
+          "ceo"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-6cd42f953ddaed8823",
+      "candidateId": "trend-fd508c652361d08d11",
+      "title": "zkVerify Agent Games & Proof Gatekeepers",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-fd508c652361d08d11",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "zkverify",
+          "gatekeepers",
+          "agent",
+          "proof",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "zkverify",
+          "agent",
+          "games",
+          "proof",
+          "gatekeepers"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-98a99bfee9ba0dacbf",
+      "candidateId": "trend-98b5bc9812d66d5b92",
+      "title": "Việt Nam",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "viet",
+          "nam"
+        ],
+        "titleTokenOverlap": [
+          "viet",
+          "nam"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-0afe3beef6f5156205",
+      "candidateId": "trend-87616459cd8ca8c15c",
+      "title": "Grand Theft Auto VI",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-87616459cd8ca8c15c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "titleTokenOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "candidateId": "trend-dee4effae29d18ea30",
+      "title": "Jensen Huang",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 1,
+        "threshold": 0.46
+      }
+    },
+    {
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "candidateId": "trend-44ee1e1222b3d62c1a",
+      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
+      "presence": "reappeared",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-b9a32c2dace9bb296b",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "giai",
+          "đich",
+          "u 17",
+          "bong",
+          "gioi"
+        ],
+        "titleTokenOverlap": [
+          "giai",
+          "đich",
+          "bong",
+          "gioi",
+          "2026"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-8f9892a81026806ae8",
+      "title": "Mauricio Pochettino",
+      "previousCandidateId": "trend-40c34d618bef29afdb",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T19:14:49.299Z"
+    },
+    {
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "title": "The Truth",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T19:14:49.299Z"
+    },
+    {
+      "lineageId": "lineage-9380664678e3343369",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "previousCandidateId": "trend-94bf2b55e132717a87",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T19:14:49.299Z"
+    },
+    {
+      "lineageId": "lineage-d7a62b66650188f61b",
+      "title": "‘You Can See Everything’ has made more than $100M worldwide",
+      "previousCandidateId": "trend-d36566f2b9fce52333",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T19:14:49.299Z"
+    },
+    {
+      "lineageId": "lineage-c0339e453ab28be0cd",
+      "title": "ItsNotRexed/Leonida",
+      "previousCandidateId": "trend-ec699d84f3d64db83b",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T19:14:49.299Z"
+    },
+    {
+      "lineageId": "lineage-be278fc010c9e8601b",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "previousCandidateId": "trend-c8204332545ad2345c",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-23T19:14:49.299Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
