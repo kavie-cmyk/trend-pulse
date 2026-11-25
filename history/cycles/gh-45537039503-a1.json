@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-25T03:03:07.192Z",
+  "cycleId": "gh-45537039503-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-25T03:03:06.627Z",
+  "previousCycleId": "gh-45464200804-a1",
+  "previousSnapshotGeneratedAt": "2026-11-24T18:53:48.842Z",
+  "cycleGapHours": 8.15,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 8,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 369,
+  "current": [
+    {
+      "lineageId": "lineage-2457aca0588fdae7e4",
+      "candidateId": "trend-f820930122cada0109",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-f820930122cada0109",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "reinstates",
+          "ceo",
+          "nvidia",
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "nvidia",
+          "reinstates",
+          "jensen",
+          "huang",
+          "ceo"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-78c101f90ccab8ac73",
+      "candidateId": "trend-b27a414723dd50ca0a",
+      "title": "The clock is running out for America’s most contentious spying law",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-aa52ea6b11622eb4a4",
+      "candidateId": "trend-8fb2fa4d864aa9df8e",
+      "title": "The 1994 Cyberpunk Horror Game DreamWeb Has Been Reconstructed for Modern PCs",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-6cd42f953ddaed8823",
+      "candidateId": "trend-584ffd880e7655372b",
+      "title": "zkVerify Agent Games & Proof Gatekeepers",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-825578323ba42eaabe",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "zkverify",
+          "proof",
+          "gatekeepers",
+          "agent",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "zkverify",
+          "agent",
+          "games",
+          "proof",
+          "gatekeepers"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-98a99bfee9ba0dacbf",
+      "candidateId": "trend-98b5bc9812d66d5b92",
+      "title": "Việt Nam",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-98b5bc9812d66d5b92",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "viet",
+          "nam"
+        ],
+        "titleTokenOverlap": [
+          "viet",
+          "nam"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-0afe3beef6f5156205",
+      "candidateId": "trend-87616459cd8ca8c15c",
+      "title": "Grand Theft Auto VI",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-87616459cd8ca8c15c",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "titleTokenOverlap": [
+          "grand",
+          "theft",
+          "auto"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "candidateId": "trend-dee4effae29d18ea30",
+      "title": "Jensen Huang",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "titleTokenOverlap": [
+          "jensen",
+          "huang"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "candidateId": "trend-3908767e2b871fce60",
+      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-3908767e2b871fce60",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "giai",
+          "đich",
+          "bong",
+          "u 17",
+          "gioi"
+        ],
+        "titleTokenOverlap": [
+          "giai",
+          "đich",
+          "bong",
+          "gioi",
+          "2026"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "title": "Tuesdays",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-24T18:53:48.842Z"
+    },
+    {
+      "lineageId": "lineage-ad0f7f07a8193e4f37",
+      "title": "Vermonters vote to enshrine the right to unionize in their state constitution",
+      "previousCandidateId": "trend-9ba38ec4e3f08f51a4",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-24T18:53:48.842Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}

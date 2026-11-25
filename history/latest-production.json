@@ -1,70 +1,22 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-24T18:53:49.383Z",
-  "cycleId": "gh-45464200804-a1",
+  "generatedAt": "2026-11-25T03:03:07.192Z",
+  "cycleId": "gh-45537039503-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-24T18:53:48.842Z",
-  "previousCycleId": "gh-45325322028-a1",
-  "previousSnapshotGeneratedAt": "2026-11-24T04:18:36.318Z",
-  "cycleGapHours": 14.59,
+  "currentTrendSnapshotGeneratedAt": "2026-11-25T03:03:06.627Z",
+  "previousCycleId": "gh-45464200804-a1",
+  "previousSnapshotGeneratedAt": "2026-11-24T18:53:48.842Z",
+  "cycleGapHours": 8.15,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
   "currentCandidateCount": 8,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 367,
+  "trackedLineageCount": 369,
   "current": [
-    {
-      "lineageId": "lineage-ad0f7f07a8193e4f37",
-      "candidateId": "trend-9ba38ec4e3f08f51a4",
-      "title": "Vermonters vote to enshrine the right to unionize in their state constitution",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "lemmy-world-hot"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "community"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-ecd6532e3b65c92a93",
-      "candidateId": "trend-b4334b2ff9fede179e",
-      "title": "Tuesdays",
-      "presence": "reappeared",
-      "evidenceDirection": "contracting",
-      "previousCandidateId": "trend-b4334b2ff9fede179e",
-      "signalCountDelta": -1,
-      "independentSourceDelta": 0,
-      "independentSourceFamilyDelta": 0,
-      "sourceIdsAdded": [],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [],
-      "independentSourceFamiliesRemoved": [],
-      "matchEvidence": {
-        "methodologyVersion": "trend-lineage-match-04d.v1",
-        "anchorOverlap": [
-          "skyway",
-          "vee",
-          "comic",
-          "strips"
-        ],
-        "titleTokenOverlap": [],
-        "similarity": 0.76,
-        "threshold": 0.38
-      }
-    },
     {
       "lineageId": "lineage-2457aca0588fdae7e4",
       "candidateId": "trend-f820930122cada0109",
@@ -102,12 +54,50 @@
       }
     },
     {
+      "lineageId": "lineage-78c101f90ccab8ac73",
+      "candidateId": "trend-b27a414723dd50ca0a",
+      "title": "The clock is running out for America’s most contentious spying law",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-aa52ea6b11622eb4a4",
+      "candidateId": "trend-8fb2fa4d864aa9df8e",
+      "title": "The 1994 Cyberpunk Horror Game DreamWeb Has Been Reconstructed for Modern PCs",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
       "lineageId": "lineage-6cd42f953ddaed8823",
-      "candidateId": "trend-825578323ba42eaabe",
+      "candidateId": "trend-584ffd880e7655372b",
       "title": "zkVerify Agent Games & Proof Gatekeepers",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-fd508c652361d08d11",
+      "previousCandidateId": "trend-825578323ba42eaabe",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -124,8 +114,8 @@
           "proof",
           "gatekeepers",
           "agent",
-          "community",
-          "dev"
+          "dev",
+          "community"
         ],
         "titleTokenOverlap": [
           "zkverify",
@@ -236,7 +226,7 @@
       "title": "Giải vô địch bóng đá U-17 thế giới 2026",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-44ee1e1222b3d62c1a",
+      "previousCandidateId": "trend-3908767e2b871fce60",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -269,18 +259,18 @@
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-65094cf259e42ea6e9",
-      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
-      "previousCandidateId": "trend-778015320b5529f7f2",
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "title": "Tuesdays",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-24T04:18:36.318Z"
+      "lastSeenAt": "2026-11-24T18:53:48.842Z"
     },
     {
-      "lineageId": "lineage-5070db3b8adce20afe",
-      "title": "Cameras Built to Catch Criminals Are Helping ICE Hunt Immigrants",
-      "previousCandidateId": "trend-40406681ae5afdc660",
+      "lineageId": "lineage-ad0f7f07a8193e4f37",
+      "title": "Vermonters vote to enshrine the right to unionize in their state constitution",
+      "previousCandidateId": "trend-9ba38ec4e3f08f51a4",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-24T04:18:36.318Z"
+      "lastSeenAt": "2026-11-24T18:53:48.842Z"
     }
   ],
   "notes": [
