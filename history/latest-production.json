@@ -1,22 +1,70 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-25T17:58:40.141Z",
-  "cycleId": "gh-45670101704-a1",
+  "generatedAt": "2026-11-26T02:12:54.735Z",
+  "cycleId": "gh-45740772672-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-25T17:58:39.406Z",
-  "previousCycleId": "gh-45537039503-a1",
-  "previousSnapshotGeneratedAt": "2026-11-25T03:03:06.627Z",
-  "cycleGapHours": 14.93,
+  "currentTrendSnapshotGeneratedAt": "2026-11-26T02:12:54.021Z",
+  "previousCycleId": "gh-45670101704-a1",
+  "previousSnapshotGeneratedAt": "2026-11-25T17:58:39.406Z",
+  "cycleGapHours": 8.24,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 5,
+  "currentCandidateCount": 7,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 370,
+  "trackedLineageCount": 372,
   "current": [
+    {
+      "lineageId": "lineage-2d7e71f0f8b8363732",
+      "candidateId": "trend-525645003bf58e73dc",
+      "title": "Outcry as Trump admin unveils auto-enroll gambit for seniors: 'Fight them tooth and nail'",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-ecd6532e3b65c92a93",
+      "candidateId": "trend-c86a9352b02df43d00",
+      "title": "It's Fundamental",
+      "presence": "reappeared",
+      "evidenceDirection": "contracting",
+      "previousCandidateId": "trend-b4334b2ff9fede179e",
+      "signalCountDelta": -1,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "skyway",
+          "vee",
+          "strips",
+          "comic"
+        ],
+        "titleTokenOverlap": [],
+        "similarity": 0.76,
+        "threshold": 0.38
+      }
+    },
     {
       "lineageId": "lineage-6cd42f953ddaed8823",
       "candidateId": "trend-584ffd880e7655372b",
@@ -55,17 +103,17 @@
       }
     },
     {
-      "lineageId": "lineage-86c95c3577224806e0",
-      "candidateId": "trend-e82cc3beafcb08aa3b",
-      "title": "Client-Side Zero-Upload File Utilities",
+      "lineageId": "lineage-74e493df2d2b316e86",
+      "candidateId": "trend-c189c4f52613c97828",
+      "title": "Why is reveal_type() recognised without import, but not assert_type() or assert_never()?",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "dev-forem-trends"
+        "stackoverflow-hot"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "dev-forem-trends"
+        "stackoverflow-hot"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
@@ -79,7 +127,7 @@
       "title": "Giải vô địch bóng đá U-17 thế giới 2026",
       "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-3908767e2b871fce60",
+      "previousCandidateId": "trend-94e6694b06d01bd643",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -162,42 +210,24 @@
           "nam"
         ],
         "titleTokenOverlap": [
+          "ngay",
+          "van",
+          "hoa",
           "viet",
           "nam"
         ],
-        "similarity": 0.856,
+        "similarity": 1,
         "threshold": 0.38
       }
     }
   ],
   "disappeared": [
     {
-      "lineageId": "lineage-0afe3beef6f5156205",
-      "title": "Grand Theft Auto VI",
-      "previousCandidateId": "trend-87616459cd8ca8c15c",
+      "lineageId": "lineage-86c95c3577224806e0",
+      "title": "Client-Side Zero-Upload File Utilities",
+      "previousCandidateId": "trend-e82cc3beafcb08aa3b",
       "missedCycles": 1,
-      "lastSeenAt": "2026-11-25T03:03:06.627Z"
-    },
-    {
-      "lineageId": "lineage-2457aca0588fdae7e4",
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
-      "previousCandidateId": "trend-f820930122cada0109",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-25T03:03:06.627Z"
-    },
-    {
-      "lineageId": "lineage-78c101f90ccab8ac73",
-      "title": "The clock is running out for America’s most contentious spying law",
-      "previousCandidateId": "trend-b27a414723dd50ca0a",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-25T03:03:06.627Z"
-    },
-    {
-      "lineageId": "lineage-aa52ea6b11622eb4a4",
-      "title": "The 1994 Cyberpunk Horror Game DreamWeb Has Been Reconstructed for Modern PCs",
-      "previousCandidateId": "trend-8fb2fa4d864aa9df8e",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-25T03:03:06.627Z"
+      "lastSeenAt": "2026-11-25T17:58:39.406Z"
     }
   ],
   "notes": [
