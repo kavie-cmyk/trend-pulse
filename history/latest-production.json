@@ -1,38 +1,38 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-27T02:11:11.186Z",
-  "cycleId": "gh-45926688961-a1",
+  "generatedAt": "2026-11-27T17:28:16.274Z",
+  "cycleId": "gh-46041915961-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-27T02:11:10.653Z",
-  "previousCycleId": "gh-45869995632-a1",
-  "previousSnapshotGeneratedAt": "2026-11-26T17:43:40.515Z",
-  "cycleGapHours": 8.46,
+  "currentTrendSnapshotGeneratedAt": "2026-11-27T17:28:15.557Z",
+  "previousCycleId": "gh-45926688961-a1",
+  "previousSnapshotGeneratedAt": "2026-11-27T02:11:10.653Z",
+  "cycleGapHours": 15.28,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 5,
+  "currentCandidateCount": 4,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 374,
+  "trackedLineageCount": 375,
   "current": [
     {
-      "lineageId": "lineage-b623e63b2a3811d8c5",
-      "candidateId": "trend-ceaa59dca90fba88e7",
-      "title": "Sunset in my village in Sudan [OC]",
+      "lineageId": "lineage-dd68549382d9dc4661",
+      "candidateId": "trend-4a2b9a12e73b44292b",
+      "title": "Katie Miller car seat claim",
       "presence": "new",
       "evidenceDirection": "not-comparable",
       "sourceIdsAdded": [
-        "lemmy-world-hot"
+        "bluesky-trends-api"
       ],
       "sourceIdsRemoved": [],
       "independentSourceIdsAdded": [
-        "lemmy-world-hot"
+        "bluesky-trends-api"
       ],
       "independentSourceIdsRemoved": [],
       "independentSourceFamiliesAdded": [
-        "community"
+        "social"
       ],
       "independentSourceFamiliesRemoved": []
     },
@@ -74,12 +74,12 @@
       }
     },
     {
-      "lineageId": "lineage-86c95c3577224806e0",
-      "candidateId": "trend-edb9a34e60c07bf18c",
-      "title": "Zero-Upload Client-Side File Utilities",
-      "presence": "continuing",
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "candidateId": "trend-7ce2e19355a2ca44a1",
+      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
+      "presence": "reappeared",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-edb9a34e60c07bf18c",
+      "previousCandidateId": "trend-94e6694b06d01bd643",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -92,51 +92,30 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "utilities",
-          "zero upload",
-          "client side",
-          "file",
-          "dev",
-          "community"
+          "đich",
+          "gioi",
+          "u 17",
+          "giai",
+          "bong"
         ],
         "titleTokenOverlap": [
-          "zero",
-          "upload",
-          "client",
-          "side",
-          "file",
-          "utilities"
+          "giai",
+          "đich",
+          "bong",
+          "gioi",
+          "2026"
         ],
         "similarity": 1,
         "threshold": 0.38
       }
     },
     {
-      "lineageId": "lineage-9ac88bc3141e174a5c",
-      "candidateId": "trend-d87d668cc87b689587",
-      "title": "Lead(II) azide",
-      "presence": "new",
-      "evidenceDirection": "not-comparable",
-      "sourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
-      "sourceIdsRemoved": [],
-      "independentSourceIdsAdded": [
-        "wikimedia-pageviews-top"
-      ],
-      "independentSourceIdsRemoved": [],
-      "independentSourceFamiliesAdded": [
-        "culture"
-      ],
-      "independentSourceFamiliesRemoved": []
-    },
-    {
-      "lineageId": "lineage-2a4f3eca9a1df71929",
-      "candidateId": "trend-dee4effae29d18ea30",
-      "title": "Jensen Huang",
-      "presence": "continuing",
+      "lineageId": "lineage-4721cadbee8e99c0e0",
+      "candidateId": "trend-90fea492318c59087d",
+      "title": "Đội tuyển bóng đá quốc gia Mali",
+      "presence": "reappeared",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "previousCandidateId": "trend-8dc8df3ea666ea39e1",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -149,19 +128,54 @@
       "matchEvidence": {
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
-          "jensen",
-          "huang"
+          "bong",
+          "tuyen",
+          "quoc",
+          "gia",
+          "đoi"
         ],
         "titleTokenOverlap": [
-          "jensen",
-          "huang"
+          "đoi",
+          "tuyen",
+          "bong",
+          "quoc",
+          "gia"
         ],
-        "similarity": 1,
-        "threshold": 0.38
+        "similarity": 0.9314,
+        "threshold": 0.46
       }
     }
   ],
-  "disappeared": [],
+  "disappeared": [
+    {
+      "lineageId": "lineage-2a4f3eca9a1df71929",
+      "title": "Jensen Huang",
+      "previousCandidateId": "trend-dee4effae29d18ea30",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-27T02:11:10.653Z"
+    },
+    {
+      "lineageId": "lineage-86c95c3577224806e0",
+      "title": "Zero-Upload Client-Side File Utilities",
+      "previousCandidateId": "trend-edb9a34e60c07bf18c",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-27T02:11:10.653Z"
+    },
+    {
+      "lineageId": "lineage-b623e63b2a3811d8c5",
+      "title": "Sunset in my village in Sudan [OC]",
+      "previousCandidateId": "trend-ceaa59dca90fba88e7",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-27T02:11:10.653Z"
+    },
+    {
+      "lineageId": "lineage-9ac88bc3141e174a5c",
+      "title": "Lead(II) azide",
+      "previousCandidateId": "trend-d87d668cc87b689587",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-27T02:11:10.653Z"
+    }
+  ],
   "notes": [
     "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
     "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
