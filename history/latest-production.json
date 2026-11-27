@@ -1,22 +1,41 @@
 {
   "schemaVersion": "trend-history-cycle.v1",
   "methodologyVersion": "trend-history-04d.v1",
-  "generatedAt": "2026-11-26T17:43:41.225Z",
-  "cycleId": "gh-45869995632-a1",
+  "generatedAt": "2026-11-27T02:11:11.186Z",
+  "cycleId": "gh-45926688961-a1",
   "cyclePurpose": "scheduled",
   "persistenceEligible": true,
   "baselineStatePath": "history/production-state.json",
-  "currentTrendSnapshotGeneratedAt": "2026-11-26T17:43:40.515Z",
-  "previousCycleId": "gh-45740772672-a1",
-  "previousSnapshotGeneratedAt": "2026-11-26T02:12:54.021Z",
-  "cycleGapHours": 15.51,
+  "currentTrendSnapshotGeneratedAt": "2026-11-27T02:11:10.653Z",
+  "previousCycleId": "gh-45869995632-a1",
+  "previousSnapshotGeneratedAt": "2026-11-26T17:43:40.515Z",
+  "cycleGapHours": 8.46,
   "comparisonWindow": "comparable",
   "persistenceMode": "github-history-branch",
   "historyBranch": "trend-history",
-  "currentCandidateCount": 3,
+  "currentCandidateCount": 5,
   "currentCorroboratedCount": 0,
-  "trackedLineageCount": 372,
+  "trackedLineageCount": 374,
   "current": [
+    {
+      "lineageId": "lineage-b623e63b2a3811d8c5",
+      "candidateId": "trend-ceaa59dca90fba88e7",
+      "title": "Sunset in my village in Sudan [OC]",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
     {
       "lineageId": "lineage-6cd42f953ddaed8823",
       "candidateId": "trend-584ffd880e7655372b",
@@ -58,9 +77,9 @@
       "lineageId": "lineage-86c95c3577224806e0",
       "candidateId": "trend-edb9a34e60c07bf18c",
       "title": "Zero-Upload Client-Side File Utilities",
-      "presence": "reappeared",
+      "presence": "continuing",
       "evidenceDirection": "stable",
-      "previousCandidateId": "trend-e82cc3beafcb08aa3b",
+      "previousCandidateId": "trend-edb9a34e60c07bf18c",
       "signalCountDelta": 0,
       "independentSourceDelta": 0,
       "independentSourceFamilyDelta": 0,
@@ -74,6 +93,7 @@
         "methodologyVersion": "trend-lineage-match-04d.v1",
         "anchorOverlap": [
           "utilities",
+          "zero upload",
           "client side",
           "file",
           "dev",
@@ -87,9 +107,28 @@
           "file",
           "utilities"
         ],
-        "similarity": 0.8733,
+        "similarity": 1,
         "threshold": 0.38
       }
+    },
+    {
+      "lineageId": "lineage-9ac88bc3141e174a5c",
+      "candidateId": "trend-d87d668cc87b689587",
+      "title": "Lead(II) azide",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "wikimedia-pageviews-top"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "culture"
+      ],
+      "independentSourceFamiliesRemoved": []
     },
     {
       "lineageId": "lineage-2a4f3eca9a1df71929",
@@ -122,43 +161,7 @@
       }
     }
   ],
-  "disappeared": [
-    {
-      "lineageId": "lineage-cced1d1c21a96216d8",
-      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
-      "previousCandidateId": "trend-94e6694b06d01bd643",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-26T02:12:54.021Z"
-    },
-    {
-      "lineageId": "lineage-98a99bfee9ba0dacbf",
-      "title": "Ngày Văn hóa Việt Nam",
-      "previousCandidateId": "trend-98b5bc9812d66d5b92",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-26T02:12:54.021Z"
-    },
-    {
-      "lineageId": "lineage-ecd6532e3b65c92a93",
-      "title": "It's Fundamental",
-      "previousCandidateId": "trend-c86a9352b02df43d00",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-26T02:12:54.021Z"
-    },
-    {
-      "lineageId": "lineage-2d7e71f0f8b8363732",
-      "title": "Outcry as Trump admin unveils auto-enroll gambit for seniors: 'Fight them tooth and nail'",
-      "previousCandidateId": "trend-525645003bf58e73dc",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-26T02:12:54.021Z"
-    },
-    {
-      "lineageId": "lineage-74e493df2d2b316e86",
-      "title": "Why is reveal_type() recognised without import, but not assert_type() or assert_never()?",
-      "previousCandidateId": "trend-c189c4f52613c97828",
-      "missedCycles": 1,
-      "lastSeenAt": "2026-11-26T02:12:54.021Z"
-    }
-  ],
+  "disappeared": [],
   "notes": [
     "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
     "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
