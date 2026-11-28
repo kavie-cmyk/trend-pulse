@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "trend-history-cycle.v1",
+  "methodologyVersion": "trend-history-04d.v1",
+  "generatedAt": "2026-11-28T02:00:58.586Z",
+  "cycleId": "gh-46095731708-a1",
+  "cyclePurpose": "scheduled",
+  "persistenceEligible": true,
+  "baselineStatePath": "history/production-state.json",
+  "currentTrendSnapshotGeneratedAt": "2026-11-28T02:00:57.828Z",
+  "previousCycleId": "gh-46041915961-a1",
+  "previousSnapshotGeneratedAt": "2026-11-27T17:28:15.557Z",
+  "cycleGapHours": 8.55,
+  "comparisonWindow": "comparable",
+  "persistenceMode": "github-history-branch",
+  "historyBranch": "trend-history",
+  "currentCandidateCount": 6,
+  "currentCorroboratedCount": 0,
+  "trackedLineageCount": 378,
+  "current": [
+    {
+      "lineageId": "lineage-142fdd0d73f190524a",
+      "candidateId": "trend-d1a448a14ff4cbb94a",
+      "title": "Doctors Without Borders says two staff killed in Israeli 'direct hit' on Gaza clinic",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-8e4f3603a76ac31452",
+      "candidateId": "trend-5048d1b71457ae8d7e",
+      "title": "‘Abusive and insulting to Canadians’: campaign to oust US ambassador presented to parliament",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "lemmy-world-hot"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-6cd42f953ddaed8823",
+      "candidateId": "trend-584ffd880e7655372b",
+      "title": "zkVerify Agent Games & Proof Gatekeepers",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-584ffd880e7655372b",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "zkverify",
+          "proof",
+          "gatekeepers",
+          "agent",
+          "dev",
+          "community"
+        ],
+        "titleTokenOverlap": [
+          "zkverify",
+          "agent",
+          "games",
+          "proof",
+          "gatekeepers"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-26865f45a44ff12a04",
+      "candidateId": "trend-a015b776bbb11b8542",
+      "title": "Secure Multi-Tenant Object Storage in Node.js",
+      "presence": "new",
+      "evidenceDirection": "not-comparable",
+      "sourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [
+        "dev-forem-trends"
+      ],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [
+        "community"
+      ],
+      "independentSourceFamiliesRemoved": []
+    },
+    {
+      "lineageId": "lineage-cced1d1c21a96216d8",
+      "candidateId": "trend-7ce2e19355a2ca44a1",
+      "title": "Giải vô địch bóng đá U-17 thế giới 2026",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-7ce2e19355a2ca44a1",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "đich",
+          "gioi",
+          "u 17",
+          "giai",
+          "bong"
+        ],
+        "titleTokenOverlap": [
+          "giai",
+          "đich",
+          "bong",
+          "gioi",
+          "2026"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    },
+    {
+      "lineageId": "lineage-4721cadbee8e99c0e0",
+      "candidateId": "trend-90fea492318c59087d",
+      "title": "Đội tuyển bóng đá quốc gia Mali",
+      "presence": "continuing",
+      "evidenceDirection": "stable",
+      "previousCandidateId": "trend-90fea492318c59087d",
+      "signalCountDelta": 0,
+      "independentSourceDelta": 0,
+      "independentSourceFamilyDelta": 0,
+      "sourceIdsAdded": [],
+      "sourceIdsRemoved": [],
+      "independentSourceIdsAdded": [],
+      "independentSourceIdsRemoved": [],
+      "independentSourceFamiliesAdded": [],
+      "independentSourceFamiliesRemoved": [],
+      "matchEvidence": {
+        "methodologyVersion": "trend-lineage-match-04d.v1",
+        "anchorOverlap": [
+          "bong",
+          "tuyen",
+          "quoc",
+          "gia",
+          "đoi"
+        ],
+        "titleTokenOverlap": [
+          "đoi",
+          "tuyen",
+          "bong",
+          "quoc",
+          "gia",
+          "mali"
+        ],
+        "similarity": 1,
+        "threshold": 0.38
+      }
+    }
+  ],
+  "disappeared": [
+    {
+      "lineageId": "lineage-dd68549382d9dc4661",
+      "title": "Katie Miller car seat claim",
+      "previousCandidateId": "trend-4a2b9a12e73b44292b",
+      "missedCycles": 1,
+      "lastSeenAt": "2026-11-27T17:28:15.557Z"
+    }
+  ],
+  "notes": [
+    "04D tracks candidate lineage across collection cycles; snapshot candidate IDs are not treated as permanent lineage IDs.",
+    "Canonical twice-daily history uses history/production-state.json and is advanced only by scheduled workflow runs.",
+    "This is a scheduled cycle and is eligible to advance the canonical production baseline after all verification/build gates pass.",
+    "Evidence direction reflects structural evidence-count/source-family change only. It is not Virality, velocity, acceleration or lifecycle movement.",
+    "A comparison window shorter than six hours is marked too-close-for-cadence and must not be interpreted as the twice-daily production interval.",
+    "Source-native metrics remain excluded from cross-platform trend momentum in 04D."
+  ]
+}
